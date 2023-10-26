@@ -1,0 +1,14 @@
+.images{
+    display:flex;
+    gap:5.5rem;
+    
+}
+
+
+.text{
+   
+    margin-top:1rem; 
+    text-align:center;
+    margin-bottom:2rem;
+    display: flex;
+}
