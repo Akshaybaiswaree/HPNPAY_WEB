@@ -26,7 +26,7 @@ import digitalCash from "../images/corporate_img/digitize-cash-collection.png"
 import increaseIndia from "../images/corporate_img/increase-market-penetration.png"
 import digitalOrder from "../images/corporate_img/digitize-order-placement.png"
 import manNetwork from "../images/corporate_img/manNetwok.png"
-import bajajImage from "../images/corporate_img/Mobile-Body-Image.png"
+import bajajImage from "../images/corporate_img/Business mission-amico.png"
 import { Card, CardHeader, CardBody, CardFooter } from '@chakra-ui/react'
 
 
@@ -69,7 +69,12 @@ const Corporate = () => {
                         </Text>
                         <Stack spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', sm: 'row' }}>
                             <Input type='email' placeholder='Enter Your Email' width='500px' height='75px' />
-                            <Button width='150px' height='75px' background='#82e368' color='white' position={'absoulte'} left={"200px"}>Get in touch</Button>
+                            <Button width='150px' height='75px'
+                                _hover={{ bg: 'blue.600' }}
+                                background={'#156DB1'}
+                                color={'white'}
+                                position={'absoulte'}
+                                left={"200px"}>Get in touch</Button>
                         </Stack>
                         <Stack border={'1px solid #d3d3d3'} width={'400px'} direction={'row'} height={'75px'} display={'flex'} justifyContent={'space-between'} spacing={10} alignItems={'center'}>
                             <Checkbox colorScheme='green' margin={'10px'} size='lg'>I'm not robot</Checkbox>
@@ -82,15 +87,7 @@ const Corporate = () => {
                         align={'center'}
                         position={'relative'}
                         w={'full'}>
-                        {/* <Blob
-            w={'150%'}
-            h={'150%'}
-            position={'absolute'}
-            top={'-20%'}
-            left={0}
-            zIndex={-1}
-            color={useColorModeValue('red.50', 'red.400')}
-          /> */}
+                        
                         <Box
                             position={'relative'}
                             height={'410px'}
@@ -112,7 +109,7 @@ const Corporate = () => {
                     </Flex>
                 </Stack>
                 <Text fontSize='xl'>our solutions</Text>
-                <Text fontSize='4xl'>Think Last Mile, Think PayNearby</Text>
+                <Text fontSize='4xl'>Think Last Mile, Think HPNPAY</Text>
                 <SimpleGrid spacing={40} templateColumns='repeat(auto-fill, minmax(200px, 1fr))'>
                     <Card width={"400px"} height={"500px"} border={"none"}>
                         <Image
@@ -144,7 +141,7 @@ const Corporate = () => {
                             <Heading size='md'>Increase market penetration at the last mile</Heading>
                         </CardHeader>
                         <CardBody>
-                            <Text>Distribute sachetize content through PayNearby’s last mile ...</Text>
+                            <Text>Distribute sachetize content through HPNPAY’s last mile ...</Text>
                         </CardBody>
                         <CardFooter>
                             <Button color={'#1c539e'}>Learn more</Button>
@@ -173,7 +170,7 @@ const Corporate = () => {
                     <Button size='md' height='48px' width='200px' border='2px' borderColor='green.500'>Veiw all Solutions</Button>
                 </Box>
                 <Box width={"1100px"} marginTop={"200px"} height={"600px"} display={"flex"} flexDirection={"column"} justifyContent={"center"}>
-                    <Text fontSize='lg' as='b'>Why PayNearby</Text><br />
+                    <Text fontSize='lg' as='b'>Why HPNPAY</Text><br />
                     <Text fontSize='4xl' as='b' color={'#1c539e'}>Technology driven, customer first approach to last mile connectivity and solution</Text>
                     <Box display={"flex"} flexWrap={"wrap"} justifyContent={"space-between"}>
                         <Box width={"350px"} height={"300px"} >
@@ -230,7 +227,7 @@ const Corporate = () => {
                         </Stack>
                     </Flex>
                     <Flex p={5} flex={1} align={'center'} justify={'center'}>
-                        <Text fontSize='lg'>The collaboration has also led to a high service deliverance rate in the cash collection vertical. PayNearby’s client servicing team is fully equipped and resolves issues with a 95% success rate in less than 2 hours. With our partnership, we will be able to further enhance the customer experience and offer payment options both digitally and at physical outlets. Going forward we plan to add more services to digitize cash through PayNearby retailers, I wish PayNearby all the very best look forward to a mutually beneficial partnership.</Text>
+                        <Text fontSize='lg'>The collaboration has also led to a high service deliverance rate in the cash collection vertical. HPNPAY’s client servicing team is fully equipped and resolves issues with a 95% success rate in less than 2 hours. With our partnership, we will be able to further enhance the customer experience and offer payment options both digitally and at physical outlets. Going forward we plan to add more services to digitize cash through HPNPAY retailers, I wish HPNPAY all the very best look forward to a mutually beneficial partnership.</Text>
                     </Flex>
                 </Stack>
             </Container>

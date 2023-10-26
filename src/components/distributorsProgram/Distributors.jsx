@@ -2,6 +2,7 @@ import React from 'react';
 
 import { Button, Flex, Heading, Image, Stack, Text } from "@chakra-ui/react";
 import Partnership from "./Partnership";
+import revenue from "../../images/ourPartner_img/Revenue-rafiki.png";
 
 export default function Distributors() {
     return (
@@ -38,7 +39,11 @@ export default function Distributors() {
                             >
                                 Income Calculator
                             </Button>
-                            <Button bg={"green.400"} color={"white"} padding={"25px"}>Join PaynearBy</Button>
+                            <Button bg={"green.400"}
+                                _hover={{ bg: 'blue.600' }}
+                                background={'#156DB1'}
+                                color={'white'}
+                                padding={"25px"}>Join NPNPAY</Button>
                         </Stack>
                     </Stack>
                 </Flex>
@@ -48,7 +53,7 @@ export default function Distributors() {
                         height={"70vh"}
                         alt={"Login Image"}
                         objectFit={"cover"}
-                        src={"https://paynearby.in/wp-content/uploads/2020/12/product.png"}
+                        src={revenue}
                     />
                 </Flex>
             </Stack>

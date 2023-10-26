@@ -4,7 +4,7 @@ import { Card, CardHeader, CardBody, CardFooter } from '@chakra-ui/react'
 import Solution1 from "../images/solution_img/Solution1.png"
 import Solution2 from "../images/solution_img/Solution2.png"
 import Solution3 from "../images/solution_img/Solution3.png"
-import Solution4 from "../images/solution_img/Solution4.png"
+import Solution4 from "../images/solution_img/Download-rafiki.png"
 import reCaptchaImage from "../images/solution_img/reCaptchaImage.png"
 import {
     Select,
@@ -142,7 +142,7 @@ const Solution = () => {
                             </Text>
 
                             <Text color={'blue.400'} as={'span'} >
-                                Download PayNearby now
+                                Download HPNPAY now
                             </Text>{' '}
                         </Heading>
                         <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>

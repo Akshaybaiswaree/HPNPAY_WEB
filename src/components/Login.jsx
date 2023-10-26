@@ -3,7 +3,7 @@ import { Box, Button, Flex, Image, Input, Text } from "@chakra-ui/react";
 import companyLogo from "../images/login/WhatsApp Image 2023-10-25 at 11.43.23 AM.jpeg"
 import googlePlayIcon from "../images/login/google-play.png"
 import youtubeImage from "../images/login/youtube_4494485.png"
-import loginPageImage from "../images/login/WhatsApp_Image_2023-10-26_at_10.54.54_e091f07f-removebg-preview.png"
+import loginPageImage from "../images/login/Secure login-bro.png"
 import { Link } from "react-router-dom";
 
 function Login(props) {
@@ -20,7 +20,7 @@ function Login(props) {
                 </Box>
             </Box>
             <Box display={"flex"} marginRight={"150px"}>
-                <Flex marginTop={"80px"} gap={"10px"} justifyContent={"center"} alignItems={"center"}>
+                <Flex marginTop={"80px"} justifyContent={"center"} alignItems={"center"}>
                     <Box marginRight={"10px"}>
                         <Image src={loginPageImage} width={"800px"} />
                     </Box>
@@ -29,7 +29,7 @@ function Login(props) {
                         gap={"10px"}
                         width={"50%"}
                         marginTop={"40px"}
-                        marginLeft={"9rem"}
+                        marginLeft={"5rem"}
                     >
                         <Box marginRight={"10px"} width={"400px"}>
                             <Text color={"#052B60"} fontSize={"34px"} fontWeight={"700"}>
@@ -55,9 +55,9 @@ function Login(props) {
                         height='48px'
                         width='350px'
                         border='2px'
-                        borderColor='green.500'
-                        color='white'
-                        background='green.600'
+                        _hover={{ bg: 'blue.600' }}
+                        background={'#156DB1'}
+                        color={'white'}
                         alignSelf={"center"}
                     >
                         Login

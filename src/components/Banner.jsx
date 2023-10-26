@@ -29,10 +29,10 @@ import { BiLeftArrowAlt, BiRightArrowAlt } from 'react-icons/bi'
 // And react-slick as our Carousel Lib
 import Slider from 'react-slick'
 import { IoAnalyticsSharp, IoLogoBitcoin, IoSearchSharp } from 'react-icons/io5';
-import mobileImage from '../images/retailer_img/mobileImage.png';
-import dass1 from '../images/retailer_img/dass1.png';
-import dass2 from '../images/retailer_img/dass2.png';
-import dass3 from '../images/retailer_img/dass3.png';
+import mobileImage from '../images/retailer_img/E-Wallet-p.png';
+import dass1 from '../images/retailer_img/Manage money.png';
+import dass2 from '../images/retailer_img/Consultative sales.png';
+import dass3 from '../images/retailer_img/poorgood.png';
 import box4 from '../images/retailer_img/box4.jpeg';
 import box2 from '../images/retailer_img/box2.jpeg';
 import box3 from '../images/retailer_img/box3.jpeg';
@@ -81,27 +81,28 @@ export default function Banner() {
   const cards = [
     {
       title: 'Retailer',
-      heading: 'Atamnirbhar Bharat Ki Pehachan, Har Dukan Digital Pradhan',
+      heading: 'Atma Nirbhar Bharat, Now Every Store Goes Digital with HPNPay',
       text: "A national movement to uplift Bharat by giving every household easy access to DBT funds, digital payments and essential banking services at a store nearby.",
       text2: "Upgrade your shop. Be the one stop banking service provider.",
       text3: " No working capital required. Earn ₹2,00,000+ per year.",
-      image: "https://paynearby.in/wp-content/uploads/2023/07/Group-40387_optimized.png"
+      image: require('../images/retailer_img/Finance leaders.png')
     },
     {
       title: 'Distributor',
-      heading: 'Join the world’s largest branchless banking network',
+      heading: 'One Step Towards Digital Success - HPNPay, The Best Service Provider',
       text: "A national movement to uplift Bharat by giving every household easy access to DBT funds, digital payments and essential banking services at a store nearby.",
       text2: "Upgrade your shop. Be the one stop banking service provider.",
       text3: " No working capital required. Earn ₹2,00,000+ per year.",
-      image: 'https://paynearby.in/wp-content/uploads/2023/07/retailer-banner-img-2-1_optimized.png'
+      image: require('../images/retailer_img/NFT.png')
+       
     },
     {
       title: 'Individual/Self Help Groups',
-      heading: 'Upgrade your business and make more money',
+      heading: 'Your Trust, Our Commitment - HPNPay, Secure and Reliable Digital Services',
       text: "A national movement to uplift Bharat by giving every household easy access to DBT funds, digital payments and essential banking services at a store nearby.",
       text2: "Upgrade your shop. Be the one stop banking service provider.",
       text3: " No working capital required. Earn ₹2,00,000+ per year.",
-      image: 'https://paynearby.in/wp-content/uploads/2023/07/retailer-banner-img-3-1_resized.png',
+      image: require('../images/retailer_img/E-Wallet.png')
 
     },
   ]
@@ -112,21 +113,21 @@ export default function Banner() {
       text: "Make more out of your distribution business. Onboard your network to offer HPNPAY services and earn more than 18% per month on the money invested. No physical stock. No expenditure in store space, staff or physical transfer of goods. Every time a retailer in your network services a financial transaction, both of you make money. It is as simple as that.",
       text2: " Join over 1,00,000 distributors. Earn more than `50,000 per month.",
       title2: 'Retail Categories',
-      image: "https://paynearby.in/wp-content/uploads/2023/07/Group-4038_optimized.png"
+      image: require('../images/retailer_img/App monetization-bro.png')
     },
     {
       title: 'Distributor',
       text: "Make more out of your distribution business. Onboard your network to offer HPNPAY services and earn more than 18% per month on the money invested. No physical stock. No expenditure in store space, staff or physical transfer of goods. Every time a retailer in your network services a financial transaction, both of you make money. It is as simple as that.",
       text2: " Join over 1,00,000 distributors. Earn more than `50,000 per month.",
       title2: 'Distributor Categories',
-      image: 'https://paynearby.in/wp-content/uploads/2023/07/Group-40379_optimized.png'
+      image: require('../images/retailer_img/Bitcoin P2P-amico (1).png')
     },
     {
       title: 'Individual/Self Help Groups',
       text: "Make more out of your distribution business. Onboard your network to offer HPNPAY services and earn more than 18% per month on the money invested. No physical stock. No expenditure in store space, staff or physical transfer of goods. Every time a retailer in your network services a financial transaction, both of you make money. It is as simple as that.",
       text2: " Join over 1,00,000 distributors. Earn more than `50,000 per month.",
       title2: 'Individual/Self Help Groups Categories:',
-      image: 'https://paynearby.in/wp-content/uploads/2023/07/Group-4038optimized.png',
+      image: require('../images/retailer_img/Revenue-bro.png')
     },
   ]
 
@@ -198,8 +199,10 @@ export default function Banner() {
                     height='60px'
                     width='300px'
                     // border='2px'
-                    background={'#82e368'}
-                  >
+                    _hover={{bg:'blue.600'}}
+                    background={'#156DB1'}
+                    color={'white'}
+                    >
                     Join HPNPAY
                   </Button>
                 </Stack>
@@ -222,7 +225,7 @@ export default function Banner() {
 
       <Box style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
         <div style={{ display: "flex", alignItems: "flex-end" }}>
-          <Image src={mobileImage} position='relative' left='-200px' />
+          <Image src={mobileImage} position='relative' left='-200px' height={'600px'}/>
           <Text fontSize='6xl' color='#1c539e' position='absolute' left='650px' top='1100px' zIndex='10' as='b'>One App<br></br>multiple services</Text>
         </div>
         <Text fontSize='xl' color='#5e646a'>A great earning potential with the opportunity to grow your<br></br> business with minimal one time investment and zero working<br></br> capital</Text>
@@ -240,7 +243,7 @@ export default function Banner() {
 
           <Box className='text'>
             <Text fontSize='42px' color={'Blue.400'}>
-              India's largest Distribution as-a-service (DaaS) platform
+              Expertise in BBPS and AEPS - HPNPay, Your Store's Best Companion
             </Text>
           </Box>
           <Box style={{ marginLeft: "2rem" }} className='images'>
@@ -320,7 +323,10 @@ export default function Banner() {
                     height='60px'
                     width='300px'
                     // border='2px'
-                    background={'#82e368'}
+                    // background={'#82e368'}
+                    _hover={{bg:'blue.600'}}
+                    background={'#156DB1'}
+                    color={'white'}
                   >
                     Join HPNPAY
                   </Button>

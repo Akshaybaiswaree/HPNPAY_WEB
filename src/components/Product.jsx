@@ -9,7 +9,7 @@ import {
     Text,
     Input,
     useBreakpointValue,
-    Td, 
+    Td,
     TableContainer,
     TableCaption,
     Table,
@@ -19,15 +19,15 @@ import {
     Tbody,
     Tfoot,
 } from "@chakra-ui/react";
-import Product1 from "../images/product_img/Product1.png";
-import Product2 from "../images/product_img/Product2.png";
-import Product3 from "../images/product_img/product3.png";
-import Product4 from "../images/product_img/Product4.png";
-import Product5 from "../images/product_img/Product5.png";
-import Product6 from "../images/product_img/Product6.png";
-import Product7 from "../images/product_img/Product7.png";
-import Product8 from "../images/product_img/Product8.png";
-import Product9 from "../images/product_img/Product9.png";
+import Product1 from "../images/product_img/Currency-amico.png";
+import Product2 from "../images/product_img/Online transactions-amico.png";
+import Product3 from "../images/product_img/Online transactions-bro.png";
+import Product4 from "../images/product_img/Revenue-amico (1).png";
+import Product5 from "../images/product_img/Car finance-rafiki.png";
+import Product6 from "../images/product_img/Plain credit card-pana.png";
+import Product7 from "../images/product_img/Bitcoin P2P-pana.png";
+import Product8 from "../images/product_img/Wallet-rafiki.png";
+import Product9 from "../images/product_img/Wallet-pana.png";
 import loanImage from "../images/product_img/loanImage.png";
 import kreditImage from "../images/product_img/kreditImage.png";
 import moneyWideImage from "../images/product_img/moneyWideImage.png";
@@ -72,16 +72,18 @@ export default function Product() {
                             </Button>
                             <Button
                                 fontSize={{ base: "md", lg: "2xl" }}
-                                bg={"#B4EB3B"}
+                                _hover={{ bg: 'blue.600' }}
+                                background={'#156DB1'}
+                                color={'white'}
                                 rounded={"full"}
                             >
-                                Join Pay Nearby
+                                Join HPNPAY
                             </Button>
                         </Stack>
                     </Stack>
                 </Flex>
                 <Flex flex={1}>
-                    <Image ml={"20px"} src={Product1} width={"800"} />
+                    <Image ml={"20px"} src={Product1} width={"600"} height={'500px'} />
                 </Flex>
             </Stack>
 
@@ -92,19 +94,18 @@ export default function Product() {
                 </Text>
                 <Text fontSize={"2rem"}>
                     <Text fontWeight={"bold"} color={"black"}>
-                        Become the most trusted Banker of your area{" "}
-                    </Text>
+                        Leading in the Digital Dimensions - HPNPay, Your Store's Digital Leader{''}                    </Text>
                     <br />
                     No working capital required. Offer uninterrupted banking services like
                     cash withdrawal, money transfer, cash deposits, savings, insurance and
-                    loan from your shop. PayNearby is a PCI DSS and ISO 27001 certified
+                    loan from your shop. HPNPAY is a PCI DSS and ISO 27001 certified
                     company, which means transacting on the platform is very secure and
                     has a time tested success ratio of more than 99.9%
                 </Text>
             </Box>
             <Flex marginTop={"80px"}>
                 <Box>
-                    <Image ml={"95px"} src={Product2} width={"1000"} />
+                    <Image ml={"95px"} src={Product2} width={"600"} height={'500'} />
                 </Box>
                 <Flex
                     flexDirection={"column"}
@@ -149,7 +150,7 @@ export default function Product() {
 
                     <Box>
                         <Text color={"#052B60"} fontSize={"34px"} fontWeight={"700"}>
-                            Axis Bank - Savings & Current Account opening
+                            HPNPAY - Savings & Current Account opening
                         </Text>
                         <Text fontSize={"24px"}>
                             Become the Banking Mitra of your area. Help every citizen to open &
@@ -166,7 +167,12 @@ export default function Product() {
                         </Text>
                         <Stack marginTop={'1rem'} spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', sm: 'row' }}>
                             <Input type='email' placeholder='Enter Your Email' width='500px' height='75px' />
-                            <Button width='150px' height='75px' background='#82e368' color='white' position={'absoulte'} left={"200px"}>Get in touch</Button>
+                            <Button width='150px' height='75px'
+                                _hover={{ bg: 'blue.600' }}
+                                background={'#156DB1'}
+                                color={'white'}
+                                position={'absoulte'}
+                                left={"200px"}>Get in touch</Button>
                         </Stack>
                     </Box>
                 </Flex>
@@ -179,8 +185,7 @@ export default function Product() {
                 </Text>
                 <Text fontSize={"2rem"}>
                     <Text fontWeight={"bold"} color={"black"}>
-                        Become a Suraksha Pradhan of your area{" "}
-                    </Text>
+                        HPNPay - The Catalyst of Digital Success for Your Store{''}              </Text>
                     <br />
                     Less than 3% of Bharat is insured. Safeguard your customers from the
                     uncertainties of life. Protect them with affordable insurance plans
@@ -227,7 +232,7 @@ export default function Product() {
                     </Box>
                     <Box>
                         <Text color={"#052B60"} fontSize={"34px"} fontWeight={"700"}>
-                            PayNearby Prepaid Card
+                            HPNPAY Prepaid Card
                         </Text>
                         <Text fontSize={"24px"}>
                             Become the Banking Mitra of your area. Help every citizen to open &
@@ -239,13 +244,16 @@ export default function Product() {
                         </Text>
                         <Stack marginTop={'1rem'} spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', sm: 'row' }}>
                             <Input type='email' placeholder='Enter Your Email' width='500px' height='75px' />
-                            <Button width='150px' height='75px' background='#82e368' color='white' position={'absoulte'} left={"200px"}>Get in touch</Button>
+                            <Button width='150px' height='75px'
+                                _hover={{ bg: 'blue.600' }}
+                                background={'#156DB1'}
+                                color={'white'} position={'absoulte'} left={"200px"}>Get in touch</Button>
                         </Stack>
                     </Box>{" "}
 
                 </Flex>
                 <Box>
-                    <Image ml={"95px"} src={Product3} width={"1000"} />
+                    <Image ml={"95px"} src={Product3} width={"1000"} height={'500'} />
                 </Box>
             </Flex>
 
@@ -257,15 +265,14 @@ export default function Product() {
                 </Text>
                 <Text fontSize={"2rem"}>
                     <Text fontWeight={"bold"} color={"black"}>
-                        Become a Suraksha Pradhan of your area{" "}
-                    </Text>
+                        Journey to Digital Freedom - HPNPay, Your Store's Digital Companion{''}                    </Text>
                     <br />
                     We offer a range of affordable general insurance plans, including bike insurance and mobile device protection plans
                 </Text>
             </Box>
             <Flex marginTop={"80px"}>
                 <Box>
-                    <Image ml={"95px"} src={Product4} width={"1000"} paddingLeft={'3rem'} />
+                    <Image ml={"95px"} src={Product4} width={"1000"} height={'500'} paddingLeft={'3rem'} />
                 </Box>
                 <Flex
                     flexDirection={"column"}
@@ -290,7 +297,11 @@ export default function Product() {
                         </Text>
                         <Stack marginTop={'1rem'} spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', sm: 'row' }}>
                             <Input type='email' placeholder='Enter Your Email' width='500px' height='75px' />
-                            <Button width='150px' height='75px' background='#82e368' color='white' position={'absoulte'} left={"200px"}>Get in touch</Button>
+                            <Button width='150px' height='75px'
+                                _hover={{ bg: 'blue.600' }}
+                                background={'#156DB1'}
+                                color={'white'}
+                                position={'absoulte'} left={"200px"}>Get in touch</Button>
                         </Stack>
                     </Box>
                 </Flex>
@@ -303,7 +314,7 @@ export default function Product() {
                 </Text>
                 <Text fontSize={"2rem"}>
                     <Text fontWeight={"bold"} color={"black"}>
-                        Become the one-stop travel agency in your area{" "}
+                        Become the one-stop travel Loan agency in your area{" "}
                     </Text>
                     <br />
                     An IATA approved travel service provider, we offer you the most comprehensive range of travel products and services at very affordable rates and great commissions. Offer rail, flights, hotels, holidays and more from your shop
@@ -324,7 +335,7 @@ export default function Product() {
                     <Box>
                         <Text color={"#052B60"} fontSize={"34px"} fontWeight={"700"}>
 
-                            Rail Booking
+                            Car Booking
 
                         </Text>
                         <Text fontSize={"24px"}>
@@ -341,12 +352,17 @@ export default function Product() {
                         </Text>
                         <Stack spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', sm: 'row' }}>
                             <Input type='email' placeholder='Enter Your Email' width='500px' height='75px' />
-                            <Button width='150px' height='75px' background='#82e368' color='white' position={'absoulte'} left={"200px"}>Get in touch</Button>
+                            <Button width='150px' height='75px'
+                                _hover={{ bg: 'blue.600' }}
+                                background={'#156DB1'}
+                                color={'white'}
+                                position={'absoulte'}
+                                left={"200px"}>Get in touch</Button>
                         </Stack>
                     </Box>
                 </Flex>
                 <Box>
-                    <Image ml={"95px"} src={Product5} width={"1000"} />
+                    <Image ml={"95px"} src={Product5} width={"1000"} height={'500'} />
                 </Box>
             </Flex>
 
@@ -359,15 +375,14 @@ export default function Product() {
                 </Text>
                 <Text fontSize={"2rem"}>
                     <Text fontWeight={"bold"} color={"black"}>
-                        Ensure recurring monthly income{" "}
-                    </Text>
+                        Go All Digital - HPNPay, Redefining Payments{''}                    </Text>
                     <br />
                     Households need to pay their EMIs, subscriptions fees and utility bills every month. Solve customer pain point of standing in long queues. From water bills to electricity bills, from phone/DTH recharges to monthly EMIs, provide easy cash collection, bill payment and recharge solutions from your shop.
                 </Text>
             </Box>
             <Flex marginTop={"80px"}>
                 <Box>
-                    <Image ml={"95px"} src={Product6} width={"1000"} />
+                    <Image ml={"95px"} src={Product6} width={"1000"} height={'500'} />
                 </Box>
                 <Flex
                     flexDirection={"column"}
@@ -411,7 +426,11 @@ export default function Product() {
                         </Text>
                         <Stack marginTop={'1rem'} spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', sm: 'row' }}>
                             <Input type='email' placeholder='Enter Your Email' width='500px' height='75px' />
-                            <Button width='150px' height='75px' background='#82e368' color='white' position={'absoulte'} left={"200px"}>Get in touch</Button>
+                            <Button width='150px' height='75px'
+                                _hover={{ bg: 'blue.600' }}
+                                background={'#156DB1'}
+                                color={'white'}
+                                position={'absoulte'} left={"200px"}>Get in touch</Button>
                         </Stack>
                     </Box>
                 </Flex>
@@ -424,10 +443,10 @@ export default function Product() {
                 </Text>
                 {/* <Text fontSize={"2rem"}>
           <Text fontWeight={"bold"} color={"black"}>
-            Upgrade your business with PayNearby digital solutions{" "}
+            Upgrade your business with HPNPAY digital solutions{" "}
           </Text>
           <br />
-          This service is free for all our partner retailers. PayNearby Digital
+          This service is free for all our partner retailers. HPNPAY Digital
           Suite helps you scale your business by adopting the right digital
           tools, from multiple digital payment options to digitized customer
           ledger to manage payments, reconcilliation and customer credits better
@@ -443,11 +462,10 @@ export default function Product() {
                 >
                     <Box>
                         <Text color={"#052B60"} fontSize={"34px"} fontWeight={"700"}>
-                            Enable access to ecommerce and digital content from your shop
-                        </Text>
+                            Towards the Next Step in Payments - HPNPay, Your Store's Next Digital Leap                        </Text>
 
                         <Text fontSize={"24px"}>
-                            Digital services shouldn't be limited to only those who have digital money. Offer customers in your area access to digital products from our partner brands. Use the PayNearby platform to offer micro content and satchetized services, help customers digitize cash at your store and enable easy access to these services
+                            Digital services shouldn't be limited to only those who have digital money. Offer customers in your area access to digital products from our partner brands. Use the HPNPAY platform to offer micro content and satchetized services, help customers digitize cash at your store and enable easy access to these services
                         </Text>
                     </Box>
 
@@ -464,12 +482,16 @@ export default function Product() {
                         </Text>
                         <Stack marginTop={'1rem'} spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', sm: 'row' }}>
                             <Input type='email' placeholder='Enter Your Email' width='500px' height='75px' />
-                            <Button width='150px' height='75px' background='#82e368' color='white' position={'absoulte'} left={"200px"}>Get in touch</Button>
+                            <Button width='150px' height='75px'
+                                _hover={{ bg: 'blue.600' }}
+                                background={'#156DB1'}
+                                color={'white'}
+                                position={'absoulte'} left={"200px"}>Get in touch</Button>
                         </Stack>
                     </Box>
                 </Flex>
                 <Box>
-                    <Image ml={"95px"} src={Product7} width={"1000"} />
+                    <Image ml={"95px"} src={Product7} width={"1000"} height={'500'} />
                 </Box>
             </Flex>
 
@@ -492,7 +514,7 @@ export default function Product() {
             </Box>
             <Flex marginTop={"80px"}>
                 <Box>
-                    <Image ml={"95px"} src={Product8} width={"1000"} />
+                    <Image ml={"95px"} src={Product8} width={"1000"} height={'500'} />
                 </Box>
                 <Flex
                     flexDirection={"column"}
@@ -527,7 +549,11 @@ export default function Product() {
                         </Text>
                         <Stack marginTop={'1rem'} spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', sm: 'row' }}>
                             <Input type='email' placeholder='Enter Your Email' width='500px' height='75px' />
-                            <Button width='150px' height='75px' background='#82e368' color='white' position={'absoulte'} left={"200px"}>Get in touch</Button>
+                            <Button width='150px' height='75px'
+                                _hover={{ bg: 'blue.600' }}
+                                background={'#156DB1'}
+                                color={'white'}
+                                position={'absoulte'} left={"200px"}>Get in touch</Button>
                         </Stack>
                     </Box>
                 </Flex>
@@ -593,13 +619,17 @@ export default function Product() {
                         </Text>
                         <Stack marginTop={'1rem'} spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', sm: 'row' }}>
                             <Input type='email' placeholder='Enter Your Email' width='500px' height='75px' />
-                            <Button width='150px' height='75px' background='#82e368' color='white' position={'absoulte'} left={"200px"}>Get in touch</Button>
+                            <Button width='150px' height='75px'
+                                _hover={{ bg: 'blue.600' }}
+                                background={'#156DB1'}
+                                color={'white'}
+                                position={'absoulte'} left={"200px"}>Get in touch</Button>
                         </Stack>
                     </Box>
 
                 </Flex>
                 <Box>
-                    <Image ml={"95px"} src={Product9} width={"1000"} />
+                    <Image ml={"95px"} src={Product9} width={"1000"} height={'500'} />
                 </Box>
             </Flex>
 

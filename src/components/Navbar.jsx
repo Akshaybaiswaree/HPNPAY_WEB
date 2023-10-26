@@ -87,15 +87,14 @@ export default function Navbar(props) {
                 fontSize={'sm'}
                 fontWeight={600}
                 color={'white'}
-                background={'#82e368'}
+                // background={'#82e368'}
                 // bg={'rgb(43, 46, 74)'}
                 href={'#'}
                 mr={'20px'}
-                _hover={{
-                  bg: 'rgb(43, 46, 74)',
-                }}
+                _hover={{bg:'blue.600'}}
+                background={'#156DB1'}
               >
-                Login Up
+                Login 
               </Button>
             </PopoverTrigger>
             <PopoverContent height='40px' width='100px'>

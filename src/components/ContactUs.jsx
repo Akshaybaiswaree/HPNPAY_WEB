@@ -15,7 +15,7 @@ import {
     Text,
     useBreakpointValue,
 } from '@chakra-ui/react'
-import contactUsImage from "../images/contactus/contact-us-img.png"
+import contactUsImage from "../images/contactus/Online tech talks-amico.png"
 import facebookIcon from "../images/contactus/facebook_4494475.png"
 import linkdienIcon from "../images/contactus/linkedin_3536505.png"
 import twitterIcon from "../images/contactus/twitter_4494477.png"
@@ -109,7 +109,7 @@ export default function ContactUs() {
                                     zIndex: -1,
                                 }}>
                                 Attention! <br />
-                                PayNearby cares about your safety.
+                                HPNPAY cares about your safety.
                             </Text>
                             <br /><br />{' '}
                             <Text fontSize='xl'>We will call you only from the landline number mentioned below:</Text>
@@ -139,10 +139,15 @@ export default function ContactUs() {
                 </Flex>
             </Stack>
             <Stack marginLeft={"130px"} marginTop={"80px"} marginBottom={"80px"}>
-                <Text fontSize={'3xl'} color={'#1c539e'} as='b'>Join PayNearBy</Text>
+                <Text fontSize={'3xl'} color={'#1c539e'} as='b'>Join HPNPAY</Text>
                 <Stack spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', sm: 'row' }}>
                     <Input type='number' placeholder='Enter Your Number' width='500px' height='75px' />
-                    <Button width='150px' height='75px' background='#82e368' color='white' position={'absoulte'} left={"200px"}>Verify</Button>
+                    <Button width='150px' height='75px'
+                        _hover={{ bg: 'blue.600' }}
+                        background={'#156DB1'}
+                        color={'white'}
+                        position={'absoulte'}
+                        left={"200px"}>Verify</Button>
                 </Stack>
                 <Stack border={'1px solid #d3d3d3'} width={'400px'} direction={'row'} height={'75px'} display={'flex'} justifyContent={'space-between'} spacing={10} alignItems={'center'}>
                     <Checkbox colorScheme='green' margin={'10px'} size='lg'>I'm not robot</Checkbox>
@@ -170,17 +175,17 @@ export default function ContactUs() {
                                 Download our Apps
                             </Text>
                             <br /><br />{' '}
-                            <Text fontSize='xl' as='b'>PayNearby App</Text>
+                            <Text fontSize='xl' as='b'>HPNPAY App</Text>
                         </Heading>
                         <Stack direction={'row'} spacing={5}>
-                            <Text fontSize='xl'>Become a PayNearby powered retailer & earn extra income by offering digital banking and financial services at your retail store. Download the app now!</Text>
+                            <Text fontSize='xl'>Become a HPNPAY powered retailer & earn extra income by offering digital banking and financial services at your retail store. Download the app now!</Text>
                         </Stack>
                         <Image src={googlePlay} width={"150px"} />
                     </Stack>
                 </Flex>
                 <Flex flex={1} p={50}>
                     <Stack marginTop={"300px"}>
-                        <Text fontSize='xl' as='b'>NeoDukaan App</Text>
+                        <Text fontSize='xl' as='b'>NIDHI App</Text>
                         <Text fontSize='xl'>Upgrade your shop with the latest store management and digital payment package. Offer the latest digital payment options, manage customer credits efficiently and take your store online. Become new Bharat's Digital Shop.</Text>
                         <Image src={googlePlay} width={"150px"} />
                     </Stack>
@@ -210,11 +215,11 @@ export default function ContactUs() {
                                 </Text>
 
                                 <Text color={'blue.400'} as={'span'} >
-                                    Download PayNearby now
+                                    Download HPNPAY now
                                 </Text>{' '}
                             </Heading>
                             <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>
-                                Use PayNearby app & take charge of all your transactions to grow your business
+                                Use HPNPAY app & take charge of all your transactions to grow your business
 
 
                             </Text>

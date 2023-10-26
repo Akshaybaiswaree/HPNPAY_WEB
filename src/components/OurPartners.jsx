@@ -24,7 +24,7 @@ import { BiLeftArrowAlt, BiRightArrowAlt } from 'react-icons/bi'
 // And react-slick as our Carousel Lib
 import Slider from 'react-slick'
 import reCaptchaImage from '../images/solution_img/reCaptchaImage.png'
-import Solution4 from '../images/solution_img/Solution4.png';
+import Solution4 from '../images/ourPartner_img/Download-rafiki.png';
 
 
 // Settings for the slider
@@ -77,7 +77,7 @@ export default function OurPartners() {
                 </Heading>
             </Box>
             {/* slider */}
-            <Box position={'relative'}  width={'full'} overflow={'hidden'} borderRadius={'10px'}>
+            <Box position={'relative'} width={'full'} overflow={'hidden'} borderRadius={'10px'}>
                 {/* CSS files for react-slick */}
                 <link
                     rel="stylesheet"
@@ -122,9 +122,9 @@ export default function OurPartners() {
                         <Box
                             key={index}
                             height={'150px'}
-                            
+
                         >
-                            <Image height="70px" src={url}/>
+                            <Image height="70px" src={url} />
                         </Box>
                     ))}
 
@@ -170,7 +170,13 @@ export default function OurPartners() {
                             <Stack border={'1px solid #d3d3d3'} width={'400px'} direction={'row'} height={'66px'} display={'flex'} justifyContent={'space-between'} spacing={13} alignItems={'center'}>
                                 <Checkbox colorScheme='green' margin={'10px'} size='lg'>I'm not robot</Checkbox>
                                 <Image src={reCaptchaImage} width={'50px'} height='50px' />
-                                <Button width='150px' height='70px' background='#82e368' color='white' position={'absoulte'} left={"200px"}>Get App Link</Button>
+                                <Button width='150px'
+                                    height='70px'
+                                    _hover={{ bg: 'blue.600' }}
+                                    background={'#156DB1'}
+                                    color={'white'}
+                                    position={'absoulte'}
+                                    left={"200px"}>Get App Link</Button>
 
                             </Stack>
                         </Stack>

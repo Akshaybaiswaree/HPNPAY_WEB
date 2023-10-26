@@ -12,6 +12,7 @@ import {
 } from "@chakra-ui/react";
 import photo from "../images/aboutUs_img/photo.png"
 import banner from "../images/aboutUs_img/banner.jpg"
+import unstopable from "../images/aboutUs_img/Finance leaders-rafiki.png"
 
 export default function AboutUs() {
 
@@ -22,7 +23,7 @@ export default function AboutUs() {
                     <Stack spacing={6} w={"full"} maxW={"lg"}>
                         <Heading fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}>
                             <Text color={"#052b60"} as={"span"}>
-                                Unstoppable. Ambition: Zidd Aage Badhne Ki
+                            Retailer To Retailer Fund Transfer : Zidh Agge Badne Ki 
                             </Text>{" "}
                         </Heading>
                         <Text fontSize={{ base: "md", lg: "lg" }} color={"black"}>
@@ -52,9 +53,7 @@ export default function AboutUs() {
                     <Image
                         alt={"Login Image"}
                         objectFit={"cover"}
-                        src={
-                            "https://paynearby.in/wp-content/uploads/2020/11/about-men.png"
-                        }
+                        src={unstopable}
                     />
                 </Flex>
             </Stack>
@@ -459,6 +458,7 @@ export default function AboutUs() {
                     rounded={"md"}
                     overflow={"hidden"}
                     mt={'20px'}
+                    ml={'450px'}
                 >
                     <Image
                         //   h={"400px"}

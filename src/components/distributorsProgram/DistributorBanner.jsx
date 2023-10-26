@@ -334,7 +334,7 @@ const DistributorBanner = () => {
                     </li>
                     <li style={{ "font-size": "18px" }}>
                         <strong style={{ "font-size": "20px" }}>Rewards and Recognition:</strong>With&nbsp;
-                        <strong>PayNearby Rewards</strong>&nbsp;program, Retailer can earn
+                        <strong>HPNPAY Rewards</strong>&nbsp;program, Retailer can earn
                         upto&nbsp;<strong>40% higher commission</strong>&nbsp;as volumes go up
                     </li>
                     <li style={{ "font-size": "18px" }}>
@@ -342,7 +342,7 @@ const DistributorBanner = () => {
                         most secure platform –&nbsp;<strong>PCI DSS and ISO certified</strong>
                     </li>
                     <li style={{ "font-size": "18px" }}>
-                        <strong style={{ "font-size": "20px" }}>A free PayNearby Shopping Card</strong> to help shop safely online
+                        <strong style={{ "font-size": "20px" }}>A free HPNPAY Shopping Card</strong> to help shop safely online
                     </li>
                 </ul>
                 <p>&nbsp;</p>
