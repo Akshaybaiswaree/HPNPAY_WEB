@@ -119,7 +119,7 @@ const Solution = () => {
                     </Stack>
                 </CardBody>
             </Card>
-            <Stack minH={'100vh'} direction={{ base: 'column', md: 'row' }}>
+            {/* <Stack minH={'100vh'} direction={{ base: 'column', md: 'row' }}>
                 <Flex p={8} flex={1} align={'center'} justify={'center'}>
                     <Stack spacing={6} w={'full'} maxW={'lg'}>
                         <Heading fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}>
@@ -167,12 +167,12 @@ const Solution = () => {
 
 
                 </Flex>
-            </Stack>
-            <Stack marginBottom={"1rem"} marginTop={"-220px"} marginLeft={"7.8rem"} border={'1px solid #d3d3d3'} width={'400px'} direction={'row'} height={'50px'} display={'flex'} justifyContent={'space-between'} spacing={10} alignItems={'center'}>
+            </Stack> */}
+            {/* <Stack marginBottom={"1rem"} marginTop={"-220px"} marginLeft={"7.8rem"} border={'1px solid #d3d3d3'} width={'400px'} direction={'row'} height={'50px'} display={'flex'} justifyContent={'space-between'} spacing={10} alignItems={'center'}>
                 <Checkbox colorScheme='green' margin={'10px'} size='lg'>I'm not robot</Checkbox>
                 <Image src={reCaptchaImage} width={'50px'} height='50px' />
             </Stack>
-            <Button margin={"7.8rem"} style={{ background: "#6FBE5A", marginTop: "1rem" }}>Get app link</Button>
+            <Button margin={"7.8rem"} style={{ background: "#6FBE5A", marginTop: "1rem" }}>Get app link</Button> */}
         </Box>
     
         // </Box>

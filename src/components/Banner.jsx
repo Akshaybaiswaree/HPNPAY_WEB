@@ -227,10 +227,10 @@ export default function Banner() {
 
       {/* Part 2- mobile dashboard and side bar */}
 
-      <Box style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+      <Box style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop:'100px' }}>
         <div style={{ display: "flex", alignItems: "flex-end" }}>
           <Image src={mobileImage} position='relative' left='-200px' height={'600px'} />
-          <Text fontSize='6xl' color='#1c539e' position='absolute' left='650px' top='1000px' zIndex='10' as='b'>One App<br></br>multiple services</Text>
+          <Text fontSize='6xl' color='#1c539e' position='absolute' left='750px' top='1000px' zIndex='10' as='b'>One App<br></br>multiple services</Text>
         </div>
         <Text fontSize='xl' color='#5e646a'>A great earning potential with the opportunity to grow your<br></br> business with minimal one time investment and zero working<br></br> capital</Text>
       </Box>
@@ -252,7 +252,7 @@ export default function Banner() {
           </Box>
           <Box style={{ marginLeft: "2rem" }} className='images'>
             <Box>
-              <Image ml={'20px'} src={dass1} width={'380px'} />
+              <Image ml={'20px'} src={dass1} width={'380px'} height={'290px'}/>
               <p style={{ marginLeft: "6rem" }}>Banking Business Publishing</p>
             </Box>
             <Box>

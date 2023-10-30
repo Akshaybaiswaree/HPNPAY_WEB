@@ -17,6 +17,8 @@ import {
     Checkbox,
     InputGroup,
     InputLeftElement,
+    Container,
+    Center,
 
 } from '@chakra-ui/react'
 // Here we have used react-icons package for the icons
@@ -52,7 +54,7 @@ export default function OurPartners() {
 
     // These are the images used in the slide
     const cards = [
-  
+
         {
             image: require('../../src/images/ourPartner_img/sbi_bank.png')
         },
@@ -65,9 +67,7 @@ export default function OurPartners() {
         {
             image: require('../../src/images/ourPartner_img/panjabbank.png')
         },
-        {
-            image: require('../../src/images/ourPartner_img/sbi_bank.png')
-        },
+
 
     ]
 
@@ -94,45 +94,19 @@ export default function OurPartners() {
                     type="text/css"
                     href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
                 />
-                {/* Left Icon */}
-                {/* <IconButton
-                    aria-label="left-arrow"
-                    colorScheme="messenger"
-                    borderRadius="full"
-                    position="absolute"
-                    left={side}
-                    top={top}
-                    transform={'translate(0%, -50%)'}
-                    zIndex={2}
-                    onClick={() => slider?.slickPrev()}>
-                    <BiLeftArrowAlt />
-                </IconButton> */}
-                {/* Right Icon */}
-                {/* <IconButton
-                    aria-label="right-arrow"
-                    colorScheme="messenger"
-                    borderRadius="full"
-                    position="absolute"
-                    right={side}
-                    top={top}
-                    transform={'translate(0%, -50%)'}
-                    zIndex={2}
-                    onClick={() => slider?.slickNext()}>
-                    <BiRightArrowAlt />
-                </IconButton> */}
-                {/* Slider */}
-                {/* <Slider {...settings} ref={(slider) => setSlider(slider)}> */}
-                <Flex gap="10px" marginTop="30px" paddingLeft="200px">
-                    {cards.map((img, index) => (
-                        <Box
-                            key={index}
-                            height={'150px'}
-                        >
-                            <Image height="80px" src={img.image} />
-                        </Box>
-                    ))}
+                <Center>
+                    <Flex gap="10px" marginTop="30px">
+                        {cards.map((img, index) => (
+                            <Box
+                                key={index}
+                                height={'150px'}
+                            >
+                                <Image height="80px" src={img.image} />
+                            </Box>
+                        ))}
 
-                </Flex>
+                    </Flex>
+                </Center>
                 {/* </Slider> */}
             </Box>
             {/* dounload pay now */}
