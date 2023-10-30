@@ -29,10 +29,10 @@ import { BiLeftArrowAlt, BiRightArrowAlt } from 'react-icons/bi'
 // And react-slick as our Carousel Lib
 import Slider from 'react-slick'
 import { IoAnalyticsSharp, IoLogoBitcoin, IoSearchSharp } from 'react-icons/io5';
-import mobileImage from '../images/retailer_img/E-Wallet-p.png';
-import dass1 from '../images/retailer_img/Manage money.png';
-import dass2 from '../images/retailer_img/Consultative sales.png';
-import dass3 from '../images/retailer_img/poorgood.png';
+import mobileImage from '../images/retailer_img/banner_mobileaapp2.png';
+import dass1 from '../images/retailer_img/banner_img7.jpeg';
+import dass2 from '../images/retailer_img/banner_img8.png';
+import dass3 from '../images/retailer_img/banner_img9.png';
 import box4 from '../images/retailer_img/box4.jpeg';
 import box2 from '../images/retailer_img/box2.jpeg';
 import box3 from '../images/retailer_img/box3.jpeg';
@@ -81,28 +81,31 @@ export default function Banner() {
   const cards = [
     {
       title: 'Retailer',
-      heading: 'Atma Nirbhar Bharat, Now Every Store Goes Digital with HPNPay',
+      heading: 'Self-reliant India, Now Every Store Goes Digital with HPNPay',
+      heading2: "आत्मनिर्भर भारत, अब सभी दुकानें होंगी डिजिटल - HPNPay के साथ",
       text: "A national movement to uplift Bharat by giving every household easy access to DBT funds, digital payments and essential banking services at a store nearby.",
       text2: "Upgrade your shop. Be the one stop banking service provider.",
       text3: " No working capital required. Earn ₹2,00,000+ per year.",
-      image: require('../images/retailer_img/Finance leaders.png')
+      image: require('../images/retailer_img/banner img1,png.jpg')
     },
     {
       title: 'Distributor',
-      heading: 'One Step Towards Digital Success - HPNPay, The Best Service Provider',
+      heading: "Leading in the Digital Dimensions - HPNPay, Your Store's Digital Leader",
+      heading2: "डिजिटल आयामों में सबसे आगे - HPNPay, आपकी दुकान का डिजिटल प्रधान",
       text: "A national movement to uplift Bharat by giving every household easy access to DBT funds, digital payments and essential banking services at a store nearby.",
       text2: "Upgrade your shop. Be the one stop banking service provider.",
       text3: " No working capital required. Earn ₹2,00,000+ per year.",
-      image: require('../images/retailer_img/NFT.png')
-       
+      image: require('../images/retailer_img/banner_img2.png')
+
     },
     {
       title: 'Individual/Self Help Groups',
-      heading: 'Your Trust, Our Commitment - HPNPay, Secure and Reliable Digital Services',
+      heading: "Every Step a Digital Step - HPNPay, Your Store's Digital Friend",
+      heading2: "हर कदम एक डिजिटल कदम - HPNPay, आपकी दुकान का डिजिटल दोस्त",
       text: "A national movement to uplift Bharat by giving every household easy access to DBT funds, digital payments and essential banking services at a store nearby.",
       text2: "Upgrade your shop. Be the one stop banking service provider.",
       text3: " No working capital required. Earn ₹2,00,000+ per year.",
-      image: require('../images/retailer_img/E-Wallet.png')
+      image: require('../images/retailer_img/banner_img3.jpg')
 
     },
   ]
@@ -111,23 +114,23 @@ export default function Banner() {
     {
       title: 'Retailer',
       text: "Make more out of your distribution business. Onboard your network to offer HPNPAY services and earn more than 18% per month on the money invested. No physical stock. No expenditure in store space, staff or physical transfer of goods. Every time a retailer in your network services a financial transaction, both of you make money. It is as simple as that.",
-      text2: " Join over 1,00,000 distributors. Earn more than `50,000 per month.",
+      text2: " Join over distributors. Earn more than you expect per month.",
       title2: 'Retail Categories',
-      image: require('../images/retailer_img/App monetization-bro.png')
+      image: require('../images/retailer_img/banner_img4.jpg')
     },
     {
       title: 'Distributor',
       text: "Make more out of your distribution business. Onboard your network to offer HPNPAY services and earn more than 18% per month on the money invested. No physical stock. No expenditure in store space, staff or physical transfer of goods. Every time a retailer in your network services a financial transaction, both of you make money. It is as simple as that.",
-      text2: " Join over 1,00,000 distributors. Earn more than `50,000 per month.",
+      text2: " Join over distributors. Earn more than you expect per month.",
       title2: 'Distributor Categories',
-      image: require('../images/retailer_img/Bitcoin P2P-amico (1).png')
+      image: require('../images/retailer_img/banner_img5.jpg')
     },
     {
       title: 'Individual/Self Help Groups',
       text: "Make more out of your distribution business. Onboard your network to offer HPNPAY services and earn more than 18% per month on the money invested. No physical stock. No expenditure in store space, staff or physical transfer of goods. Every time a retailer in your network services a financial transaction, both of you make money. It is as simple as that.",
-      text2: " Join over 1,00,000 distributors. Earn more than `50,000 per month.",
+      text2: " Join over distributors. Earn more than you expect per month.",
       title2: 'Individual/Self Help Groups Categories:',
-      image: require('../images/retailer_img/Revenue-bro.png')
+      image: require('../images/retailer_img/banner_img6.jpg')
     },
   ]
 
@@ -166,7 +169,8 @@ export default function Banner() {
             <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
               <Stack spacing={4}>
 
-                <Heading color={'blue.700'} fontSize='5xl' font-weight="bold">{card.heading}</Heading>
+                <Heading color={'blue.700'} fontSize='4xl' font-weight="bold">{card.heading}</Heading>
+                <Heading color={'blue.700'} fontSize='3xl' font-weight="bold">{card.heading2}</Heading>
 
                 <Stack
                   spacing={4}
@@ -199,10 +203,10 @@ export default function Banner() {
                     height='60px'
                     width='300px'
                     // border='2px'
-                    _hover={{bg:'blue.600'}}
+                    _hover={{ bg: 'blue.600' }}
                     background={'#156DB1'}
                     color={'white'}
-                    >
+                  >
                     Join HPNPAY
                   </Button>
                 </Stack>
@@ -225,8 +229,8 @@ export default function Banner() {
 
       <Box style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
         <div style={{ display: "flex", alignItems: "flex-end" }}>
-          <Image src={mobileImage} position='relative' left='-200px' height={'600px'}/>
-          <Text fontSize='6xl' color='#1c539e' position='absolute' left='650px' top='1100px' zIndex='10' as='b'>One App<br></br>multiple services</Text>
+          <Image src={mobileImage} position='relative' left='-200px' height={'600px'} />
+          <Text fontSize='6xl' color='#1c539e' position='absolute' left='650px' top='1000px' zIndex='10' as='b'>One App<br></br>multiple services</Text>
         </div>
         <Text fontSize='xl' color='#5e646a'>A great earning potential with the opportunity to grow your<br></br> business with minimal one time investment and zero working<br></br> capital</Text>
       </Box>
@@ -249,15 +253,15 @@ export default function Banner() {
           <Box style={{ marginLeft: "2rem" }} className='images'>
             <Box>
               <Image ml={'20px'} src={dass1} width={'380px'} />
-              <p style={{ marginLeft: "6rem" }}>Harward Business Publishing</p>
+              <p style={{ marginLeft: "6rem" }}>Banking Business Publishing</p>
             </Box>
             <Box>
-              <Image ml={'20px'} src={dass2} width={'380px'} />
-              <p style={{ marginLeft: "4rem" }}>India's Best WorkPlacesTM in BFSI</p>
+              <Image ml={'20px'} src={dass2} width={'380px'} height={'290px'} />
+              <p style={{ marginLeft: "4rem" }}>India's Best Banking syetem in Bharat</p>
             </Box>
             <Box>
-              <Image ml={'20px'} src={dass3} width={'380px'} />
-              <p style={{ marginLeft: "5rem" }}>MIT Technology review </p>
+              <Image ml={'20px'} src={dass3} width={'380px'} height={'290px'}  />
+              <p style={{ marginLeft: "5rem" }}>Banking Technology review </p>
             </Box>
 
           </Box>
@@ -324,7 +328,7 @@ export default function Banner() {
                     width='300px'
                     // border='2px'
                     // background={'#82e368'}
-                    _hover={{bg:'blue.600'}}
+                    _hover={{ bg: 'blue.600' }}
                     background={'#156DB1'}
                     color={'white'}
                   >
@@ -355,7 +359,7 @@ export default function Banner() {
       </Box>
 
       {/* part -5 Make financial services accessible to everyone, everywhere */}
-      <Box>      
+      <Box>
         <Card
           align="center"
           height={"600px"}
@@ -380,24 +384,24 @@ export default function Banner() {
             textAlign="center"
             zIndex={1}
           >
-            <Heading  fontSize={'3rem'}color='blue.600' marginTop={'3rem'}size="lg" >
+            <Heading fontSize={'3rem'} color='blue.600' marginTop={'3rem'} size="lg" >
               Make financial services accessible to everyone, everywhere
             </Heading>
           </CardHeader>
           <CardBody
-           position="absolute"
+            position="absolute"
             top="50%"
             left="50%"
             transform="translate(-40%, -40%)"
-            // zIndex={1}
+          // zIndex={1}
           >
             <Box width={'800px'}>
-               <Text fontSize="24px" textAlign='center'>
-              Create a progressive society, where everyone has easy access to
-              financial services, by building the largest agent banking network in
-              the country.
-               </Text>
-              </Box>
+              <Text fontSize="24px" textAlign='center'>
+                Create a progressive society, where everyone has easy access to
+                financial services, by building the largest agent banking network in
+                the country.
+              </Text>
+            </Box>
           </CardBody>
           <CardFooter
             position="absolute"
@@ -417,19 +421,19 @@ export default function Banner() {
                 <Text fontSize="4xl" as="b" >
                   50 Lakh
                 </Text>
-                <Text fontSize="lg">No of retailers</Text>
+                <Text fontSize="lg">No of retailers our target</Text>
               </Box>
               <Box borderLeft={"2px solid black"} paddingLeft='0.5rem'>
                 <Text fontSize="4xl" as="b">
                   20cr
                 </Text>
-                <Text fontSize="lg">No of customers served</Text>
+                <Text fontSize="lg">No of customers our target</Text>
               </Box>
               <Box borderLeft={"2px solid black"} paddingLeft='0.5rem'>
                 <Text fontSize="4xl" as="b">
                   20,000
                 </Text>
-                <Text fontSize="lg">No of PIN codes served</Text>
+                <Text fontSize="lg">No of PIN codes can be serve</Text>
               </Box>
               <Box borderLeft={"2px solid black"} paddingLeft='0.5rem'>
                 <Text fontSize="4xl" as="b">

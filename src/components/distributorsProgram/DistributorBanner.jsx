@@ -48,21 +48,6 @@ const DistributorBanner = () => {
     const top = useBreakpointValue({ base: '90%', md: '50%' });
     const side = useBreakpointValue({ base: '30%', md: '40px' });
 
-    // const cards = [
-    //   {
-    //     image:img1,
-    //   },
-    //   {
-    //     image:img2,
-    //   },
-    //   {
-    //     image:img3,
-    //   },
-    //   {
-    //     image:img4,
-    //   },
-
-    // ];
 
     return (
         <>

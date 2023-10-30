@@ -25,8 +25,8 @@ import {
   ChevronRightIcon,
 } from '@chakra-ui/icons';
 
-import hpnpay_logo from "../images/hpnpay_logo.jpeg";
 import { Link } from 'react-router-dom';
+import LOGO from '../../src/images/footer/LOGO.svg';
 
 export default function Navbar(props) {
   const { isOpen, onToggle } = useDisclosure();
@@ -58,7 +58,7 @@ export default function Navbar(props) {
           />
         </Flex>
         <Link to='/'>
-          <Image ml={'20px'} src={hpnpay_logo} width={'100px'} />
+          <Image ml={'20px'} src={LOGO} width={'100px'} />
         </Link>
         <Flex flex={{ base: 1 }} alignItems={'center'} justify={{ base: 'center', md: 'center' }}>
           <Text

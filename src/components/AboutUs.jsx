@@ -12,7 +12,7 @@ import {
 } from "@chakra-ui/react";
 import photo from "../images/aboutUs_img/photo.png"
 import banner from "../images/aboutUs_img/banner.jpg"
-import unstopable from "../images/aboutUs_img/Finance leaders-rafiki.png"
+import unstopable from "../images/aboutUs_img/aboutus_img2.png"
 
 export default function AboutUs() {
 
@@ -54,6 +54,8 @@ export default function AboutUs() {
                         alt={"Login Image"}
                         objectFit={"cover"}
                         src={unstopable}
+                        height={'400px'}
+                        marginTop={'100px'}
                     />
                 </Flex>
             </Stack>
@@ -69,7 +71,7 @@ export default function AboutUs() {
                         <Text fontSize={{ base: "md", lg: "lg" }} color={"black"}>
                             Hannanth Nidhi Pvt. Ltd. is a DIPP Certified Fintech Company
                             registered under The Startup India program of Government of India,
-                            set up in April 2019 by a team of professionals with experience in
+                            set up in 2023 by a team of professionals with experience in
                             Digital Banking & Payments industry. The team works on deep
                             insights and understanding of payment and transaction technology
                             space.

@@ -22,11 +22,11 @@ import {
 } from '@chakra-ui/react'
 
 import reCaptchaImage from "../images/corporate_img/RecaptchaLogo.svg.png"
-import digitalCash from "../images/corporate_img/digitize-cash-collection.png"
-import increaseIndia from "../images/corporate_img/increase-market-penetration.png"
-import digitalOrder from "../images/corporate_img/digitize-order-placement.png"
+import digitalCash from "../images/corporate_img/corporate_cashcullection_img.jpg"
+import increaseIndia from "../images/corporate_img/corporate_market_img.jpg"
+import digitalOrder from "../images/corporate_img/corporate_digital_img.jpg"
 import manNetwork from "../images/corporate_img/manNetwok.png"
-import bajajImage from "../images/corporate_img/Business mission-amico.png"
+import bajajImage from "../images/corporate_img/corporate_img1.jpg"
 import { Card, CardHeader, CardBody, CardFooter } from '@chakra-ui/react'
 
 
@@ -65,7 +65,7 @@ const Corporate = () => {
                             </Text>
                         </Heading>
                         <Text color={'black'}>
-                            Multiple businesses of all sizes- from startups to large enterprises- use India’s largest agent network of 50,00,000 retailers to scale their business, optimize operational costs and develop new markets. High-end technology simplified for ease of use.
+                            Multiple businesses of all sizes- from startups to large enterprises- use India’s largest agent network of  retailers to scale their business, optimize operational costs and develop new markets. High-end technology simplified for ease of use.
                         </Text>
                         <Stack spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', sm: 'row' }}>
                             <Input type='email' placeholder='Enter Your Email' width='500px' height='75px' />
@@ -176,32 +176,32 @@ const Corporate = () => {
                         <Box width={"350px"} height={"300px"} >
                             <Image src={manNetwork} width={"50px"} height={"50px"} />
                             <Text fontSize='2xl' as='b'>Largest Agent Network:</Text>
-                            <Text fontSize='xl'>With over 50,00,000 retailers, spread across 20,000+ PIN codes, harness the power of the largest agent network in the country</Text>
+                            <Text fontSize='xl'>With over 50,00,000 retailers We expecting,want to spread across 20,000+ PIN codes, harness the power of the largest agent network in the country</Text>
                         </Box>
                         <Box width={"350px"} height={"300px"} >
                             <Image src={manNetwork} width={"50px"} height={"50px"} />
                             <Text fontSize='2xl' as='b'>Largest Agent Network:</Text>
-                            <Text fontSize='xl'>With over 50,00,000 retailers, spread across 20,000+ PIN codes, harness the power of the largest agent network in the country</Text>
+                            <Text fontSize='xl'>With over 50,00,000 retailers We expecting,want to spread across 20,000+ PIN codes, harness the power of the largest agent network in the country</Text>
                         </Box>
                         <Box width={"350px"} height={"300px"} >
                             <Image src={manNetwork} width={"50px"} height={"50px"} />
                             <Text fontSize='2xl' as='b'>Largest Agent Network:</Text>
-                            <Text fontSize='xl'>With over 50,00,000 retailers, spread across 20,000+ PIN codes, harness the power of the largest agent network in the country</Text>
+                            <Text fontSize='xl'>With over 50,00,000 retailers We expecting,want to spread across 20,000+ PIN codes, harness the power of the largest agent network in the country</Text>
                         </Box>
                         <Box width={"350px"} height={"300px"} >
                             <Image src={manNetwork} width={"50px"} height={"50px"} />
                             <Text fontSize='2xl' as='b'>Largest Agent Network:</Text>
-                            <Text fontSize='xl'>With over 50,00,000 retailers, spread across 20,000+ PIN codes, harness the power of the largest agent network in the country</Text>
+                            <Text fontSize='xl'>With over 50,00,000 retailers We expecting,want to spread across 20,000+ PIN codes, harness the power of the largest agent network in the country</Text>
                         </Box>
                         <Box width={"350px"} height={"300px"} >
                             <Image src={manNetwork} width={"50px"} height={"50px"} />
                             <Text fontSize='2xl' as='b'>Largest Agent Network:</Text>
-                            <Text fontSize='xl'>With over 50,00,000 retailers, spread across 20,000+ PIN codes, harness the power of the largest agent network in the country</Text>
+                            <Text fontSize='xl'>With over 50,00,000 retailers We expecting,want to spread across 20,000+ PIN codes, harness the power of the largest agent network in the country</Text>
                         </Box>
                         <Box width={"350px"} height={"300px"} >
                             <Image src={manNetwork} width={"50px"} height={"50px"} />
                             <Text fontSize='2xl' as='b'>Largest Agent Network:</Text>
-                            <Text fontSize='xl'>With over 50,00,000 retailers, spread across 20,000+ PIN codes, harness the power of the largest agent network in the country</Text>
+                            <Text fontSize='xl'>With over 50,00,000 retailers We expecting,want to spread across 20,000+ PIN codes, harness the power of the largest agent network in the country</Text>
                         </Box>
                     </Box>
                     <Box margin={"20px"} display={"flex"} justifyContent={"center"}>
@@ -217,7 +217,7 @@ const Corporate = () => {
                                 </Text>
                                 <br />{' '}
                                 <Text fontSize='lg'>
-                                    - By Tanaji Khot
+                                    - By Anand Gandhi
                                 </Text>
                             </Heading>
                             <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>

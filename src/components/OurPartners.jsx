@@ -52,17 +52,22 @@ export default function OurPartners() {
 
     // These are the images used in the slide
     const cards = [
-        'https://paynearby.in/wp-content/uploads/2023/04/Arthmate.png',
-        // 'https://paynearby.in/wp-content/uploads/2023/04/Homefirst.png',
-        // 'https://paynearby.in/wp-content/uploads/2023/04/Unity-small-finance-bank.png',
-        'https://paynearby.in/wp-content/uploads/2022/02/Axis-Bank.png',
-        'https://paynearby.in/wp-content/uploads/2022/02/BCFI-logo-01.png',
-        'https://paynearby.in/wp-content/uploads/2022/02/Indusind-Bank.png',
-        'https://paynearby.in/wp-content/uploads/2022/02/NPCI.png',
-        'https://paynearby.in/wp-content/uploads/2022/02/RBL-Bank.png',
-        'https://paynearby.in/wp-content/uploads/2023/03/SBM-Logo_PNG.png',
-        'https://paynearby.in/wp-content/uploads/2022/02/TSSC_Logo.png',
-        'https://paynearby.in/wp-content/uploads/2023/05/logo-yes-bank.png',
+  
+        {
+            image: require('../../src/images/ourPartner_img/sbi_bank.png')
+        },
+        {
+            image: require('../../src/images/ourPartner_img/yesbank.png')
+        },
+        {
+            image: require('../../src/images/ourPartner_img/axisbank.png')
+        },
+        {
+            image: require('../../src/images/ourPartner_img/panjabbank.png')
+        },
+        {
+            image: require('../../src/images/ourPartner_img/sbi_bank.png')
+        },
 
     ]
 
@@ -117,14 +122,13 @@ export default function OurPartners() {
                 </IconButton> */}
                 {/* Slider */}
                 {/* <Slider {...settings} ref={(slider) => setSlider(slider)}> */}
-                <Flex gap="10px" marginTop="30px">
-                    {cards.map((url, index) => (
+                <Flex gap="10px" marginTop="30px" paddingLeft="200px">
+                    {cards.map((img, index) => (
                         <Box
                             key={index}
                             height={'150px'}
-
                         >
-                            <Image height="70px" src={url} />
+                            <Image height="80px" src={img.image} />
                         </Box>
                     ))}
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Button, Flex, Heading, Image, Stack, Text } from "@chakra-ui/react";
 import Partnership from "./Partnership";
-import revenue from "../../images/ourPartner_img/Revenue-rafiki.png";
+import revenue from "../../images/product_img/distributor_revenue.png";
 
 export default function Distributors() {
     return (
@@ -16,7 +16,7 @@ export default function Distributors() {
                             </Text>
                         </Heading>
                         <Text fontSize={{ base: "md", lg: "lg" }} color={"black.500"}>
-                            Get High returns on money invested in PayNearby distribution
+                            Get High returns on money invested in HPNPAY distribution
                             business
                         </Text>
                         <Text fontSize={{ base: "md", lg: "lg" }} color={"black.500"}>
@@ -50,7 +50,7 @@ export default function Distributors() {
                 <Flex flex={1}>
                     <Image
                         margin={"auto"}
-                        height={"70vh"}
+                        height={"50vh"}
                         alt={"Login Image"}
                         objectFit={"cover"}
                         src={revenue}

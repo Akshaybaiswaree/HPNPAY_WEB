@@ -12,7 +12,9 @@ import Product from './components/Product';
 import DistributorBanner from './components/distributorsProgram/DistributorBanner';
 import Login from './components/Login';
 import { useState } from 'react';
-import TermsAndConditions from './components/TermsAndConditions';
+import TermsAndConditions from './components/policys/TermsAndConditions';
+import RefunAndRecanselation from './components/policys/RefunAndRecanselation';
+import PrivacyPolicy from './components/policys/PrivacyPolicy';
 
 function App(props) {
 
@@ -51,6 +53,8 @@ function App(props) {
               <Route path="/aboutus" element={<AboutUs />} />
               {/* <Route path="/knowmore" element={< />} /> */}
               <Route path="/contactus" element={< ContactUs />} />
+              <Route path="/privacypolicy" element={< PrivacyPolicy />} />
+              <Route path="/refun&cancelationplicy" element={< RefunAndRecanselation />} />
               <Route path="/term&condition" element={< TermsAndConditions />} />
 
             </Routes>

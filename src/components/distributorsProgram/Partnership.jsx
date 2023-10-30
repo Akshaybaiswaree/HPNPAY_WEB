@@ -9,6 +9,7 @@ import multi from "../../images/aboutUs_img/multi.png"
 import payment from "../../images/aboutUs_img/payment.png"
 import onboard from "../../images/aboutUs_img/onboarding.png"
 import income from "../../images/aboutUs_img/income.png"
+import partnerbenifit from "../../images/product_img/distributor_partner.png"
 
 const Partnership = () => {
     return (
@@ -31,7 +32,7 @@ const Partnership = () => {
                         </Stack>
                     </Box>
                     <Box>
-                        <Image src="https://paynearby.in/wp-content/uploads/2020/11/partnership-benefits.png" />
+                        <Image src={partnerbenifit} />
                         <Stack marginTop={"20px"}>
                             <Image src={payment} width={"100px"} />
                             <Text fontSize={"20px"} fontWeight={"700"}>Earn ₹40,000 to ₹60,000 per month</Text>

@@ -19,15 +19,15 @@ import {
     Tbody,
     Tfoot,
 } from "@chakra-ui/react";
-import Product1 from "../images/product_img/Currency-amico.png";
-import Product2 from "../images/product_img/Online transactions-amico.png";
-import Product3 from "../images/product_img/Online transactions-bro.png";
-import Product4 from "../images/product_img/Revenue-amico (1).png";
-import Product5 from "../images/product_img/Car finance-rafiki.png";
-import Product6 from "../images/product_img/Plain credit card-pana.png";
-import Product7 from "../images/product_img/Bitcoin P2P-pana.png";
-import Product8 from "../images/product_img/Wallet-rafiki.png";
-import Product9 from "../images/product_img/Wallet-pana.png";
+import Product1 from "../images/product_img/product _img1.png";
+import Product2 from "../images/product_img/product_img2.png";
+import Product3 from "../images/product_img/product_img3.png";
+import Product4 from "../images/product_img/product_img4.png";
+import Product5 from "../images/product_img/product_img6.png";
+import Product6 from "../images/product_img/product_img7.png";
+import Product7 from "../images/product_img/product_img8.png";
+import Product8 from "../images/product_img/product_img9.jpg";
+import Product9 from "../images/product_img/product_img10.png";
 import loanImage from "../images/product_img/loanImage.png";
 import kreditImage from "../images/product_img/kreditImage.png";
 import moneyWideImage from "../images/product_img/moneyWideImage.png";
@@ -35,6 +35,11 @@ import axisImage from "../images/product_img/axisImage.png";
 import homeFirstImage from "../images/product_img/homeFirstImage.png";
 import arthmateImage from "../images/product_img/arthmateImage.png";
 import unityImage from "../images/product_img/unityImage.png";
+
+import yesbank from '../../src/images/ourPartner_img/yesbank.png';
+import axisbank from '../../src/images/ourPartner_img/axisbank.png';
+import sbi_bank from '../../src/images/ourPartner_img/sbi_bank.png';
+import panjabbank from '../../src/images/ourPartner_img/panjabbank.png';
 
 export default function Product() {
     return (
@@ -53,8 +58,8 @@ export default function Product() {
                             </Text>{" "}
                         </Heading>
                         <Text fontSize={{ base: "md", lg: "2xl" }} color={"gray.500"}>
-                            Offer 25+ products and services from your shop and earn an
-                            additional Rs. 25,000+ per month. No working capital required.
+                            Offer products and services from your shop and earn an
+                            additional Rs. per month. No working capital required.
                             <br />
                             <Text fontWeight={"bold"} color={"#052B60"}>
                                 Upgrade your shop. Be the one stop banking and digital service
@@ -83,7 +88,7 @@ export default function Product() {
                     </Stack>
                 </Flex>
                 <Flex flex={1}>
-                    <Image ml={"20px"} src={Product1} width={"600"} height={'500px'} />
+                    <Image ml={"20px"} src={Product1} marginTop={'70px'} width={"400"} height={'400px'} />
                 </Flex>
             </Stack>
 
@@ -94,7 +99,11 @@ export default function Product() {
                 </Text>
                 <Text fontSize={"2rem"}>
                     <Text fontWeight={"bold"} color={"black"}>
-                        Leading in the Digital Dimensions - HPNPay, Your Store's Digital Leader{''}                    </Text>
+                        Your Trust, Our Commitment - HPNPay, Secure and Reliable Digital Services{''}
+                    </Text>
+                    <Text fontWeight={"bold"} color={"black"}>
+                        आपका विश्वास, हमारा संवाद - HPNPay, सुरक्षित और विश्वसनीय डिजिटल सेवाएं{''}
+                    </Text>
                     <br />
                     No working capital required. Offer uninterrupted banking services like
                     cash withdrawal, money transfer, cash deposits, savings, insurance and
@@ -105,7 +114,7 @@ export default function Product() {
             </Box>
             <Flex marginTop={"80px"}>
                 <Box>
-                    <Image ml={"95px"} src={Product2} width={"600"} height={'500'} />
+                    <Image ml={"95px"} src={Product2} width={"200"} height={'350'} marginTop={'90px'}/>
                 </Box>
                 <Flex
                     flexDirection={"column"}
@@ -149,7 +158,7 @@ export default function Product() {
                     </Box>
 
                     <Box>
-                        <Text color={"#052B60"} fontSize={"34px"} fontWeight={"700"}>
+                        {/* <Text color={"#052B60"} fontSize={"34px"} fontWeight={"700"}>
                             HPNPAY - Savings & Current Account opening
                         </Text>
                         <Text fontSize={"24px"}>
@@ -164,7 +173,7 @@ export default function Product() {
                             zero balance account that can be opened instantly with just Aadhaar
                             eKYC  2. TDS Free Current Account: Open Current Account from your
                             shop & grow your business
-                        </Text>
+                        </Text> */}
                         <Stack marginTop={'1rem'} spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', sm: 'row' }}>
                             <Input type='email' placeholder='Enter Your Email' width='500px' height='75px' />
                             <Button width='150px' height='75px'
@@ -253,7 +262,7 @@ export default function Product() {
 
                 </Flex>
                 <Box>
-                    <Image ml={"95px"} src={Product3} width={"1000"} height={'500'} />
+                    <Image ml={"50px"} src={Product3} width={"400"} height={'350'} />
                 </Box>
             </Flex>
 
@@ -265,14 +274,20 @@ export default function Product() {
                 </Text>
                 <Text fontSize={"2rem"}>
                     <Text fontWeight={"bold"} color={"black"}>
-                        Journey to Digital Freedom - HPNPay, Your Store's Digital Companion{''}                    </Text>
+                        Journey to Digital Freedom - HPNPay, Your Store's Digital Companion{''}
+                    </Text>
+                    <Text fontWeight={"bold"} color={"black"}>
+
+                        डिजिटल स्वतंत्रता का सफर - HPNPay, आपकी दुकान का डिजिटल साथी
+                    </Text>
+
                     <br />
                     We offer a range of affordable general insurance plans, including bike insurance and mobile device protection plans
                 </Text>
             </Box>
             <Flex marginTop={"80px"}>
                 <Box>
-                    <Image ml={"95px"} src={Product4} width={"1000"} height={'500'} paddingLeft={'3rem'} />
+                    <Image ml={"95px"} src={Product4} width={"1000"} height={'400'} paddingLeft={'3rem'} />
                 </Box>
                 <Flex
                     flexDirection={"column"}
@@ -362,7 +377,7 @@ export default function Product() {
                     </Box>
                 </Flex>
                 <Box>
-                    <Image ml={"95px"} src={Product5} width={"1000"} height={'500'} />
+                    <Image ml={"40px"} src={Product5} width={"400"} height={'370'} />
                 </Box>
             </Flex>
 
@@ -375,21 +390,26 @@ export default function Product() {
                 </Text>
                 <Text fontSize={"2rem"}>
                     <Text fontWeight={"bold"} color={"black"}>
-                        Go All Digital - HPNPay, Redefining Payments{''}                    </Text>
+                        Go All Digital - HPNPay, Redefining Payments{''}
+                    </Text>
+                    <Text fontWeight={"bold"} color={"black"}>
+
+                        "सब कुछ डिजिटल हो जाए - HPNPay, भुगतानों का नया
+                    </Text>
                     <br />
                     Households need to pay their EMIs, subscriptions fees and utility bills every month. Solve customer pain point of standing in long queues. From water bills to electricity bills, from phone/DTH recharges to monthly EMIs, provide easy cash collection, bill payment and recharge solutions from your shop.
                 </Text>
             </Box>
             <Flex marginTop={"80px"}>
                 <Box>
-                    <Image ml={"95px"} src={Product6} width={"1000"} height={'500'} />
+                    <Image ml={"95px"} src={Product6} width={"1000"} height={'400'} />
                 </Box>
                 <Flex
                     flexDirection={"column"}
                     gap={"30px"}
                     width={"50%"}
-                    marginTop={"40px"}
-                    marginLeft={"9rem"}
+                    // marginTop={"10px"}
+                    marginLeft={"5rem"}
                 >
                     <Box>
                         <Text color={"#052B60"} fontSize={"34px"} fontWeight={"700"}>
@@ -415,7 +435,7 @@ export default function Product() {
                             Cash Collection{" "}
                         </Text>
                         <Text fontSize={"24px"}>
-                            Offer cash collection services for more than 40+ partners. Customers and collection agents can deposit EMIs at your store, and you earn on every cash deposit.
+                            Offer cash collection services. Customers and collection agents can deposit EMIs at your store, and you earn on every cash deposit.
                         </Text></Box>
 
                     <Box>
@@ -462,15 +482,19 @@ export default function Product() {
                 >
                     <Box>
                         <Text color={"#052B60"} fontSize={"34px"} fontWeight={"700"}>
-                            Towards the Next Step in Payments - HPNPay, Your Store's Next Digital Leap                        </Text>
+                            Towards the Next Step in Payments - HPNPay, Your Store's Next Digital Leap
+                        </Text>
+
+                        <Text color={"#052B60"} fontSize={"34px"} fontWeight={"700"}>
+                            भुगतानों के साथ अगले कदम की ओर - HPNPay, आपकी दुकान का अगला डिजिटल कदम
+
+
+                        </Text>
 
                         <Text fontSize={"24px"}>
                             Digital services shouldn't be limited to only those who have digital money. Offer customers in your area access to digital products from our partner brands. Use the HPNPAY platform to offer micro content and satchetized services, help customers digitize cash at your store and enable easy access to these services
                         </Text>
                     </Box>
-
-
-
 
 
                     <Box>
@@ -491,7 +515,7 @@ export default function Product() {
                     </Box>
                 </Flex>
                 <Box>
-                    <Image ml={"95px"} src={Product7} width={"1000"} height={'500'} />
+                    <Image ml={"30px"} src={Product7} width={"400"} height={'380'} />
                 </Box>
             </Flex>
 
@@ -514,14 +538,14 @@ export default function Product() {
             </Box>
             <Flex marginTop={"80px"}>
                 <Box>
-                    <Image ml={"95px"} src={Product8} width={"1000"} height={'500'} />
+                    <Image ml={"100px"} src={Product8} width={"1000"} height={'400'} />
                 </Box>
                 <Flex
                     flexDirection={"column"}
                     gap={"30px"}
                     width={"50%"}
                     marginTop={"40px"}
-                    marginLeft={"9rem"}
+                    marginLeft={"5rem"}
                 >
 
                     {/* </Box> */}
@@ -629,7 +653,7 @@ export default function Product() {
 
                 </Flex>
                 <Box>
-                    <Image ml={"95px"} src={Product9} width={"1000"} height={'500'} />
+                    <Image ml={"10px"} src={Product9} width={"1000"} height={'380'} />
                 </Box>
             </Flex>
 
@@ -645,21 +669,21 @@ export default function Product() {
                         <Tr>
                             <Th>Partners</Th>
                             <Th>Loan Products</Th>
-                            <Th>Website Link</Th>
+                            {/* <Th>Website Link</Th> */}
                             <Th>Nodal Officer</Th>
                         </Tr>
                     </Thead>
                     <Tbody>
                         <Tr>
                             <Td>
-                                <Image src={unityImage} />
+                                <Image src={yesbank} />
                             </Td>
                             <Td>Business Loans</Td>
-                            <Td>
+                            {/* <Td>
                                 <a href="https://theunitybank.com/msme-loans.html">
                                     View Website
                                 </a>
-                            </Td>
+                            </Td> */}
                             <Td>
                                 Ms. Rashmi Pandit
                                 <br />
@@ -668,14 +692,12 @@ export default function Product() {
                                 Phone: 022 42159000
                             </Td>
                         </Tr>
-                        <Tr>
+                        {/* <Tr>
                             <Td>
                                 <Image src={arthmateImage} />
                             </Td>
                             <Td>Business Loans</Td>
-                            <Td>
-                                <a href="https://www.arthmate.com/">View Website</a>
-                            </Td>
+                           
                             <Td>
                                 Mr. Yogesh Rohilla
                                 <br />
@@ -683,15 +705,15 @@ export default function Product() {
                                 <br />
                                 Phone: +91 – 7835009643
                             </Td>
-                        </Tr>
+                        </Tr> */}
                         <Tr>
                             <Td>
-                                <Image src={homeFirstImage} />
+                                <Image src={axisbank} />
                             </Td>
                             <Td>Secured Loans</Td>
-                            <Td>
+                            {/* <Td>
                                 <a href="https://homefirstindia.com/features/">View Website</a>
-                            </Td>
+                            </Td> */}
                             <Td>
                                 Mr. Gaurav Mohta (Grievance Redressal Officer)
                                 <br />
@@ -708,11 +730,11 @@ export default function Product() {
                                 Personal Loans, Two-Wheeler Loans, Rolling Short Term Business
                                 Loans
                             </Td>
-                            <Td>
+                            {/* <Td>
                                 <a href="https://www.axisbank.com/business-banking/supply-chain-finance">
                                     View Website
                                 </a>
-                            </Td>
+                            </Td> */}
                             <Td>
                                 Mr. Parag Deshpande
                                 <br />
@@ -721,14 +743,14 @@ export default function Product() {
                         </Tr>
                         <Tr>
                             <Td>
-                                <Image src={moneyWideImage} />
+                                <Image src={sbi_bank} />
                             </Td>
                             <Td>Personal Loans</Td>
-                            <Td>
+                            {/* <Td>
                                 <a href="https://www.moneywide.com/personal-loan">
                                     View Website
                                 </a>
-                            </Td>
+                            </Td> */}
                             <Td>
                                 Mr. Mohit Gulati
                                 <br />
@@ -737,14 +759,14 @@ export default function Product() {
                         </Tr>
                         <Tr>
                             <Td>
-                                <Image src={kreditImage} />
+                                <Image src={panjabbank} />
                             </Td>
                             <Td>Personal Loans</Td>
-                            <Td>
+                            {/* <Td>
                                 <a href="https://www.kreditbee.in/personal-loan-for-self-employed">
                                     View Website
                                 </a>
-                            </Td>
+                            </Td> */}
                             <Td>
                                 Ms. Meghana Shah
                                 <br />
@@ -760,11 +782,11 @@ export default function Product() {
                                 <Image src={loanImage} />
                             </Td>
                             <Th>Business Loans</Th>
-                            <Td>
+                            {/* <Td>
                                 <a href="https://loantap.in/msme-business-loan/">
                                     View Website
                                 </a>
-                            </Td>
+                            </Td> */}
                             <Td>
                                 Asifa Hussain
                                 <br />

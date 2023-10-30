@@ -15,7 +15,7 @@ import {
     Text,
     useBreakpointValue,
 } from '@chakra-ui/react'
-import contactUsImage from "../images/contactus/Online tech talks-amico.png"
+import contactUsImage from "../images/contactus/connect_img1.png"
 import facebookIcon from "../images/contactus/facebook_4494475.png"
 import linkdienIcon from "../images/contactus/linkedin_3536505.png"
 import twitterIcon from "../images/contactus/twitter_4494477.png"
@@ -54,10 +54,9 @@ export default function ContactUs() {
                         </Heading>
                         <Text fontSize={'lg'} >Regd. Office</Text>
                         <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>
-                            1AB, Arena House,<br />
-                            Road No. 12, MIDC,<br />
-                            Andheri (East),<br />
-                            Mumbai - 400 093
+                            103 A , RANI BAZAR<br />
+                            Bikaner, Rajasthan 334001, IN,<br />
+
                         </Text>
                         <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
                             <Button
@@ -88,6 +87,7 @@ export default function ContactUs() {
                         src={
                             contactUsImage
                         }
+                        marginTop={'50px'}
                     />
                 </Flex>
             </Stack>
@@ -229,7 +229,12 @@ export default function ContactUs() {
                             <Stack border={'1px solid #d3d3d3'} width={'400px'} direction={'row'} height={'66px'} display={'flex'} justifyContent={'space-between'} spacing={13} alignItems={'center'}>
                                 <Checkbox colorScheme='green' margin={'10px'} size='lg'>I'm not robot</Checkbox>
                                 <Image src={reCaptchaImage} width={'50px'} height='50px' />
-                                <Button width='150px' height='70px' background='#82e368' color='white' position={'absoulte'} left={"200px"}>Get App Link</Button>
+                                <Button width='150px' height='70px'
+                                    _hover={{ bg: 'blue.600' }}
+                                    background={'#156DB1'}
+                                    color={'white'}
+                                    position={'absoulte'}
+                                    left={"200px"}>Get App Link</Button>
 
                             </Stack>
                         </Stack>

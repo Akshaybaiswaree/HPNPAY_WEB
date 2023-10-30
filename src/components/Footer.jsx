@@ -12,19 +12,11 @@ import {
 } from '@chakra-ui/react';
 import OurPartners from './OurPartners';
 import { FaTwitter, FaFacebook, FaYoutube, FaLinkedin, } from 'react-icons/fa';
-import payNearBy from "../images/footer/paynearby.png"
-import insureNearBy from "../images/footer/insurenearby.png"
-import travelNearBy from "../images/footer/travelnearby.png"
-import buyNearNy from "../images/footer/buynearby.png"
-import logoSathi from "../images/footer/Logo-sathi.png"
-import neoDukaan from "../images/footer/neoindia-new.png"
 import bcfiImage from "../images/footer/bcfi-logo.png"
 import playStoredBaged from "../images/footer/google-play.png"
 import { Link } from 'react-router-dom';
-
-
-// import { AppStoreBadge } from '#/components/AppStoreBadge';
-// import { PlayStoreBadge } from '#/components/PlayStoreBadge';
+import appstore from '../../src/images/footer/appstore.png';
+import LOGO from '../../src/images/footer/LOGO.svg';
 
 const ListHeader = ({ children }) => {
   return (
@@ -72,7 +64,8 @@ export default function Footer() {
             <Stack>
               <Text fontSize={"sm"} color={"white"} as={'b'}>Our Brands</Text>
               <Box width={"400px"} display={"flex"} flexDirection={"row"} flexWrap={"wrap"} gap={"5px"}>
-                <Box backgroundColor={"#ffffff"} padding={"5px"} width={"100px"} border={"1 px solid #ffffff"} borderRadius={"5px"}>
+                <Image src={LOGO} height='200px' width='300px' />
+                {/* <Box backgroundColor={"#ffffff"} padding={"5px"} width={"100px"} border={"1 px solid #ffffff"} borderRadius={"5px"}>
                   <Image src={payNearBy} />
                 </Box>
                 <Box backgroundColor={"#ffffff"} padding={"5px"} width={"100px"} border={"1 px solid #ffffff"} borderRadius={"5px"}>
@@ -89,7 +82,7 @@ export default function Footer() {
                 </Box>
                 <Box backgroundColor={"#ffffff"} padding={"5px"} width={"100px"} border={"1 px solid #ffffff"} borderRadius={"5px"}>
                   <Image src={neoDukaan} />
-                </Box>
+                </Box> */}
               </Box>
               <Stack direction={"row"}>
                 <Image src={bcfiImage} width={"40px"} height={"25px"} />
@@ -99,12 +92,17 @@ export default function Footer() {
 
             <Stack marginLeft={"50px"}>
               <ListHeader>Legal</ListHeader>
-              <Box as="a" href={'#'}>
-                Public Disclosures
-              </Box>
-              <Box as="a" href={'#'}>
-                Grievance Redressal Policy
-              </Box>
+              <Link to="/privacypolicy">
+                <Box as="a" href={''}>
+                  Privacy Policy
+                </Box>
+              </Link>
+              <Link to="/refun&cancelationplicy">
+                <Box as="a" href={''}>
+                  Refund And Cancelation Policy
+                </Box>
+              </Link>
+
               <Link to='/term&condition'>
                 <Box as="a" >
                   Terms & Conditions
@@ -135,6 +133,7 @@ export default function Footer() {
             <Stack align={'flex-start'}>
               <ListHeader>Download our App</ListHeader>
               <Image src={playStoredBaged} width={"200px"} height={"60px"} /><br />
+              <Image src={appstore} width={"200px"} height={"60px"} /><br />
               <Text>All rights are reserved to HPNPAY</Text>
             </Stack>
           </SimpleGrid>
