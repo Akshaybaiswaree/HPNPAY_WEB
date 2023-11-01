@@ -29,7 +29,7 @@ import { BiLeftArrowAlt, BiRightArrowAlt } from 'react-icons/bi'
 // And react-slick as our Carousel Lib
 import Slider from 'react-slick'
 import { IoAnalyticsSharp, IoLogoBitcoin, IoSearchSharp } from 'react-icons/io5';
-import mobileImage from '../images/retailer_img/banner_mobileaapp2.png';
+import mobileImage from '../images/retailer_img/retailermobileservices.png';
 import dass1 from '../images/retailer_img/banner_img7.jpeg';
 import dass2 from '../images/retailer_img/banner_img8.png';
 import dass3 from '../images/retailer_img/banner_img9.png';
@@ -37,6 +37,8 @@ import box4 from '../images/retailer_img/box4.jpeg';
 import box2 from '../images/retailer_img/box2.jpeg';
 import box3 from '../images/retailer_img/box3.jpeg';
 import worldImage from '../images/retailer_img/worldmap.jpg';
+import { Link } from 'react-router-dom';
+import goldLoan from '../images/footer/goldLoan.png';
 
 // Settings for the slider
 const settings = {
@@ -81,8 +83,8 @@ export default function Banner() {
   const cards = [
     {
       title: 'Retailer',
-      heading: 'Self-reliant India, Now Every Store Goes Digital with HPNPay',
-      heading2: "आत्मनिर्भर भारत, अब सभी दुकानें होंगी डिजिटल - HPNPay के साथ",
+      heading: 'One step towards success, move towards victory with HPNPAY.',
+      heading2: "सफलता की ओर एक कदम, HPNPAY के साथ जीत की ओर बढ़ें|",
       text: "A national movement to uplift Bharat by giving every household easy access to DBT funds, digital payments and essential banking services at a store nearby.",
       text2: "Upgrade your shop. Be the one stop banking service provider.",
       text3: " No working capital required. Earn ₹2,00,000+ per year.",
@@ -90,8 +92,8 @@ export default function Banner() {
     },
     {
       title: 'Distributor',
-      heading: "Leading in the Digital Dimensions - HPNPay, Your Store's Digital Leader",
-      heading2: "डिजिटल आयामों में सबसे आगे - HPNPay, आपकी दुकान का डिजिटल प्रधान",
+      heading: 'One step towards success, move towards victory with HPNPAY.',
+      heading2: "सफलता की ओर एक कदम, HPNPAY के साथ जीत की ओर बढ़ें|",
       text: "A national movement to uplift Bharat by giving every household easy access to DBT funds, digital payments and essential banking services at a store nearby.",
       text2: "Upgrade your shop. Be the one stop banking service provider.",
       text3: " No working capital required. Earn ₹2,00,000+ per year.",
@@ -100,8 +102,8 @@ export default function Banner() {
     },
     {
       title: 'Individual/Self Help Groups',
-      heading: "Every Step a Digital Step - HPNPay, Your Store's Digital Friend",
-      heading2: "हर कदम एक डिजिटल कदम - HPNPay, आपकी दुकान का डिजिटल दोस्त",
+      heading: 'One step towards success, move towards victory with HPNPAY.',
+      heading2: "सफलता की ओर एक कदम, HPNPAY के साथ जीत की ओर बढ़ें|",
       text: "A national movement to uplift Bharat by giving every household easy access to DBT funds, digital payments and essential banking services at a store nearby.",
       text2: "Upgrade your shop. Be the one stop banking service provider.",
       text3: " No working capital required. Earn ₹2,00,000+ per year.",
@@ -116,14 +118,14 @@ export default function Banner() {
       text: "Make more out of your distribution business. Onboard your network to offer HPNPAY services and earn more than 18% per month on the money invested. No physical stock. No expenditure in store space, staff or physical transfer of goods. Every time a retailer in your network services a financial transaction, both of you make money. It is as simple as that.",
       text2: " Join over distributors. Earn more than you expect per month.",
       title2: 'Retail Categories',
-      image: require('../images/retailer_img/banner_img4.jpg')
+      image: require('../images/aboutUs_img/aboutus_img2.png')
     },
     {
       title: 'Distributor',
       text: "Make more out of your distribution business. Onboard your network to offer HPNPAY services and earn more than 18% per month on the money invested. No physical stock. No expenditure in store space, staff or physical transfer of goods. Every time a retailer in your network services a financial transaction, both of you make money. It is as simple as that.",
       text2: " Join over distributors. Earn more than you expect per month.",
       title2: 'Distributor Categories',
-      image: require('../images/retailer_img/banner_img5.jpg')
+      image: require('../images/retailer_img/distributer.png')
     },
     {
       title: 'Individual/Self Help Groups',
@@ -187,28 +189,30 @@ export default function Banner() {
                 </Stack>
 
                 <Stack direction='row' spacing={4} align='center'>
-
-                  <Button
-                    size='md'
-                    height='60px'
-                    width='300px'
-                    border='2px'
-                    borderColor='blue.500'
-                  >
-                    Income Calculator
-                  </Button>
-
-                  <Button
-                    size='md'
-                    height='60px'
-                    width='300px'
-                    // border='2px'
-                    _hover={{ bg: 'blue.600' }}
-                    background={'#156DB1'}
-                    color={'white'}
-                  >
-                    Join HPNPAY
-                  </Button>
+                  <Link to='/income-calculator'>
+                    <Button
+                      size='md'
+                      height='60px'
+                      width='300px'
+                      border='2px'
+                      borderColor='blue.500'
+                    >
+                      Income Calculator
+                    </Button>
+                  </Link>
+                  <Link to='/login'>
+                    <Button
+                      size='md'
+                      height='60px'
+                      width='300px'
+                      // border='2px'
+                      _hover={{ bg: 'blue.600' }}
+                      background={'#156DB1'}
+                      color={'white'}
+                    >
+                      Join HPNPAY
+                    </Button>
+                  </Link>
                 </Stack>
               </Stack>
               <Flex>
@@ -227,10 +231,10 @@ export default function Banner() {
 
       {/* Part 2- mobile dashboard and side bar */}
 
-      <Box style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop:'100px' }}>
+      <Box style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '100px' }}>
         <div style={{ display: "flex", alignItems: "flex-end" }}>
           <Image src={mobileImage} position='relative' left='-200px' height={'600px'} />
-          <Text fontSize='6xl' color='#1c539e' position='absolute' left='750px' top='1000px' zIndex='10' as='b'>One App<br></br>multiple services</Text>
+          <Text fontSize='6xl' color='#1c539e' position='absolute' left='750px' top='1000px' zIndex='10' as='b'>One App<br></br>Many Possibilities</Text>
         </div>
         <Text fontSize='xl' color='#5e646a'>A great earning potential with the opportunity to grow your<br></br> business with minimal one time investment and zero working<br></br> capital</Text>
       </Box>
@@ -252,15 +256,15 @@ export default function Banner() {
           </Box>
           <Box style={{ marginLeft: "2rem" }} className='images'>
             <Box>
-              <Image ml={'20px'} src={dass1} width={'380px'} height={'290px'}/>
-              <p style={{ marginLeft: "6rem" }}>Banking Business Publishing</p>
+              <Image ml={'20px'} src={dass1} width={'380px'} height={'290px'} />
+              <p style={{ marginLeft: "5rem" }}>Banking Business Publishing</p>
             </Box>
             <Box>
               <Image ml={'20px'} src={dass2} width={'380px'} height={'290px'} />
               <p style={{ marginLeft: "4rem" }}>India's Best Banking syetem in Bharat</p>
             </Box>
             <Box>
-              <Image ml={'20px'} src={dass3} width={'380px'} height={'290px'}  />
+              <Image ml={'20px'} src={dass3} width={'380px'} height={'290px'} />
               <p style={{ marginLeft: "5rem" }}>Banking Technology review </p>
             </Box>
 
@@ -268,7 +272,9 @@ export default function Banner() {
 
         </Box>
       </Card>
-
+      <Box position={'relative'} height={'600px'} width={'100%'} margin='auto' h={'full'} overflow={'hidden'} paddingTop={'20px'}>
+        <Image src={goldLoan} />
+      </Box>
       {/* part -4 smart solution for everyone */}
       <Box marginTop="50px">
         <Stack spacing={4}>
@@ -311,29 +317,31 @@ export default function Banner() {
                 </Stack>
 
                 <Stack direction='row' spacing={4} align='center'>
-
-                  <Button
-                    size='md'
-                    height='60px'
-                    width='300px'
-                    border='2px'
-                    borderColor='blue.500'
-                  >
-                    Income Calculator
-                  </Button>
-
-                  <Button
-                    size='md'
-                    height='60px'
-                    width='300px'
-                    // border='2px'
-                    // background={'#82e368'}
-                    _hover={{ bg: 'blue.600' }}
-                    background={'#156DB1'}
-                    color={'white'}
-                  >
-                    Join HPNPAY
-                  </Button>
+                  <Link to='/income-calculator'>
+                    <Button
+                      size='md'
+                      height='60px'
+                      width='300px'
+                      border='2px'
+                      borderColor='blue.500'
+                    >
+                      Income Calculator
+                    </Button>
+                  </Link>
+                  <Link to='/login'>
+                    <Button
+                      size='md'
+                      height='60px'
+                      width='300px'
+                      // border='2px'
+                      // background={'#82e368'}
+                      _hover={{ bg: 'blue.600' }}
+                      background={'#156DB1'}
+                      color={'white'}
+                    >
+                      Join HPNPAY
+                    </Button>
+                  </Link>
                 </Stack>
                 <Heading color={'blue.700'} fontSize='2xl' font-weight="bold">{element.title2}</Heading>
                 <Table variant="simple">
@@ -418,28 +426,29 @@ export default function Banner() {
               marginLeft={"100px"}
             >
               <Box borderLeft={"2px solid black"} paddingLeft='0.5rem'>
+                <Text fontSize="lg">We Are Planning To Target </Text>
                 <Text fontSize="4xl" as="b" >
-                  50 Lakh
+                  50 Lakh Retailers
                 </Text>
-                <Text fontSize="lg">No of retailers our target</Text>
               </Box>
               <Box borderLeft={"2px solid black"} paddingLeft='0.5rem'>
+
+                <Text fontSize="lg">Our future target to achive  </Text>
                 <Text fontSize="4xl" as="b">
-                  20cr
+                  20cr customers
                 </Text>
-                <Text fontSize="lg">No of customers our target</Text>
               </Box>
               <Box borderLeft={"2px solid black"} paddingLeft='0.5rem'>
+                <Text fontSize="lg">We target to serve </Text>
                 <Text fontSize="4xl" as="b">
-                  20,000
+                  20,000 PIN codes
                 </Text>
-                <Text fontSize="lg">No of PIN codes can be serve</Text>
               </Box>
               <Box borderLeft={"2px solid black"} paddingLeft='0.5rem'>
+                <Text fontSize="lg">We plan to target Avg. financial transactions </Text>
                 <Text fontSize="4xl" as="b">
-                  20 Lakh
+                  20 Lakh per day
                 </Text>
-                <Text fontSize="lg">Avg. financial transactions per day</Text>
               </Box>
             </Stack>
           </CardFooter>

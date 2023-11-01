@@ -19,6 +19,7 @@ import {
     FormLabel,
     SimpleGrid,
     useBreakpointValue,
+    Center,
 } from '@chakra-ui/react'
 
 import reCaptchaImage from "../images/corporate_img/RecaptchaLogo.svg.png"
@@ -28,7 +29,7 @@ import digitalOrder from "../images/corporate_img/corporate_digital_img.jpg"
 import manNetwork from "../images/corporate_img/manNetwok.png"
 import bajajImage from "../images/corporate_img/corporate_img1.jpg"
 import { Card, CardHeader, CardBody, CardFooter } from '@chakra-ui/react'
-
+import goldLoan from '../images/footer/goldLoan.png'
 
 const Corporate = () => {
     return (
@@ -87,7 +88,7 @@ const Corporate = () => {
                         align={'center'}
                         position={'relative'}
                         w={'full'}>
-                        
+
                         <Box
                             position={'relative'}
                             height={'410px'}
@@ -169,45 +170,50 @@ const Corporate = () => {
                 <Box margin={"50px"} display={"flex"} justifyContent={"center"}>
                     <Button size='md' height='48px' width='200px' border='2px' borderColor='green.500'>Veiw all Solutions</Button>
                 </Box>
-                <Box width={"1100px"} marginTop={"200px"} height={"600px"} display={"flex"} flexDirection={"column"} justifyContent={"center"}>
-                    <Text fontSize='lg' as='b'>Why HPNPAY</Text><br />
-                    <Text fontSize='4xl' as='b' color={'#1c539e'}>Technology driven, customer first approach to last mile connectivity and solution</Text>
-                    <Box display={"flex"} flexWrap={"wrap"} justifyContent={"space-between"}>
-                        <Box width={"350px"} height={"300px"} >
-                            <Image src={manNetwork} width={"50px"} height={"50px"} />
-                            <Text fontSize='2xl' as='b'>Largest Agent Network:</Text>
-                            <Text fontSize='xl'>With over 50,00,000 retailers We expecting,want to spread across 20,000+ PIN codes, harness the power of the largest agent network in the country</Text>
-                        </Box>
-                        <Box width={"350px"} height={"300px"} >
-                            <Image src={manNetwork} width={"50px"} height={"50px"} />
-                            <Text fontSize='2xl' as='b'>Largest Agent Network:</Text>
-                            <Text fontSize='xl'>With over 50,00,000 retailers We expecting,want to spread across 20,000+ PIN codes, harness the power of the largest agent network in the country</Text>
-                        </Box>
-                        <Box width={"350px"} height={"300px"} >
-                            <Image src={manNetwork} width={"50px"} height={"50px"} />
-                            <Text fontSize='2xl' as='b'>Largest Agent Network:</Text>
-                            <Text fontSize='xl'>With over 50,00,000 retailers We expecting,want to spread across 20,000+ PIN codes, harness the power of the largest agent network in the country</Text>
-                        </Box>
-                        <Box width={"350px"} height={"300px"} >
-                            <Image src={manNetwork} width={"50px"} height={"50px"} />
-                            <Text fontSize='2xl' as='b'>Largest Agent Network:</Text>
-                            <Text fontSize='xl'>With over 50,00,000 retailers We expecting,want to spread across 20,000+ PIN codes, harness the power of the largest agent network in the country</Text>
-                        </Box>
-                        <Box width={"350px"} height={"300px"} >
-                            <Image src={manNetwork} width={"50px"} height={"50px"} />
-                            <Text fontSize='2xl' as='b'>Largest Agent Network:</Text>
-                            <Text fontSize='xl'>With over 50,00,000 retailers We expecting,want to spread across 20,000+ PIN codes, harness the power of the largest agent network in the country</Text>
-                        </Box>
-                        <Box width={"350px"} height={"300px"} >
-                            <Image src={manNetwork} width={"50px"} height={"50px"} />
-                            <Text fontSize='2xl' as='b'>Largest Agent Network:</Text>
-                            <Text fontSize='xl'>With over 50,00,000 retailers We expecting,want to spread across 20,000+ PIN codes, harness the power of the largest agent network in the country</Text>
-                        </Box>
-                    </Box>
-                    <Box margin={"20px"} display={"flex"} justifyContent={"center"}>
-                        <Button size='md' height='48px' width='200px' border='2px' borderColor='green.500'>Veiw all Features</Button>
-                    </Box>
+                <Box position={'relative'} height={'600px'} width={'100%'} margin='auto' h={'full'} overflow={'hidden'} boxShadow={'dark-lg'}>
+                    <Image src={goldLoan}  />
                 </Box>
+                <Center>
+                    <Box display={"flex"} flexDirection={"column"} justifyContent={"center"}>
+                        <Text fontSize='lg' as='b'>Why HPNPAY</Text><br />
+                        <Text fontSize='4xl' as='b' color={'#1c539e'}>Technology driven, customer first approach to last mile connectivity and solution</Text>
+                        <Box display={"flex"} flexWrap={"wrap"} justifyContent={"space-between"}>
+                            <Box width={"350px"} height={"300px"} >
+                                <Image src={manNetwork} width={"50px"} height={"50px"} />
+                                <Text fontSize='2xl' as='b'>Largest Agent Network:</Text>
+                                <Text fontSize='xl'>With our trusted retailers We expecting,want to spread across 20,000+ PIN codes, harness the power of the largest agent network in the country</Text>
+                            </Box>
+                            <Box width={"350px"} height={"300px"} >
+                                <Image src={manNetwork} width={"50px"} height={"50px"} />
+                                <Text fontSize='2xl' as='b'>Largest Agent Network:</Text>
+                                <Text fontSize='xl'>With our trusted retailers We expecting,want to spread across 20,000+ PIN codes, harness the power of the largest agent network in the country</Text>
+                            </Box>
+                            <Box width={"350px"} height={"300px"} >
+                                <Image src={manNetwork} width={"50px"} height={"50px"} />
+                                <Text fontSize='2xl' as='b'>Largest Agent Network:</Text>
+                                <Text fontSize='xl'>With our trusted retailers We expecting,want to spread across 20,000+ PIN codes, harness the power of the largest agent network in the country</Text>
+                            </Box>
+                            <Box width={"350px"} height={"300px"} >
+                                <Image src={manNetwork} width={"50px"} height={"50px"} />
+                                <Text fontSize='2xl' as='b'>Largest Agent Network:</Text>
+                                <Text fontSize='xl'>With our trusted retailers We expecting,want to spread across 20,000+ PIN codes, harness the power of the largest agent network in the country</Text>
+                            </Box>
+                            <Box width={"350px"} height={"300px"} >
+                                <Image src={manNetwork} width={"50px"} height={"50px"} />
+                                <Text fontSize='2xl' as='b'>Largest Agent Network:</Text>
+                                <Text fontSize='xl'>With our trusted retailers We expecting,want to spread across 20,000+ PIN codes, harness the power of the largest agent network in the country</Text>
+                            </Box>
+                            <Box width={"350px"} height={"300px"} >
+                                <Image src={manNetwork} width={"50px"} height={"50px"} />
+                                <Text fontSize='2xl' as='b'>Largest Agent Network:</Text>
+                                <Text fontSize='xl'>With our trusted retailers We expecting,want to spread across 20,000+ PIN codes, harness the power of the largest agent network in the country</Text>
+                            </Box>
+                        </Box>
+                        <Box margin={"20px"} display={"flex"} justifyContent={"center"}>
+                            <Button size='md' height='48px' width='200px' border='2px' borderColor='green.500'>Veiw all Features</Button>
+                        </Box>
+                    </Box>
+                </Center>
                 <Stack minH={'100vh'} direction={{ base: 'column', md: 'row' }}>
                     <Flex p={5} flex={1} align={'center'} justify={'center'}>
                         <Stack spacing={6} w={'full'} maxW={'lg'}>
@@ -226,7 +232,7 @@ const Corporate = () => {
                             <Image src={bajajImage} width={"400px"} />
                         </Stack>
                     </Flex>
-                    <Flex p={5} flex={1} align={'center'} justify={'center'}>
+                    <Flex p={5} flex={1} align={'center'} justify={'center'} >
                         <Text fontSize='lg'>The collaboration has also led to a high service deliverance rate in the cash collection vertical. HPNPAY’s client servicing team is fully equipped and resolves issues with a 95% success rate in less than 2 hours. With our partnership, we will be able to further enhance the customer experience and offer payment options both digitally and at physical outlets. Going forward we plan to add more services to digitize cash through HPNPAY retailers, I wish HPNPAY all the very best look forward to a mutually beneficial partnership.</Text>
                     </Flex>
                 </Stack>

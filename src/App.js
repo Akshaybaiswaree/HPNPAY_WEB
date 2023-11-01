@@ -15,6 +15,8 @@ import { useState } from 'react';
 import TermsAndConditions from './components/policys/TermsAndConditions';
 import RefunAndRecanselation from './components/policys/RefunAndRecanselation';
 import PrivacyPolicy from './components/policys/PrivacyPolicy';
+import IncomeCalculator from './components/IncomeCalculator';
+import DistributorIncomeCalculator from './components/DistributorIncomeCalculator';
 
 function App(props) {
 
@@ -49,13 +51,13 @@ function App(props) {
               <Route path="/products" element={<Product />} />
               <Route path="/solution" element={<Solution />} />
               <Route path="/distributors" element={<DistributorBanner />} />
-              <Route path="/media" element={<Banner />} />
               <Route path="/aboutus" element={<AboutUs />} />
-              {/* <Route path="/knowmore" element={< />} /> */}
               <Route path="/contactus" element={< ContactUs />} />
               <Route path="/privacypolicy" element={< PrivacyPolicy />} />
               <Route path="/refun&cancelationplicy" element={< RefunAndRecanselation />} />
               <Route path="/term&condition" element={< TermsAndConditions />} />
+              <Route path="/income-calculator" element={<IncomeCalculator />} />
+              <Route path="/distributor-income-calculator" element={<DistributorIncomeCalculator />} />
 
             </Routes>
             <Footer />

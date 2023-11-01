@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Button, Flex, Image, Input, Text } from "@chakra-ui/react";
-import companyLogo from "../images/login/WhatsApp Image 2023-10-25 at 11.43.23 AM.jpeg"
+import LOGO from "../images/footer/LOGO.svg";
 import googlePlayIcon from "../images/login/google-play.png"
 import youtubeImage from "../images/login/youtube_4494485.png"
 import loginPageImage from "../images/login/Secure login-bro.png"
@@ -11,7 +11,8 @@ function Login(props) {
         <>
             <Box margin={"10px"} display={"flex"} justifyContent={"space-between"}>
                 <Box>
-                    <Image src={companyLogo} width={"100px"} height={"60px"} />
+                <Image ml={'20px'} src={LOGO} width={'100px'} />
+
                 </Box>
                 <Box display={"flex"} justifyContent={"space-between"} gap={"20px"}>
                     <Text fontSize={'sm'} as={'b'}>Register your Business</Text>

@@ -13,6 +13,7 @@ import {
 import photo from "../images/aboutUs_img/photo.png"
 import banner from "../images/aboutUs_img/banner.jpg"
 import unstopable from "../images/aboutUs_img/aboutus_img2.png"
+import goldLoan from '../images/footer/goldLoan.png';
 
 export default function AboutUs() {
 
@@ -23,7 +24,7 @@ export default function AboutUs() {
                     <Stack spacing={6} w={"full"} maxW={"lg"}>
                         <Heading fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}>
                             <Text color={"#052b60"} as={"span"}>
-                            Retailer To Retailer Fund Transfer : Zidh Agge Badne Ki 
+                                Retailer To Retailer Fund Transfer : Zidh Agge Badne Ki
                             </Text>{" "}
                         </Heading>
                         <Text fontSize={{ base: "md", lg: "lg" }} color={"black"}>
@@ -55,12 +56,12 @@ export default function AboutUs() {
                         objectFit={"cover"}
                         src={unstopable}
                         height={'400px'}
-                        marginTop={'100px'}
+                        marginTop={'150px'}
                     />
                 </Flex>
             </Stack>
 
-            <Stack direction={{ base: "column", md: "row" }} width={"90%"} margin={'auto'}>
+            <Stack direction={{ base: "column", md: "row" }} width={"80%"} margin={'auto'}>
                 <Flex p={8} flex={1} align={"center"} justify={"center"}>
                     <Stack spacing={6}>
                         <Heading fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}>
@@ -93,7 +94,9 @@ export default function AboutUs() {
                     </Stack>
                 </Flex>
             </Stack>
-
+            <Box height={'600px'} width={'100%'} margin='auto' h={'full'} overflow={'hidden'} paddingTop={'20px'} >
+                <Image src={goldLoan} width={'80rem'} margin='auto' boxShadow={'dark-lg'} />
+            </Box>
             <Stack>
                 <Heading
                     fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}

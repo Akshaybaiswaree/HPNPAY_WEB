@@ -3,6 +3,7 @@ import React from 'react';
 import { Button, Flex, Heading, Image, Stack, Text } from "@chakra-ui/react";
 import Partnership from "./Partnership";
 import revenue from "../../images/product_img/distributor_revenue.png";
+import { Link } from 'react-router-dom';
 
 export default function Distributors() {
     return (
@@ -27,23 +28,31 @@ export default function Distributors() {
                             Make more money from your money
                         </Text>
                         <Stack direction={{ base: "column", md: "row" }} spacing={4}>
-                            <Button
-                                //   rounded={"full"}
-                                //   bg={"blue.400"}
-                                color={"blue.400"}
-                                //   _hover={{
-                                //     bg: "blue.500",
-                                //   }}
-                                padding={"25px"}
-                                border={"1px"}
-                            >
-                                Income Calculator
-                            </Button>
-                            <Button bg={"green.400"}
-                                _hover={{ bg: 'blue.600' }}
-                                background={'#156DB1'}
-                                color={'white'}
-                                padding={"25px"}>Join NPNPAY</Button>
+                            <Link to='/distributor-income-calculator'>
+                                <Button
+                                    size='md'
+                                    height='60px'
+                                    width='250px'
+                                    border='2px'
+                                    color={"blue.400"}
+                                    padding={"25px"}
+
+                                >
+                                    Income Calculator
+                                </Button>
+                            </Link>
+                            <Link to='/login'>
+                                <Button
+                                    size='md'
+                                    height='60px'
+                                    width='250px'
+                                    border='2px'
+                                    bg={"green.400"}
+                                    _hover={{ bg: 'blue.600' }}
+                                    background={'#156DB1'}
+                                    color={'white'}
+                                    padding={"25px"}>Join NPNPAY</Button>
+                            </Link>
                         </Stack>
                     </Stack>
                 </Flex>

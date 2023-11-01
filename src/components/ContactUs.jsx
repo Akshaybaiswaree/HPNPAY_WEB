@@ -26,6 +26,7 @@ import reCaptchaImage from "../images/contactus/RecaptchaLogo.svg.png"
 import googlePlay from "../images/contactus/google-play.png"
 import { PhoneIcon } from '@chakra-ui/icons'
 import Solution4 from "../images/contactus/360_F_584079236_dGOg5QEHUhUQb1KN642R6uCW9Fhourue.jpg"
+import goldLoan from '../images/footer/goldLoan.png';
 
 export default function ContactUs() {
     return (
@@ -138,6 +139,9 @@ export default function ContactUs() {
                     />
                 </Flex>
             </Stack>
+            <Box height={'600px'} width={'100%'} margin='auto' h={'full'} overflow={'hidden'} paddingTop={'20px'} >
+                <Image src={goldLoan} width={'80rem'} margin='auto' boxShadow={'dark-lg'} />
+            </Box>
             <Stack marginLeft={"130px"} marginTop={"80px"} marginBottom={"80px"}>
                 <Text fontSize={'3xl'} color={'#1c539e'} as='b'>Join HPNPAY</Text>
                 <Stack spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', sm: 'row' }}>

@@ -17,6 +17,7 @@ import playStoredBaged from "../images/footer/google-play.png"
 import { Link } from 'react-router-dom';
 import appstore from '../../src/images/footer/appstore.png';
 import LOGO from '../../src/images/footer/LOGO.svg';
+import silverLoan from '../images/footer/silverLoan2.png';
 
 const ListHeader = ({ children }) => {
   return (
@@ -54,6 +55,7 @@ export default function Footer() {
     <>
 
       <Box position={'relative'} height={'600px'} width={'80%'} margin='auto' h={'full'} overflow={'hidden'} padding={'20px'}>
+        <Image src={silverLoan}  boxShadow={'dark-lg'} mb={'2rem'}/>
         <OurPartners />
       </Box>
       <Box
@@ -65,24 +67,7 @@ export default function Footer() {
               <Text fontSize={"sm"} color={"white"} as={'b'}>Our Brands</Text>
               <Box width={"400px"} display={"flex"} flexDirection={"row"} flexWrap={"wrap"} gap={"5px"}>
                 <Image src={LOGO} height='200px' width='300px' />
-                {/* <Box backgroundColor={"#ffffff"} padding={"5px"} width={"100px"} border={"1 px solid #ffffff"} borderRadius={"5px"}>
-                  <Image src={payNearBy} />
-                </Box>
-                <Box backgroundColor={"#ffffff"} padding={"5px"} width={"100px"} border={"1 px solid #ffffff"} borderRadius={"5px"}>
-                  <Image src={insureNearBy} />
-                </Box>
-                <Box backgroundColor={"#ffffff"} padding={"5px"} width={"100px"} border={"1 px solid #ffffff"} borderRadius={"5px"}>
-                  <Image src={travelNearBy} />
-                </Box>
-                <Box backgroundColor={"#ffffff"} padding={"5px"} width={"100px"} border={"1 px solid #ffffff"} borderRadius={"5px"}>
-                  <Image src={buyNearNy} />
-                </Box>
-                <Box backgroundColor={"#ffffff"} padding={"5px"} width={"100px"} border={"1 px solid #ffffff"} borderRadius={"5px"}>
-                  <Image src={logoSathi} />
-                </Box>
-                <Box backgroundColor={"#ffffff"} padding={"5px"} width={"100px"} border={"1 px solid #ffffff"} borderRadius={"5px"}>
-                  <Image src={neoDukaan} />
-                </Box> */}
+               
               </Box>
               <Stack direction={"row"}>
                 <Image src={bcfiImage} width={"40px"} height={"25px"} />

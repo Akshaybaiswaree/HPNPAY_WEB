@@ -24,10 +24,10 @@ import { PhoneIcon } from '@chakra-ui/icons'
 const Solution = () => {
 
     return (
-        <Box paddingTop={"2rem"} fontSize={"1.5rem"}>
+        <Box paddingTop={"2rem"} fontSize={"1.5rem"} margin={'100px'}>
             <Box style={{ display: "flex", justifyContent: 'space-around' }} className='main=solution-component'>
                 <Box style={{ flexBasis: "50%" }}>
-                    <h1 style={{ color: "#052B60", fontWeight: "bold", fontSize: "2rem" }}>Our <br></br> Solutions</h1>
+                    <h1 style={{ color: "#052B60", fontWeight: "bold", fontSize: '3rem'}}>Our Solutions</h1>
                     <p>Think last mile. Think PayNearby. From optimizing
                         cash collection processes to enabling market
                         expansion, businesses of all sizes use PayNearby’s

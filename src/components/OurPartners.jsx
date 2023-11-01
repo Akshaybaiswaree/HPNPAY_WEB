@@ -77,7 +77,7 @@ export default function OurPartners() {
             <Box>
                 <Heading color={'blue.400'} as={'span'} textAlign="center" paddingBottom="20px" marginTop="50px">
                     <Text>
-                        Our Partners
+                        Leading and Upcoming Partners
                     </Text>
                 </Heading>
             </Box>
@@ -111,8 +111,8 @@ export default function OurPartners() {
             </Box>
             {/* dounload pay now */}
             <Box>
-                <Stack direction={{ base: 'column', md: 'row' }}>
-                    <Flex p={8} flex={1} align={'center'} justify={'center'}>
+                <Stack direction={{ base: 'column', md: 'row' }} width={'100%'}>
+                    <Flex  flex={1} align={'center'} justify={'center'}>
                         <Stack spacing={6} w={'full'} maxW={'lg'}>
                             <Heading fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}>
                                 <Text
