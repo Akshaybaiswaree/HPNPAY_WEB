@@ -15,7 +15,7 @@ import { FaTwitter, FaFacebook, FaYoutube, FaLinkedin, } from 'react-icons/fa';
 import bcfiImage from "../images/footer/bcfi-logo.png"
 import playStoredBaged from "../images/footer/google-play.png"
 import { Link } from 'react-router-dom';
-import appstore from '../../src/images/footer/appstore.png';
+import appstore from '../../src/images/footer/appstore2.png';
 import LOGO from '../../src/images/footer/LOGO.svg';
 import silverLoan from '../images/footer/silverLoan2.png';
 
