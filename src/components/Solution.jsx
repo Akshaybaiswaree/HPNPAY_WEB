@@ -34,7 +34,7 @@ const Solution = () => {
                         proprietary last mile technology and deeply entrenched retail network of 50,00,000+
                         retailers to grow their business</p>
                 </Box>
-                <Box style={{ background: "#43D5B7", borderRadius: "15px", padding: "2px" }} width={"40%"} height={"310px"} fontSize={"2rem"} >
+                <Box style={{ background: "#43D5B7", borderRadius: "15px", padding: "2px" }} width={"40%"} height={"20rem"} fontSize={"2rem"} >
                     <FormControl padding={"2rem"}>
                         <FormLabel style={{ marginTop: "4px", fontSize: "25px" }}>Choose the right solution by Industry Type</FormLabel>
                         <Select style={{ background: "white", height: "3.5rem", }} placeholder='Search by Industy'>
@@ -47,12 +47,9 @@ const Solution = () => {
                             <option>OTT</option>
                             <option>Payment and Finance</option>
                         </Select>
-                        <Select style={{ background: "white", height: "3.5rem", marginTop: "1.3rem" }} placeholder='Select Solution'>
-
-                            {/* <option>Select Solution</option>margin
-              */}
-                        </Select>
-                        <Button style={{ background: "#278DA6", marginTop: "1.5rem" }}>Submit</Button>
+                        <Select style={{ background: "white", height: "3.5rem", marginTop: "1.3rem" }} placeholder='Select Solution' />                         
+                       
+                        <Button style={{ background: "#278DA6", marginTop: "1rem" }}>Submit</Button>
                     </FormControl>
                 </Box>
             </Box>

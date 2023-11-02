@@ -193,7 +193,7 @@ export default function Banner() {
                     <Button
                       size='md'
                       height='60px'
-                      width='300px'
+                      width='16rem'
                       border='2px'
                       borderColor='blue.500'
                     >
@@ -204,7 +204,7 @@ export default function Banner() {
                     <Button
                       size='md'
                       height='60px'
-                      width='300px'
+                      width='16rem'
                       // border='2px'
                       _hover={{ bg: 'blue.600' }}
                       background={'#156DB1'}
