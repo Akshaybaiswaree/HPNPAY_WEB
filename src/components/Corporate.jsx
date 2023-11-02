@@ -170,43 +170,43 @@ const Corporate = () => {
                 <Box margin={"50px"} display={"flex"} justifyContent={"center"}>
                     <Button size='md' height='48px' width='200px' border='2px' borderColor='green.500'>Veiw all Solutions</Button>
                 </Box>
-                <Box position={'relative'} height={'600px'} width={'100%'} margin='auto' h={'full'} overflow={'hidden'} boxShadow={'dark-lg'}>
+                <Box position={'relative'} height={'600px'} width={'100%'} margin='auto' mb={'3rem'} h={'full'} overflow={'hidden'} boxShadow={'dark-lg'}>
                     <Image src={goldLoan}  />
                 </Box>
                 <Center>
                     <Box display={"flex"} flexDirection={"column"} justifyContent={"center"}>
-                        <Text fontSize='lg' as='b'>Why HPNPAY</Text><br />
+                        <Text fontSize='3xl' as='b'>Why HPNPAY</Text><br />
                         <Text fontSize='4xl' as='b' color={'#1c539e'}>Technology driven, customer first approach to last mile connectivity and solution</Text>
                         <Box display={"flex"} flexWrap={"wrap"} justifyContent={"space-between"}>
                             <Box width={"350px"} height={"300px"} >
                                 <Image src={manNetwork} width={"50px"} height={"50px"} />
-                                <Text fontSize='2xl' as='b'>Largest Agent Network:</Text>
-                                <Text fontSize='xl'>With our trusted retailers We expecting,want to spread across 20,000+ PIN codes, harness the power of the largest agent network in the country</Text>
+                                <Text fontSize='2xl' as='b'>One Trusted Network:</Text>
+                                <Text fontSize='xl'>With our trusted retailers We expecting,20000 Pin Codes Is Our Traget, harness the power of the largest agent network in the country.</Text>
+                            </Box>
+                            <Box width={"350px"} height={"300px"} >
+                                <Image src={manNetwork} width={"50px"} height={"50px"} />
+                                <Text fontSize='2xl' as='b'>Largest  Network:</Text>
+                                <Text fontSize='xl'>"20,000+ Targets, One Trusted Network, Be Part of Our Financial Revolution!"</Text>
+                            </Box>
+                            <Box width={"350px"} height={"300px"} >
+                                <Image src={manNetwork} width={"50px"} height={"50px"} />
+                                <Text fontSize='2xl' as='b'> Agent in Every Corner: </Text>
+                                <Text fontSize='xl'>Your Local Agent in Every Corner, We're on a Mission to 20,000+ PIN Codes!"</Text>
+                            </Box>
+                            <Box width={"350px"} height={"300px"} >
+                                <Image src={manNetwork} width={"50px"} height={"50px"} />
+                                <Text fontSize='2xl' as='b'>Empowering Communities: </Text>
+                                <Text fontSize='xl'>Empowering 20,000+ Communities Join Our Nationwide Network of Trust!"</Text>
                             </Box>
                             <Box width={"350px"} height={"300px"} >
                                 <Image src={manNetwork} width={"50px"} height={"50px"} />
                                 <Text fontSize='2xl' as='b'>Largest Agent Network:</Text>
-                                <Text fontSize='xl'>With our trusted retailers We expecting,want to spread across 20,000+ PIN codes, harness the power of the largest agent network in the country</Text>
+                                <Text fontSize='xl'>With our trusted retailers We expecting, 20000 Pin Codes Is Our Traget, harness the power of the largest agent network in the country.</Text>
                             </Box>
                             <Box width={"350px"} height={"300px"} >
                                 <Image src={manNetwork} width={"50px"} height={"50px"} />
-                                <Text fontSize='2xl' as='b'>Largest Agent Network:</Text>
-                                <Text fontSize='xl'>With our trusted retailers We expecting,want to spread across 20,000+ PIN codes, harness the power of the largest agent network in the country</Text>
-                            </Box>
-                            <Box width={"350px"} height={"300px"} >
-                                <Image src={manNetwork} width={"50px"} height={"50px"} />
-                                <Text fontSize='2xl' as='b'>Largest Agent Network:</Text>
-                                <Text fontSize='xl'>With our trusted retailers We expecting,want to spread across 20,000+ PIN codes, harness the power of the largest agent network in the country</Text>
-                            </Box>
-                            <Box width={"350px"} height={"300px"} >
-                                <Image src={manNetwork} width={"50px"} height={"50px"} />
-                                <Text fontSize='2xl' as='b'>Largest Agent Network:</Text>
-                                <Text fontSize='xl'>With our trusted retailers We expecting,want to spread across 20,000+ PIN codes, harness the power of the largest agent network in the country</Text>
-                            </Box>
-                            <Box width={"350px"} height={"300px"} >
-                                <Image src={manNetwork} width={"50px"} height={"50px"} />
-                                <Text fontSize='2xl' as='b'>Largest Agent Network:</Text>
-                                <Text fontSize='xl'>With our trusted retailers We expecting,want to spread across 20,000+ PIN codes, harness the power of the largest agent network in the country</Text>
+                                <Text fontSize='2xl' as='b'>Largest Retailers Network:</Text>
+                                <Text fontSize='xl'>With our trusted retailers We expecting, 20000 Pin Codes Is Our Traget, harness the power of the largest agent network in the country.</Text>
                             </Box>
                         </Box>
                         <Box margin={"20px"} display={"flex"} justifyContent={"center"}>

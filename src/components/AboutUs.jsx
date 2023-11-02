@@ -14,6 +14,9 @@ import photo from "../images/aboutUs_img/photo.png"
 import banner from "../images/aboutUs_img/banner.jpg"
 import unstopable from "../images/aboutUs_img/aboutus_img2.png"
 import goldLoan from '../images/footer/goldLoan.png';
+import anand from '../images/aboutUs_img/anand.png';
+import gaurav from '../images/aboutUs_img/gaurav.png';
+
 
 export default function AboutUs() {
 
@@ -97,7 +100,7 @@ export default function AboutUs() {
             <Box height={'600px'} width={'100%'} margin='auto' h={'full'} overflow={'hidden'} paddingTop={'20px'} >
                 <Image src={goldLoan} width={'80rem'} margin='auto' boxShadow={'dark-lg'} />
             </Box>
-            <Stack>
+            <Stack marginTop={'1rem'}>
                 <Heading
                     fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}
                     color={"#0c4696"}
@@ -117,7 +120,7 @@ export default function AboutUs() {
                         <Image
                             h={"250px"}
                             w={"full"}
-                            src={photo}
+                            src={anand}
                             objectFit="cover"
                             alt="#"
                         />
@@ -125,12 +128,12 @@ export default function AboutUs() {
                         <Box p={6}>
                             <Stack spacing={0} align={"center"} mb={5}>
                                 <Heading fontSize={"2xl"} fontWeight={500} fontFamily={"body"}>
-                                    Member 1
+                                Anand Gandhi
                                 </Heading>
-                                <Text color={"gray.500"}>Founder, MD & CEO</Text>
+                                <Text color={"gray.500"}>Founder & CEO</Text>
                             </Stack>
 
-                            <Button
+                            {/* <Button
                                 w={"full"}
                                 mt={8}
                                 bg={useColorModeValue("#1c539e", "gray.900")}
@@ -142,7 +145,7 @@ export default function AboutUs() {
                                 }}
                             >
                                 Read More
-                            </Button>
+                            </Button> */}
                         </Box>
                     </Box>
 
@@ -157,7 +160,7 @@ export default function AboutUs() {
                         <Image
                             h={"250px"}
                             w={"full"}
-                            src={photo}
+                            src={gaurav}
                             objectFit="cover"
                             alt="#"
                         />
@@ -165,12 +168,12 @@ export default function AboutUs() {
                         <Box p={6}>
                             <Stack spacing={0} align={"center"} mb={5}>
                                 <Heading fontSize={"2xl"} fontWeight={500} fontFamily={"body"}>
-                                    Member 2
+                                Gaurav Vijay
                                 </Heading>
-                                <Text color={"gray.500"}>Co-founder</Text>
+                                <Text color={"gray.500"}>Director</Text>
                             </Stack>
 
-                            <Button
+                            {/* <Button
                                 w={"full"}
                                 mt={8}
                                 bg={useColorModeValue("#1c539e", "gray.900")}
@@ -182,11 +185,11 @@ export default function AboutUs() {
                                 }}
                             >
                                 Read More
-                            </Button>
+                            </Button> */}
                         </Box>
                     </Box>
 
-                    <Box
+                    {/* <Box
                         maxW={"270px"}
                         w={"full"}
                         bg={useColorModeValue("white", "gray.800")}
@@ -210,25 +213,12 @@ export default function AboutUs() {
                                 <Text color={"gray.500"}>Co-founder & Director</Text>
                             </Stack>
 
-                            <Button
-                                w={"full"}
-                                mt={8}
-                                bg={useColorModeValue("#1c539e", "gray.900")}
-                                color={"white"}
-                                rounded={"md"}
-                                _hover={{
-                                    transform: "translateY(-2px)",
-                                    boxShadow: "lg",
-                                }}
-                            >
-                                Read More
-                            </Button>
                         </Box>
-                    </Box>
+                    </Box> */}
                 </Center>
             </Stack>
 
-            <Stack>
+            {/* <Stack>
                 <Heading
                     fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}
                     color={"#0c4696"}
@@ -260,19 +250,7 @@ export default function AboutUs() {
                                 </Heading>
                             </Stack>
 
-                            <Button
-                                w={"full"}
-                                mt={8}
-                                bg={useColorModeValue("#1c539e", "gray.900")}
-                                color={"white"}
-                                rounded={"md"}
-                                _hover={{
-                                    transform: "translateY(-2px)",
-                                    boxShadow: "lg",
-                                }}
-                            >
-                                Read More
-                            </Button>
+                        
                         </Box>
                     </Box>
 
@@ -299,25 +277,13 @@ export default function AboutUs() {
                                 </Heading>
                             </Stack>
 
-                            <Button
-                                w={"full"}
-                                mt={8}
-                                bg={useColorModeValue("#1c539e", "gray.900")}
-                                color={"white"}
-                                rounded={"md"}
-                                _hover={{
-                                    transform: "translateY(-2px)",
-                                    boxShadow: "lg",
-                                }}
-                            >
-                                Read More
-                            </Button>
+                         
                         </Box>
                     </Box>
                 </Center>
-            </Stack>
+            </Stack> */}
 
-            <Stack>
+            {/* <Stack>
                 <Heading
                     fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}
                     color={"#0c4696"}
@@ -349,19 +315,7 @@ export default function AboutUs() {
                                 </Heading>
                             </Stack>
 
-                            <Button
-                                w={"full"}
-                                mt={8}
-                                bg={useColorModeValue("#1c539e", "gray.900")}
-                                color={"white"}
-                                rounded={"md"}
-                                _hover={{
-                                    transform: "translateY(-2px)",
-                                    boxShadow: "lg",
-                                }}
-                            >
-                                Read More
-                            </Button>
+                           
                         </Box>
                     </Box>
 
@@ -388,19 +342,6 @@ export default function AboutUs() {
                                 </Heading>
                             </Stack>
 
-                            <Button
-                                w={"full"}
-                                mt={8}
-                                bg={useColorModeValue("#1c539e", "gray.900")}
-                                color={"white"}
-                                rounded={"md"}
-                                _hover={{
-                                    transform: "translateY(-2px)",
-                                    boxShadow: "lg",
-                                }}
-                            >
-                                Read More
-                            </Button>
                         </Box>
                     </Box>
 
@@ -427,23 +368,11 @@ export default function AboutUs() {
                                 </Heading>
                             </Stack>
 
-                            <Button
-                                w={"full"}
-                                mt={8}
-                                bg={useColorModeValue("#1c539e", "gray.900")}
-                                color={"white"}
-                                rounded={"md"}
-                                _hover={{
-                                    transform: "translateY(-2px)",
-                                    boxShadow: "lg",
-                                }}
-                            >
-                                Read More
-                            </Button>
+                           
                         </Box>
                     </Box>
                 </Center>
-            </Stack>
+            </Stack> */}
 
             <Stack >
                 <Heading

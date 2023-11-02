@@ -19,6 +19,7 @@ import appstore from '../../src/images/footer/appstore2.png';
 import LOGO from '../../src/images/footer/LOGO.svg';
 import silverLoan from '../images/footer/silverLoan2.png';
 
+
 const ListHeader = ({ children }) => {
   return (
     <Text fontWeight={'500'} fontSize={'lg'} mb={2}>

@@ -299,41 +299,43 @@ const DistributorBanner = () => {
                     <Image src={goldLoan} width={'80rem'} margin='auto' boxShadow={'dark-lg'} />
                 </Box>
                 <Box width="90%" margin="auto" my={'50px'} border={'2px solid gray'} padding={"30px"} borderRadius={'30px'}>
-                    <Text fontSize={'38px'} color={'cyan.700'} fontWeight={'500'} marginBottom={'20px'}>Benefits of your Network</Text>
+                    <Text fontSize={'38px'} color={'cyan.700'} fontWeight={'500'} marginBottom={'20px'}>Join the HPNPAY Network - Expand Your Reach, Elevate Your Earnings</Text>
                     <ul style={{ display: "flex", flexDirection: "column", gap: "30px", marginLeft: "30px" }}>
+                        <strong >At HPNPAY, we're more than just a service provider; we're your gateway to growth in the bustling digital financial space. Partnering with us means you're not just getting access to services; you're stepping into a world of potential. Here’s how you benefit:</strong>
                         <li style={{ "font-size": "18px" }}>
-                            <strong style={{ "font-size": "20px" }}>Recognition: </strong>Your retailer can become a&nbsp;
-                            <strong>one stop shop</strong>&nbsp;for all&nbsp;
-                            <strong>banking and digital services</strong>&nbsp;in their area
+                            <strong style={{ "font-size": "20px" }}>Seamless Integration: </strong> With HPNPAY, integrate swiftly with BBPS, AEPS, and DSA services, and start transacting with ease.&nbsp;
+
                         </li>
                         <li style={{ "font-size": "18px" }}>
-                            <strong style={{ "font-size": "20px" }}>Market best commission:</strong>Retailers can&nbsp;
-                            <strong>earn more than Rs. 15,000</strong>&nbsp;extra every month by just
-                            servicing one to two customers per day
+                            <strong style={{ "font-size": "20px" }}>Broader Consumer Base:</strong> Tap into a diverse customer pool looking for convenient bill payments, banking services, and more, all under one roof.&nbsp;
+
                         </li>
                         <li style={{ "font-size": "18px" }}>
                             <strong style={{ "font-size": "20px" }}>
-                                Wide range of products &amp; services:
+                                Enhanced Revenue Streams:
                             </strong>
-                            25+ additional services
-                            can be offered from their shop to&nbsp;
-                            <strong>attract new customers</strong>
+                            Leverage multiple services to amplify your income potential. More services mean more revenue.
+
                         </li>
                         <li style={{ "font-size": "18px" }}>
-                            <strong style={{ "font-size": "20px" }}>Work from anywhere:</strong>Retailers can operate their business
-                            with just laptop or mobile phone and can operate from home or shop
+                            <strong style={{ "font-size": "20px" }}>Empowerment Through Technology: </strong> Get access to cutting-edge tech that empowers you and your retailers to serve customers efficiently.
                         </li>
                         <li style={{ "font-size": "18px" }}>
-                            <strong style={{ "font-size": "20px" }}>Rewards and Recognition:</strong>With&nbsp;
-                            <strong>HPNPAY Rewards</strong>&nbsp;program, Retailer can earn
-                            upto&nbsp;<strong>40% higher commission</strong>&nbsp;as volumes go up
+                            <strong style={{ "font-size": "20px" }}>Training & Support:</strong>Benefit from comprehensive training and continuous support to ensure you and your network are always ahead.
+
                         </li>
                         <li style={{ "font-size": "18px" }}>
-                            <strong style={{ "font-size": "20px" }}>Secure &amp; safe platform:</strong>Provide services on one-of-the
-                            most secure platform –&nbsp;<strong>PCI DSS and ISO certified</strong>
+                            <strong style={{ "font-size": "20px" }}>Trusted Compliance:</strong>Stay worry-free with a platform that’s compliant with the latest financial regulations and security standards.
                         </li>
                         <li style={{ "font-size": "18px" }}>
-                            <strong style={{ "font-size": "20px" }}>A free HPNPAY Shopping Card</strong> to help shop safely online
+                            <strong style={{ "font-size": "20px" }}>Real-Time Tracking: </strong> Keep a finger on the pulse of your business with real-time reporting and tracking features.
+                            Dedicated Assistance: Our dedicated help desk ensures that your queries and issues are resolved, keeping your business running smoothly.
+                        </li>
+                        <li style={{ "font-size": "18px" }}>
+                            <strong style={{ "font-size": "20px" }}> Network Growth: </strong> As you grow your network of retailers, you're not just building business, you're enhancing communities.
+                        </li>
+                        <li style={{ "font-size": "18px" }}>
+                            <strong style={{ "font-size": "20px" }}>Customer Satisfaction: </strong>With reliable services and support, delight your customers every day, which is the true measure of our combined success.
                         </li>
                     </ul>
                     <p>&nbsp;</p>

@@ -139,25 +139,10 @@ export default function ContactUs() {
                     />
                 </Flex>
             </Stack>
-            <Box height={'600px'} width={'100%'} margin='auto' h={'full'} overflow={'hidden'} paddingTop={'20px'} >
-                <Image src={goldLoan} width={'80rem'} margin='auto' boxShadow={'dark-lg'} />
-            </Box>
-            <Stack marginLeft={"130px"} marginTop={"80px"} marginBottom={"80px"}>
-                <Text fontSize={'3xl'} color={'#1c539e'} as='b'>Join HPNPAY</Text>
-                <Stack spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', sm: 'row' }}>
-                    <Input type='number' placeholder='Enter Your Number' width='500px' height='75px' />
-                    <Button width='150px' height='75px'
-                        _hover={{ bg: 'blue.600' }}
-                        background={'#156DB1'}
-                        color={'white'}
-                        position={'absoulte'}
-                        left={"200px"}>Verify</Button>
-                </Stack>
-                <Stack border={'1px solid #d3d3d3'} width={'400px'} direction={'row'} height={'75px'} display={'flex'} justifyContent={'space-between'} spacing={10} alignItems={'center'}>
-                    <Checkbox colorScheme='green' margin={'10px'} size='lg'>I'm not robot</Checkbox>
-                    <Image src={reCaptchaImage} width={'50px'} height='50px' />
-                </Stack>
-            </Stack>
+
+                <Box height={'600px'} width={'100%'} margin='auto' h={'full'} overflow={'hidden'} paddingTop={'20px'} >
+                    <Image src={goldLoan} width={'80rem'} margin='auto' boxShadow={'dark-lg'} />
+                </Box>
             <Stack minH={'70vh'} direction={{ base: 'column', md: 'row' }} backgroundColor={"#f7f7f7"} margin={"auto"}>
                 <Flex p={1} flex={1} align={'center'} justify={'center'}>
                     <Stack spacing={6} w={"700px"} maxW={"700px"} marginLeft={"100px"}>
@@ -189,9 +174,20 @@ export default function ContactUs() {
                 </Flex>
                 <Flex flex={1} p={50}>
                     <Stack marginTop={"300px"}>
-                        <Text fontSize='xl' as='b'>NIDHI App</Text>
-                        <Text fontSize='xl'>Upgrade your shop with the latest store management and digital payment package. Offer the latest digital payment options, manage customer credits efficiently and take your store online. Become new Bharat's Digital Shop.</Text>
-                        <Image src={googlePlay} width={"150px"} />
+                        <Text fontSize={'3xl'} color={'#1c539e'} as='b'>Join HPNPAY</Text>
+                        <Stack spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', sm: 'row' }}>
+                            <Input type='number' placeholder='Enter Your Number' width='400px' height='75px' />
+                            <Button width='150px' height='75px'
+                                _hover={{ bg: 'blue.600' }}
+                                background={'#156DB1'}
+                                color={'white'}
+                                position={'absoulte'}
+                                left={"200px"}>Verify</Button>
+                        </Stack>
+                        <Stack border={'1px solid #d3d3d3'} width={'400px'} direction={'row'} height={'75px'} display={'flex'} justifyContent={'space-between'} spacing={10} alignItems={'center'}>
+                            <Checkbox colorScheme='green' margin={'10px'} size='lg'>I'm not robot</Checkbox>
+                            <Image src={reCaptchaImage} width={'50px'} height='50px' />
+                        </Stack>
                     </Stack>
                 </Flex>
             </Stack>

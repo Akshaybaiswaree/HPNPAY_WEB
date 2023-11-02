@@ -9,9 +9,9 @@ import { Link } from "react-router-dom";
 function Login(props) {
     return (
         <>
-            <Box margin={"10px"} display={"flex"} justifyContent={"space-between"}>
+            {/* <Box margin={"10px"} display={"flex"} justifyContent={"space-between"}>
                 <Box>
-                <Image ml={'20px'} src={LOGO} width={'100px'} />
+                    <Image ml={'20px'} src={LOGO} width={'100px'} />
 
                 </Box>
                 <Box display={"flex"} justifyContent={"space-between"} gap={"20px"}>
@@ -19,11 +19,11 @@ function Login(props) {
                     <Image src={googlePlayIcon} width={"100px"} height={"50px"} />
                     <Image src={youtubeImage} width={"100px"} height={"50px"} />
                 </Box>
-            </Box>
-            <Box display={"flex"} marginRight={"150px"}>
+            </Box> */}
+            <Box display={"flex"} margin={"4rem"}>
                 <Flex marginTop={"80px"} justifyContent={"center"} alignItems={"center"}>
-                    <Box marginRight={"10px"}>
-                        <Image src={loginPageImage} width={"800px"} />
+                    <Box>
+                        <Image src={LOGO} width={"800px"} />
                     </Box>
                     <Flex
                         flexDirection={"column"}
@@ -34,15 +34,15 @@ function Login(props) {
                     >
                         <Box marginRight={"10px"} width={"400px"}>
                             <Text color={"#052B60"} fontSize={"34px"} fontWeight={"700"}>
-                                Upgrade your business<br />
-                                and make more money
+                                One step towards success,
+                                with HPNPAY One step towards success, move towards victory with HPNPAY.
                             </Text>
                             <Text fontSize={"24px"}>
-                                <Text as={'b'}>हिम्मत कुछ कर दिखाने की</Text><br />
-                                जिद आगे बढ़ने की <br />
+                                <Text as={'b'}>
+                                    HPNPAY के साथ सफलता की ओर एक कदम, <br />
 
-                                सफलता की ओर एक कदम, HPNPAY के साथ जीत की ओर बढ़ें।
-
+                                    HPNPAY के साथ जीत की ओर बढ़ें।
+                                </Text><br />
                             </Text>
                         </Box>
                     </Flex>

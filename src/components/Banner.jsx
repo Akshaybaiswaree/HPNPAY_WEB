@@ -29,14 +29,14 @@ import { BiLeftArrowAlt, BiRightArrowAlt } from 'react-icons/bi'
 // And react-slick as our Carousel Lib
 import Slider from 'react-slick'
 import { IoAnalyticsSharp, IoLogoBitcoin, IoSearchSharp } from 'react-icons/io5';
-import mobileImage from '../images/retailer_img/retailermobileservices.png';
+import mobileImage from '../images/retailer_img/mobile.png';
 import dass1 from '../images/retailer_img/banner_img7.jpeg';
 import dass2 from '../images/retailer_img/banner_img8.png';
 import dass3 from '../images/retailer_img/banner_img9.png';
 import box4 from '../images/retailer_img/box4.jpeg';
 import box2 from '../images/retailer_img/box2.jpeg';
 import box3 from '../images/retailer_img/box3.jpeg';
-import worldImage from '../images/retailer_img/worldmap.jpg';
+import worldImage from '../images/retailer_img/indiamap.jpg';
 import { Link } from 'react-router-dom';
 import goldLoan from '../images/footer/goldLoan.png';
 
@@ -234,7 +234,7 @@ export default function Banner() {
       <Box style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '100px' }}>
         <div style={{ display: "flex", alignItems: "flex-end" }}>
           <Image src={mobileImage} position='relative' left='-200px' height={'600px'} />
-          <Text fontSize='6xl' color='#1c539e' position='absolute' left='750px' top='1000px' zIndex='10' as='b'>One App<br></br>Many Possibilities</Text>
+          <Text fontSize='5xl' color='#1c539e' position='absolute' left='700px' top='1000px' zIndex='10' as='b'>One App<br></br>Multiple Milestones - Pay, Play, Prosper</Text>
         </div>
         <Text fontSize='xl' color='#5e646a'>A great earning potential with the opportunity to grow your<br></br> business with minimal one time investment and zero working<br></br> capital</Text>
       </Box>
@@ -379,11 +379,12 @@ export default function Banner() {
         >
           <Image
             src={worldImage}
-            width={"100vw"}
-            opacity={0.5}
-            height={"100%"}
+            minWidth={'40%'}
+            // width={"100vw"}
+            opacity={0.4}
+            minHeight={"40%"}
             objectFit="cover"
-            style={{ position: "absolute", top: 0, left: 0, zIndex: 0 }}
+            style={{ position: "absolute", top: 30, left: 400, zIndex: 0 }}
           />
           <CardHeader
             position="absolute"
@@ -447,7 +448,7 @@ export default function Banner() {
               <Box borderLeft={"2px solid black"} paddingLeft='0.5rem'>
                 <Text fontSize="lg">We plan to target Avg. financial transactions </Text>
                 <Text fontSize="4xl" as="b">
-                  20 Lakh per day
+                  5 CR per day
                 </Text>
               </Box>
             </Stack>

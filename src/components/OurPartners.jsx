@@ -26,7 +26,7 @@ import { BiLeftArrowAlt, BiRightArrowAlt } from 'react-icons/bi'
 // And react-slick as our Carousel Lib
 import Slider from 'react-slick'
 import reCaptchaImage from '../images/solution_img/reCaptchaImage.png'
-import Solution4 from '../images/ourPartner_img/Download-rafiki.png';
+import download from '../images/footer/download.png';
 
 
 // Settings for the slider
@@ -59,6 +59,10 @@ export default function OurPartners() {
             image: require('../../src/images/ourPartner_img/sbi_bank.png')
         },
         {
+            image: require('../../src/images/footer/icicibank.png')
+        },
+
+        {
             image: require('../../src/images/ourPartner_img/yesbank.png')
         },
         {
@@ -67,8 +71,20 @@ export default function OurPartners() {
         {
             image: require('../../src/images/ourPartner_img/panjabbank.png')
         },
+       
+        {
+            image: require('../../src/images/footer/hdfc.png')
 
+        },
+        {
+            image: require('../../src/images/footer/union.png')
+        },
+        {
+            image: require('../../src/images/footer/bankofbadoda.png')
 
+        },
+       
+        
     ]
 
     return (
@@ -112,7 +128,7 @@ export default function OurPartners() {
             {/* dounload pay now */}
             <Box>
                 <Stack direction={{ base: 'column', md: 'row' }} width={'100%'}>
-                    <Flex  flex={1} align={'center'} justify={'center'}>
+                    <Flex flex={1} align={'center'} justify={'center'}>
                         <Stack spacing={6} w={'full'} maxW={'lg'}>
                             <Heading fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}>
                                 <Text
@@ -162,7 +178,7 @@ export default function OurPartners() {
                     </Flex>
                     <Flex flex={1}>
 
-                        <Image width={"100%"} height={"65%"} marginTop={"5rem"} ml={'10px'} src={Solution4} />
+                        <Image width={"100%"} height={"65%"} marginTop={"5rem"} ml={'10px'} alt='download' src={download} />
 
                     </Flex>
                 </Stack>

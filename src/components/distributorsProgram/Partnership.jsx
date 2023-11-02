@@ -16,39 +16,44 @@ const Partnership = () => {
         <>
             <Stack width={"85%"} margin={"auto"}>
                 <Stack>
-                    <Heading>Partnership Benefits</Heading>
+                    <Heading>Unleash Your Digital Potential!</Heading>
                 </Stack>
                 <Flex marginTop={"30px"} justifyContent={"center"}>
                     <Box width={"100%"}>
                         <Stack>
                             <Image src={lap} width={"100px"} />
-                            <Text fontSize={"20px"} fontWeight={"700"}>Set-up your digital distribution business from your phone or laptop</Text>
-                            <Text fontSize={"19px"}>Operate from anywhere -- your home or shop. No inventory, no warehouse, no manpower required.</Text>
+                            <Text fontSize={"20px"} fontWeight={"700"}>Seamless Business Setup:</Text>
+                            <Text fontSize={"19px"}>- Go Digital**: Kickstart your distribution journey effortlessly from the comfort of your smartphone or laptop.</Text>
                         </Stack>
                         <Stack marginTop={"50px"}>
                             <Image src={multi} width={"100px"} />
-                            <Text fontSize={"20px"} fontWeight={"700"}>Multi-service distribution from one platform</Text>
-                            <Text fontSize={"19px"}>Offer Banking, Payments, Travel, Insurance, Bill Payments & Recharge services from one platform. You can offer any or all service.</Text>
+                            <Text fontSize={"20px"} fontWeight={"700"}>Ultimate Flexibility:</Text>
+                            <Text fontSize={"19px"}>Whether from a cozy corner in your home or your local shop, you're in control. Say goodbye to traditional hassles - no inventory, no vast warehouses, and zero manpower constraints.</Text>
                         </Stack>
                     </Box>
-                    <Box>
-                        <Image src={partnerbenifit} />
+                    <Box width={"100%"} margin={'1rem'}>
+                        {/* <Image src={partnerbenifit} /> */}
                         <Stack marginTop={"20px"}>
                             <Image src={payment} width={"100px"} />
-                            <Text fontSize={"20px"} fontWeight={"700"}>Earn ₹40,000 to ₹60,000 per month</Text>
-                            <Text fontSize={"19px"}>With just 5-7 retailers in your network you can easily add an extra ₹40000 to ₹ 60000 income per month. Onboard more retailers to earn more.</Text>
+                            <Text fontSize={"20px"} fontWeight={"700"}>Exceptional Earning Potential:</Text>
+                            <Text fontSize={"19px"}>- Boost Your Income: With a network of just 5-7 retailers, watch your monthly earnings skyrocket to a whopping ₹40,000 to ₹60,000.</Text>
+                        </Stack>
+                        <Stack marginTop={"50px"}>
+                            <Image src={payment} width={"100px"} />
+                            <Text fontSize={"20px"} fontWeight={"700"}>Onboarding Made Easy:</Text>
+                            <Text fontSize={"19px"}>- Simplicity at its Best: Our onboarding process is tailored for ease, ensuring a smooth entry for your entire network.</Text>
                         </Stack>
                     </Box>
                     <Box width={"100%"}>
                         <Stack >
                             <Image src={onboard} width={"100px"} />
-                            <Text fontSize={"20px"} fontWeight={"700"}>One time onboarding</Text>
-                            <Text fontSize={"19px"}>Simple and easy on-boarding process for your network. Retailers once on-boarded can use any of our existing services or new products offered and keep adding to their income.</Text>
+                            <Text fontSize={"20px"} fontWeight={"700"}>Endless Opportunities:</Text>
+                            <Text fontSize={"19px"}>Once your retailers are onboarded, a realm of services awaits. From our existing portfolio to the latest offerings, there's a continuous avenue for income.</Text>
                         </Stack>
                         <Stack marginTop={"50px"}>
                             <Image src={income} width={"100px"} />
-                            <Text fontSize={"20px"} fontWeight={"700"}>Lifetime Income</Text>
-                            <Text fontSize={"19px"}>Earn best in industry commission on every transaction your retailer makes.</Text>
+                            <Text fontSize={"20px"} fontWeight={"700"}> Lifetime Rewards:</Text>
+                            <Text fontSize={"19px"}>Consistent Returns: We believe in rewarding every effort. Earn industry-leading commissions on every transaction initiated by your retailer. A lifetime of financial rewards awaits!</Text>
                         </Stack>
                     </Box>
                 </Flex>
