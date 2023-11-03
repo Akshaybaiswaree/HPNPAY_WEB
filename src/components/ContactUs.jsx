@@ -117,13 +117,12 @@ export default function ContactUs() {
                         </Heading>
                         <Stack direction={'row'} spacing={5}>
                             <Image src={telephoneImage} width={"20px"} height={"20px"} />
-                            <Text fontSize='md'>+91 4466909009</Text>
+                            <Text fontSize='md'>+91 9672418000</Text>
                             <Image src={telephoneImage} width={"20px"} height={"20px"} />
-                            <Text fontSize='md'>+91 6516609090</Text>
+                            <Text fontSize='md'>+91 9166786666</Text>
                             <Image src={telephoneImage} width={"20px"} height={"20px"} />
-                            <Text fontSize='md'>+91 3366909100</Text>
-                            <Image src={telephoneImage} width={"20px"} height={"20px"} />
-                            <Text fontSize='md'>+91 4438038038</Text>
+                            <Text fontSize='md'>+91 8560888899</Text>
+                          
                         </Stack>
                         <Text fontSize='lg' as='i'>Note: We will never call you from any number.</Text>
                     </Stack>

@@ -157,7 +157,7 @@ const IncomeCalculator = () => {
             income: 1000
         },
     ];
-
+ 
 
     const [incomeValues, setIncomeValues] = useState(bankingData.map(() => '1'));
     const [newData, setNewData] = useState([]);
@@ -192,7 +192,7 @@ const IncomeCalculator = () => {
     }, [incomeValues]);
 
     return (
-        <Box margin={'100px'}>
+        <Box margin={'2rem'}>
             
             <Box margin={'40px'}>
                 <Heading color={'blue.700'} fontSize='5xl' font-weight="bold">Income Calculator</Heading>
@@ -213,7 +213,7 @@ const IncomeCalculator = () => {
                                     <Tr>
                                         <Th color='white' fontSize={'1xl'}>Banking Services</Th>
                                         <Th color='white' fontSize={'1xl'}>No. of daily Transaction</Th>
-                                        <Th color='white' fontSize={'1xl'} isNumeric>Income($)</Th>
+                                        <Th color='white' fontSize={'1xl'} isNumeric>Income(₹)</Th>
                                     </Tr>
                                 </Thead>
                                 {newData.map((ele, index) => {
@@ -222,7 +222,7 @@ const IncomeCalculator = () => {
                                             <Tr key={index}>
                                                 <Td fontSize={'1xl'}>
                                                     <Text color={'black'} fontSize={'2xl'}>{ele.benefits}</Text>
-                                                    <Text>Avg transaction of ${ele.Range}</Text>
+                                                    <Text>Avg transaction of ₹{ele.Range}</Text>
                                                 </Td>
                                                 <Td w={'50px'}>
                                                     <Input

@@ -56,7 +56,7 @@ const DistributorBanner = () => {
 
                 <Box
                     position={'relative'}
-                    height={'450px'}
+                    height={'35rem'}
                     width={'full'}
                     overflow={'hidden'}>
                     <link
@@ -117,7 +117,13 @@ const DistributorBanner = () => {
 
                                     </Heading>
                                     <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>
-                                        No need for a bank account or debit card! AEPS lets you access banking services through your Aadhaar.
+                                        Trusted Partner: We're more than just a financial institution; we're your partner in success. With competitive rates and flexible repayment options, we're committed to supporting your journey from start to finish.<br/>
+
+                                        🔗 Discover More - Unlock the doors to endless possibilities. Propel your business forward, because when you succeed, we succeed.
+
+
+
+
                                     </Text>
                                     <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
                                         <Button
@@ -159,16 +165,14 @@ const DistributorBanner = () => {
                                                 bg: 'blue.400',
                                                 zIndex: -1,
                                             }}>
-                                            Personal Loans
+                                            Empower Your Ambitions<br />
+                                            'PERSONAL LOAN'
                                         </Text>
                                         <br />{' '}
-                                        {/* <Text color={'blue.400'} as={'span'}>
-                  Design Projects
-                </Text>{' '} */}
+
                                     </Heading>
                                     <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>
-                                        In the world of business, opportunities don't wait. Get the funds you need with a business-oriented personal loan.
-                                    </Text>
+                                        Your Path, Your Pace: In the dynamic realm of business, having the right resources at the right time can be a game-changer. Our personal loans are tailored to match your unique ambitions and needs. <br />YourFuel Your Dreams: Every entrepreneur has a vision. Bring yours to life with our specialized personal loan solutions, designed for the passionate and driven.                                   </Text>
                                     <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
                                         <Button
                                             rounded={'full'}
@@ -215,8 +219,8 @@ const DistributorBanner = () => {
 
                                     </Heading>
                                     <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>
-                                        A journey is best measured in friends, rather than miles.
-                                    </Text>
+
+                                        Seamless Transactions: Our streamlined application process ensures that you get the funds you require without the usual hassle. Every moment counts in business, and we respect that.                                    </Text>
                                     <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
                                         <Button
                                             rounded={'full'}
@@ -257,16 +261,17 @@ const DistributorBanner = () => {
                                                 bg: 'blue.400',
                                                 zIndex: -1,
                                             }}>
-                                            Grow Your Business
+                                            Grow Your Business, Grow Your Dreams
                                         </Text>
                                         <br />{' '}
-                                        {/* <Text color={'blue.400'} as={'span'}>
-                  Design Projects
-                </Text>{' '} */}
+
                                     </Heading>
                                     <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>
-                                        In the world of business, opportunities don't wait. Get the funds you need with a business-oriented personal loan.
-                                    </Text>
+                                        Seize Every Chance: Business doesn't stop, and neither should your ambitions. Harness every available opportunity.<br />
+
+                                        Tailored Financial Support: Secure the essential funds seamlessly through our bespoke business-centric personal loan offerings.<br />
+
+                                        🔗 Dive Deeper - Unravel the spectrum of possibilities that awaits your business. Propel forward, always.                                    </Text>
                                     <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
                                         <Button
                                             rounded={'full'}
@@ -277,7 +282,6 @@ const DistributorBanner = () => {
                                             }}>
                                             See More
                                         </Button>
-                                        {/* <Button rounded={'full'}>How It Works</Button> */}
                                     </Stack>
                                 </Stack>
                                 <Box width={'40%'}>

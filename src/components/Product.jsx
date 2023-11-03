@@ -33,7 +33,7 @@ import goldLoan from "../images/footer/goldLoan.png"
 export default function Product() {
     return (
         <>
-            <Box margin="50px">
+            <Box >
 
 
                 <Stack direction={{ base: "column", md: "row" }} >
@@ -86,8 +86,8 @@ export default function Product() {
 
                 {/* //page Second */}
                 <Box width={"80%"} margin={"auto"}>
-                    <Text fontSize={"5rem"} color={"#052B60"} as={"span"}>
-                        Banking Services
+                    <Text fontSize={"4rem"} color={"#052B60"} as={"span"}>
+                        Navigating the Future of Financial Services
                     </Text>
                     <Text fontSize={"2rem"}>
                         <Text fontWeight={"bold"} color={"black"}>
@@ -97,55 +97,49 @@ export default function Product() {
                             आपका विश्वास, हमारा संवाद - HPNPay, सुरक्षित और विश्वसनीय डिजिटल सेवाएं{''}
                         </Text>
                         <br />
-                        No working capital required. Offer uninterrupted banking services like
-                        cash withdrawal, money transfer, cash deposits, savings, insurance and
-                        loan from your shop. HPNPAY is a PCI DSS and ISO 27001 certified
-                        company, which means transacting on the platform is very secure and
-                        has a time tested success ratio of more than 99.9%
+                        Capitalize on our robust and time-honored platform that boasts a stellar 99.9% success rate.
                     </Text>
                 </Box>
-                <Flex marginTop={"80px"}>
+                <Flex margin={"4rem"}>
                     <Box>
-                        <Image ml={"95px"} src={Product2} width={"200"} height={'350'} marginTop={'90px'} />
+                        <Image ml={"6rem"} src={Product2} width={"55rem"} height={'28rem'} />
                     </Box>
                     <Flex
                         flexDirection={"column"}
-                        gap={"30px"}
+                        gap={"20px"}
                         width={"50%"}
-                        marginTop={"40px"}
                         marginLeft={"9rem"}
                     >
                         <Box>
                             <Text color={"#052B60"} fontSize={"34px"} fontWeight={"700"}>
-                                Aeps
+                                AePS (Aadhaar enabled Payment Services)
                             </Text>
 
                             <Text fontSize={"24px"}>
-                                Help customers withdraw DBT, government relief funds and cash from
-                                their bank accounts using fingerprint with Aadhaar enabled Payment
-                                Services (AePS)
+                                Empower Your Customers: Seamlessly assist customers in withdrawing Direct Benefit Transfer (DBT), crucial government relief funds, and other monetary assets directly from their bank accounts.<br />
+                                High-Tech Authentication: Leveraging the power of biometric verification through Aadhaar's fingerprint technology.
                             </Text>
                         </Box>
 
                         <Box>
                             <Text color={"#052B60"} fontSize={"34px"} fontWeight={"700"}>
-                                Micro ATM{" "}
+                                Micro ATM Extravaganza Universal Banking Support:{" "}
                             </Text>
                             <Text fontSize={"24px"}>
-                                Provide cash withdrawal services using debit cards of over 1000+
-                                banks
+                                A remarkable capability to offer cash withdrawal services, integrating effortlessly with debit cards across a vast network of over 1000+ banks.
                             </Text>
                         </Box>
 
                         <Box>
                             <Text color={"#052B60"} fontSize={"34px"} fontWeight={"700"}>
-                                Money Transfer{" "}
+                                Real-time Money Transfer Flawless Transactions:{" "}
                             </Text>
                             <Text fontSize={"24px"}>
-                                Take advantage of our time tested platform with 99.9% success rate
-                                to help customers send money from anywhere to anywhere within India,
-                                real time, 24*7. Customers use this service also to deposit cash
-                                into their accounts
+
+
+                                Boundless Possibilities: Facilitate your customers in transmitting money from corner to corner within India, instantly, 24/7. An added perk? They can conveniently deposit cash into their accounts too.
+
+                                Revolutionize your financial game and offer your customers unmatched conveniences!
                             </Text>
                         </Box>
 
@@ -181,17 +175,15 @@ export default function Product() {
 
                 {/* page 3 */}
                 <Box marginTop={""} width={"80%"} margin={"auto"}>
-                    <Text fontSize={"5rem"} color={"#052B60"} as={"span"}>
+                    <Text fontSize={"4rem"} color={"#052B60"} as={"span"}>
                         Digital Suite
                     </Text>
                     <Text fontSize={"2rem"}>
                         <Text fontWeight={"bold"} color={"black"}>
-                            HPNPay - The Catalyst of Digital Success for Your Store{''}              </Text>
+                            HPNPay: Empowering Insurance, Simplifying Choices
+                        </Text>
                         <br />
-                        Less than 3% of Bharat is insured. Safeguard your customers from the
-                        uncertainties of life. Protect them with affordable insurance plans
-                        across health, medical and general insurance. Earn respect and money
-                        while you are at it
+                        Welcome to HPNPay, your comprehensive digital insurance hub. We're not just any online insurance portal; we represent a seamless blend of technology, convenience, and commitment to our retailer and distributor agent partners.
                     </Text>
                 </Box>
                 <Flex marginTop={"80px"}>
@@ -204,31 +196,27 @@ export default function Product() {
                     >
                         <Box>
                             <Text color={"#052B60"} fontSize={"34px"} fontWeight={"700"}>
-                                General
+                                Why Choose HPNPay?
                             </Text>
+
 
                             <Text fontSize={"24px"}>We offer a range of affordable general insurance plans, including bike insurance and mobile device protection plans
                             </Text>
                         </Box>
                         <Box>
                             <Text color={"#052B60"} fontSize={"34px"} fontWeight={"700"}>
-                                Customer Khata
+                                Partner With Us
                             </Text>
                             <Text fontSize={"24px"}>
-                                Upgrade your business with 100% better customer credit management. A
-                                digital ledger that maintains record of all transactions, sets
-                                automatic payment reminders and helps you collect payments through
-                                integrated digital payment solutions
+                                If you are a retailer or a distributor agent looking to expand your horizons and tap into the digital insurance market, HPNPay welcomes you. Join our growing community and be part of a digital revolution in insurance.
                             </Text>
                         </Box>
                         <Box>
                             <Text color={"#052B60"} fontSize={"34px"} fontWeight={"700"}>
-                                UPI QR
+                                Conclusion
                             </Text>
                             <Text fontSize={"24px"}>
-                                A single QR Code that helps you accept payment from any payment app.
-                                Make it your mobile screen saver or print and dispaly on the shop to
-                                enable seamless digital payments
+                                In an age where digital is the new norm, HPNPay stands tall as a beacon of reliability and innovation in the online insurance sector. Dive into a world of curated insurance solutions and experience the future of insurance, today.
                             </Text>
                         </Box>
                         <Box>
@@ -260,11 +248,11 @@ export default function Product() {
 
                 {/* fourth */}
                 <Box height={'600px'} width={'100%'} margin='auto' h={'full'} overflow={'hidden'} paddingTop={'20px'} >
-                    <Image src={goldLoan} width={'80rem'} margin='auto' boxShadow={'dark-lg'}/>
+                    <Image src={goldLoan} width={'80rem'} margin='auto' boxShadow={'dark-lg'} />
                 </Box>
                 {/* //page Second */}
                 <Box width={"80%"} margin={"auto"}>
-                    <Text fontSize={"5rem"} color={"#052B60"} as={"span"}>
+                    <Text fontSize={"4rem"} color={"#052B60"} as={"span"}>
                         Insurance
                     </Text>
                     <Text fontSize={"2rem"}>
@@ -319,7 +307,7 @@ export default function Product() {
 
                 {/* page 5 */}
                 <Box marginTop={""} width={"80%"} margin={"auto"}>
-                    <Text fontSize={"5rem"} color={"#052B60"} as={"span"}>
+                    <Text fontSize={"4rem"} color={"#052B60"} as={"span"}>
                         Travel
                     </Text>
                     <Text fontSize={"2rem"}>
@@ -380,7 +368,7 @@ export default function Product() {
                 {/* fourth */}
                 {/* //page Second */}
                 <Box width={"80%"} margin={"auto"}>
-                    <Text fontSize={"5rem"} color={"#052B60"} as={"span"}>
+                    <Text fontSize={"4rem"} color={"#052B60"} as={"span"}>
                         Utility Bill Payment Centre
                     </Text>
                     <Text fontSize={"2rem"}>
@@ -453,7 +441,7 @@ export default function Product() {
 
                 {/* page 5 */}
                 <Box marginTop={"1rem"} width={"80%"} margin={"auto"}>
-                    <Text fontSize={"5rem"} color={"#052B60"} paddingLeft={"rem"}>
+                    <Text fontSize={"4rem"} color={"#052B60"} paddingLeft={"rem"}>
                         Partner Services
                     </Text>
                     {/* <Text fontSize={"2rem"}>
@@ -518,7 +506,7 @@ export default function Product() {
                 {/* fourth */}
                 {/* //page Second */}
                 <Box width={"80%"} margin={"auto"}>
-                    <Text fontSize={"5rem"} color={"#052B60"} as={"span"}>
+                    <Text fontSize={"4rem"} color={"#052B60"} as={"span"}>
                         Essential Services
                     </Text>
                     <Text fontSize={"2rem"}>
@@ -580,7 +568,7 @@ export default function Product() {
 
                 {/* page 5 */}
                 <Box marginTop={""} width={"80%"} margin={"auto"}>
-                    <Text fontSize={"5rem"} color={"#052B60"} as={"span"}>
+                    <Text fontSize={"4rem"} color={"#052B60"} as={"span"}>
                         Credit Services
                     </Text>
                     <Text fontSize={"2rem"}>
