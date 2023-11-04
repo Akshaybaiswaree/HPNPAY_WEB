@@ -101,7 +101,7 @@ export default function Product() {
                             "Your Trust, Our Commitment: Digital Excellence, Delivered Securely."
                         </Text>
 
-                        <Accordion defaultIndex={[0]} allowMultiple>
+                        <Accordion defaultIndex={[1]} allowMultiple>
                             <AccordionItem>
                                 <h2>
                                     <AccordionButton>
@@ -228,7 +228,7 @@ export default function Product() {
                             </Text>
                             <Text fontSize={"1.3rem"}>We offer a range of affordable general insurance plans, including bike insurance and mobile device protection plans
                             </Text>
-                            <Accordion defaultIndex={[0]} allowMultiple>
+                            <Accordion defaultIndex={[1]} allowMultiple>
                                 <AccordionItem>
                                     <h2>
                                         <AccordionButton>
@@ -270,7 +270,7 @@ export default function Product() {
                             <Text fontSize={"1.3rem"}>
                                 In the modern business landscape, efficiency and accuracy are paramount. That's why Customer Khata is here to redefine how you manage your customer credits.
                             </Text>
-                            <Accordion defaultIndex={[0]} allowMultiple>
+                            <Accordion defaultIndex={[1]} allowMultiple>
                                 <AccordionItem>
                                     <h2>
                                         <AccordionButton>
@@ -304,7 +304,7 @@ export default function Product() {
                             <Text fontSize={"1.3rem"}>
                                 In today's digital age, seamless transactions are no longer a luxury; they're a necessity. With UPI QR, we're making that vision a reality.
                             </Text>
-                            <Accordion defaultIndex={[0]} allowMultiple>
+                            <Accordion defaultIndex={[1]} allowMultiple>
                                 <AccordionItem>
                                     <h2>
                                         <AccordionButton>

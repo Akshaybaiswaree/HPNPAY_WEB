@@ -450,7 +450,7 @@ export default function AboutUs() {
                                     </Text>
                                     Hannanth Digital India Private Limited is a beacon of digital innovation based in the historical heart of Rajasthan, Bikaner. We are a forward-thinking company dedicated to transforming India's digital landscape, starting with its soul—the villages. Co-founded by visionary leaders Anand Gandhi & Shweta Gandhi, our mission is to weave digital threads into the fabric of rural life, enabling and empowering every individual with the tools for a brighter, self-sufficient future.
                                 </Text>
-                                <Accordion defaultIndex={[0]} allowMultiple>
+                                <Accordion defaultIndex={[1]} allowMultiple>
                                     <AccordionItem>
                                         <h2>
                                             <AccordionButton>
