@@ -167,9 +167,9 @@ export default function Banner() {
 
         {cards.map((card, index) => (
 
-          <Container maxW={'5x1'} py={12}>
+          <Container maxW={'5x1'} py={12} key={index}>
             <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
-              <Stack spacing={4}>
+              <Stack spacing={4} key={index}>
 
                 <Heading color={'blue.700'} fontSize='4xl' font-weight="bold">{card.heading}</Heading>
                 <Heading color={'blue.700'} fontSize='3xl' font-weight="bold">{card.heading2}</Heading>
@@ -290,10 +290,10 @@ export default function Banner() {
 
         {smartCard.map((element, index) => (
 
-          <Container maxW={'5x1'} py={12}>
+          <Container maxW={'5x1'} py={12} key={index}>
             <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
 
-              <Flex>
+              <Flex key={index}>
                 <Image
                   rounded={'md'}
                   alt={'feature image'}

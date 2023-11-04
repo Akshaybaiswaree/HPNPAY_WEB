@@ -122,7 +122,8 @@ export default function ContactUs() {
                             <Text fontSize='md'>+91 9166786666</Text>
                             <Image src={telephoneImage} width={"20px"} height={"20px"} />
                             <Text fontSize='md'>+91 8560888899</Text>
-                          
+                            <Text>Email: info@hpnpay.com</Text>
+
                         </Stack>
                         <Text fontSize='lg' as='i'>Note: We will never call you from any number.</Text>
                     </Stack>
@@ -139,9 +140,9 @@ export default function ContactUs() {
                 </Flex>
             </Stack>
 
-                <Box height={'600px'} width={'100%'} margin='auto' h={'full'} overflow={'hidden'} paddingTop={'20px'} >
-                    <Image src={goldLoan} width={'80rem'} margin='auto' boxShadow={'dark-lg'} />
-                </Box>
+            <Box height={'600px'} width={'100%'} margin='auto' h={'full'} overflow={'hidden'} paddingTop={'20px'} >
+                <Image src={goldLoan} width={'80rem'} margin='auto' boxShadow={'dark-lg'} />
+            </Box>
             <Stack minH={'70vh'} direction={{ base: 'column', md: 'row' }} backgroundColor={"#f7f7f7"} margin={"auto"}>
                 <Flex p={1} flex={1} align={'center'} justify={'center'}>
                     <Stack spacing={6} w={"700px"} maxW={"700px"} marginLeft={"100px"}>
