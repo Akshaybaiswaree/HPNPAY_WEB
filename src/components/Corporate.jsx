@@ -24,12 +24,18 @@ import {
 
 import reCaptchaImage from "../images/corporate_img/RecaptchaLogo.svg.png"
 import digitalCash from "../images/corporate_img/corporate_cashcullection_img.jpg"
-import increaseIndia from "../images/corporate_img/corporate_market_img.jpg"
+import increaseIndia from "../images/corporate_img/increasemarket.png"
 import digitalOrder from "../images/corporate_img/corporate_digital_img.jpg"
-import manNetwork from "../images/corporate_img/manNetwok.png"
+import trustednetwork from "../images/corporate_img/trustednetwork.png"
 import bajajImage from "../images/corporate_img/corporate_img1.jpg"
 import { Card, CardHeader, CardBody, CardFooter } from '@chakra-ui/react'
 import goldLoan from '../images/footer/goldinvestment.jpg';
+import infrastructure from "../images/corporate_img/infrastructure.svg.png";
+import largestNetwork from "../images/corporate_img/largestnetwork.png";
+import agentincorner from "../images/corporate_img/agentIncorner.png";
+import communities from "../images/corporate_img/community.png";
+import largestAgent from "../images/corporate_img/largetagent.png";
+import retailer from "../images/corporate_img/largestRetailer.png";
 
 const Corporate = () => {
     return (
@@ -102,9 +108,7 @@ const Corporate = () => {
                                 align={'center'}
                                 w={'100%'}
                                 h={'100%'}
-                                src={
-                                    'https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=800&q=80'
-                                }
+                                src={infrastructure}
                             />
                         </Box>
                     </Flex>
@@ -117,8 +121,8 @@ const Corporate = () => {
                             src={digitalCash}
                             alt='digital-cash-image'
                             borderRadius='lg'
-                            height={"250px"}
-                            width={"200px"}
+                            height={"18rem"}
+                            width={"25rem"}
                         />
                         <CardHeader>
                             <Heading size='md'>Digitize cash collection</Heading>
@@ -135,8 +139,8 @@ const Corporate = () => {
                             src={increaseIndia}
                             alt='digital-india-image'
                             borderRadius='lg'
-                            height={"250px"}
-                            width={"200px"}
+                            height={"18rem"}
+                            width={"25rem"}
                         />
                         <CardHeader>
                             <Heading size='md'>Increase market penetration at the last mile</Heading>
@@ -153,8 +157,8 @@ const Corporate = () => {
                             src={digitalOrder}
                             alt='digital-order-image'
                             borderRadius='lg'
-                            height={"250px"}
-                            width={"200px"}
+                            height={"18rem"}
+                            width={"25rem"}
                         />
                         <CardHeader>
                             <Heading size='md'>Digitize order placement and payment</Heading>
@@ -171,50 +175,66 @@ const Corporate = () => {
                     {/* <Button size='md' height='48px' width='200px' border='2px' borderColor='green.500'>Veiw all Solutions</Button> */}
                 </Box>
                 <Box position={'relative'} height={'600px'} width={'100%'} margin='auto' mb={'3rem'} h={'full'} overflow={'hidden'} boxShadow={'dark-lg'}>
-                    <Image src={goldLoan}  />
+                    <Image src={goldLoan} />
                 </Box>
                 <Center>
                     <Box display={"flex"} flexDirection={"column"} justifyContent={"center"}>
                         <Text fontSize='3xl' as='b'>Why HPNPAY</Text><br />
                         <Text fontSize='4xl' as='b' color={'#1c539e'}>Technology driven, customer first approach to last mile connectivity and solution</Text>
                         <Box display={"flex"} flexWrap={"wrap"} justifyContent={"space-between"}>
-                            <Box width={"350px"} height={"300px"} >
-                                <Image src={manNetwork} width={"50px"} height={"50px"} />
+                            <Box width={"400px"} height={"500px"} >
+                                <Image src={trustednetwork}
+                                    borderRadius='lg'
+                                    height={"18rem"}
+                                    width={"25rem"} />
                                 <Text fontSize='2xl' as='b'>One Trusted Network:</Text>
                                 <Text fontSize='xl'>With our trusted retailers We expecting,20000 Pin Codes Is Our Traget, harness the power of the largest agent network in the country.</Text>
                             </Box>
-                            <Box width={"350px"} height={"300px"} >
-                                <Image src={manNetwork} width={"50px"} height={"50px"} />
+                            <Box width={"400px"} height={"500px"} >
+                                <Image src={largestNetwork}
+                                    borderRadius='lg'
+                                    height={"18rem"}
+                                    width={"25rem"} />
                                 <Text fontSize='2xl' as='b'>Largest  Network:</Text>
                                 <Text fontSize='xl'>"20,000+ Targets, One Trusted Network, Be Part of Our Financial Revolution!"</Text>
                             </Box>
-                            <Box width={"350px"} height={"300px"} >
-                                <Image src={manNetwork} width={"50px"} height={"50px"} />
+                            <Box width={"400px"} height={"500px"} >
+                                <Image src={agentincorner}
+                                    borderRadius='lg'
+                                    height={"18rem"}
+                                    width={"25rem"} />
                                 <Text fontSize='2xl' as='b'> Agent in Every Corner: </Text>
                                 <Text fontSize='xl'>Your Local Agent in Every Corner, We're on a Mission to 20,000+ PIN Codes!"</Text>
                             </Box>
-                            <Box width={"350px"} height={"300px"} >
-                                <Image src={manNetwork} width={"50px"} height={"50px"} />
+                            <Box width={"400px"} height={"500px"} >
+                                <Image src={communities}
+                                    borderRadius='lg'
+                                    height={"18rem"}
+                                    width={"25rem"} />
                                 <Text fontSize='2xl' as='b'>Empowering Communities: </Text>
                                 <Text fontSize='xl'>Empowering 20,000+ Communities Join Our Nationwide Network of Trust!"</Text>
                             </Box>
-                            <Box width={"350px"} height={"300px"} >
-                                <Image src={manNetwork} width={"50px"} height={"50px"} />
+                            <Box width={"400px"} height={"500px"} >
+                                <Image src={largestAgent}
+                                    borderRadius='lg'
+                                    height={"18rem"}
+                                    width={"25rem"} />
                                 <Text fontSize='2xl' as='b'>Largest Agent Network:</Text>
                                 <Text fontSize='xl'>With our trusted retailers We expecting, 20000 Pin Codes Is Our Traget, harness the power of the largest agent network in the country.</Text>
                             </Box>
-                            <Box width={"350px"} height={"300px"} >
-                                <Image src={manNetwork} width={"50px"} height={"50px"} />
+                            <Box width={"400px"} height={"500px"} >
+                                <Image src={retailer}
+                                    borderRadius='lg'
+                                    height={"18rem"}
+                                    width={"25rem"} />
                                 <Text fontSize='2xl' as='b'>Largest Retailers Network:</Text>
                                 <Text fontSize='xl'>With our trusted retailers We expecting, 20000 Pin Codes Is Our Traget, harness the power of the largest agent network in the country.</Text>
                             </Box>
                         </Box>
-                        {/* <Box margin={"20px"} display={"flex"} justifyContent={"center"}>
-                            <Button size='md' height='48px' width='200px' border='2px' borderColor='green.500'>Veiw all Features</Button>
-                        </Box> */}
+
                     </Box>
                 </Center>
-           
+
             </Container>
         </>
     );

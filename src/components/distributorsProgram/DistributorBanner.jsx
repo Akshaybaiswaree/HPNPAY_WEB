@@ -216,17 +216,7 @@ const DistributorBanner = () => {
                                         🔗 Dive Deeper - Unravel the spectrum of possibilities that awaits your business. Propel forward, always. <br />
                                         🔗 Discover More - Unlock the doors to endless possibilities. Propel your business forward, because when you succeed, we succeed.
                                     </Text>
-                                    {/* <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
-                                        <Button
-                                            rounded={'full'}
-                                            bg={'blue.400'}
-                                            color={'white'}
-                                            _hover={{
-                                                bg: 'blue.500',
-                                            }}>
-                                            See More
-                                        </Button>
-                                    </Stack> */}
+                                    
                                 </Stack>
                                 <Box width={'40%'}>
                                     <Image

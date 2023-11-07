@@ -17,20 +17,57 @@ const AdvicorFour = () => {
 
                 <Text textDecorationLine={'underline'} color={"#052B60"} fontSize={"1.7rem"} fontWeight={"700"}>
 
-                    Customer Khata: Revolutionizing Credit Management
-
+                    Ramesh Meena – A Financial Virtuoso and Benevolent Beacon at Hannanth Digital India Private Limited
                 </Text>
+                <br />
+                <Text fontSize={'1.3rem'}>
 
-                <Text fontSize={"1.3rem"} >
-                    1.Streamlined Transactions: Say goodbye to traditional ledgers. With Customer Khata's digital platform, every transaction is meticulously recorded, ensuring there's no room for discrepancies. A transparent system means trust is built, and partnerships are strengthened.                                            <br />
 
-                    2.Timely Reminders: Missing out on payments? With our automated reminder system, ensure that all dues are timely settled. Let the system take care of nudging your clients, so you don't have to.                                            <br />
+                    <Text color={'black.900'} fontWeight={'700'}>
 
-                    3.Integrated Payment Solutions: We believe in simplicity and integration. Collect payments seamlessly through our integrated digital payment solutions, making transactions smoother and faster.                                            <br />
+                        The Banking Connoisseur and Fintech Consultant
+                    </Text>
 
-                    4.Join the Customer Khata family and experience a 100% enhancement in how you handle customer credit. Elevate your business processes, optimize revenue collection, and foster better customer relations with us.                                            <br />
+                    At the intersection of traditional banking expertise and fintech innovation stands Ramesh Meena, a managerial maestro at IndusInd Bank and a sage advisor to Hannanth Digital India Private Limited. His acumen in the financial realm is not just a career—it's a commitment to excellence and an enduring passion to foster growth and understanding in the dynamic landscape of financial technology.
+                    <br />
+                    <Text color={'black.900'} fontWeight={'700'}>
 
-                    5.I hope this provides a comprehensive overview of the product you're offering. Adjustments can be made based on specific requirements or preferences!                                            <br />
+                        Pioneering DSA with Visionary Insight
+                    </Text>
+
+                    It was Ramesh who spearheaded the visionary idea to open a Direct Selling Agent (DSA) framework, showcasing his deep knowledge of the fintech industry and an innate ability to identify pivotal growth opportunities. His foresight has been a catalyst for expansion, positioning Hannanth Digital as a forward-thinking player in the competitive fintech field.
+                    <br />
+                    <Text color={'black.900'} fontWeight={'700'}>
+
+                        A Giver of Time, A Sharer of Wisdom
+                    </Text>
+
+                    Ramesh’s congenial nature is not just evident in his professional demeanor but also in his readiness to offer advice at any hour. His dedication to guiding Hannanth Digital is deeply appreciated, marked by his willingness to provide round-the-clock counsel without a second thought for remuneration. His generosity in sharing knowledge freely is a rare quality that has made him an invaluable asset to the team.
+                    <br />
+                    <Text color={'black.900'} fontWeight={'700'}>
+
+                        Always There, Always Ready
+                    </Text>
+
+                    Whether it’s a complex strategic decision or a simple operational query, Ramesh has proven to be an advisor who is always available. His 24/7, open-door policy for providing advice underscores his commitment to not just the success of Hannanth Digital but also to the personal and professional growth of its team members.
+                    <br />
+                    <Text color={'black.900'} fontWeight={'700'}>
+
+                        The Epitome of Supportive Leadership
+                    </Text>
+
+                    Ramesh’s approach to advisory goes beyond mere consultations; he embodies the very spirit of supportive leadership. His actionable insights and solutions-driven mindset have empowered Hannanth Digital to navigate the fintech sector's challenges with confidence and clarity.
+                    <br />
+                    <Text color={'black.900'} fontWeight={'700'}>
+
+                        A True Asset to Hannanth Digital
+                    </Text>
+                    At Hannanth Digital India Private Limited, we recognize and celebrate Ramesh Meena for his remarkable contribution to our journey. His ideas, advice, and unwavering support are cornerstones that have helped build the robust foundation our company stands on today.
+                    <br /><br />
+                    <Text color={'black.900'} fontWeight={'700'}>
+
+                        "Ramesh Meena – The Compassionate Custodian of Fintech Expertise and Trusted Advisor to Hannanth Digital.""
+                    </Text>
 
                 </Text>
 

@@ -88,7 +88,7 @@ export default function Banner() {
       text: "A national movement to uplift Bharat by giving every household easy access to DBT funds, digital payments and essential banking services at a store nearby.",
       text2: "Upgrade your shop. Be the one stop banking service provider.",
       text3: " No working capital required. Earn ₹2,00,000+ per year.",
-      image: require('../images/retailer_img/banner img1,png.jpg')
+      image: require('../images/retailer_img/onestep1.png')
     },
     {
       title: 'Distributor',
@@ -97,7 +97,7 @@ export default function Banner() {
       text: "A national movement to uplift Bharat by giving every household easy access to DBT funds, digital payments and essential banking services at a store nearby.",
       text2: "Upgrade your shop. Be the one stop banking service provider.",
       text3: " No working capital required. Earn ₹2,00,000+ per year.",
-      image: require('../images/retailer_img/banner_img2.png')
+      image: require('../images/retailer_img/onestep2.png')
 
     },
     {
@@ -107,7 +107,7 @@ export default function Banner() {
       text: "A national movement to uplift Bharat by giving every household easy access to DBT funds, digital payments and essential banking services at a store nearby.",
       text2: "Upgrade your shop. Be the one stop banking service provider.",
       text3: " No working capital required. Earn ₹2,00,000+ per year.",
-      image: require('../images/retailer_img/banner_img3.jpg')
+      image: require('../images/retailer_img/onestep3.png')
 
     },
   ]
@@ -125,7 +125,7 @@ export default function Banner() {
       text: "Make more out of your distribution business. Onboard your network to offer HPNPAY services and earn more than 18% per month on the money invested. No physical stock. No expenditure in store space, staff or physical transfer of goods. Every time a retailer in your network services a financial transaction, both of you make money. It is as simple as that.",
       text2: " Join over distributors. Earn more than you expect per month.",
       title2: 'Distributor Categories',
-      image: require('../images/retailer_img/distributer.png')
+      image: require('../images/retailer_img/distributor.svg.png')
     },
     {
       title: 'Individual/Self Help Groups',

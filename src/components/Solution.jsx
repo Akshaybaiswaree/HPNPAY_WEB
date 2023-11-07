@@ -16,13 +16,7 @@ import {
     Divider,
     ButtonGroup,
     Button,
-    ModalOverlay,
-    Lorem,
-    ModalBody,
-    ModalHeader,
-    ModalContent,
-    Modal,
-    ModalCloseButton,
+
 
 } from '@chakra-ui/react';
 import { Link } from "react-router-dom";
@@ -31,18 +25,13 @@ import { Link } from "react-router-dom";
 const Solution = () => {
 
 
-    const [isOpen, setIsOpen] = useState(false);
-    const [isOpen2, setIsOpen2] = useState(false);
-    const [isOpen3, setIsOpen3] = useState(false);
-
-    const openModal = () => setIsOpen(true);
-    const openModal2 = () => setIsOpen2(true);
-    const openModal3 = () => setIsOpen3(true);
-    const closeModal = () => setIsOpen(false);
-    const closeModal2 = () => setIsOpen2(false);
-    const closeModal3 = () => setIsOpen3(false);
-
-
+    //code for show page froom top.
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'instant',
+        });
+    }
 
     return (
         <Box paddingTop={"2rem"} fontSize={"1.5rem"} margin={'100px'}>
@@ -86,12 +75,12 @@ const Solution = () => {
                         </Text>
                         <Text color='blue.600' fontSize='2xl'>
                             <Link to={'/digitalcashcollection'}>
-                                <Button >
+                                <Button onClick={scrollToTop}>
                                     Learn More
                                 </Button>
                             </Link>
                         </Text>
-                        
+
                     </Stack>
                 </CardBody>
 
@@ -106,11 +95,11 @@ const Solution = () => {
                             Distribute sachetize content through HPNPay's last mile network and enable digitization of micro cash exchange to digically reach 400 million+ last mile audience
                         </Text>
                         <Link to={'/increasemarket'}>
-                            <Button >
+                            <Button onClick={scrollToTop}>
                                 Learn More
                             </Button>
                         </Link>
-                      
+
                     </Stack>
                 </CardBody>
 
@@ -125,7 +114,7 @@ const Solution = () => {
                             Enable 3X more efficiency in order processing and cash flow by digitizing order placement and payment across the retail value chain
                         </Text>
                         <Link to={'/digitalorder'}>
-                            <Button >
+                            <Button onClick={scrollToTop}>
                                 Learn More
                             </Button>
                         </Link>

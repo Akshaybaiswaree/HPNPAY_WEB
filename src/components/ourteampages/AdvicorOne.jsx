@@ -19,13 +19,13 @@ const AdvicorOne = () => {
 
                     Madan Mohan Ranga – The Numerical Navigator of Hannanth Group
                 </Text>
-
+                <br />
                 <Text fontSize={'1.3rem'}>
 
 
                     <Text color={'black.900'} fontWeight={'700'}>
 
-                        Anchoring the Financial Helm
+                        Anchoring the Financial Help
                     </Text>
 
                     In the robust financial fabric of Hannanth Group, the name Madan Mohan Ranga stands out as a paragon of precision and proficiency. As the Senior Accountant of our esteemed enterprise, he is the custodian of our financial narratives, expertly steering the group’s economic ship through the ever-shifting tides of the business seascape.<br />

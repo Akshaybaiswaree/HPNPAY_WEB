@@ -8,33 +8,25 @@ import {
     Stack,
     Text,
     Input,
-    useBreakpointValue,
-    Td,
-    TableContainer,
-    TableCaption,
-    Table,
-    Thead,
-    Tr,
-    Th,
-    Tbody,
-    Tfoot,
-    Accordion,
-    AccordionPanel,
-    AccordionIcon,
-    AccordionItem,
-    AccordionButton,
+
 } from "@chakra-ui/react";
-import Product1 from "../images/product_img/product _img1.png";
-import Product2 from "../images/product_img/product_img2.png";
-import Product3 from "../images/product_img/product_img3.png";
-import Product4 from "../images/product_img/product_img4.png";
-import Product5 from "../images/product_img/product_img6.png";
-import Product6 from "../images/product_img/product_img7.png";
-import Product7 from "../images/product_img/product_img8.png";
-import Product8 from "../images/product_img/product_img9.jpg";
-import Product9 from "../images/product_img/product_img10.png";
+import Product1 from "../images/product_img/onApp.png";
+import Product2 from "../images/product_img/Aips.png";
+import Product3 from "../images/product_img/digitalpayment.png";
+import ProductTree from "../images/product_img/customerkhata.png";
+import Product4 from "../images/product_img/insurance.png";
+import Product5 from "../images/product_img/carbooking.png";
+import Product6 from "../images/product_img/utilitybill.png";
+import Product7 from "../images/product_img/partner.png";
+import Product8 from "../images/product_img/tax.png";
+import Product9 from "../images/product_img/empowerment.png";
+import Product10 from "../images/product_img/buisnessExpansion.png";
+import Product11 from "../images/product_img/motorcycleAcquisition.png";
+import Product12 from "../images/product_img/homeFinancing.png";
+import Product13 from "../images/product_img/goldasset.png";
 import goldLoan from '../images/footer/goldinvestment.jpg';
 import { Link } from "react-router-dom";
+import flightbooking from "../images/product_img/flightbooking.png";
 
 export default function Product() {
 
@@ -165,7 +157,7 @@ export default function Product() {
                         </Box>
 
                         <Box>
-                            
+
                             <Stack marginTop={'1rem'} spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', sm: 'row' }}>
                                 <Input type='email' placeholder='Enter Your Email' width='500px' height='75px' />
                                 <Button width='150px' height='75px'
@@ -239,7 +231,7 @@ export default function Product() {
                                     Read more
                                 </Button>
                             </Link>
-                            
+
                         </Box>
                         <Box>
 
@@ -254,7 +246,9 @@ export default function Product() {
 
                     </Flex>
                     <Box>
-                        <Image ml={"50px"} src={Product3} width={"400"} height={'350'} />
+                        <Image ml={"1rem"} src={ProductTree} width={"33rem"} height={'18rem'} />
+                        <br />
+                        <Image ml={"1rem"} src={Product3} width={"33rem"} height={'18rem'} />
                     </Box>
                 </Flex>
 
@@ -280,23 +274,18 @@ export default function Product() {
                         We offer a range of affordable general insurance plans, including bike insurance and mobile device protection plans
                     </Text>
                 </Box>
-                <Flex marginTop={"80px"}>
+                <Flex marginTop={"3rem"}>
                     <Box>
-                        <Image ml={"95px"} src={Product4} width={"1000"} height={'400'} paddingLeft={'3rem'} />
+                        <Image ml={"95px"} src={Product4} width={"40rem"} height={'25rem'} paddingLeft={'3rem'} />
                     </Box>
                     <Flex
                         flexDirection={"column"}
-                        gap={"30px"}
+                        gap={"1rem"}
                         width={"50%"}
                         marginTop={"40px"}
-                        marginLeft={"9rem"}
+                        marginLeft={"6rem"}
+                        marginRight={'3rem'}
                     >
-
-
-
-
-
-
                         <Box>
                             <Text color={"#052B60"} fontSize={"1.7rem"} fontWeight={"700"}>
                                 General
@@ -318,7 +307,7 @@ export default function Product() {
                 </Flex>
 
                 {/* page 5 */}
-                <Box marginTop={"2rem"} width={"80%"} margin={"auto"}>
+                <Box marginTop={"3rem"} width={"80%"} margin={"auto"}>
                     <Text fontSize={"3rem"} color={"#052B60"} as={"span"}>
                         Travel
                     </Text>
@@ -333,7 +322,7 @@ export default function Product() {
                 <Flex marginTop={"80px"} margin={'3.6rem'}>
                     <Flex
                         flexDirection={"column"}
-                        gap={"30px"}
+                        gap={"10rem"}
                         width={"50%"}
                         marginTop={"40px"}
                         marginLeft={"6rem"}
@@ -345,7 +334,10 @@ export default function Product() {
 
                             </Text>
                             <Text fontSize={"1.3rem"}>
-                                Help your customers skip the hassle of queues and waiting times. With our intuitive app interface, offer quick and efficient car booking services right from your shop. For every booking made, enjoy a profitable commission.                            </Text>
+                                Help your customers skip the hassle of queues and waiting times. With our intuitive app interface, offer quick and efficient car booking services right from your shop. For every booking made, enjoy a profitable commission.
+                            </Text>
+
+
                         </Box>
 
                         <Box>
@@ -366,7 +358,9 @@ export default function Product() {
                         </Box>
                     </Flex>
                     <Box>
-                        <Image ml={"40px"} src={Product5} width={"400"} height={'370'} />
+                        <Image ml={"40px"} src={Product5} width={"33rem"} height={'18rem'} />
+                        <br />
+                        <Image ml={"40px"} src={flightbooking} width={"33rem"} height={'18rem'} />
                     </Box>
                 </Flex>
 
@@ -517,13 +511,8 @@ export default function Product() {
                         flexDirection={"column"}
                         gap={"30px"}
                         width={"50%"}
-                        marginTop={"40px"}
                         marginLeft={"5rem"}
                     >
-
-                        {/* </Box> */}
-
-
 
                         <Box>
                             <Text color={"#052B60"} fontSize={"1.7rem"} fontWeight={"700"}>
@@ -570,7 +559,7 @@ export default function Product() {
                 <Flex margin={'3.6rem'}>
                     <Flex
                         flexDirection={"column"}
-                        gap={"30px"}
+                        gap={"8rem"}
                         width={"50%"}
                         marginTop={"40px"}
                         marginLeft={"6rem"}
@@ -582,6 +571,8 @@ export default function Product() {
                             <Text fontSize={"1.3rem"}>
                                 HPNPay stands at the forefront of financial empowerment, offering bespoke credit solutions tailored to fit the diverse needs of every customer. We champion your business's growth by providing accessible business loans, injecting the necessary capital to broaden your horizons, enhance your operations, or cater to any specific business exigencies. Facilitate a loan experience for your customers that transcends the traditional, cumbersome branch visits. Our refined loan services are designed with the utmost convenience in mind, ensuring a seamless process that not only fosters customer loyalty but also amplifies the profitability and sustainability of your business in the competitive market.<br />
                             </Text>
+                        </Box>
+                        <Box>
                             <Text color={"#052B60"} fontSize={"1.7rem"} fontWeight={"700"}>
                                 2. Business Expansion Financing
                             </Text>
@@ -615,16 +606,10 @@ export default function Product() {
                             </Text>
                             <Text fontSize={"1.3rem"}>
                                 Unlock the value of your assets with HPNPay's Gold Loan service, a secure and swift financial solution that respects the worth of your investments. With a streamlined process and minimal documentation, access the capital you need by leveraging the gold you own. It’s a safe, sound, and smart way to meet financial requirements, assuring you and your customers of a reliable source of funds when it matters most.
-
+                                At HPNPay, we are not just a credit service, we are a catalyst for your success, committed to delivering financial solutions that are as innovative as they are inclusive. Join us in a partnership that promises to illuminate the path of financial stability and growth for your business and your customers alike.
                             </Text>
-                        </Box>
-                        <Box marginBottom={'2rem'}>
-
-                            <Text fontSize={"1.3rem"}>
-                                6. At HPNPay, we are not just a credit service, we are a catalyst for your success, committed to delivering financial solutions that are as innovative as they are inclusive. Join us in a partnership that promises to illuminate the path of financial stability and growth for your business and your customers alike.
-
-                            </Text>
-                            <Stack marginTop={'1rem'} spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', sm: 'row' }}>
+                            <Box>
+                            <Stack marginTop={'2rem'} spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', sm: 'row' }}>
                                 <Input type='email' placeholder='Enter Your Email' width='500px' height='75px' />
                                 <Button width='150px' height='75px'
                                     _hover={{ bg: 'blue.600' }}
@@ -633,10 +618,16 @@ export default function Product() {
                                     position={'absoulte'} left={"200px"}>Get in touch</Button>
                             </Stack>
                         </Box>
+                        </Box>
+                        
 
                     </Flex>
                     <Box>
-                        <Image ml={"10px"} src={Product9} width={"1000"} height={'380'} marginTop={'4rem'} />
+                        <Image ml={"10px"} src={Product9} width={"33rem"} height={'18rem'} marginTop={'5rem'} />
+                        <Image ml={"10px"} src={Product10} width={"33rem"} height={'18rem'} marginTop={'10rem'} />
+                        <Image ml={"10px"} src={Product11} width={"33rem"} height={'18rem'} marginTop={'4rem'} />
+                        <Image ml={"10px"} src={Product12} width={"33rem"} height={'18rem'} marginTop={'3rem'} />
+                        <Image ml={"10px"} src={Product13} width={"33rem"} height={'18rem'} marginTop={'6rem'} />
                     </Box>
                 </Flex>
 

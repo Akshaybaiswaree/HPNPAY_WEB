@@ -206,10 +206,10 @@ const PrivacyPolicy = () => {
                             <br />
                             <strong>ADVERTISING AND MARKETING:</strong> <br />
                             - Communicating with you about opportunities, products, services, contests, promotions, discounts, incentives, surveys, and rewards offered by us and select partners; if we send you marketing emails, each email will contain instructions permitting you to "opt out" of receiving future marketing or other communications.<br />
-                            OTHER USES:<br />
+                            <strong>OTHER USES:</strong><br />
                             For any other purpose disclosed to you in connection with our Services from time to time. Any information that you provide directly to a third-party merchant, website, or application is not covered by this privacy notice. We are not responsible for the privacy or security practices of merchants or other third parties with whom you choose to share your personal information directly. We encourage you to review the privacy policies of any third party with whom you choose to share your personal information directly.<br />
 
-                            HOW WE SHARE YOUR INFORMATION:<br />
+                            <strong>HOW WE SHARE YOUR INFORMATION:</strong><br />
                             We may share information as per terms of this Privacy Policy; however, we shall endeavor that such use of information does not create hindrance on your use of our application/services. We do not share your personal information with third parties other than as follows.<br />
 
                             <br />
@@ -222,7 +222,7 @@ const PrivacyPolicy = () => {
                             With our Affiliates:<br />
                             With our group companies and corporate affiliates, for the purposes outlined herein.<br />
 
-                            BUSINESS TRANSFERS AND CORPORATE MERGERS:<br />
+                            <strong>BUSINESS TRANSFERS AND CORPORATE MERGERS:</strong><br />
                             - To a subsequent owner, co-owner, or operator of one or more of the Services; or In connection with (including, without limitation, during the negotiation or due diligence process of) a corporate merger, consolidation, or restructuring; the sale of substantially all of our stock and/or assets; financing, acquisition, divestiture, or dissolution of all or a portion of our business; or other corporate change.<br />
 
                             Generally with your Consent:<br />
@@ -231,22 +231,22 @@ const PrivacyPolicy = () => {
                             ENFORCING RIGHTS:<br />
                             We may also disclose personal information to enforce our policies, respond to claims that a posting or other content violates others’ rights, or protects anyone’s rights, property, or safety.<br />
 
-                            LAW & ORDER:<br />
+                            <strong>LAW & ORDER:</strong><br />
                             We may disclose your information to third parties if we determine that such disclosure is reasonably necessary to: (a) comply with the laws; (b) protect any person from death or serious bodily injury; (c) prevent fraud or abuse of our name, brands, trademarks, or such other rights belonging to us or our other users; or (d) protect our rights. We also may share (within our group of companies or with third parties) aggregated and anonymized information that does not specifically identify you or any individual user of our Services. Stewardship of your data is critical to us and a responsibility that we embrace. We believe that our users’ data should receive the same legal protections regardless of whether it’s stored on our servers or on their home computer systems or devices. While complying with the directions issued by the statutory authorities, our endeavor shall be to protect the interest of users and follow transparency.<br />
 
-                            HOW LONG WE RETAIN YOUR INFORMATION:<br />
+                            <strong> HOW LONG WE RETAIN YOUR INFORMATION:</strong><br />
                             We will retain your personal information for as long as we need it. We can retain copies of information about any transactions or Services in which you may have participated for a period of time that is consistent with applicable law, applicable statute of limitations, or as we believe is reasonably necessary to comply with applicable law, regulation, legal process, or governmental request, to detect or prevent fraud, to collect fees owed, to resolve disputes, to address problems with our Services, to assist with investigations, to enforce our Terms of Use or other applicable agreements or policies, or to take any other actions consistent with applicable law.<br />
 
-                            SECURITY PRECAUTIONS:<br />
+                           <strong> SECURITY PRECAUTIONS:</strong><br />
                             The Website/App intends to protect your personal information and to maintain its accuracy as confirmed by you. We implement reasonable physical, administrative, and technical safeguards to help us protect your personal information from unauthorized access, use, and disclosure. We also require that our registered third-party service providers protect such information from unauthorized access, use, and disclosure. Our Platform has stringent security measures in place to protect the loss, misuse, and alteration of information under control. We endeavor to safeguard and ensure the security of the information provided by you. We use Secure Sockets Layers (SSL) based encryption for the transmission of the information, which is currently the required level of encryption in India as per the law. Nevertheless, the internet is not a 100% secure environment, and we cannot guarantee the absolute security of the transmission or storage of your information.<br />
 
-                            THIRD-PARTY ADVERTISING AND ANALYTICS:<br />
+                            <strong>THIRD-PARTY ADVERTISING AND ANALYTICS:</strong><br />
                             We can use third-party service providers to provide site metrics and other analytics services. These third parties can use cookies, web beacons, and other technologies to collect information, such as your IP address, identifiers associated with your device, other applications on your device, the browsers you use to access our Services, webpages viewed, time spent on webpages, links clicked, and conversion information (e.g., transactions entered into). This information can be used by HPNPAY and third-party service providers on behalf of HPNPAY to analyze and track usage of our Services, determine the popularity of certain content, and better understand how you use our Services. The third-party service providers that we engage are bound by confidentiality obligations and other restrictions with respect to their use and collection of your information. This Privacy Notice does not apply to, and we are not responsible for, third-party cookies, web beacons, or other tracking technologies, which are covered by such third parties' privacy policies. For more information, we encourage you to check the privacy policies of these third parties to learn about their privacy practices.<br />
 
-                            YOU’RE CONSENT:<br />
+                            <strong>YOU’RE CONSENT:</strong><br />
                             By using the Website/App and/ or by providing your information, you consent to the collection and use of the information you disclose on the Website in accordance with this Privacy Policy, including but not limited to your consent for collecting, using, sharing and disclosing your information as per this privacy policy. You have acknowledged that the Privacy Policy contained herein have been explained to you in vernacular language and you have understood the contents thereof. If we decide to change our privacy policy, we will post those changes on this page so that you are always aware of what information we collect, how we use it, and under what circumstances we disclose it.<br />
 
-                            YOUR CHOICES:<br />
+                            <strong>YOUR CHOICES:</strong><br />
                             Personal Information<br />
                             You may access, change, or correct information that you have provided by logging into your HPNPAY account at any time or by making a request to us on cc@HPNPAY.com, in which case we may need to verify your identity before granting access or otherwise changing or correcting your information<br />
 

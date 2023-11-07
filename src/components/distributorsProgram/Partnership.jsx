@@ -121,18 +121,7 @@ const Partnership = () => {
                             <Text fontSize={{ base: 'md', lg: 'lg' }} wordSpacing={'2px'} color={'gray.500'}>
                                 It is easy to earn 40,000 to 60,000 every month with just 5-7 retailers in your network. You earn everytime a customer does a financial transaction on your retail network.
                             </Text>
-                            <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
-                                <Button
-                                    rounded={'full'}
-                                    bg={'blue.400'}
-                                    color={'white'}
-                                    _hover={{
-                                        bg: 'blue.500',
-                                    }}>
-                                    See More
-                                </Button>
-                                {/* <Button rounded={'full'}>How It Works</Button> */}
-                            </Stack>
+                           
                         </Stack>
                         <Box width={'40%'}>
                             <Image

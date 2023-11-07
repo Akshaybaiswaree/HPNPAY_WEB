@@ -18,7 +18,7 @@ const WhoWeAre = () => {
 
                 <Text textDecorationLine={'underline'} color={"#052B60"} fontSize={"1.7rem"} fontWeight={"700"}>
 
-                   About Us
+                    About Us
 
                 </Text>
 
@@ -281,7 +281,10 @@ const WhoWeAre = () => {
                         Hannanth Digital India Private Limited: Our Philosophy
 
                     </Text><br />
-                    Empowerment Through Digital Innovation<br />
+                    <Text color={"#052B60"} fontSize={"1.5rem"} fontWeight={"700"}>
+
+                        Empowerment Through Digital Innovation
+                    </Text><br />
 
                     At the heart of Hannanth Digital India Private Limited, operating under our renowned brand name HPNPay, lies an unwavering commitment to enhancing and elevating the essence of small industries. We firmly believe in the vast potential and boundless energy that pulses within these businesses, shaping the socio-economic fabric of our nation.<br />
 
@@ -289,11 +292,18 @@ const WhoWeAre = () => {
 
                     In an era of technological omnipresence, our vision has always been clear - to streamline and simplify the process of digital integration for every small industry. We understand that in today's fast-paced digital age, having a digital footprint is not just a luxury; it's a fundamental necessity. Through our groundbreaking Small Industries Marketing Tool, we've bridged the gap between traditional commerce and digital prowess. By leveraging the power of AI and social media, we have crafted a platform that ensures even the smallest of businesses can carve out a distinct and impactful digital identity.<br />
 
-                    A Partnership of Growth<br />
+                    <br />
+                    <Text color={"#052B60"} fontSize={"1.5rem"} fontWeight={"700"}>
+
+                        A Partnership of Growth
+                    </Text><br />
 
                     Our approach is rooted in partnership and mutual growth. While we provide the technological framework with platforms like the Small Industries Marketing Tool, we see our role as more than just service providers. We are collaborators, assisting businesses in navigating the often complex digital landscape. This philosophy extends to our revenue model, where we ensure that businesses get maximum value with minimal expenditure. Our nominal charges for product listings combined with a sustainable profit-sharing model underscore our commitment to the prosperity of our partners.<br />
+                    <br />
+                    <Text color={"#052B60"} fontSize={"1.5rem"} fontWeight={"700"}>
 
-                    Trust, Security, and Reliability<br />
+                        Trust, Security, and Reliability
+                    </Text> <br />
 
                     In all our endeavors, we prioritize the security and trust of our partners and their customers. We've instilled robust encryption measures ensuring every transaction remains secure, fostering an environment of trust. We believe that for digital growth to be meaningful, it needs to be built on a foundation of reliability.<br />
 
@@ -302,39 +312,54 @@ const WhoWeAre = () => {
                     Our philosophy is ever-evolving, shaped by the dynamic digital landscape and the feedback of our valued partners. Yet, some things remain constant: our commitment to innovation, our belief in the power of small industries, and our unwavering dedication to ensuring every business, irrespective of its size, gets its rightful place in the digital world.<br />
 
                     Join us on this journey, for at Hannanth Digital India Private Limited, we're not just building platforms; we're crafting a brighter, digital future for all.<br />
+                    <br />
+                    <Text color={"#052B60"} fontSize={"1.5rem"} fontWeight={"700"}>
 
-                    Work Style & Culture at Hannanth Digital India Private Limited<br />
+                        Work Style & Culture at Hannanth Digital India Private Limited<br />
 
-                    Collaborative Innovation<br />
+                        Collaborative Innovation
+                    </Text><br />
 
                     In the bustling corridors of Hannanth Digital India Private Limited, there's a unified belief in the power of collaboration. We've instilled a culture where ideas thrive, not in isolation, but when mingled with diverse perspectives. Our flagship brand, HPNPay, embodies this spirit, having been shaped by collective insights and expertise.<br />
+                    <Text color={"#052B60"} fontSize={"1.5rem"} fontWeight={"700"}>
 
-                    End-to-End Digital Integration<br />
+                        End-to-End Digital Integration
+                    </Text><br />
 
                     Our work style is a blend of traditional values and modern methodologies. While we deeply respect the rich tapestry of Indian craftsmanship, we equip our teams with the latest digital tools and techniques. This ensures that our offerings, such as the Small Industries Marketing Tool, remain at the forefront of technological innovation.<br />
+                    <Text color={"#052B60"} fontSize={"1.5rem"} fontWeight={"700"}>
 
-                    Empowerment at Every Step<br />
+                        Empowerment at Every Step
+                    </Text><br />
 
                     Empowerment isn't just a service we offer to our clients; it's ingrained in our work culture. Every team member, from the developers crafting the AI algorithms to the on-ground agents collaborating with local businesses, is encouraged to take ownership of their tasks. This autonomy fosters a sense of responsibility and dedication, driving excellence in every endeavor.<br />
+                    <Text color={"#052B60"} fontSize={"1.5rem"} fontWeight={"700"}>
 
-                    Adaptable & Agile<br />
+                        Adaptable & Agile
+                    </Text><br />
 
                     In the rapidly evolving digital landscape, agility is our superpower. Our teams are trained to adapt, pivot, and innovate in real-time. This nimble approach ensures that we're not just reacting to the industry's shifts but often leading the charge.<br />
+                    <Text color={"#052B60"} fontSize={"1.5rem"} fontWeight={"700"}>
 
-                    Sustainability & Growth<br />
+                        Sustainability & Growth
+                    </Text><br />
 
                     Our revenue model, built on minimal charges and profit-sharing, isn't just a business decision; it reflects our culture of sustainable growth. We believe in a win-win scenario, ensuring that our success is intrinsically linked with the success of our partners.<br />
 
+                    <Text color={"#052B60"} fontSize={"1.5rem"} fontWeight={"700"}>
 
-                    A Culture of Trust & Respect<br />
+                        A Culture of Trust & Respect
+                    </Text><br />
 
                     At Hannanth Digital India Private Limited, we prioritize building a trustworthy environment. Through stringent security protocols, we ensure that every transaction remains transparent and secure, laying the foundation for long-lasting relationships.<br />
 
                     Continuous Learning & Evolution<br />
 
                     With an eye on the future, we are committed to continuous learning. Regular workshops, training sessions, and feedback loops ensure that our teams stay updated, both in terms of technical knowledge and understanding of market dynamics.<br />
+                    <Text color={"#052B60"} fontSize={"1.5rem"} fontWeight={"700"}>
 
-                    Conclusion<br />
+                        Conclusion
+                    </Text><br />
 
                     In essence, our work style and culture mirror our philosophy. As we embark on our mission to digitally empower every small business, we do so with passion, commitment, and a sense of community. At Hannanth Digital India Private Limited, we're not just a team; we're a family, working hand-in-hand towards a shared digital dream.<br />
 
@@ -344,8 +369,10 @@ const WhoWeAre = () => {
                     Unifying Diverse Ideas<br />
 
                     In the heart of Hannanth Digital India Private Limited lies our commitment to collaboration. We see strength in diversity and understand that the most groundbreaking solutions arise from a union of diverse perspectives. Our platforms encourage open dialogue, pooling of expertise, and cross-functional interactions, promoting a culture where every idea, no matter its origin, is valued and explored.<br />
+                    <Text color={"#052B60"} fontSize={"1.5rem"} fontWeight={"700"}>
 
-                    Agility & Innovation<br />
+                        Agility & Innovation
+                    </Text><br />
 
                     Adapting with Purpose<br />
 
@@ -355,8 +382,10 @@ const WhoWeAre = () => {
 
                     Innovation is the lifeblood of our operations. Whether it's refining our HPNPay system or developing new tools for small businesses, we're constantly pushing boundaries. Our iterative approach allows for quick prototyping, testing, and refining, ensuring that our solutions are not just novel but effective.<br />
 
+                    <Text color={"#052B60"} fontSize={"1.5rem"} fontWeight={"700"}>
 
-                    Rural Engagement<br />
+                        Rural Engagement
+                    </Text><br />
 
                     Bridging the Urban-Rural Divide<br />
 
@@ -365,8 +394,11 @@ const WhoWeAre = () => {
                     Empowerment Through Digital Tools<br />
 
                     From our Online Handicraft Market to the Small Industries Marketing Tool, our offerings are tailored to elevate rural craftsmanship and industries, opening up avenues previously inaccessible. By offering digital platforms that cater specifically to their needs, we're driving employment, fostering entrepreneurship, and contributing to the growth of rural economies.<br />
+                    <br />
+                    <Text color={"#052B60"} fontSize={"1.5rem"} fontWeight={"700"}>
 
-                    Holistic Growth Approach<br />
+                        Holistic Growth Approach
+                    </Text><br />
 
                     Our rural engagement isn't just about business; it's about community building. By integrating them into the digital realm, we're ensuring they have a voice in the global marketplace. Through our initiatives, we aim to create a symbiotic relationship where rural India not only contributes to but also benefits from the digital revolution.<br />
 

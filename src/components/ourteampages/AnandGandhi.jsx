@@ -13,7 +13,7 @@ import {
 
 const AnandGandhi = () => {
 
-    
+
     return (
         <>
 
@@ -24,7 +24,7 @@ const AnandGandhi = () => {
                     About Our Cofounder & CEO
 
                 </Text>
-
+                <br />
                 <Text fontSize={'1.3rem'}>
                     <Text color={'black.900'} fontWeight={'700'}>
                         Embark on a Journey of Visionary Leadership and Technological Prowess.<br />

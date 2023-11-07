@@ -17,20 +17,62 @@ const AdvicorThree = () => {
 
                 <Text textDecorationLine={'underline'} color={"#052B60"} fontSize={"1.7rem"} fontWeight={"700"}>
 
-                    Customer Khata: Revolutionizing Credit Management
-
+                    Sandeep Jain – The Backbone of Back-Office Operations at Hannanth Group
                 </Text>
+                <br />
+                <Text fontSize={'1.3rem'}>
 
-                <Text fontSize={"1.3rem"} >
-                    1.Streamlined Transactions: Say goodbye to traditional ledgers. With Customer Khata's digital platform, every transaction is meticulously recorded, ensuring there's no room for discrepancies. A transparent system means trust is built, and partnerships are strengthened.                                            <br />
+                    <Text color={'black.900'} fontWeight={'700'}>
 
-                    2.Timely Reminders: Missing out on payments? With our automated reminder system, ensure that all dues are timely settled. Let the system take care of nudging your clients, so you don't have to.                                            <br />
+                        The Sage of Systems and Synthesis
+                    </Text>
 
-                    3.Integrated Payment Solutions: We believe in simplicity and integration. Collect payments seamlessly through our integrated digital payment solutions, making transactions smoother and faster.                                            <br />
+                    Introducing Sandeep Jain, the mastermind behind the seamless back-office symphony at Hannanth Group. At the age of 35, he stands as a paragon of operational excellence, bringing forth a wealth of knowledge and an unmatched expertise in orchestrating the pivotal behind-the-scenes activities that are the lifeblood of our enterprise.
+                    <br />
+                    <Text color={'black.900'} fontWeight={'700'}>
 
-                    4.Join the Customer Khata family and experience a 100% enhancement in how you handle customer credit. Elevate your business processes, optimize revenue collection, and foster better customer relations with us.                                            <br />
+                        Bikaner's Strategic Son
+                    </Text>
 
-                    5.I hope this provides a comprehensive overview of the product you're offering. Adjustments can be made based on specific requirements or preferences!                                            <br />
+                    Originating from the historic city of Bikaner, Sandeep’s journey with us encapsulates a narrative of dedication and meticulous precision. His local roots are intertwined with a global mindset, allowing him to inject traditional values into modern business practices, fostering an atmosphere of respect, reliability, and robust management within our back-office domain.
+                    <br />
+                    <Text color={'black.900'} fontWeight={'700'}>
+
+                        The Conductor of Corporate Cohesion
+                    </Text>
+
+                    As a strategic advisor, Sandeep’s role is crucial in maintaining the cogs of our corporate machine, ensuring they run smoothly and synergistically. He is the unseen hand guiding the tiller of our daily operations, managing the myriad of critical tasks that support and enable the front-line success of our company.
+                    <br />
+                    <Text color={'black.900'} fontWeight={'700'}>
+
+                        Mastering the Mechanics of Management
+                    </Text>
+
+                    Sandeep Jain’s domain is where the magic happens—where every file, every report, and every piece of data is meticulously managed to uphold the integrity and efficiency of Hannanth Group. His expertise in controlling back-office functions ensures that our business runs like a well-oiled machine, poised for performance and growth.
+                    <br />
+                    <Text color={'black.900'} fontWeight={'700'}>
+
+                        The Custodian of Operational Excellence
+                    </Text>
+
+                    With Sandeep at the advisory helm, every process is streamlined, every system is optimized, and every task is executed with precision. He embodies the spirit of operational excellence, believing that the strength of a company lies as much in its silent gears as in its loud engines.
+                    <br />
+                    <Text color={'black.900'} fontWeight={'700'}>
+
+                        A Strategic Vision for Supportive Services
+                    </Text>
+                    In a world where back-office activities are often unsung, Sandeep’s visionary approach elevates these functions to a strategic level, recognizing that the backbone of any successful company is its ability to manage its internal processes as effectively as its market offerings.
+                    <br /><br />
+                    <Text color={'black.900'} fontWeight={'700'}>
+
+                        The Architect of Administrative Artistry
+                    </Text>
+                    At Hannanth Group, we commend Sandeep Jain for his unwavering commitment to administrative artistry. His keen oversight ensures that every detail is accounted for, every deadline is met, and every support service is conducted with the utmost excellence.
+                    <br /><br />
+                    <Text color={'black.900'} fontWeight={'700'}>
+
+                        "Sandeep Jain – The Unsung Hero of Hannanth Group’s Back-Office Ecosystem."
+                    </Text>
 
                 </Text>
 

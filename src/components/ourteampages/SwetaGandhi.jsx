@@ -20,7 +20,7 @@ const SwetaGandhi = () => {
 
                     Shweta Gandhi – The Quintessence of Grace and Grit at Hannanth Group
                 </Text>
-
+                <br/>
                 <Text fontSize={'1.3rem'}>
 
                     <Text color={'black.900'} fontWeight={'700'}>
