@@ -26,7 +26,7 @@ import reCaptchaImage from "../images/contactus/RecaptchaLogo.svg.png"
 import googlePlay from "../images/contactus/google-play.png"
 import { PhoneIcon } from '@chakra-ui/icons'
 import Solution4 from "../images/contactus/360_F_584079236_dGOg5QEHUhUQb1KN642R6uCW9Fhourue.jpg"
-import goldLoan from '../images/footer/goldLoan.png';
+import goldLoan from '../images/footer/goldinvestment.jpg';
 
 export default function ContactUs() {
     return (

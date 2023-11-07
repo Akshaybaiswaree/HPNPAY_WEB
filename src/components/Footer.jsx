@@ -52,6 +52,15 @@ const SocialButton = ({ children, label, href }) => {
 };
 
 export default function Footer() {
+
+    //code for show page froom top.
+    function scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'instant',
+      });
+    }
+  
   return (
     <>
 
@@ -79,18 +88,18 @@ export default function Footer() {
             <Stack marginLeft={"50px"}>
               <ListHeader>Legal</ListHeader>
               <Link to="/privacypolicy">
-                <Box as="a" href={''}>
+                <Box as="a" href={''} onClick={scrollToTop}>
                   Privacy Policy
                 </Box>
               </Link>
               <Link to="/refun&cancelationplicy">
-                <Box as="a" href={''}>
+                <Box as="a" href={''} onClick={scrollToTop}>
                   Refund And Cancelation Policy
                 </Box>
               </Link>
 
               <Link to='/term&condition'>
-                <Box as="a" >
+                <Box as="a" onClick={scrollToTop}>
                   Terms & Conditions
                 </Box>
               </Link>

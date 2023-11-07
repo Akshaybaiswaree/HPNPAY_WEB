@@ -38,7 +38,7 @@ import box2 from '../images/retailer_img/box2.jpeg';
 import box3 from '../images/retailer_img/box3.jpeg';
 import worldImage from '../images/retailer_img/indiamap.png';
 import { Link } from 'react-router-dom';
-import goldLoan from '../images/footer/goldLoan.png';
+import goldLoan from '../images/footer/goldinvestment.jpg';
 
 // Settings for the slider
 const settings = {
@@ -147,6 +147,13 @@ export default function Banner() {
     { name: 'Credit Services' },
   ]
 
+  //code for show page froom top.
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'instant',
+    });
+  }
 
   return (
     <Box position={'relative'} height={'600px'} width={'80%'} margin='auto' h={'full'} overflow={'hidden'} padding={'40px'}>
@@ -315,34 +322,75 @@ export default function Banner() {
                   </Text>
 
                 </Stack>
+                {
+                  element.title == "Distributor" ? (
 
-                <Stack direction='row' spacing={4} align='center'>
-                  <Link to='/income-calculator'>
-                    <Button
-                      size='md'
-                      height='60px'
-                      width='300px'
-                      border='2px'
-                      borderColor='blue.500'
-                    >
-                      Income Calculator
-                    </Button>
-                  </Link>
-                  <Link to='/login'>
-                    <Button
-                      size='md'
-                      height='60px'
-                      width='300px'
-                      // border='2px'
-                      // background={'#82e368'}
-                      _hover={{ bg: 'blue.600' }}
-                      background={'#156DB1'}
-                      color={'white'}
-                    >
-                      Join HPNPAY
-                    </Button>
-                  </Link>
-                </Stack>
+                    <>
+                      <Stack direction='row' spacing={4} align='center'>
+                        <Link to='/distributor-income-calculator'>
+                          <Button
+                            size='md'
+                            height='60px'
+                            width='280px'
+                            border='2px'
+                            borderColor='blue.500'
+                            onClick={scrollToTop}
+                          >
+                            Income Calculator
+                          </Button>
+                        </Link>
+                        <Link to='/login'>
+                          <Button
+                            size='md'
+                            height='60px'
+                            width='280px'
+                            // border='2px'
+                            // background={'#82e368'}
+                            _hover={{ bg: 'blue.600' }}
+                            background={'#156DB1'}
+                            color={'white'}
+                            onClick={scrollToTop}
+                          >
+                            Join HPNPAY
+                          </Button>
+                        </Link>
+                      </Stack>
+                    </>
+                  ) : (
+                    <>
+                      <Stack direction='row' spacing={4} align='center'>
+                        <Link to='/income-calculator'>
+                          <Button
+                            size='md'
+                            height='60px'
+                            width='280px'
+                            border='2px'
+                            borderColor='blue.500'
+                            onClick={scrollToTop}
+                          >
+                            Income Calculator
+                          </Button>
+                        </Link>
+                        <Link to='/login'>
+                          <Button
+                            size='md'
+                            height='60px'
+                            width='280px'
+                            // border='2px'
+                            // background={'#82e368'}
+                            _hover={{ bg: 'blue.600' }}
+                            background={'#156DB1'}
+                            color={'white'}
+                            onClick={scrollToTop}
+                          >
+                            Join HPNPAY
+                          </Button>
+                        </Link>
+                      </Stack>
+                    </>
+                  )
+                }
+
                 <Heading color={'blue.700'} fontSize='2xl' font-weight="bold">{element.title2}</Heading>
                 <Table variant="simple">
                   <Tbody>

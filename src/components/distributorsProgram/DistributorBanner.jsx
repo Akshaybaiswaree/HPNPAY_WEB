@@ -25,7 +25,7 @@ import travel from "../../images/aboutUs_img/travel.webp"
 import aeps from "../../images/aboutUs_img/aeps.png"
 import Distributors from './Distributors';
 import Partnership from './Partnership';
-import goldLoan from '../../images/footer/goldLoan.png'
+import goldLoan from '../../images/footer/goldinvestment.jpg';
 
 const DistributorBanner = () => {
 

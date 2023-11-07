@@ -6,6 +6,15 @@ import revenue from "../../images/product_img/distributor_revenue.png";
 import { Link } from 'react-router-dom';
 
 export default function Distributors() {
+
+   //code for show page froom top.
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'instant',
+    });
+  }
+
     return (
         <>
             <Box margin={'3rem'} >
@@ -55,7 +64,7 @@ export default function Distributors() {
                                         border='2px'
                                         color={"blue.400"}
                                         padding={"25px"}
-
+onClick={scrollToTop}
                                     >
                                         Income Calculator
                                     </Button>
@@ -70,6 +79,8 @@ export default function Distributors() {
                                         _hover={{ bg: 'blue.600' }}
                                         background={'#156DB1'}
                                         color={'white'}
+                                        onClick={scrollToTop}
+
                                         >Join HPNPAY</Button>
                                 </Link>
                             </Stack>

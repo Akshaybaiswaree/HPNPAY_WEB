@@ -192,7 +192,7 @@ const DistributorIncomeCalculator = () => {
     }, [incomeValues]);
 
     return (
-        <Box margin={'100px'}>
+        <Box>
 
             <Box margin={'40px'}>
                 <Heading color={'blue.700'} fontSize='5xl' font-weight="bold">Income Calculator</Heading>

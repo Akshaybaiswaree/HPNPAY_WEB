@@ -33,13 +33,23 @@ import Product6 from "../images/product_img/product_img7.png";
 import Product7 from "../images/product_img/product_img8.png";
 import Product8 from "../images/product_img/product_img9.jpg";
 import Product9 from "../images/product_img/product_img10.png";
-import goldLoan from "../images/footer/goldLoan.png"
+import goldLoan from '../images/footer/goldinvestment.jpg';
+import { Link } from "react-router-dom";
 
 export default function Product() {
+
+
+    //code for show page froom top.
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'instant',
+        });
+    }
+
     return (
         <>
             <Box >
-
 
                 <Stack direction={{ base: "column", md: "row" }} >
                     <Flex p={8} flex={1} align={"center"} justify={"center"}>
@@ -64,14 +74,16 @@ export default function Product() {
                                 </Text>
                             </Text>
                             <Stack direction={{ base: "column", md: "row" }} spacing={4}>
-                                <Button
-                                    fontSize={{ base: "md", lg: "2xl" }}
-                                    //   rounded={'full'}
-                                    //   bg={'blue.400'}
-                                    color={"#052B60"}
-                                >
-                                    Calculate Your Income
-                                </Button>
+                                <Link to="/income-calculator">
+                                    <Button
+                                        fontSize={{ base: "md", lg: "2xl" }}
+                                        //   rounded={'full'}
+                                        //   bg={'blue.400'}
+                                        color={"#052B60"}
+                                    >
+                                        Calculate Your Income
+                                    </Button>
+                                </Link>
                                 <Button
                                     fontSize={{ base: "md", lg: "2xl" }}
                                     _hover={{ bg: 'blue.600' }}
@@ -100,30 +112,11 @@ export default function Product() {
                         <Text fontWeight={"bold"} color={"black"}>
                             "Your Trust, Our Commitment: Digital Excellence, Delivered Securely."
                         </Text>
-
-                        <Accordion defaultIndex={[1]} allowMultiple>
-                            <AccordionItem>
-                                <h2>
-                                    <AccordionButton>
-                                        <Box fontSize={"1.3rem"} as="span" flex='1' textAlign='left'>
-                                            Read more
-                                        </Box>
-                                        <AccordionIcon />
-                                    </AccordionButton>
-                                </h2>
-                                <AccordionPanel pb={4}>
-                                    <Text fontSize={"1.3rem"}>
-                                        * it's the very foundation of our ethos. With HPNPay, you get access to a robust suite of digital banking services that cater to your every need, without the necessity for working capital.<br />
-
-                                        * Imagine being able to offer an array of banking facilities, right from your shop. Whether it's facilitating immediate cash withdrawals, seamless money transfers, secure cash deposits, or introducing your customers to savings and insurance options—HPNPay has got it all. Looking to extend loans? We've got that covered too.<br />
-                                        * What's more, with HPNPay, you're banking on a platform that's backed by rigorous standards.  we maintain stringent security protocols. This is not just about compliance; it's our way of ensuring that every transaction you undertake is cloaked in multiple layers of security. The proof? A staggering success ratio of over 99.9% that's been tested over time.<br />
-
-                                        "Choose HPNPay: Where trust meets digital innovation."<br />
-
-                                    </Text>
-                                </AccordionPanel>
-                            </AccordionItem>
-                        </Accordion>
+                        <Link to="/bankingservices">
+                            <Button fontSize={"1.3rem"} as="span" flex='1' textAlign='left' marginTop={'2rem'} onClick={scrollToTop}>
+                                Read more
+                            </Button>
+                        </Link>
                     </Text>
                 </Box>
                 <Flex margin={"4rem"}>
@@ -172,22 +165,7 @@ export default function Product() {
                         </Box>
 
                         <Box>
-                            {/* <Text color={"#052B60"} fontSize={"1.7rem"} fontWeight={"700"}>
-                            HPNPAY - Savings & Current Account opening
-                        </Text>
-                        <Text fontSize={"1.3rem"}>
-                            Become the Banking Mitra of your area. Help every citizen to open &
-                            operate a bank account. Two types of accounts that can be opened: 
-                            1. Zero balance Axis Bank Sahaj Savings Account: A zero balance
-                            account that can be opened instantly with just Aadhaar eKYC  2. TDS
-                            Free Current Account: Open Current Account from your shop & grow
-                            your business Become the Banking Mitra of your area. Help every
-                            citizen to open & operate a bank account. Two types of accounts that
-                            can be opened:  1. Zero balance Axis Bank Sahaj Savings Account: A
-                            zero balance account that can be opened instantly with just Aadhaar
-                            eKYC  2. TDS Free Current Account: Open Current Account from your
-                            shop & grow your business
-                        </Text> */}
+                            
                             <Stack marginTop={'1rem'} spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', sm: 'row' }}>
                                 <Input type='email' placeholder='Enter Your Email' width='500px' height='75px' />
                                 <Button width='150px' height='75px'
@@ -228,40 +206,12 @@ export default function Product() {
                             </Text>
                             <Text fontSize={"1.3rem"}>We offer a range of affordable general insurance plans, including bike insurance and mobile device protection plans
                             </Text>
-                            <Accordion defaultIndex={[1]} allowMultiple>
-                                <AccordionItem>
-                                    <h2>
-                                        <AccordionButton>
-                                            <Box fontSize={"1.3rem"} as="span" flex='1' textAlign='left'>
-                                                Read more
-                                            </Box>
-                                            <AccordionIcon />
-                                        </AccordionButton>
-                                    </h2>
-                                    <AccordionPanel pb={4}>
-                                        <Text fontSize={"1.3rem"}>
-                                            1. Unified Platform: With HPNPay, you gain access to a myriad of insurance options all in one place. Whether it's health, life, or general insurance, our platform presents an array of choices tailored to fit your needs.<br />
+                            <Link to="/digitalsuite">
+                                <Button fontSize={"1.3rem"} as="span" flex='1' textAlign='left' marginTop={'2rem'} onClick={scrollToTop}>
+                                    Read more
+                                </Button>
+                            </Link>
 
-                                            2. Trusted Partnerships: Our collaboration with esteemed retailer and distributor agent partners ensures that you are always in safe hands. Every policy and plan available on HPNPay comes with the assurance of our dedicated network.<br />
-
-                                            3. Intuitive Design: Our website is crafted with users in mind. Its responsive design and user-friendly interface mean that you can easily navigate, compare, and choose the best insurance solutions without any hassle.<br />
-
-                                            4. Unwavering Commitment: At HPNPay, we prioritize our customers. Our commitment goes beyond just providing insurance options. We're here to guide, advise, and assist every step of the way.<br />
-
-                                            5. Secure Transactions: Safety is paramount at HPNPay. Rest easy knowing that all your transactions are conducted over a secure, encrypted platform. Your data's security is our top concern.<br />
-                                            Partner With Us<br />
-
-                                            If you are a retailer or a distributor agent looking to expand your horizons and tap into the digital insurance market, HPNPay welcomes you. Join our growing community and be part of a digital revolution in insurance.<br />
-                                            Conclusion<br />
-
-                                            In an age where digital is the new norm, HPNPay stands tall as a beacon of reliability and innovation in the online insurance sector. Dive into a world of curated insurance solutions and experience the future of insurance, today.<br />
-
-                                            Because life doesn't come with guarantees<br />
-                                            Highlight This Line In The Start
-                                        </Text>
-                                    </AccordionPanel>
-                                </AccordionItem>
-                            </Accordion>
                         </Box>
                         <Box>
                             <Text color={"#052B60"} fontSize={"1.7rem"} fontWeight={"700"}>
@@ -270,32 +220,12 @@ export default function Product() {
                             <Text fontSize={"1.3rem"}>
                                 In the modern business landscape, efficiency and accuracy are paramount. That's why Customer Khata is here to redefine how you manage your customer credits.
                             </Text>
-                            <Accordion defaultIndex={[1]} allowMultiple>
-                                <AccordionItem>
-                                    <h2>
-                                        <AccordionButton>
-                                            <Box fontSize={"1.3rem"} as="span" flex='1' textAlign='left'>
-                                                Read more
-                                            </Box>
-                                            <AccordionIcon />
-                                        </AccordionButton>
-                                    </h2>
-                                    <AccordionPanel pb={4}>
-                                        <Text fontSize={"1.3rem"}>
-                                            1.Streamlined Transactions: Say goodbye to traditional ledgers. With Customer Khata's digital platform, every transaction is meticulously recorded, ensuring there's no room for discrepancies. A transparent system means trust is built, and partnerships are strengthened.                                            <br />
+                            <Link to="/customkhata">
+                                <Button fontSize={"1.3rem"} as="span" flex='1' textAlign='left' marginTop={'2rem'} onClick={scrollToTop}>
+                                    Read more
+                                </Button>
+                            </Link>
 
-                                            2.Timely Reminders: Missing out on payments? With our automated reminder system, ensure that all dues are timely settled. Let the system take care of nudging your clients, so you don't have to.                                            <br />
-
-                                            3.Integrated Payment Solutions: We believe in simplicity and integration. Collect payments seamlessly through our integrated digital payment solutions, making transactions smoother and faster.                                            <br />
-
-                                            4.Join the Customer Khata family and experience a 100% enhancement in how you handle customer credit. Elevate your business processes, optimize revenue collection, and foster better customer relations with us.                                            <br />
-
-                                            5.I hope this provides a comprehensive overview of the product you're offering. Adjustments can be made based on specific requirements or preferences!                                            <br />
-
-                                        </Text>
-                                    </AccordionPanel>
-                                </AccordionItem>
-                            </Accordion>
                         </Box>
                         <Box>
                             <Text color={"#052B60"} fontSize={"1.7rem"} fontWeight={"700"}>
@@ -304,27 +234,12 @@ export default function Product() {
                             <Text fontSize={"1.3rem"}>
                                 In today's digital age, seamless transactions are no longer a luxury; they're a necessity. With UPI QR, we're making that vision a reality.
                             </Text>
-                            <Accordion defaultIndex={[1]} allowMultiple>
-                                <AccordionItem>
-                                    <h2>
-                                        <AccordionButton>
-                                            <Box fontSize={"1.3rem"} as="span" flex='1' textAlign='left'>
-                                                Read more
-                                            </Box>
-                                            <AccordionIcon />
-                                        </AccordionButton>
-                                    </h2>
-                                    <AccordionPanel pb={4}>
-                                        <Text fontSize={"1.3rem"}>
-                                            1.Universal Acceptance: No more confusion about which payment app your customer uses. Our single QR code is compatible across various payment apps, ensuring that you never miss out on a sale.<br />
-                                            2.Flexibility at its Best: Whether you're on the move or at your shop, UPI QR adapts to your needs. Set it as your mobile screen saver for instant payments during deliveries, or display it prominently in your shop for customers to scan and pay.<br />
-                                            3.Seamless Digital Payments: Long gone are the days of manual card swipes or handling cash. With UPI QR, payments are instant, secure, and completely digital. A simple scan is all it takes to complete a transaction.<br />
-                                            4.Step into the future with UPI QR and transform the way you handle business transactions. It's quick, it's easy, and it's the modern way to pay!<br />
-
-                                        </Text>
-                                    </AccordionPanel>
-                                </AccordionItem>
-                            </Accordion>
+                            <Link to="/upi">
+                                <Button fontSize={"1.3rem"} as="span" flex='1' textAlign='left' marginTop={'2rem'} onClick={scrollToTop}>
+                                    Read more
+                                </Button>
+                            </Link>
+                            
                         </Box>
                         <Box>
 
@@ -665,7 +580,7 @@ export default function Product() {
                                 1. Comprehensive and Customised Financial Empowerment
                             </Text>
                             <Text fontSize={"1.3rem"}>
-                             HPNPay stands at the forefront of financial empowerment, offering bespoke credit solutions tailored to fit the diverse needs of every customer. We champion your business's growth by providing accessible business loans, injecting the necessary capital to broaden your horizons, enhance your operations, or cater to any specific business exigencies. Facilitate a loan experience for your customers that transcends the traditional, cumbersome branch visits. Our refined loan services are designed with the utmost convenience in mind, ensuring a seamless process that not only fosters customer loyalty but also amplifies the profitability and sustainability of your business in the competitive market.<br />
+                                HPNPay stands at the forefront of financial empowerment, offering bespoke credit solutions tailored to fit the diverse needs of every customer. We champion your business's growth by providing accessible business loans, injecting the necessary capital to broaden your horizons, enhance your operations, or cater to any specific business exigencies. Facilitate a loan experience for your customers that transcends the traditional, cumbersome branch visits. Our refined loan services are designed with the utmost convenience in mind, ensuring a seamless process that not only fosters customer loyalty but also amplifies the profitability and sustainability of your business in the competitive market.<br />
                             </Text>
                             <Text color={"#052B60"} fontSize={"1.7rem"} fontWeight={"700"}>
                                 2. Business Expansion Financing
@@ -725,111 +640,7 @@ export default function Product() {
                     </Box>
                 </Flex>
 
-                {/* landing partner table */}
 
-                {/* <Text fontSize="5xl" color="blue.600" align={"center"}>
-                Lending Partner
-            </Text>
-            <TableContainer>
-                <Table variant="simple">
-                    <TableCaption>Imperial to metric conversion factors</TableCaption>
-                    <Thead>
-                        <Tr>
-                            <Th>Partners</Th>
-                            <Th>Loan Products</Th>
-                            <Th>Nodal Officer</Th>
-                        </Tr>
-                    </Thead>
-                    <Tbody>
-                        <Tr>
-                            <Td>
-                                <Image src={yesbank} />
-                            </Td>
-                            <Td>Business Loans</Td>
-                            
-                            <Td>
-                                Ms. Rashmi Pandit
-                                <br />
-                                Email: level2escalation@unitybank.co.in
-                                <br />
-                                Phone: 022 42159000
-                            </Td>
-                        </Tr>
-                        
-                        <Tr>
-                            <Td>
-                                <Image src={axisbank} />
-                            </Td>
-                            <Td>Secured Loans</Td>
-                           
-                            <Td>
-                                Mr. Gaurav Mohta (Grievance Redressal Officer)
-                                <br />
-                                Email: complaints@homefirstindia.com
-                                <br />
-                                Phone: 8880549911
-                            </Td>
-                        </Tr>
-                        <Tr>
-                            <Td>
-                                <Image src={axisImage} />
-                            </Td>
-                            <Td>
-                                Personal Loans, Two-Wheeler Loans, Rolling Short Term Business
-                                Loans
-                            </Td>
-                          
-                            <Td>
-                                Mr. Parag Deshpande
-                                <br />
-                                Email: PNO@axisbank.com
-                            </Td>
-                        </Tr>
-                        <Tr>
-                            <Td>
-                                <Image src={sbi_bank} />
-                            </Td>
-                            <Td>Personal Loans</Td>
-                           
-                            <Td>
-                                Mr. Mohit Gulati
-                                <br />
-                                Email: gro@moneywide.com
-                            </Td>
-                        </Tr>
-                        <Tr>
-                            <Td>
-                                <Image src={panjabbank} />
-                            </Td>
-                            <Td>Personal Loans</Td>
-                           
-                            <Td>
-                                Ms. Meghana Shah
-                                <br />
-                                Email: help@kreditbee.in
-                                <br />
-                                Phone: 080-44292200 / 080-68534522
-                            </Td>
-                        </Tr>
-                    </Tbody>
-                    <Tfoot>
-                        <Tr>
-                            <Td>
-                                <Image src={loanImage} />
-                            </Td>
-                            <Th>Business Loans</Th>
-                            
-                            <Td>
-                                Asifa Hussain
-                                <br />
-                                Email: cs.fintech@loantap.in
-                                <br />
-                                Phone: 020 – 4852 1017
-                            </Td>
-                        </Tr>
-                    </Tfoot>
-                </Table>
-            </TableContainer> */}
             </Box>
         </>
 

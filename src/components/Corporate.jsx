@@ -29,7 +29,7 @@ import digitalOrder from "../images/corporate_img/corporate_digital_img.jpg"
 import manNetwork from "../images/corporate_img/manNetwok.png"
 import bajajImage from "../images/corporate_img/corporate_img1.jpg"
 import { Card, CardHeader, CardBody, CardFooter } from '@chakra-ui/react'
-import goldLoan from '../images/footer/goldLoan.png'
+import goldLoan from '../images/footer/goldinvestment.jpg';
 
 const Corporate = () => {
     return (
@@ -126,9 +126,9 @@ const Corporate = () => {
                         <CardBody>
                             <Text>Enable customers and collection agents to deposit cash at P...</Text>
                         </CardBody>
-                        <CardFooter>
+                        {/* <CardFooter>
                             <Button color={'#1c539e'}>Learn more</Button>
-                        </CardFooter>
+                        </CardFooter> */}
                     </Card>
                     <Card width={"400px"} height={"500px"} border={"none"}>
                         <Image
@@ -144,9 +144,9 @@ const Corporate = () => {
                         <CardBody>
                             <Text>Distribute sachetize content through HPNPAY’s last mile ...</Text>
                         </CardBody>
-                        <CardFooter>
+                        {/* <CardFooter>
                             <Button color={'#1c539e'}>Learn more</Button>
-                        </CardFooter>
+                        </CardFooter> */}
                     </Card>
                     <Card width={"400px"} height={"500px"} border={"none"}>
                         <Image
@@ -162,13 +162,13 @@ const Corporate = () => {
                         <CardBody>
                             <Text>Enable 3X more efficiency in order processing and cash flow...</Text>
                         </CardBody>
-                        <CardFooter>
+                        {/* <CardFooter>
                             <Button color={'#1c539e'}>Learn more</Button>
-                        </CardFooter>
+                        </CardFooter> */}
                     </Card>
                 </SimpleGrid>
                 <Box margin={"50px"} display={"flex"} justifyContent={"center"}>
-                    <Button size='md' height='48px' width='200px' border='2px' borderColor='green.500'>Veiw all Solutions</Button>
+                    {/* <Button size='md' height='48px' width='200px' border='2px' borderColor='green.500'>Veiw all Solutions</Button> */}
                 </Box>
                 <Box position={'relative'} height={'600px'} width={'100%'} margin='auto' mb={'3rem'} h={'full'} overflow={'hidden'} boxShadow={'dark-lg'}>
                     <Image src={goldLoan}  />
@@ -209,33 +209,12 @@ const Corporate = () => {
                                 <Text fontSize='xl'>With our trusted retailers We expecting, 20000 Pin Codes Is Our Traget, harness the power of the largest agent network in the country.</Text>
                             </Box>
                         </Box>
-                        <Box margin={"20px"} display={"flex"} justifyContent={"center"}>
+                        {/* <Box margin={"20px"} display={"flex"} justifyContent={"center"}>
                             <Button size='md' height='48px' width='200px' border='2px' borderColor='green.500'>Veiw all Features</Button>
-                        </Box>
+                        </Box> */}
                     </Box>
                 </Center>
-                <Stack minH={'100vh'} direction={{ base: 'column', md: 'row' }}>
-                    <Flex p={5} flex={1} align={'center'} justify={'center'}>
-                        <Stack spacing={6} w={'full'} maxW={'lg'}>
-                            <Heading fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}>
-                                <Text color={'#1c539e'}>
-                                    Testimonial
-                                </Text>
-                                <br />{' '}
-                                <Text fontSize='lg'>
-                                    - By Anand Gandhi
-                                </Text>
-                            </Heading>
-                            <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>
-                                National Lead - Banking relationship projects, Repayments Management and BRS
-                            </Text>
-                            <Image src={bajajImage} width={"400px"} />
-                        </Stack>
-                    </Flex>
-                    <Flex p={5} flex={1} align={'center'} justify={'center'} >
-                        <Text fontSize='lg'>The collaboration has also led to a high service deliverance rate in the cash collection vertical. HPNPAY’s client servicing team is fully equipped and resolves issues with a 95% success rate in less than 2 hours. With our partnership, we will be able to further enhance the customer experience and offer payment options both digitally and at physical outlets. Going forward we plan to add more services to digitize cash through HPNPAY retailers, I wish HPNPAY all the very best look forward to a mutually beneficial partnership.</Text>
-                    </Flex>
-                </Stack>
+           
             </Container>
         </>
     );

@@ -2,6 +2,8 @@ import React from 'react';
 import { Box, ListItem, Text, UnorderedList } from '@chakra-ui/react'
 
 const PrivacyPolicy = () => {
+
+
     return (
         <>
             <Box width={"80%"} margin={"auto"}>

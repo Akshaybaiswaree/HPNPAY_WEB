@@ -17,6 +17,20 @@ import RefunAndRecanselation from './components/policys/RefunAndRecanselation';
 import PrivacyPolicy from './components/policys/PrivacyPolicy';
 import IncomeCalculator from './components/IncomeCalculator';
 import DistributorIncomeCalculator from './components/DistributorIncomeCalculator';
+import BankingService from './components/readmorepages/BankingService';
+import DigitalSuite from './components/readmorepages/DigitalSuite';
+import CustomerKhata from './components/readmorepages/CustomerKhata';
+import UpiQr from './components/readmorepages/UpiQr';
+import DigitalCashcullection from './components/readmorepages/DigitalCashcullection';
+import IncreaseMarket from './components/readmorepages/IncreaseMarket';
+import DigitalOrder from './components/readmorepages/DigitalOrder';
+import WhoWeAre from './components/readmorepages/WhoWeAre';
+import AnandGandhi from './components/ourteampages/AnandGandhi';
+import SwetaGandhi from './components/ourteampages/SwetaGandhi';
+import AdvicorOne from './components/ourteampages/AdvicorOne';
+import AdvicorTwo from './components/ourteampages/AdvicorTwo';
+import AdvicorThree from './components/ourteampages/AdvicorThree';
+import AdvicorFour from './components/ourteampages/AdvicorFour';
 
 function App(props) {
 
@@ -58,6 +72,24 @@ function App(props) {
               <Route path="/term&condition" element={< TermsAndConditions />} />
               <Route path="/income-calculator" element={<IncomeCalculator />} />
               <Route path="/distributor-income-calculator" element={<DistributorIncomeCalculator />} />
+
+              {/* read More pages */}
+              <Route path="/bankingservices" element={<BankingService />} />
+              <Route path="/digitalsuite" element={<DigitalSuite />} />
+              <Route path="/customkhata" element={<CustomerKhata />} />
+              <Route path="/upi" element={<UpiQr />} />
+              <Route path="/digitalcashcollection" element={<DigitalCashcullection />} />
+              <Route path="/increasemarket" element={<IncreaseMarket />} />
+              <Route path="/digitalorder" element={<DigitalOrder />} />
+              <Route path="/moreaboutus" element={<WhoWeAre />} />
+
+              {/* our team pages */}
+              <Route path="/founder&ceo" element={<AnandGandhi />} />
+              <Route path="/ms.gandhi" element={<SwetaGandhi />} />
+              <Route path="/advicor_one" element={<AdvicorOne />} />
+              <Route path="/advicor_two" element={<AdvicorTwo />} />
+              <Route path="/advicor_three" element={<AdvicorThree />} />
+              <Route path="/advicor_four" element={<AdvicorFour />} />
 
             </Routes>
             <Footer />
