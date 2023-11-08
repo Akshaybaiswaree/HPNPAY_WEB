@@ -23,7 +23,10 @@ import {
     AccordionItem,
     AccordionButton,
 } from "@chakra-ui/react";
-import photo from "../images/aboutUs_img/photo.png"
+import shwetaimg from "../images/aboutUs_img/swetagandhi.png.jpeg"
+import madanranga from "../images/aboutUs_img/madanmohanranga.png.jpeg";
+import sandeep from "../images/aboutUs_img/sandeepjain.png.jpeg";
+import rameshmeena from "../images/aboutUs_img/rameshmeena.png.jpeg";
 import banner from "../images/aboutUs_img/banner.jpg"
 import unstopable from "../images/aboutUs_img/aboutus_img2.png"
 import goldLoan from '../images/footer/goldinvestment.jpg';
@@ -34,7 +37,7 @@ import { Link } from "react-router-dom";
 
 export default function AboutUs() {
 
-      //code for show page froom top.
+    //code for show page froom top.
     function scrollToTop() {
         window.scrollTo({
             top: 0,
@@ -88,7 +91,7 @@ export default function AboutUs() {
                         </Text>
                     </Stack>
                 </Flex>
-                <Flex flex={1}>
+                <Flex className="retailor-image" flex={1}>
                     <Image
                         alt={"Login Image"}
                         objectFit={"cover"}
@@ -169,8 +172,11 @@ export default function AboutUs() {
                     </Stack>
                 </Flex>
             </Stack>
-            <Box height={'600px'} width={'100%'} margin='auto' h={'full'} overflow={'hidden'} paddingTop={'20px'} >
-                <Image src={goldLoan} width={'80rem'} margin='auto' boxShadow={'dark-lg'} />
+            <Box className="gold-Investment-retailor" height={'600px'} width={'100%'} margin='auto' h={'full'} overflow={'hidden'} paddingTop={'20px'} >
+                <Image
+                    className="gold-Investment-retailor"
+
+                    src={goldLoan} width={'80rem'} margin='auto' boxShadow={'dark-lg'} />
             </Box>
             {/* our team */}
             <Stack marginTop={'1rem'}>
@@ -181,99 +187,107 @@ export default function AboutUs() {
                 >
                     Meet Our Team
                 </Heading>
-                <Center py={6} gap={10}>
-                    <Box
-                        maxW={"270px"}
-                        w={"full"}
-                        bg={useColorModeValue("white", "gray.800")}
-                        boxShadow={"2xl"}
-                        rounded={"md"}
-                        overflow={"hidden"}
-                    >
-                        <Image
-                            h={"250px"}
-                            w={"full"}
-                            src={anand}
-                            objectFit="cover"
-                            alt="#"
-                        />
-
-                        <Box p={6}>
-                            <Stack spacing={0} align={"center"} mb={5}>
-                                <Heading fontSize={"2xl"} fontWeight={500} fontFamily={"body"}>
-                                    Anand Gandhi
-                                </Heading>
-                                <Text color={"gray.500"}>Founder & CEO</Text>
-                            </Stack>
-                            <Link to="/founder&ceo">
-                                <Button
-                                onClick={scrollToTop}
-                                    w={"full"}
-                                    mt={8}
-                                    bg={useColorModeValue("#1c539e", "gray.900")}
-                                    color={"white"}
-                                    rounded={"md"}
-                                    _hover={{
-                                        transform: "translateY(-2px)",
-                                        boxShadow: "lg",
-                                    }}
-                                >
-                                    Read More
-                                </Button>
-                            </Link>
-                       
-                        </Box>
-                    </Box>
-
-                   
-
-                    <Box
-                        maxW={"270px"}
-                        w={"full"}
-                        bg={useColorModeValue("white", "gray.800")}
-                        boxShadow={"2xl"}
-                        rounded={"md"}
-                        overflow={"hidden"}
-                    >
-                        <Image
-                            h={"250px"}
-                            w={"full"}
-                            src={photo}
-                            objectFit="cover"
-                            alt="#"
-                        />
-
-                        <Box p={6}>
-                            <Stack spacing={0} align={"center"} mb={5}>
-                                <Heading fontSize={"2xl"} fontWeight={500} fontFamily={"body"}>
-                                    Shweta Gandhi
-                                </Heading>
-                                <Text color={"gray.500"}>The Grace at Hannanth Group</Text>
-                            </Stack>
-                            <Link to="/ms.gandhi">
-
-                            <Button
-                                onClick={scrollToTop}
+                <div className="anand-shweta">
+                    <Center py={6} gap={10}>
+                        <div>
+                            <Box
+                                maxW={"270px"}
                                 w={"full"}
-                                mt={8}
-                                bg={useColorModeValue("#1c539e", "gray.900")}
-                                color={"white"}
+                                bg={useColorModeValue("white", "gray.800")}
+                                boxShadow={"2xl"}
                                 rounded={"md"}
-                                _hover={{
-                                    transform: "translateY(-2px)",
-                                    boxShadow: "lg",
-                                }}
+                                overflow={"hidden"}
                             >
-                                Read More
-                            </Button>
-                            </Link>
-                           
-                        </Box>
-                    </Box>
-                </Center>
+                                <Image
+                                    h={"250px"}
+                                    w={"full"}
+                                    src={anand}
+                                    objectFit="cover"
+                                    alt="#"
+                                />
+
+                                <Box p={6}>
+                                    <Stack spacing={0} align={"center"} mb={5}>
+                                        <Heading fontSize={"2xl"} fontWeight={500} fontFamily={"body"}>
+                                            Anand Gandhi
+                                        </Heading>
+                                        <Text color={"gray.500"}>Founder & CEO</Text>
+                                    </Stack>
+                                    <Link to="/founder&ceo">
+                                        <Button
+                                            onClick={scrollToTop}
+                                            w={"full"}
+                                            mt={8}
+                                            bg={useColorModeValue("#1c539e", "gray.900")}
+                                            color={"white"}
+                                            rounded={"md"}
+                                            _hover={{
+                                                transform: "translateY(-2px)",
+                                                boxShadow: "lg",
+                                            }}
+                                        >
+                                            Read More
+                                        </Button>
+                                    </Link>
+
+                                </Box>
+                            </Box>
+                        </div>
+
+                        <div>
+
+
+                            <Box
+                                maxW={"270px"}
+                                w={"full"}
+                                bg={useColorModeValue("white", "gray.800")}
+                                boxShadow={"2xl"}
+                                rounded={"md"}
+                                overflow={"hidden"}
+                            >
+                                <Image
+                                    h={"250px"}
+                                    w={"full"}
+                                    src={shwetaimg}
+                                    objectFit="cover"
+                                    alt="#"
+                                />
+
+                                <Box p={6}>
+                                    <Stack spacing={0} align={"center"} mb={5}>
+                                        <Heading fontSize={"2xl"} fontWeight={500} fontFamily={"body"}>
+                                            Shweta Gandhi
+                                        </Heading>
+                                        <Text color={"gray.500"}>The Grace at Hannanth Group</Text>
+                                    </Stack>
+                                    <Link to="/ms.gandhi">
+
+                                        <Button
+                                            onClick={scrollToTop}
+                                            w={"full"}
+                                            mt={8}
+                                            bg={useColorModeValue("#1c539e", "gray.900")}
+                                            color={"white"}
+                                            rounded={"md"}
+                                            _hover={{
+                                                transform: "translateY(-2px)",
+                                                boxShadow: "lg",
+                                            }}
+                                        >
+                                            Read More
+                                        </Button>
+                                    </Link>
+
+                                </Box>
+                            </Box>
+                        </div>
+                    </Center>
+                </div>
             </Stack>
             {/* our advicers */}
-            <Stack marginTop={'1rem'}>
+            <Stack
+                className="meetouradvisor"
+                marginTop={'1rem'}>
                 <Heading
                     fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}
                     color={"#0c4696"}
@@ -281,7 +295,7 @@ export default function AboutUs() {
                 >
                     Meet Our Advicors
                 </Heading>
-                <Center py={6} gap={10}>
+                <Center py={6} gap={10} display={'flex'} flexDirection={['column', 'row']} justifyContent={'center'}>
                     <Box
                         maxW={"270px"}
                         w={"full"}
@@ -293,7 +307,7 @@ export default function AboutUs() {
                         <Image
                             h={"250px"}
                             w={"full"}
-                            src={photo}
+                            src={madanranga}
                             objectFit="cover"
                             alt="#"
                         />
@@ -307,26 +321,26 @@ export default function AboutUs() {
                             </Stack>
                             <Link to="/advicor_one">
 
-                            <Button
-                              onClick={scrollToTop}
-                                w={"full"}
-                                mt={8}
-                                bg={useColorModeValue("#1c539e", "gray.900")}
-                                color={"white"}
-                                rounded={"md"}
-                                _hover={{
-                                    transform: "translateY(-2px)",
-                                    boxShadow: "lg",
-                                }}
-                            >
-                                Read More
-                            </Button>
+                                <Button
+                                    onClick={scrollToTop}
+                                    w={"full"}
+                                    mt={8}
+                                    bg={useColorModeValue("#1c539e", "gray.900")}
+                                    color={"white"}
+                                    rounded={"md"}
+                                    _hover={{
+                                        transform: "translateY(-2px)",
+                                        boxShadow: "lg",
+                                    }}
+                                >
+                                    Read More
+                                </Button>
                             </Link>
-                            
+
                         </Box>
                     </Box>
 
-                     <Box
+                    <Box
                         maxW={"270px"}
                         w={"full"}
                         bg={useColorModeValue("white", "gray.800")}
@@ -350,20 +364,20 @@ export default function AboutUs() {
                                 <Text color={"gray.500"}>Advicor</Text>
                             </Stack>
                             <Link to="/advicor_two">
-                            <Button
-                                 onClick={scrollToTop}
-                                w={"full"}
-                                mt={8}
-                                bg={useColorModeValue("#1c539e", "gray.900")}
-                                color={"white"}
-                                rounded={"md"}
-                                _hover={{
-                                    transform: "translateY(-2px)",
-                                    boxShadow: "lg",
-                                }}
-                            >
-                                Read More
-                            </Button>
+                                <Button
+                                    onClick={scrollToTop}
+                                    w={"full"}
+                                    mt={8}
+                                    bg={useColorModeValue("#1c539e", "gray.900")}
+                                    color={"white"}
+                                    rounded={"md"}
+                                    _hover={{
+                                        transform: "translateY(-2px)",
+                                        boxShadow: "lg",
+                                    }}
+                                >
+                                    Read More
+                                </Button>
                             </Link>
                             <Modal isOpen={isOpen3} onClose={closeModal3} size='6xl'>
                                 <ModalOverlay />
@@ -402,7 +416,7 @@ export default function AboutUs() {
                         <Image
                             h={"250px"}
                             w={"full"}
-                            src={photo}
+                            src={sandeep}
                             objectFit="cover"
                             alt="#"
                         />
@@ -416,20 +430,20 @@ export default function AboutUs() {
                             </Stack>
                             <Link to="/advicor_three">
 
-                            <Button
-                              onClick={scrollToTop}
-                                w={"full"}
-                                mt={8}
-                                bg={useColorModeValue("#1c539e", "gray.900")}
-                                color={"white"}
-                                rounded={"md"}
-                                _hover={{
-                                    transform: "translateY(-2px)",
-                                    boxShadow: "lg",
-                                }}
-                            >
-                                Read More
-                            </Button>
+                                <Button
+                                    onClick={scrollToTop}
+                                    w={"full"}
+                                    mt={8}
+                                    bg={useColorModeValue("#1c539e", "gray.900")}
+                                    color={"white"}
+                                    rounded={"md"}
+                                    _hover={{
+                                        transform: "translateY(-2px)",
+                                        boxShadow: "lg",
+                                    }}
+                                >
+                                    Read More
+                                </Button>
                             </Link>
                             <Modal isOpen={isOpen3} onClose={closeModal3} size='6xl'>
                                 <ModalOverlay />
@@ -468,7 +482,7 @@ export default function AboutUs() {
                         <Image
                             h={"250px"}
                             w={"full"}
-                            src={photo}
+                            src={rameshmeena}
                             objectFit="cover"
                             alt="#"
                         />
@@ -482,20 +496,20 @@ export default function AboutUs() {
                             </Stack>
                             <Link to="/advicor_four">
 
-                            <Button
-                               onClick={scrollToTop}
-                                w={"full"}
-                                mt={8}
-                                bg={useColorModeValue("#1c539e", "gray.900")}
-                                color={"white"}
-                                rounded={"md"}
-                                _hover={{
-                                    transform: "translateY(-2px)",
-                                    boxShadow: "lg",
-                                }}
-                            >
-                                Read More
-                            </Button>
+                                <Button
+                                    onClick={scrollToTop}
+                                    w={"full"}
+                                    mt={8}
+                                    bg={useColorModeValue("#1c539e", "gray.900")}
+                                    color={"white"}
+                                    rounded={"md"}
+                                    _hover={{
+                                        transform: "translateY(-2px)",
+                                        boxShadow: "lg",
+                                    }}
+                                >
+                                    Read More
+                                </Button>
                             </Link>
                             <Modal isOpen={isOpen2} onClose={closeModal2} size='6xl'>
                                 <ModalOverlay />
@@ -607,6 +621,7 @@ export default function AboutUs() {
                 </Heading>
 
                 <Stack
+                    className="vision"
                     maxW={"40%"}
                     w={"full"}
                     bg={useColorModeValue("white", "gray.800")}
@@ -614,9 +629,10 @@ export default function AboutUs() {
                     rounded={"md"}
                     overflow={"hidden"}
                     mt={'20px'}
-                    ml={'450px'}
+                // ml={'450px'}
                 >
                     <Image
+
                         //   h={"400px"}
                         w={"100%"}
                         src={

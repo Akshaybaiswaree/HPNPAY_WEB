@@ -88,7 +88,7 @@ export default function Banner() {
       text: "A national movement to uplift Bharat by giving every household easy access to DBT funds, digital payments and essential banking services at a store nearby.",
       text2: "Upgrade your shop. Be the one stop banking service provider.",
       text3: " No working capital required. Earn ₹2,00,000+ per year.",
-      image: require('../images/retailer_img/onestep1.png')
+      image: require('../images/retailer_img/retailimg1.png')
     },
     {
       title: 'Distributor',
@@ -97,7 +97,7 @@ export default function Banner() {
       text: "A national movement to uplift Bharat by giving every household easy access to DBT funds, digital payments and essential banking services at a store nearby.",
       text2: "Upgrade your shop. Be the one stop banking service provider.",
       text3: " No working capital required. Earn ₹2,00,000+ per year.",
-      image: require('../images/retailer_img/onestep2.png')
+      image: require('../images/retailer_img/retailimg.png')
 
     },
     {
@@ -107,7 +107,7 @@ export default function Banner() {
       text: "A national movement to uplift Bharat by giving every household easy access to DBT funds, digital payments and essential banking services at a store nearby.",
       text2: "Upgrade your shop. Be the one stop banking service provider.",
       text3: " No working capital required. Earn ₹2,00,000+ per year.",
-      image: require('../images/retailer_img/onestep3.png')
+      image: require('../images/retailer_img/retailimg2.png')
 
     },
   ]

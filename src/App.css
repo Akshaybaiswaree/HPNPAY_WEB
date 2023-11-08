@@ -37,3 +37,151 @@
   }
 }
 
+
+
+
+/* 890 ke upar  laptop*/
+@media screen and (min-width: 1200px) and (max-width: 1980px) {
+  
+  .vision{
+    margin-left: 450px;
+  
+  } 
+  .aeps{
+    margin :0;
+  }
+  
+}
+
+
+/* 449-889   tab*/
+@media screen and (min-width: 890px) and (max-width: 1199px){
+  
+
+  /* .income-re{
+    margin-bottom: 1rem;
+    flex-direction: column;
+  } */
+
+  /* .hpnpay-mo{
+    justify-content: center;
+     margin:auto;
+     width: 50%;
+     height: 25%;
+  } */
+
+
+  /* .hpnpay-mo{
+    / direction: column; /
+    /* flex-direction: column;
+  } */ 
+}
+
+
+
+/* 449 ke niche   mobile*/
+@media screen and (min-width: 449px) and  (max-width: 889px){
+  
+.retailor-image{
+  margin-left: 1rem;
+}
+
+.gold-Investment-retailor{
+
+padding-left: 2rem;
+padding-right: 2rem;
+}
+
+.anand-shweta{
+  /* direction: column;  */
+  flex-direction: column;
+  margin-left: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+  
+
+.meetouradvisor{
+  display:flex ;
+  flex-direction: column;
+}
+
+/* .vision{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+} */
+.vision{
+  margin-left: 10rem;
+
+} 
+}
+
+/* new code .................... */
+
+/* Styles for screens larger than 1200px */
+@media (min-width: 1200px) {
+  .aeps {
+    flex-direction: row; /* Arrange elements horizontally */
+    margin: 0; /* Remove margin */
+  }
+
+  .aeps .image {
+    width: 50%; /* Set image width to 50% of the container */
+    margin-right: 2rem; /* Add spacing between image and text */
+  }
+
+  .aeps .text-container {
+    width: 50%; /* Set text container width to 50% of the container */
+  }
+}
+
+/* Styles for screens between 768px and 1200px */
+@media (min-width: 768px) and (max-width: 1200px) {
+  .aeps {
+    flex-direction: row; /* Arrange elements horizontally */
+  }
+
+  .aeps .image {
+    width: 40%; /* Set image width to 40% of the container */
+    margin-right: 2rem; /* Add spacing between image and text */
+  }
+
+  .aeps .text-container {
+    width: 60%; /* Set text container width to 60% of the container */
+  }
+}
+
+/* Styles for screens between 576px and 768px */
+@media (min-width: 576px) and (max-width: 768px) {
+  .aeps {
+    flex-direction: column; /* Arrange elements vertically */
+  }
+
+  .aeps .image {
+    width: 100%; /* Set image width to 100% of the container */
+    margin-bottom: 2rem; /* Add spacing between image and text */
+  }
+
+  .aeps .text-container {
+    width: 100%; /* Set text container width to 100% of the container */
+  }
+}
+
+/* Styles for screens smaller than 576px */
+@media (max-width: 576px) {
+  .aeps {
+    flex-direction: column; /* Arrange elements vertically */
+  }
+
+  .aeps .image {
+    width: 100%; /* Set image width to 100% of the container */
+    margin-bottom: 2rem; /* Add spacing between image and text */
+  }
+
+  .aeps .text-container {
+    width: 100%; /* Set text container width to 100% of the container */
+  }
+}

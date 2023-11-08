@@ -17,7 +17,7 @@ import playStoredBaged from "../images/footer/google-play.png"
 import { Link } from 'react-router-dom';
 import appstore from '../../src/images/footer/appstore2.png';
 import LOGO from '../../src/images/footer/LOGO.svg';
-import silverLoan from '../images/footer/silverLoan2.png';
+import silverLoan from '../images/footer/silverLoan.svg';
 
 
 const ListHeader = ({ children }) => {

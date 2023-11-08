@@ -111,7 +111,7 @@ export default function Product() {
                         </Link>
                     </Text>
                 </Box>
-                <Flex margin={"4rem"}>
+                <Flex className="aeps" margin={"4rem"} direction={{ base: "column", md: "row" }} display={{ md: "flex" }}>
                     <Box>
                         <Image ml={"6rem"} src={Product2} width={"55rem"} height={'28rem'} />
                     </Box>
