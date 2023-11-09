@@ -31,6 +31,15 @@ import AdvicorOne from './components/ourteampages/AdvicorOne';
 import AdvicorTwo from './components/ourteampages/AdvicorTwo';
 import AdvicorThree from './components/ourteampages/AdvicorThree';
 import AdvicorFour from './components/ourteampages/AdvicorFour';
+import Blogs from './components/knowMore/Blogs';
+import KnowMore from './components/knowMore/KnowMore';
+import Blog1 from './images/blogs/Blog1';
+import Blog2 from './images/blogs/Blog2';
+import Blog3 from './images/blogs/Blog3';
+import Blog4 from './images/blogs/Blog4';
+import Blog5 from './images/blogs/Blog5';
+import Blog6 from './images/blogs/Blog6';
+import Blog7 from './images/blogs/Blog7';
 
 function App(props) {
 
@@ -48,7 +57,7 @@ function App(props) {
   return (
     <>
       {
-        auth == true ? (
+        auth === true ? (
           <>
             <Routes>
               <Route path="/login" element={< Login />} logedin={loginhandle} />
@@ -91,6 +100,16 @@ function App(props) {
               <Route path="/advicor_three" element={<AdvicorThree />} />
               <Route path="/advicor_four" element={<AdvicorFour />} />
 
+              {/* know more pages */}
+              <Route path="/blogs" element={<Blogs/>}/>
+              <Route path="blog1" element={<Blog1/>}/>
+              <Route path="/blog2" element={<Blog2/>}/>
+              <Route path="/blog3" element={<Blog3/>}/>
+              <Route path="/blog4" element={<Blog4/>}/>
+              <Route path="/blog5" element={<Blog5/>}/>
+              <Route path="/blog6" element={<Blog6/>}/>
+              <Route path="/blog7" element={<Blog7/>}/>
+             
             </Routes>
             <Footer />
           </>
