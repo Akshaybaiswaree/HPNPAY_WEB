@@ -42,7 +42,7 @@ export default function Product() {
     return (
         <>
             <Box >
-
+                {/* page one */}
                 <Stack direction={{ base: "column", md: "row" }} >
                     <Flex p={8} flex={1} align={"center"} justify={"center"}>
                         <Stack spacing={6} w={"full"} maxW={"lg"}>
@@ -94,34 +94,31 @@ export default function Product() {
                 </Stack>
 
                 {/* //page Second */}
-                <Box width={"80%"} margin={"auto"}>
-                    <Text fontSize={"3rem"} color={"#052B60"} as={"span"}>
+                <Box width={{ base: '100%', md: '80%' }} margin="auto">
+                    <Text fontSize={{ base: '2rem', md: '3rem' }} color="#052B60" as="span">
                         "Banking Services Reinvented:
                     </Text>
-                    <Text fontSize={"1.5rem"}>
-                        <Text fontWeight={"bold"} color={"black"}>
-                            At HPNPay, we understand the value of trust in the world of digital transactions.                         </Text>
-                        <Text fontWeight={"bold"} color={"black"}>
+                    <Text fontSize={{ base: '1.2rem', md: '1.5rem' }}>
+                        <Text fontWeight="bold" color="black">
+                            At HPNPay, we understand the value of trust in the world of digital transactions.
+                        </Text>
+                        <Text fontWeight="bold" color="black">
                             "Your Trust, Our Commitment: Digital Excellence, Delivered Securely."
                         </Text>
                         <Link to="/bankingservices">
-                            <Button fontSize={"1.3rem"} as="span" flex='1' textAlign='left' marginTop={'2rem'} onClick={scrollToTop}>
+                            <Button fontSize="1rem" as="span" flex="1" textAlign="left" marginTop={{ base: '1rem', md: '2rem' }} onClick={scrollToTop}>
                                 Read more
                             </Button>
                         </Link>
                     </Text>
                 </Box>
-                <Flex className="aeps" margin={"4rem"} direction={{ base: "column", md: "row" }} display={{ md: "flex" }}>
+                <Flex className="aeps" margin={{ base: '2rem 0', md: '4rem' }} direction={{ base: 'column', md: 'row' }} display={{ md: 'flex' }}>
                     <Box>
-                        <Image ml={"6rem"} src={Product2} width={"55rem"} height={'28rem'} />
+                        <Image ml={{ base: '0', md: '6rem' }} src={Product2} width={{ base: '100%', md: '55rem' }} height={{ base: 'auto', md: '28rem' }} />
                     </Box>
-                    <Flex
-                        flexDirection={"column"}
-                        gap={"20px"}
-                        width={"50%"}
-                        marginLeft={"9rem"}
-                    >
-                        <Box>
+                    <Flex flexDirection="column" gap="20px" width={{ base: '100%', md: '50%' }} marginLeft={{ base: '0', md: '9rem' }}>
+
+                        <Box>   
                             <Text color={"#052B60"} fontSize={"1.7rem"} fontWeight={"700"}>
                                 AePS (Aadhaar enabled Payment Services)
                             </Text>
@@ -172,181 +169,73 @@ export default function Product() {
                 </Flex>
 
                 {/* page 3 */}
-                <Box marginTop={""} width={"80%"} margin={"auto"}>
-                    <Text fontSize={"3rem"} color={"#052B60"} as={"span"}>
+                <Box width={{ base: '100%', md: '80%' }} margin="auto" marginTop={{ base: '2rem', md: '' }}>
+                    <Text fontSize={{ base: '2rem', md: '3rem' }} color="#052B60" as="span">
                         Digital Suite
                     </Text>
-                    <Text fontSize={"1.5rem"}>
-                        <Text fontWeight={"bold"} color={"black"}>
+                    <Text fontSize={{ base: '1.2rem', md: '1.5rem' }}>
+                        <Text fontWeight="bold" color="black">
                             HPNPay: Empowering Insurance, Simplifying Choices
                         </Text>
                         <br />
                         Welcome to HPNPay, your comprehensive digital insurance hub. We're not just any online insurance portal; we represent a seamless blend of technology, convenience, and commitment to our retailer and distributor agent partners.
                     </Text>
                 </Box>
-                <Flex marginTop={"80px"}>
+                <Flex flexDirection={{ base: 'column', md: 'row' }} marginTop={{ base: '2rem', md: '80px' }}>
                     <Flex
-                        flexDirection={"column"}
-                        gap={"30px"}
-                        width={"50%"}
-                        marginTop={"0px"}
-                        marginLeft={"9rem"}
+                        flexDirection="column"
+                        gap="30px"
+                        width={{ base: '100%', md: '50%' }}
+                        marginLeft={{ base: '0', md: '9rem' }}
                     >
+                        {/* Content for Why Choose HPNPay */}
                         <Box>
-                            <Text color={"#052B60"} fontSize={"1.7rem"} fontWeight={"700"}>
+                            <Text color="#052B60" fontSize="1.7rem" fontWeight="700">
                                 Why Choose HPNPay?
                             </Text>
-                            <Text fontSize={"1.3rem"}>We offer a range of affordable general insurance plans, including bike insurance and mobile device protection plans
+                            <Text fontSize="1.3rem">
+                                We offer a range of affordable general insurance plans, including bike insurance and mobile device protection plans
                             </Text>
                             <Link to="/digitalsuite">
-                                <Button fontSize={"1.3rem"} as="span" flex='1' textAlign='left' marginTop={'2rem'} onClick={scrollToTop}>
+                                <Button fontSize="1.3rem" as="span" flex='1' textAlign='left' marginTop={{ base: '2rem', md: '0' }} onClick={scrollToTop}>
                                     Read more
                                 </Button>
                             </Link>
-
                         </Box>
+
+                        {/* Content for Customer Khata */}
                         <Box>
-                            <Text color={"#052B60"} fontSize={"1.7rem"} fontWeight={"700"}>
+                            <Text color="#052B60" fontSize="1.7rem" fontWeight="700">
                                 Customer Khata: Revolutionizing Credit Management
                             </Text>
-                            <Text fontSize={"1.3rem"}>
+                            <Text fontSize="1.3rem">
                                 In the modern business landscape, efficiency and accuracy are paramount. That's why Customer Khata is here to redefine how you manage your customer credits.
                             </Text>
                             <Link to="/customkhata">
-                                <Button fontSize={"1.3rem"} as="span" flex='1' textAlign='left' marginTop={'2rem'} onClick={scrollToTop}>
+                                <Button fontSize="1.3rem" as="span" flex='1' textAlign='left' marginTop={{ base: '2rem', md: '0' }} onClick={scrollToTop}>
                                     Read more
                                 </Button>
                             </Link>
-
                         </Box>
+
+                        {/* Content for UPI QR */}
                         <Box>
-                            <Text color={"#052B60"} fontSize={"1.7rem"} fontWeight={"700"}>
+                            <Text color="#052B60" fontSize="1.7rem" fontWeight="700">
                                 UPI QR: The Future of Digital Payments
                             </Text>
-                            <Text fontSize={"1.3rem"}>
+                            <Text fontSize="1.3rem">
                                 In today's digital age, seamless transactions are no longer a luxury; they're a necessity. With UPI QR, we're making that vision a reality.
                             </Text>
                             <Link to="/upi">
-                                <Button fontSize={"1.3rem"} as="span" flex='1' textAlign='left' marginTop={'2rem'} onClick={scrollToTop}>
+                                <Button fontSize="1.3rem" as="span" flex='1' textAlign='left' marginTop={{ base: '2rem', md: '0' }} onClick={scrollToTop}>
                                     Read more
                                 </Button>
                             </Link>
-
                         </Box>
-                        <Box>
 
+                        {/* Input and Button */}
+                        <Box>
                             <Stack marginTop={'1rem'} spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', sm: 'row' }}>
-                                <Input type='email' placeholder='Enter Your Email' width='500px' height='75px' />
-                                <Button width='150px' height='75px'
-                                    _hover={{ bg: 'blue.600' }}
-                                    background={'#156DB1'}
-                                    color={'white'} position={'absoulte'} left={"200px"}>Get in touch</Button>
-                            </Stack>
-                        </Box>{" "}
-
-                    </Flex>
-                    <Box>
-                        <Image ml={"1rem"} src={ProductTree} width={"33rem"} height={'18rem'} />
-                        <br />
-                        <Image ml={"1rem"} src={Product3} width={"33rem"} height={'18rem'} />
-                    </Box>
-                </Flex>
-
-                {/* fourth */}
-                <Box height={'600px'} width={'100%'} margin='auto' h={'full'} overflow={'hidden'} paddingTop={'20px'} >
-                    <Image src={goldLoan} width={'80rem'} margin='auto' boxShadow={'dark-lg'} />
-                </Box>
-                {/* //page Second */}
-                <Box width={"80%"} margin={"auto"}>
-                    <Text fontSize={"3rem"} color={"#052B60"} as={"span"}>
-                        Insurance
-                    </Text>
-                    <Text fontSize={"1.5rem"}>
-                        <Text fontWeight={"bold"} color={"black"}>
-                            Journey to Digital Freedom - HPNPay, Your Store's Digital Companion{''}
-                        </Text>
-                        <Text fontWeight={"bold"} color={"black"}>
-
-                            डिजिटल स्वतंत्रता का सफर - HPNPay, आपकी दुकान का डिजिटल साथी
-                        </Text>
-
-                        <br />
-                        We offer a range of affordable general insurance plans, including bike insurance and mobile device protection plans
-                    </Text>
-                </Box>
-                <Flex marginTop={"3rem"}>
-                    <Box>
-                        <Image ml={"95px"} src={Product4} width={"40rem"} height={'25rem'} paddingLeft={'3rem'} />
-                    </Box>
-                    <Flex
-                        flexDirection={"column"}
-                        gap={"1rem"}
-                        width={"50%"}
-                        marginTop={"40px"}
-                        marginLeft={"6rem"}
-                        marginRight={'3rem'}
-                    >
-                        <Box>
-                            <Text color={"#052B60"} fontSize={"1.7rem"} fontWeight={"700"}>
-                                General
-
-                            </Text>
-                            <Text fontSize={"1.3rem"}>
-                                We offer a range of affordable general insurance plans, including bike insurance and mobile device protection plans
-                            </Text>
-                            <Stack marginTop={'1rem'} spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', sm: 'row' }}>
-                                <Input type='email' placeholder='Enter Your Email' width='500px' height='75px' />
-                                <Button width='150px' height='75px'
-                                    _hover={{ bg: 'blue.600' }}
-                                    background={'#156DB1'}
-                                    color={'white'}
-                                    position={'absoulte'} left={"200px"}>Get in touch</Button>
-                            </Stack>
-                        </Box>
-                    </Flex>
-                </Flex>
-
-                {/* page 5 */}
-                <Box marginTop={"3rem"} width={"80%"} margin={"auto"}>
-                    <Text fontSize={"3rem"} color={"#052B60"} as={"span"}>
-                        Travel
-                    </Text>
-                    <Text fontSize={"1.5rem"}>
-                        <Text fontWeight={"bold"} color={"black"}>
-                            Become the one-stop travel Loan agency in your area{" "}
-                        </Text>
-                        <br />
-                        An IATA approved travel service provider, we offer you the most comprehensive range of travel products and services at very affordable rates and great commissions. Offer rail, flights, hotels, holidays and more from your shop
-                    </Text>
-                </Box>
-                <Flex marginTop={"80px"} margin={'3.6rem'}>
-                    <Flex
-                        flexDirection={"column"}
-                        gap={"10rem"}
-                        width={"50%"}
-                        marginTop={"40px"}
-                        marginLeft={"6rem"}
-                    >
-                        <Box>
-                            <Text color={"#052B60"} fontSize={"1.7rem"} fontWeight={"700"}>
-
-                                Car Booking
-
-                            </Text>
-                            <Text fontSize={"1.3rem"}>
-                                Help your customers skip the hassle of queues and waiting times. With our intuitive app interface, offer quick and efficient car booking services right from your shop. For every booking made, enjoy a profitable commission.
-                            </Text>
-
-
-                        </Box>
-
-                        <Box>
-                            <Text color={"#052B60"} fontSize={"1.7rem"} fontWeight={"700"}>
-                                Flight Booking
-                            </Text>
-                            <Text fontSize={"1.3rem"}>
-                                Leverage the power of an IATA-accredited platform to offer flight ticket bookings. Provide your customers with competitive rates and stand out with top-notch service. Plus, benefit from excellent commissions on each booking.                            </Text>
-                            <Stack spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', sm: 'row' }}>
                                 <Input type='email' placeholder='Enter Your Email' width='500px' height='75px' />
                                 <Button width='150px' height='75px'
                                     _hover={{ bg: 'blue.600' }}
@@ -357,72 +246,53 @@ export default function Product() {
                             </Stack>
                         </Box>
                     </Flex>
+
+                    {/* Images */}
                     <Box>
-                        <Image ml={"40px"} src={Product5} width={"33rem"} height={'18rem'} />
+                        <Image ml={{ base: '0', md: '1rem' }} src={ProductTree} width={{ base: '100%', md: '33rem' }} height='18rem' />
                         <br />
-                        <Image ml={"40px"} src={flightbooking} width={"33rem"} height={'18rem'} />
+                        <Image ml={{ base: '0', md: '1rem' }} src={Product3} width={{ base: '100%', md: '33rem' }} height='18rem' />
                     </Box>
                 </Flex>
 
-                {/* sixth */}
                 {/* fourth */}
-                {/* //page Second */}
-                <Box width={"80%"} margin={"auto"} marginTop={"2rem"}>
-                    <Text fontSize={"3rem"} color={"#052B60"} as={"span"}>
-                        Utility Bill Payments Made Easy
-                    </Text>
-                    <Text fontSize={"1.5rem"}>
-                        {/* <Text fontWeight={"bold"} color={"black"}>
-                            Go All Digital - HPNPay, Redefining Payments{''}
-                        </Text>
-                        <Text fontWeight={"bold"} color={"black"}>
-
-                            "सब कुछ डिजिटल हो जाए - HPNPay, भुगतानों का नया
-                        </Text> */}
-                        <br />
-                        Enable your customers to clear their monthly Gas, Electricity, and Water bills right from your store. By providing this essential service, not only do you make their lives simpler, but you also guarantee a steady income stream for your business.                    </Text>
+                <Box height={{ base: '400px', md: '600px' }} width={'100%'} margin='auto' h={'full'} overflow={'hidden'} paddingTop={{ base: '10px', md: '20px' }}>
+                    <Image src={goldLoan} width={{ base: '100%', md: '80rem' }} margin='auto' boxShadow={'dark-lg'} />
                 </Box>
-                <Flex margin={'3.6rem'}>
+                {/* //page Second */}
+                <Box width={{ base: '100%', md: '80%' }} margin="auto">
+                    <Text fontSize={{ base: '2rem', md: '3rem' }} color="#052B60" as="span">
+                        Insurance
+                    </Text>
+                    <Text fontSize={{ base: '1.2rem', md: '1.5rem' }}>
+                        <Text fontWeight="bold" color="black">
+                            Journey to Digital Freedom - HPNPay, Your Store's Digital Companion
+                        </Text>
+                        <Text fontWeight="bold" color="black">
+                            डिजिटल स्वतंत्रता का सफर - HPNPay, आपकी दुकान का डिजिटल साथी
+                        </Text>
+                        <br />
+                        We offer a range of affordable general insurance plans, including bike insurance and mobile device protection plans
+                    </Text>
+                </Box>
+                <Flex flexDirection={{ base: 'column', md: 'row' }} marginTop={{ base: '2rem', md: '3rem' }}>
                     <Box>
-                        <Image ml={"95px"} src={Product6} width={"1000"} height={'400'} />
+                        <Image ml={{ base: '0', md: '95px' }} src={Product4} width={{ base: '100%', md: '40rem' }} height={{ base: 'auto', md: '25rem' }} paddingLeft={{ base: '1rem', md: '3rem' }} />
                     </Box>
                     <Flex
-                        flexDirection={"column"}
-                        gap={"30px"}
-                        width={"50%"}
-                        // marginTop={"10px"}
-                        marginLeft={"5rem"}
+                        flexDirection="column"
+                        gap="1rem"
+                        width={{ base: '100%', md: '50%' }}
+                        marginTop={{ base: '2rem', md: '40px' }}
+                        marginLeft={{ base: '0', md: '6rem' }}
+                        marginRight={{ base: '0', md: '3rem' }}
                     >
                         <Box>
-                            <Text color={"#052B60"} fontSize={"1.7rem"} fontWeight={"700"}>
-                                One-Stop for Credit Card Settlements
+                            <Text color="#052B60" fontSize={{ base: '1.5rem', md: '1.7rem' }} fontWeight="700">
+                                General
                             </Text>
-
-                            <Text fontSize={"1.3rem"}>
-                                Cater to a broad base by facilitating credit card payments across 30+ banks. With monthly billing cycles, this service not only aids your clientele but also promises you a regular revenue boost.
-                            </Text>
-                        </Box>
-
-                        <Box>
-                            <Text color={"#052B60"} fontSize={"1.7rem"} fontWeight={"700"}>
-                                Trusted Cash Collection Point
-                            </Text>
-                            <Text fontSize={"1.3rem"}>
-                                Position your store as a reliable hub for cash collection. Whether it's customers wanting to deposit or collection agents gathering EMIs, with every transaction, you get a piece of the pie.                            </Text>
-                        </Box>
-
-                        <Box>
-                            <Text color={"#052B60"} fontSize={"1.7rem"} fontWeight={"700"}>
-                                Timely LIC Premium Services
-                            </Text>
-                            <Text fontSize={"1.3rem"}>
-                                Be the helping hand customers need for their LIC premium payments, be it monthly, quarterly, half-yearly, or annually. By offering this vital service, you not only assist them but also cement a recurring income channel for your store.                            </Text></Box>
-
-                        <Box>
-                            <Text color={"#052B60"} fontSize={"1.7rem"} fontWeight={"700"}>
-                                LIC Premium Payments
-                            </Text>
-                            <Text fontSize={"1.3rem"} >Help customers pay their LIC premiums monthly, quarterly, half-yearly or annually and ensure a recurring income for yourself
+                            <Text fontSize={{ base: '1rem', md: '1.3rem' }}>
+                                We offer a range of affordable general insurance plans, including bike insurance and mobile device protection plans
                             </Text>
                             <Stack marginTop={'1rem'} spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', sm: 'row' }}>
                                 <Input type='email' placeholder='Enter Your Email' width='500px' height='75px' />
@@ -430,7 +300,127 @@ export default function Product() {
                                     _hover={{ bg: 'blue.600' }}
                                     background={'#156DB1'}
                                     color={'white'}
-                                    position={'absoulte'} left={"200px"}>Get in touch</Button>
+                                    position={'absoulte'}
+                                    left={"200px"}>Get in touch</Button>
+                            </Stack>
+                        </Box>
+                    </Flex>
+                </Flex>
+
+                {/* page 5 */}
+                <Box marginTop={{ base: '2rem', md: '3rem' }} width={{ base: '100%', md: '80%' }} margin="auto">
+                    <Text fontSize={{ base: '2rem', md: '3rem' }} color="#052B60" as="span">
+                        Travel
+                    </Text>
+                    <Text fontSize={{ base: '1.2rem', md: '1.5rem' }}>
+                        <Text fontWeight="bold" color="black">
+                            Become the one-stop travel Loan agency in your area{" "}
+                        </Text>
+                        <br />
+                        An IATA approved travel service provider, we offer you the most comprehensive range of travel products and services at very affordable rates and great commissions. Offer rail, flights, hotels, holidays and more from your shop
+                    </Text>
+                </Box>
+                <Flex flexDirection={{ base: 'column', md: 'row' }} marginTop={{ base: '2rem', md: '80px' }} margin={{ base: '2rem', md: '3.6rem' }}>
+                    <Flex flexDirection="column" gap={{ base: '4rem', md: '10rem' }} width={{ base: '100%', md: '50%' }} marginTop={{ base: '2rem', md: '40px' }} marginLeft={{ base: '0', md: '6rem' }}>
+                        {/* Content for Car Booking */}
+                        <Box>
+                            <Text color="#052B60" fontSize={{ base: '1.5rem', md: '1.7rem' }} fontWeight="700">
+                                Car Booking
+                            </Text>
+                            <Text fontSize={{ base: '1rem', md: '1.3rem' }}>
+                                Help your customers skip the hassle of queues and waiting times. With our intuitive app interface, offer quick and efficient car booking services right from your shop. For every booking made, enjoy a profitable commission.
+                            </Text>
+                        </Box>
+
+                        {/* Content for Flight Booking */}
+                        <Box>
+                            <Text color="#052B60" fontSize={{ base: '1.5rem', md: '1.7rem' }} fontWeight="700">
+                                Flight Booking
+                            </Text>
+                            <Text fontSize={{ base: '1rem', md: '1.3rem' }}>
+                                Leverage the power of an IATA-accredited platform to offer flight ticket bookings. Provide your customers with competitive rates and stand out with top-notch service. Plus, benefit from excellent commissions on each booking.
+                            </Text>
+                            <Stack marginTop={'1rem'} spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', sm: 'row' }}>
+                                <Input type='email' placeholder='Enter Your Email' width='500px' height='75px' />
+                                <Button width='150px' height='75px'
+                                    _hover={{ bg: 'blue.600' }}
+                                    background={'#156DB1'}
+                                    color={'white'}
+                                    position={'absoulte'}
+                                    left={"200px"}>Get in touch</Button>
+                            </Stack>
+                        </Box>
+                    </Flex>
+
+                    {/* Images */}
+                    <Box>
+                        <Image ml={{ base: '0', md: '40px' }} src={Product5} width={{ base: '100%', md: '33rem' }} height='18rem' />
+                        <br />
+                        <Image ml={{ base: '0', md: '40px' }} src={flightbooking} width={{ base: '100%', md: '33rem' }} height='18rem' />
+                    </Box>
+                </Flex>
+
+                {/* //page Second */}
+                <Box width={{ base: '100%', md: '80%' }} margin="auto" marginTop={{ base: '2rem', md: '0' }}>
+                    <Text fontSize={{ base: '2rem', md: '3rem' }} color="#052B60" as="span">
+                        Utility Bill Payments Made Easy
+                    </Text>
+                    <Text fontSize={{ base: '1rem', md: '1.5rem' }}>
+                        <br />
+                        Enable your customers to clear their monthly Gas, Electricity, and Water bills right from your store. By providing this essential service, not only do you make their lives simpler, but you also guarantee a steady income stream for your business.
+                    </Text>
+                </Box>
+                <Flex flexDirection={{ base: 'column', md: 'row' }} margin={{ base: '2rem 0', md: '4rem' }}  align={{ base: 'center', md: 'start' }}>
+                    <Box>
+                        <Image ml={{ base: '0', md: '6rem' }} src={Product6} width={{ base: '100%', md: '55rem' }} height={{ base: 'auto', md: '28rem' }} />
+                    </Box>
+                    <Flex flexDirection="column" gap="30px" width={{ base: '100%', md: '50%' }} marginLeft={{ base: '0', md: '9rem' }}>
+                        {/* Content for One-Stop for Credit Card Settlements */}
+                        <Box>
+                            <Text color="#052B60" fontSize={{ base: '1.5rem', md: '1.7rem' }} fontWeight="700">
+                                One-Stop for Credit Card Settlements
+                            </Text>
+                            <Text fontSize={{ base: '1rem', md: '1.3rem' }}>
+                                Cater to a broad base by facilitating credit card payments across 30+ banks. With monthly billing cycles, this service not only aids your clientele but also promises you a regular revenue boost.
+                            </Text>
+                        </Box>
+
+                        {/* Content for Trusted Cash Collection Point */}
+                        <Box>
+                            <Text color="#052B60" fontSize={{ base: '1.5rem', md: '1.7rem' }} fontWeight="700">
+                                Trusted Cash Collection Point
+                            </Text>
+                            <Text fontSize={{ base: '1rem', md: '1.3rem' }}>
+                                Position your store as a reliable hub for cash collection. Whether it's customers wanting to deposit or collection agents gathering EMIs, with every transaction, you get a piece of the pie.
+                            </Text>
+                        </Box>
+
+                        {/* Content for Timely LIC Premium Services */}
+                        <Box>
+                            <Text color="#052B60" fontSize={{ base: '1.5rem', md: '1.7rem' }} fontWeight="700">
+                                Timely LIC Premium Services
+                            </Text>
+                            <Text fontSize={{ base: '1rem', md: '1.3rem' }}>
+                                Be the helping hand customers need for their LIC premium payments, be it monthly, quarterly, half-yearly, or annually. By offering this vital service, you not only assist them but also cement a recurring income channel for your store.
+                            </Text>
+                        </Box>
+
+                        {/* Content for LIC Premium Payments */}
+                        <Box>
+                            <Text color="#052B60" fontSize={{ base: '1.5rem', md: '1.7rem' }} fontWeight="700">
+                                LIC Premium Payments
+                            </Text>
+                            <Text fontSize={{ base: '1rem', md: '1.3rem' }}>
+                                Help customers pay their LIC premiums monthly, quarterly, half-yearly, or annually and ensure a recurring income for yourself
+                            </Text>
+                            <Stack marginTop={'1rem'} spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', sm: 'row' }}>
+                                <Input type='email' placeholder='Enter Your Email' width='500px' height='75px' />
+                                <Button width='150px' height='75px'
+                                    _hover={{ bg: 'blue.600' }}
+                                    background={'#156DB1'}
+                                    color={'white'}
+                                    position={'absoulte'}
+                                    left={"200px"}>Get in touch</Button>
                             </Stack>
                         </Box>
                     </Flex>
@@ -609,17 +599,17 @@ export default function Product() {
                                 At HPNPay, we are not just a credit service, we are a catalyst for your success, committed to delivering financial solutions that are as innovative as they are inclusive. Join us in a partnership that promises to illuminate the path of financial stability and growth for your business and your customers alike.
                             </Text>
                             <Box>
-                            <Stack marginTop={'2rem'} spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', sm: 'row' }}>
-                                <Input type='email' placeholder='Enter Your Email' width='500px' height='75px' />
-                                <Button width='150px' height='75px'
-                                    _hover={{ bg: 'blue.600' }}
-                                    background={'#156DB1'}
-                                    color={'white'}
-                                    position={'absoulte'} left={"200px"}>Get in touch</Button>
-                            </Stack>
+                                <Stack marginTop={'2rem'} spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', sm: 'row' }}>
+                                    <Input type='email' placeholder='Enter Your Email' width='500px' height='75px' />
+                                    <Button width='150px' height='75px'
+                                        _hover={{ bg: 'blue.600' }}
+                                        background={'#156DB1'}
+                                        color={'white'}
+                                        position={'absoulte'} left={"200px"}>Get in touch</Button>
+                                </Stack>
+                            </Box>
                         </Box>
-                        </Box>
-                        
+
 
                     </Flex>
                     <Box>

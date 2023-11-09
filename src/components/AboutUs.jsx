@@ -60,7 +60,7 @@ export default function AboutUs() {
 
     return (
         <>
-            <Stack minH={"100vh"} direction={{ base: "column", md: "row" }}>
+            {/* <Stack minH={"100vh"} direction={{ base: "column", md: "row" }}>
                 <Flex p={8} flex={1} align={"center"} justify={"center"}>
                     <Stack spacing={6} w={"full"} maxW={"lg"}>
                         <Heading fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}>
@@ -100,7 +100,7 @@ export default function AboutUs() {
                         marginTop={'150px'}
                     />
                 </Flex>
-            </Stack>
+            </Stack> */}
 
             <Stack direction={{ base: "column", md: "row" }} width={"80%"} margin={'auto'}>
                 <Flex p={8} flex={1} align={"center"} justify={"center"}>
@@ -169,6 +169,11 @@ export default function AboutUs() {
 
                             Step into the World of Hannanth Digital India Private Limited—Where Future is Familiar.
                         </Text>
+                        <Link to={'/moreaboutus'}>
+                            <Button fontSize={"1.3rem"} as="span" flex='1' textAlign='left' onClick={scrollToTop}>
+                                Read more
+                            </Button>
+                        </Link>
                     </Stack>
                 </Flex>
             </Stack>
@@ -293,7 +298,7 @@ export default function AboutUs() {
                     color={"#0c4696"}
                     textAlign={"center"}
                 >
-                    Meet Our Advicors
+                    Meet Our Advisors
                 </Heading>
                 <Center py={6} gap={10} display={'flex'} flexDirection={['column', 'row']} justifyContent={'center'}>
                     <Box
@@ -317,7 +322,7 @@ export default function AboutUs() {
                                 <Heading fontSize={"2xl"} fontWeight={500} fontFamily={"body"}>
                                     Madan M. Ranga
                                 </Heading>
-                                <Text color={"gray.500"}>Advicor  </Text>
+                                <Text color={"gray.500"}>Advisor  </Text>
                             </Stack>
                             <Link to="/advicor_one">
 
@@ -361,7 +366,7 @@ export default function AboutUs() {
                                 <Heading fontSize={"2xl"} fontWeight={500} fontFamily={"body"}>
                                     Gaurav Vijay
                                 </Heading>
-                                <Text color={"gray.500"}>Advicor</Text>
+                                <Text color={"gray.500"}>Advisor</Text>
                             </Stack>
                             <Link to="/advicor_two">
                                 <Button
@@ -426,7 +431,7 @@ export default function AboutUs() {
                                 <Heading fontSize={"2xl"} fontWeight={500} fontFamily={"body"}>
                                     Sandeep Jain
                                 </Heading>
-                                <Text color={"gray.500"}>Advicor  </Text>
+                                <Text color={"gray.500"}>Advisor  </Text>
                             </Stack>
                             <Link to="/advicor_three">
 
@@ -492,7 +497,7 @@ export default function AboutUs() {
                                 <Heading fontSize={"2xl"} fontWeight={500} fontFamily={"body"}>
                                     Ramesh Meena
                                 </Heading>
-                                <Text color={"gray.500"}>Advicor  </Text>
+                                <Text color={"gray.500"}>Advisor  </Text>
                             </Stack>
                             <Link to="/advicor_four">
 
@@ -573,7 +578,7 @@ export default function AboutUs() {
             </Stack>
 
             {/* about us */}
-            <Stack>
+            {/* <Stack>
                 <Heading
                     fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}
                     color={"#0c4696"}
@@ -606,7 +611,7 @@ export default function AboutUs() {
 
 
                 </Center>
-            </Stack>
+            </Stack> */}
 
 
 
