@@ -47,6 +47,7 @@ import Media from './components/media/Media';
 import InfrastructureBusiness from './components/readmorepages/InfrastructureBusiness';
 import Solutions from './components/readmorepages/Solutions';
 import Faq from './components/knowMore/Faq';
+import Jobs from './components/knowMore/Jobs';
 
 function App(props) {
 
@@ -122,6 +123,7 @@ function App(props) {
               <Route path="/blog5" element={<Blog5/>}/>
               <Route path="/blog6" element={<Blog6/>}/>
               <Route path="/blog7" element={<Blog7/>}/>
+              <Route path="/careers" element={<Jobs/>}/>
               <Route path="/faqs" element={<Faq/>} />
              
             </Routes>
