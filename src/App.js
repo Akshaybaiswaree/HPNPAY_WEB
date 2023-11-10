@@ -48,6 +48,8 @@ import InfrastructureBusiness from './components/readmorepages/InfrastructureBus
 import Solutions from './components/readmorepages/Solutions';
 import Faq from './components/knowMore/Faq';
 import Jobs from './components/knowMore/Jobs';
+import MarketResearch from './components/marketResearch/MarketResearch';
+import Features from './components/features/Features';
 
 function App(props) {
 
@@ -81,6 +83,8 @@ function App(props) {
               <Route path="/corporate" element={<Corporate />} />
               <Route path="/products" element={<Product />} />
               <Route path="/solution" element={<Solution />} />
+              <Route path="/marketResearch" element={<MarketResearch/>}/>
+              <Route path="/features" element={<Features/>}/>
               <Route path="/distributors" element={<DistributorBanner />} />
               <Route path="/media" element={<Media/>}/>
               <Route path="/aboutus" element={<AboutUs />} />

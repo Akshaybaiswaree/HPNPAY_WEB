@@ -78,7 +78,7 @@ const Navbar = () => {
           <>
             <NavLink to="/solution">Solution</NavLink>
             <NavLink to="/marketResearch">Market Research</NavLink>
-            <NavLink to="/Features">Features</NavLink>
+            <NavLink to="/features">Features</NavLink>
             <NavLink to="/media">Media</NavLink>
             <NavLink to="/aboutus">About Us</NavLink>
             <NavLinkWithDropdown title="Know More">
