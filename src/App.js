@@ -41,6 +41,7 @@ import Blog5 from './images/blogs/Blog5';
 import Blog6 from './images/blogs/Blog6';
 import Blog7 from './images/blogs/Blog7';
 import InfrastructureBusiness from './components/readmorepages/InfrastructureBusiness';
+import Solutions from './components/readmorepages/Solutions';
 
 function App(props) {
 
@@ -93,6 +94,7 @@ function App(props) {
               <Route path="/digitalorder" element={<DigitalOrder />} />
               <Route path="/moreaboutus" element={<WhoWeAre />} />
               <Route path="/infrastructure" element={<InfrastructureBusiness />} />
+              <Route path="/solutions" element={<Solutions/>} />
 
               {/* our team pages */}
               <Route path="/founder&ceo" element={<AnandGandhi />} />
