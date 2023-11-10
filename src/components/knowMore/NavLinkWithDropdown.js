@@ -22,11 +22,14 @@ const NavLinkWithDropdown = ({ title, children }) => {
     >
       <Text
         px={1}
+        fontWeight="bold"
+        color="gray.600"
         py={1}
         rounded={'md'}
         _hover={{
           textDecoration: 'none',
           bg: useColorModeValue('gray.200', 'gray.700'),
+          
         }}
       >
         {title}
@@ -43,6 +46,7 @@ const NavLinkWithDropdown = ({ title, children }) => {
           mt='2'
           onMouseEnter={handleMouseEnter}
           // onMouseLeave={handleMouseLeave}
+          width="25rem" 
         >
           <VStack align='start' spacing={2} onMouseLeave={handleMouseLeave}>
             {children}
