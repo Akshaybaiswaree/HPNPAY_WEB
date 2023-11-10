@@ -36,10 +36,10 @@ const BlogCards = () => {
     { title: 'HPNPAY: Integrating Last-Mile Connectivity with Advanced Technology', to: '/blog1',  image: 'blog1.png' },
     { title: "HPNPAY's Vision of Democratizing Credit Access in Bharat", to: '/blog2',  image: 'blog2.png' },
     { title: "Hannanth Digital India Private Limited's Mission to Transform Kiranas for Tomorrow", to: '/blog3', image: 'blog3.png' },
-    { title: " Pioneering Compassionate Customer Delivery During Trying Times", to: '/blog3', image: 'blog4.png' },
-    { title: "Hannanth Digital India Private Limited: Expanding Access to Formal Credit", to: '/blog3', image: 'blog5.png' },
-    { title: "Charting a New Course for Insurance Accessibility in India", to: '/blog3', image: 'blog6.png' },
-    { title: "Hannanth Digital India Private Limited: Leading the Digital Payment Revolution", to: '/blog3', image: 'blog7.png' },
+    { title: " Pioneering Compassionate Customer Delivery During Trying Times", to: '/blog4', image: 'blog4.png' },
+    { title: "Hannanth Digital India Private Limited: Expanding Access to Formal Credit", to: '/blog5', image: 'blog5.png' },
+    { title: "Charting a New Course for Insurance Accessibility in India", to: '/blog6', image: 'blog6.png' },
+    { title: "Hannanth Digital India Private Limited: Leading the Digital Payment Revolution", to: '/blog7', image: 'blog7.png' },
     // ... Add more blogs as needed
   ];
 
