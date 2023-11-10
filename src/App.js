@@ -33,13 +33,13 @@ import AdvicorThree from './components/ourteampages/AdvicorThree';
 import AdvicorFour from './components/ourteampages/AdvicorFour';
 import Blogs from './components/knowMore/Blogs';
 import KnowMore from './components/knowMore/KnowMore';
-import Blog1 from './images/blogs/Blog1';
-import Blog2 from './images/blogs/Blog2';
-import Blog3 from './images/blogs/Blog3';
-import Blog4 from './images/blogs/Blog4';
-import Blog5 from './images/blogs/Blog5';
-import Blog6 from './images/blogs/Blog6';
-import Blog7 from './images/blogs/Blog7';
+import Blog1 from './components/blogs/Blog1';
+import Blog2 from './components/blogs/Blog2';
+import Blog3 from './components/blogs/Blog3';
+import Blog4 from './components/blogs/Blog4';
+import Blog5 from './components/blogs/Blog5';
+import Blog6 from './components/blogs/Blog6';
+import Blog7 from './components/blogs/Blog7';
 
 function App(props) {
 
