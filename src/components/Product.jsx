@@ -118,7 +118,7 @@ export default function Product() {
                     </Box>
                     <Flex flexDirection="column" gap="20px" width={{ base: '100%', md: '50%' }} marginLeft={{ base: '0', md: '9rem' }}>
 
-                        <Box>   
+                        <Box>
                             <Text color={"#052B60"} fontSize={"1.7rem"} fontWeight={"700"}>
                                 AePS (Aadhaar enabled Payment Services)
                             </Text>
@@ -370,7 +370,7 @@ export default function Product() {
                         Enable your customers to clear their monthly Gas, Electricity, and Water bills right from your store. By providing this essential service, not only do you make their lives simpler, but you also guarantee a steady income stream for your business.
                     </Text>
                 </Box>
-                <Flex flexDirection={{ base: 'column', md: 'row' }} margin={{ base: '2rem 0', md: '4rem' }}  align={{ base: 'center', md: 'start' }}>
+                <Flex flexDirection={{ base: 'column', md: 'row' }} margin={{ base: '2rem 0', md: '4rem' }} align={{ base: 'center', md: 'start' }}>
                     <Box>
                         <Image ml={{ base: '0', md: '6rem' }} src={Product6} width={{ base: '100%', md: '55rem' }} height={{ base: 'auto', md: '28rem' }} />
                     </Box>
@@ -407,12 +407,7 @@ export default function Product() {
 
                         {/* Content for LIC Premium Payments */}
                         <Box>
-                            <Text color="#052B60" fontSize={{ base: '1.5rem', md: '1.7rem' }} fontWeight="700">
-                                LIC Premium Payments
-                            </Text>
-                            <Text fontSize={{ base: '1rem', md: '1.3rem' }}>
-                                Help customers pay their LIC premiums monthly, quarterly, half-yearly, or annually and ensure a recurring income for yourself
-                            </Text>
+
                             <Stack marginTop={'1rem'} spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', sm: 'row' }}>
                                 <Input type='email' placeholder='Enter Your Email' width='500px' height='75px' />
                                 <Button width='150px' height='75px'
@@ -540,8 +535,7 @@ export default function Product() {
                     </Text>
                     <Text fontSize={"1.5rem"}>
                         <Text fontWeight={"bold"} color={"black"}>
-
-                            HPNPay के साथ जीवन की राह में, सपनों की बाहें; साथ हो आपके, हर पल, हर कदम।
+                            HPNPay के साथ सपनों की उड़ान में, आपकी मंजिल से हमारा वादा।
                         </Text>
 
                     </Text>

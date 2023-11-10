@@ -38,12 +38,15 @@ const Solution = () => {
             <Box style={{ display: "flex", justifyContent: 'space-around' }} className='main=solution-component'>
                 <Box style={{ flexBasis: "50%" }}>
                     <h1 style={{ color: "#052B60", fontWeight: "bold", fontSize: '3rem' }}>Our Solutions</h1>
-                    <p>Think last mile. Think PayNearby. From optimizing
-                        cash collection processes to enabling market
-                        expansion, businesses of all sizes use HPNPay's
-                        proprietary last mile technology and deeply entrenched retail network of 50,00,000+
-                        retailers to grow their business</p>
+                    <p>Welcome to HPNPAY – where innovative financial solutions meet the diverse needs of a dynamic global economy. Our platform is designed not just to adapt to the changing financial landscape but to actively shape it. We provide a spectrum of services that empower businesses, enable retailers, and uplift communities with the technology and support they need for financial success and resilience.</p>
+                    <Box marginTop='2rem'>
+                        <Link to={'/solutions'}>
+                            <Button variant='solid' colorScheme='blue' onClick={scrollToTop}>Read more</Button>
+                        </Link>
+                    </Box>
+
                 </Box>
+
                 <Box style={{ background: "#43D5B7", borderRadius: "15px", padding: "2px" }} width={"40%"} height={"20rem"} fontSize={"2rem"} >
                     <FormControl padding={"2rem"}>
                         <FormLabel style={{ marginTop: "4px", fontSize: "25px" }}>Choose the right solution by Industry Type</FormLabel>

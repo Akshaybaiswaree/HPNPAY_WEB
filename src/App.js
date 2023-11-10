@@ -44,6 +44,8 @@ import DigitalPayments from './components/blogs/DigitalPayments';
 import EconomicLandscape from './components/blogs/EconomicLandscape';
 import DigitalWave from './components/blogs/DigitalWave';
 import Media from './components/media/Media';
+import InfrastructureBusiness from './components/readmorepages/InfrastructureBusiness';
+import Solutions from './components/readmorepages/Solutions';
 
 function App(props) {
 
@@ -96,6 +98,8 @@ function App(props) {
               <Route path="/increasemarket" element={<IncreaseMarket />} />
               <Route path="/digitalorder" element={<DigitalOrder />} />
               <Route path="/moreaboutus" element={<WhoWeAre />} />
+              <Route path="/infrastructure" element={<InfrastructureBusiness />} />
+              <Route path="/solutions" element={<Solutions/>} />
 
               {/* our team pages */}
               <Route path="/founder&ceo" element={<AnandGandhi />} />

@@ -36,8 +36,19 @@ import agentincorner from "../images/corporate_img/agentIncorner.png";
 import communities from "../images/corporate_img/community.png";
 import largestAgent from "../images/corporate_img/largetagent.png";
 import retailer from "../images/corporate_img/largestRetailer.png";
+import { Link } from 'react-router-dom'
 
 const Corporate = () => {
+
+    //code for show page froom top.
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'instant',
+        });
+    }
+
+
     return (
         <>
 
@@ -64,7 +75,7 @@ const Corporate = () => {
                                     left: 0,
                                     color: '#1c539e'
                                 }}>
-                                Last Mile Infrastructure
+                                HPNPAY's Last Mile Infrastructure
                             </Text>
                             <br />
                             <Text as={'span'} color={'#1c539e'}>
@@ -72,18 +83,21 @@ const Corporate = () => {
                             </Text>
                         </Heading>
                         <Text color={'black'}>
-                            Multiple businesses of all sizes- from startups to large enterprises- use India’s largest agent network of  retailers to scale their business, optimize operational costs and develop new markets. High-end technology simplified for ease of use.
+                            HPNPAY's last mile infrastructure is specifically engineered to bridge the gap between businesses and their end customers. We offer a robust framework that extends the reach of your services directly to the doorstep of consumers, no matter how remote. This infrastructure is crucial for businesses looking to expand their presence and provide uninterrupted, quality service to every corner of the market.
                         </Text>
-                        <Stack spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', sm: 'row' }}>
+                        <Link to={'/infrastructure'}>
+                            <Button variant='solid' colorScheme='blue' onClick={scrollToTop}>Read more</Button>
+                        </Link>
+                        <Stack spacing={{ base: 4, sm: 1 }} direction={{ base: 'column', sm: 'row' }}>
                             <Input type='email' placeholder='Enter Your Email' width='500px' height='75px' />
                             <Button width='150px' height='75px'
                                 _hover={{ bg: 'blue.600' }}
                                 background={'#156DB1'}
                                 color={'white'}
                                 position={'absoulte'}
-                                left={"200px"}>Get in touch</Button>
+                                left={"1rem"}>Get in touch</Button>
                         </Stack>
-                        <Stack border={'1px solid #d3d3d3'} width={'400px'} direction={'row'} height={'75px'} display={'flex'} justifyContent={'space-between'} spacing={10} alignItems={'center'}>
+                        <Stack border={'1px solid #d3d3d3'} width={'25rem'} direction={'row'} height={'5rem'} display={'flex'} justifyContent={'space-between'} spacing={10} alignItems={'center'}>
                             <Checkbox colorScheme='green' margin={'10px'} size='lg'>I'm not robot</Checkbox>
                             <Image src={reCaptchaImage} width={'50px'} height='50px' />
                         </Stack>
@@ -115,8 +129,16 @@ const Corporate = () => {
                 </Stack>
                 <Text fontSize='xl'>our solutions</Text>
                 <Text fontSize='4xl'>Think Last Mile, Think HPNPAY</Text>
-                <SimpleGrid spacing={40} templateColumns='repeat(auto-fill, minmax(200px, 1fr))'>
-                    <Card width={"400px"} height={"500px"} border={"none"}>
+                <SimpleGrid
+                    bg='gray.50'
+                    columns={{ sm: 2, md: 3 }}
+                    spacing='8'
+                    p='10'
+                    textAlign='center'
+                    rounded='lg'
+                    color='gray.400'
+                >
+                    <Card maxW='sm' >
                         <Image
                             src={digitalCash}
                             alt='digital-cash-image'
@@ -126,15 +148,18 @@ const Corporate = () => {
                         />
                         <CardHeader>
                             <Heading size='md'>Digitize cash collection</Heading>
+                            <br />
                         </CardHeader>
-                        <CardBody>
-                            <Text>Enable customers and collection agents to deposit cash at P...</Text>
-                        </CardBody>
-                        {/* <CardFooter>
-                            <Button color={'#1c539e'}>Learn more</Button>
-                        </CardFooter> */}
+                        {/* <CardBody>
+                            <Text>At HPNPAY, we've built a single, cohesive network that customers and partners alike can rely on. Trust is the cornerstone of our operations, with every member, from agents to retailers, upholding the highest standards of service and integrity. We bring together a myriad of services, delivering a seamless financial experience that solidifies our position as a leading trusted network in digital transactions.</Text>
+                        </CardBody> */}
+                        <CardFooter display={'flex'} justifyContent={'center'}>
+                            <Link to={'/digitalcashcollection'}>
+                                <Button variant='solid' colorScheme='blue' onClick={scrollToTop}>Learn more</Button>
+                            </Link>
+                        </CardFooter>
                     </Card>
-                    <Card width={"400px"} height={"500px"} border={"none"}>
+                    <Card maxW='sm' >
                         <Image
                             src={increaseIndia}
                             alt='digital-india-image'
@@ -145,14 +170,14 @@ const Corporate = () => {
                         <CardHeader>
                             <Heading size='md'>Increase market penetration at the last mile</Heading>
                         </CardHeader>
-                        <CardBody>
-                            <Text>Distribute sachetize content through HPNPAY’s last mile ...</Text>
-                        </CardBody>
-                        {/* <CardFooter>
-                            <Button color={'#1c539e'}>Learn more</Button>
-                        </CardFooter> */}
+
+                        <CardFooter display={'flex'} justifyContent={'center'}>
+                            <Link to={'/increasemarket'}>
+                                <Button variant='solid' colorScheme='blue' onClick={scrollToTop}>Learn more</Button>
+                            </Link>
+                        </CardFooter>
                     </Card>
-                    <Card width={"400px"} height={"500px"} border={"none"}>
+                    <Card maxW='sm' >
                         <Image
                             src={digitalOrder}
                             alt='digital-order-image'
@@ -163,16 +188,15 @@ const Corporate = () => {
                         <CardHeader>
                             <Heading size='md'>Digitize order placement and payment</Heading>
                         </CardHeader>
-                        <CardBody>
-                            <Text>Enable 3X more efficiency in order processing and cash flow...</Text>
-                        </CardBody>
-                        {/* <CardFooter>
-                            <Button color={'#1c539e'}>Learn more</Button>
-                        </CardFooter> */}
+
+                        <CardFooter display={'flex'} justifyContent={'center'}>
+                            <Link to={'/digitalorder'}>
+                                <Button variant='solid' colorScheme='blue' onClick={scrollToTop}>Learn more</Button>
+                            </Link>
+                        </CardFooter>
                     </Card>
                 </SimpleGrid>
                 <Box margin={"50px"} display={"flex"} justifyContent={"center"}>
-                    {/* <Button size='md' height='48px' width='200px' border='2px' borderColor='green.500'>Veiw all Solutions</Button> */}
                 </Box>
                 <Box position={'relative'} height={'600px'} width={'100%'} margin='auto' mb={'3rem'} h={'full'} overflow={'hidden'} boxShadow={'dark-lg'}>
                     <Image src={goldLoan} />
@@ -181,57 +205,129 @@ const Corporate = () => {
                     <Box display={"flex"} flexDirection={"column"} justifyContent={"center"}>
                         <Text fontSize='3xl' as='b'>Why HPNPAY</Text><br />
                         <Text fontSize='4xl' as='b' color={'#1c539e'}>Technology driven, customer first approach to last mile connectivity and solution</Text>
-                        <Box display={"flex"} flexWrap={"wrap"} justifyContent={"space-between"}>
-                            <Box width={"400px"} height={"500px"} >
-                                <Image src={trustednetwork}
+                        <SimpleGrid
+                            bg='gray.50'
+                            columns={{ sm: 2, md: 3 }}
+                            spacing='8'
+                            p='10'
+                            textAlign='center'
+                            rounded='lg'
+                            color='gray.400'
+                        >
+                            <Card maxW='sm' >
+                                <Image
+                                    src={trustednetwork}
+                                    alt='digital-cash-image'
                                     borderRadius='lg'
                                     height={"18rem"}
-                                    width={"25rem"} />
-                                <Text fontSize='2xl' as='b'>One Trusted Network:</Text>
-                                <Text fontSize='xl'>With our trusted retailers We expecting,20000 Pin Codes Is Our Traget, harness the power of the largest agent network in the country.</Text>
-                            </Box>
-                            <Box width={"400px"} height={"500px"} >
-                                <Image src={largestNetwork}
-                                    borderRadius='lg'
-                                    height={"18rem"}
-                                    width={"25rem"} />
-                                <Text fontSize='2xl' as='b'>Largest  Network:</Text>
-                                <Text fontSize='xl'>"20,000+ Targets, One Trusted Network, Be Part of Our Financial Revolution!"</Text>
-                            </Box>
-                            <Box width={"400px"} height={"500px"} >
-                                <Image src={agentincorner}
-                                    borderRadius='lg'
-                                    height={"18rem"}
-                                    width={"25rem"} />
-                                <Text fontSize='2xl' as='b'> Agent in Every Corner: </Text>
-                                <Text fontSize='xl'>Your Local Agent in Every Corner, We're on a Mission to 20,000+ PIN Codes!"</Text>
-                            </Box>
-                            <Box width={"400px"} height={"500px"} >
-                                <Image src={communities}
-                                    borderRadius='lg'
-                                    height={"18rem"}
-                                    width={"25rem"} />
-                                <Text fontSize='2xl' as='b'>Empowering Communities: </Text>
-                                <Text fontSize='xl'>Empowering 20,000+ Communities Join Our Nationwide Network of Trust!"</Text>
-                            </Box>
-                            <Box width={"400px"} height={"500px"} >
-                                <Image src={largestAgent}
-                                    borderRadius='lg'
-                                    height={"18rem"}
-                                    width={"25rem"} />
-                                <Text fontSize='2xl' as='b'>Largest Agent Network:</Text>
-                                <Text fontSize='xl'>With our trusted retailers We expecting, 20000 Pin Codes Is Our Traget, harness the power of the largest agent network in the country.</Text>
-                            </Box>
-                            <Box width={"400px"} height={"500px"} >
-                                <Image src={retailer}
-                                    borderRadius='lg'
-                                    height={"18rem"}
-                                    width={"25rem"} />
-                                <Text fontSize='2xl' as='b'>Largest Retailers Network:</Text>
-                                <Text fontSize='xl'>With our trusted retailers We expecting, 20000 Pin Codes Is Our Traget, harness the power of the largest agent network in the country.</Text>
-                            </Box>
-                        </Box>
+                                    width={"25rem"}
+                                />
+                                <CardHeader>
+                                    <Heading size='md'>One Trusted Network:</Heading>
 
+                                </CardHeader>
+                                <CardBody>
+                                    <Text>
+                                        At HPNPAY, we've built <span><b>a single, cohesive network that customers and partners alike can rely on.</b></span> Trust is the cornerstone of our operations, with every member, from agents to retailers, upholding the highest standards of service and integrity. We bring together a myriad of services, delivering a seamless financial experience that solidifies our position as a leading trusted network in digital transactions.
+                                    </Text>
+                                </CardBody>
+
+                            </Card>
+
+                            <Card maxW='sm' >
+                                <Image
+                                    src={largestNetwork}
+                                    alt='digital-india-image'
+                                    borderRadius='lg'
+                                    height={"18rem"}
+                                    width={"25rem"}
+                                />
+                                <CardHeader>
+                                    <Heading size='md'>Largest  Network:</Heading>
+                                </CardHeader>
+
+                                <CardBody>
+                                    <Text>
+                                        Our vast network is unparalleled, making HPNPAY <span><b>the most extensive financial services network available today.</b></span> Spanning urban centers to remote areas, our reach ensures financial inclusivity for all. With the most extensive network at your fingertips, you're connected to a world of possibilities that transcends physical and financial barriers.
+                                    </Text>
+                                </CardBody>
+                            </Card>
+                            <Card maxW='sm' >
+                                <Image
+                                    src={agentincorner}
+                                    alt='digital-order-image'
+                                    borderRadius='lg'
+                                    height={"18rem"}
+                                    width={"25rem"}
+                                />
+                                <CardHeader>
+                                    <Heading size='md'>Agent in Every Corner:</Heading>
+                                </CardHeader>
+
+                                <CardBody>
+                                    <Text>
+                                        <span><b>HPNPAY's promise is accessibility,</b></span> and we fulfill this through our agents, strategically located to serve you no matter where you are. Our agents are local pillars in their communities, providing a personal touch and understanding to every transaction. With an HPNPAY agent always within reach, financial empowerment is never far away.
+
+                                    </Text>
+                                </CardBody>
+                            </Card>
+                            <Card maxW='sm' >
+                                <Image
+                                    src={communities}
+                                    alt='digital-order-image'
+                                    borderRadius='lg'
+                                    height={"18rem"}
+                                    width={"25rem"}
+                                />
+                                <CardHeader>
+                                    <Heading size='md'>Empowering Communities:</Heading>
+                                </CardHeader>
+
+                                <CardBody>
+                                    <Text>
+                                        <span><b>HPNPAY is dedicated to the socioeconomic upliftment of every community we touch.</b></span> Our services are designed to empower individuals and communities by providing easy access to financial services, fostering self-reliance, and fuelling local economies. We're more than a network; we're a partner in progress, investing in the future of the communities we serve.
+                                    </Text>
+
+                                </CardBody>
+                            </Card>
+                            <Card maxW='sm' >
+                                <Image
+                                    src={largestAgent}
+                                    alt='digital-order-image'
+                                    borderRadius='lg'
+                                    height={"18rem"}
+                                    width={"25rem"}
+                                />
+                                <CardHeader>
+                                    <Heading size='md'>Largest Agent Network:</Heading>
+                                </CardHeader>
+
+                                <CardBody>
+                                    <Text>
+                                        Our agent network is the heartbeat of our service delivery,<span><b> the largest of its kind,</b></span> and committed to excellence. Each agent is equipped with the tools and knowledge to navigate the financial landscape, ensuring that every customer interaction is handled with expertise and care. HPNPAY's agents are your trusted advisors in the financial world.
+                                    </Text>
+                                </CardBody>
+                            </Card>
+
+                            <Card maxW='sm' >
+                                <Image
+                                    src={retailer}
+                                    alt='digital-order-image'
+                                    borderRadius='lg'
+                                    height={"18rem"}
+                                    width={"25rem"}
+                                />
+                                <CardHeader>
+                                    <Heading size='md'>Largest Retailers Network:</Heading>
+                                </CardHeader>
+
+                                <CardBody>
+                                    <Text>
+                                        <span><b>The HPNPAY retailers' network stands as the largest in the sector,</b></span> offering an extensive portfolio of financial products and services. Each retailer in our network is a gateway to financial convenience, ensuring that wherever you find an HPNPAY retailer, you find a solution tailored to your needs. Our network is a testament to our mission of providing accessible financial services on a grand scale.
+                                    </Text>
+                                </CardBody>
+                            </Card>
+                        </SimpleGrid>
                     </Box>
                 </Center>
 
