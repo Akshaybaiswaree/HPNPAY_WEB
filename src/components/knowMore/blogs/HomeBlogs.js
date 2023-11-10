@@ -2,7 +2,7 @@ import React from 'react';
 import { Grid, Box, Text, Link, VStack, Heading, Button, Image, Center } from '@chakra-ui/react';
 import { NavLink } from 'react-router-dom';
 
-const BlogCard = ({ title, to, comments, image, onReadMore }) => (
+const HomeBlogCard = ({ title, to, comments, image, onReadMore }) => (
 
     
     <Box p={4} borderWidth="1px" borderRadius="lg">
@@ -30,17 +30,14 @@ const BlogCard = ({ title, to, comments, image, onReadMore }) => (
     });
 }
 
-const BlogCards = () => {
+const HomeBlogs = () => {
   // Sample data for the blogs
   const blogs = [
-    { title: 'HPNPAY: Integrating Last-Mile Connectivity with Advanced Technology', to: '/blog1',  image: 'blog1.png' },
-    { title: "HPNPAY's Vision of Democratizing Credit Access in Bharat", to: '/blog2',  image: 'blog2.png' },
-    { title: "Hannanth Digital India Private Limited's Mission to Transform Kiranas for Tomorrow", to: '/blog3', image: 'blog3.png' },
-    { title: " Pioneering Compassionate Customer Delivery During Trying Times", to: '/blog3', image: 'blog4.png' },
-    { title: "Hannanth Digital India Private Limited: Expanding Access to Formal Credit", to: '/blog3', image: 'blog5.png' },
-    { title: "Charting a New Course for Insurance Accessibility in India", to: '/blog3', image: 'blog6.png' },
-    { title: "Hannanth Digital India Private Limited: Leading the Digital Payment Revolution", to: '/blog3', image: 'blog7.png' },
-    // ... Add more blogs as needed
+    { title: 'Digital Payments: The Unstoppable March Towards a Cashless India', to: '/digitalPayments',  image: 'digitalP.png' },
+    { title: "The Digital Payment Revolution: Transforming India's Economic Landscape", to: '/economicLandscape',  image: 'digitalp2.png' },
+    { title: "Embracing the Digital Wave: How Shopkeepers Can Thrive in the New Retail Landscape", to: '/digitalWave', image: 'shopkeeper.png' },
+    
+    
   ];
 
   return (
@@ -52,7 +49,7 @@ const BlogCards = () => {
         <VStack key={columnIndex} align="stretch">
           {blogs.map((blog, index) => (
             index % 3 === columnIndex && (
-              <BlogCard
+              <HomeBlogCard
               h="25rem"
                 key={index}
                 title={blog.title}
@@ -73,4 +70,4 @@ const BlogCards = () => {
   );
 };
 
-export default BlogCards;
+export default HomeBlogs;

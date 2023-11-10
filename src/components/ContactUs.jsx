@@ -27,6 +27,7 @@ import googlePlay from "../images/contactus/google-play.png"
 import { PhoneIcon } from '@chakra-ui/icons'
 import Solution4 from "../images/contactus/360_F_584079236_dGOg5QEHUhUQb1KN642R6uCW9Fhourue.jpg"
 import goldLoan from '../images/footer/goldinvestment.jpg';
+import ContactForm from './ContactForm'
 
 export default function ContactUs() {
     return (
@@ -38,19 +39,11 @@ export default function ContactUs() {
                             <Text
                                 as={'span'}
                                 position={'relative'}
-                                _after={{
-                                    content: "''",
-                                    width: 'full',
-                                    height: useBreakpointValue({ base: '20%', md: '30%' }),
-                                    position: 'absolute',
-                                    bottom: 1,
-                                    left: 0,
-                                    bg: 'blue.400',
-                                    zIndex: -1,
-                                }}>
-                                Let's connect to <br />
-                                create impact
+                                >
+                                <Text fontWeight="bold" fontSize="50"  color="blue.800">Let's connect to </Text>
+                                <Text fontSize="50" color="red.600">create impact</Text>
                             </Text>
+                            <ContactForm/>
                             <br />{' '}
                         </Heading>
                         <Text fontSize={'lg'} >Regd. Office</Text>

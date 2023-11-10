@@ -58,14 +58,14 @@ const Navbar = () => {
             <>
               <NavLink to="/products" p="0">Products</NavLink>
               <NavLink to="/distributors">Distributors Program</NavLink>
-              <NavLink to="/solution">Media</NavLink>
+              <NavLink to="/media">Media</NavLink>
               <NavLink to="/aboutus">About Us</NavLink>
               <NavLinkWithDropdown  fontWeight= "bold" title="Know More" pb="0.5rem">
-                <NavLink to="/blogs"  bg="red">Blogs</NavLink>
-                <NavLink to="#">HPN Club</NavLink>
-                <NavLink to="#">Jobs</NavLink>
-                <NavLink to="#">Events</NavLink>
-                <NavLink to="#">FAQ's</NavLink>
+              <NavLink to="/blogs">Blogs</NavLink>
+                <NavLink to="/hpnClub">HPN Club</NavLink>
+                <NavLink to="/careers">Jobs</NavLink>
+                <NavLink to="/events">Events</NavLink>
+                <NavLink to="/faqs">FAQ's</NavLink>
               </NavLinkWithDropdown>
               <NavLink to="/contactus">Contact Us</NavLink>
               <Button as={Link} to="/login" ml={4} colorScheme="blue">
@@ -77,18 +77,18 @@ const Navbar = () => {
           {corporate && 
           <>
             <NavLink to="/solution">Solution</NavLink>
-            <NavLink to="/solution">Market Research</NavLink>
-            <NavLink to="/solution">Features</NavLink>
-            <NavLink to="/solution">Media</NavLink>
-            <NavLink to="/solution">About Us</NavLink>
+            <NavLink to="/marketResearch">Market Research</NavLink>
+            <NavLink to="/Features">Features</NavLink>
+            <NavLink to="/media">Media</NavLink>
+            <NavLink to="/aboutus">About Us</NavLink>
             <NavLinkWithDropdown title="Know More">
                 <NavLink to="/blogs">Blogs</NavLink>
-                <NavLink to="#">HPN Club</NavLink>
-                <NavLink to="#">Jobs</NavLink>
-                <NavLink to="#">Events</NavLink>
-                <NavLink to="#">FAQ's</NavLink>
+                <NavLink to="/hpnClub">HPN Club</NavLink>
+                <NavLink to="/careers">Jobs</NavLink>
+                <NavLink to="/events">Events</NavLink>
+                <NavLink to="/faqs">FAQ's</NavLink>
               </NavLinkWithDropdown>
-            <NavLink to="/solution">Contact Us</NavLink>
+            <NavLink to="/contactus">Contact Us</NavLink>
           </>}
 
         </Flex>

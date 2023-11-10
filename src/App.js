@@ -31,15 +31,19 @@ import AdvicorOne from './components/ourteampages/AdvicorOne';
 import AdvicorTwo from './components/ourteampages/AdvicorTwo';
 import AdvicorThree from './components/ourteampages/AdvicorThree';
 import AdvicorFour from './components/ourteampages/AdvicorFour';
-import Blogs from './components/knowMore/Blogs';
+import Blogs from './components/knowMore/blogs/Blogs';
 import KnowMore from './components/knowMore/KnowMore';
-import Blog1 from './images/blogs/Blog1';
-import Blog2 from './images/blogs/Blog2';
-import Blog3 from './images/blogs/Blog3';
-import Blog4 from './images/blogs/Blog4';
-import Blog5 from './images/blogs/Blog5';
-import Blog6 from './images/blogs/Blog6';
-import Blog7 from './images/blogs/Blog7';
+import Blog1 from './components/blogs/Blog1';
+import Blog2 from './components/blogs/Blog2';
+import Blog3 from './components/blogs/Blog3';
+import Blog4 from './components/blogs/Blog4';
+import Blog5 from './components/blogs/Blog5';
+import Blog6 from './components/blogs/Blog6';
+import Blog7 from './components/blogs/Blog7';
+import DigitalPayments from './components/blogs/DigitalPayments';
+import EconomicLandscape from './components/blogs/EconomicLandscape';
+import DigitalWave from './components/blogs/DigitalWave';
+import Media from './components/media/Media';
 import InfrastructureBusiness from './components/readmorepages/InfrastructureBusiness';
 import Solutions from './components/readmorepages/Solutions';
 
@@ -76,6 +80,7 @@ function App(props) {
               <Route path="/products" element={<Product />} />
               <Route path="/solution" element={<Solution />} />
               <Route path="/distributors" element={<DistributorBanner />} />
+              <Route path="/media" element={<Media/>}/>
               <Route path="/aboutus" element={<AboutUs />} />
               <Route path="/contactus" element={< ContactUs />} />
               <Route path="/privacypolicy" element={< PrivacyPolicy />} />
@@ -105,6 +110,9 @@ function App(props) {
               <Route path="/advicor_four" element={<AdvicorFour />} />
 
               {/* know more pages */}
+              <Route path="/digitalPayments" element={<DigitalPayments/>}/>
+              <Route path="/economicLandscape" element={<EconomicLandscape/>}/>
+              <Route path="/digitalWave" element={<DigitalWave/>}/>
               <Route path="/blogs" element={<Blogs/>}/>
               <Route path="blog1" element={<Blog1/>}/>
               <Route path="/blog2" element={<Blog2/>}/>
