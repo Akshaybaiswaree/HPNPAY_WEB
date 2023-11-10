@@ -24,6 +24,7 @@ import {
   CardBody,
   CardFooter,
   Center,
+  ButtonGroup,
 } from '@chakra-ui/react'
 // Here we have used react-icons package for the icons
 import { BiLeftArrowAlt, BiRightArrowAlt } from 'react-icons/bi'
@@ -34,12 +35,20 @@ import mobileImage from '../images/retailer_img/mobile.png';
 import dass1 from '../images/retailer_img/banner_img7.jpeg';
 import dass2 from '../images/retailer_img/banner_img8.png';
 import dass3 from '../images/retailer_img/banner_img9.png';
-import box4 from '../images/retailer_img/box4.jpeg';
-import box2 from '../images/retailer_img/box2.jpeg';
-import box3 from '../images/retailer_img/box3.jpeg';
+
 import worldImage from '../images/retailer_img/indiamap.png';
 import { Link } from 'react-router-dom';
 import goldLoan from '../images/footer/goldinvestment.jpg';
+import advantage1 from '../images/retailer_img/advantage1.svg.png'
+import advantage2 from '../images/retailer_img/advantage2.svg.png'
+import advantage3 from '../images/retailer_img/advantage3.svg.png'
+import advantage4 from '../images/retailer_img/advantage4.svg.png'
+import advantage5 from '../images/retailer_img/advantage5.svg.png'
+import advantage6 from '../images/retailer_img/advantage6.svg.png'
+import advantage7 from '../images/retailer_img/advantage7.svg.png'
+import advantage8 from '../images/retailer_img/advantage8.svg.png'
+import advantage9 from '../images/retailer_img/advantage9.svg.png'
+import advantage10 from '../images/retailer_img/advantage10.svg.png'
 
 // Settings for the slider
 const settings = {
@@ -495,290 +504,211 @@ export default function Banner() {
       </Box>
 
       {/* part-6 HPNPAY Advantage */}
-      {/* <Box display={"flex"} flexDirection={"column"} justifyContent={"center"}> */}
-      {/* <Container maxW={'7xl'}>
-        <Center>
-          <Box display={"flex"} flexDirection={"column"} justifyContent={"center"}>
-            <Text fontSize='3xl' as='b'>HPNPAY Advantage</Text><br />
-            <Text fontSize='4xl' as='b' color={'#1c539e'}>
-              Upgrade your business with the leader in branchless banking
-            </Text>
-            <Box display={"flex"} flexWrap={"wrap"} justifyContent={"space-between"}>
-              <Box width={"20rem"} height={"16rem"} >
-                <Image src={''}
-                  borderRadius='lg'
-                  height={"16rem"}
-                  width={"20rem"} />
-                <Text fontSize='2xl' as='b'>One Trusted Network:</Text>
-                <Text fontSize='xl'>With our trusted retailers We expecting,20000 Pin Codes Is Our Traget, harness the power of the largest agent network in the country.</Text>
-              </Box>
-              <Box width={"400px"} height={"500px"} >
-                <Image src={''}
-                  borderRadius='lg'
-                  height={"18rem"}
-                  width={"25rem"} />
-                <Text fontSize='2xl' as='b'>Largest  Network:</Text>
-                <Text fontSize='xl'>"20,000+ Targets, One Trusted Network, Be Part of Our Financial Revolution!"</Text>
-              </Box>
-              <Box width={"400px"} height={"500px"} >
-                <Image src={''}
-                  borderRadius='lg'
-                  height={"18rem"}
-                  width={"25rem"} />
-                <Text fontSize='2xl' as='b'> Agent in Every Corner: </Text>
-                <Text fontSize='xl'>Your Local Agent in Every Corner, We're on a Mission to 20,000+ PIN Codes!"</Text>
-              </Box>
-              <Box width={"400px"} height={"500px"} >
-                <Image src={''}
-                  borderRadius='lg'
-                  height={"18rem"}
-                  width={"25rem"} />
-                <Text fontSize='2xl' as='b'>Empowering Communities: </Text>
-                <Text fontSize='xl'>Empowering 20,000+ Communities Join Our Nationwide Network of Trust!"</Text>
-              </Box>
-              <Box width={"400px"} height={"500px"} >
-                <Image src={''}
-                  borderRadius='lg'
-                  height={"18rem"}
-                  width={"25rem"} />
-                <Text fontSize='2xl' as='b'>Largest Agent Network:</Text>
-                <Text fontSize='xl'>With our trusted retailers We expecting, 20000 Pin Codes Is Our Traget, harness the power of the largest agent network in the country.</Text>
-              </Box>
-              <Box width={"400px"} height={"500px"} >
-                <Image src={''}
-                  borderRadius='lg'
-                  height={"18rem"}
-                  width={"25rem"} />
-                <Text fontSize='2xl' as='b'>Largest Retailers Network:</Text>
-                <Text fontSize='xl'>With our trusted retailers We expecting, 20000 Pin Codes Is Our Traget, harness the power of the largest agent network in the country.</Text>
-              </Box>
-            </Box>
 
-          </Box>
-        </Center>
-      </Container> */}
-      <Box>
+      <Box marginTop={'3rem'}>
         <Heading color={'blue.700'} fontSize='5xl' font-weight="bold" textAlign="center">HPNPAY Advantage</Heading>
 
-        <Stack spacing={4}>
+        <Stack spacing={4} margin='2rem'>
           <Text fontSize='4xl' as='b' color={'#1c539e'} textAlign="center">
             Upgrade your business with the leader in branchless banking
           </Text>
         </Stack>
+        <SimpleGrid
+          bg='gray.50'
+          columns={{ sm: 2, md: 3 }}
+          spacing='8'
+          p='10'
+          textAlign='center'
+          rounded='lg'
+          color='gray.400'
+        >
 
-        <Flex justify="center">
-          <Box key={''} maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden" m={4}>
-            <Image src={''} alt={`Card ${''}`} />
-            <Box p="6">
-              <Text fontSize="2xl" fontWeight="bold">
-                Card Title
-              </Text>
-              <Text mt="2" color="gray.600">
-                Your card content goes here.
-              </Text>
-            </Box>
-          </Box>
-          <Box key={''} maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden" m={4}>
-            <Image src={''} alt={`Card ${''}`} />
-            <Box p="6">
-              <Text fontSize="2xl" fontWeight="bold">
-                Card Title
-              </Text>
-              <Text mt="2" color="gray.600">
-                Your card content goes here.
-              </Text>
-            </Box>
-          </Box>
-          <Box key={''} maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden" m={4}>
-            <Image src={''} alt={`Card ${''}`} />
-            <Box p="6">
-              <Text fontSize="2xl" fontWeight="bold">
-                Card Title
-              </Text>
-              <Text mt="2" color="gray.600">
-                Your card content goes here.
-              </Text>
-            </Box>
-          </Box>
-          <Box key={''} maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden" m={4}>
-            <Image src={''} alt={`Card ${''}`} />
-            <Box p="6">
-              <Text fontSize="2xl" fontWeight="bold">
-                Card Title
-              </Text>
-              <Text mt="2" color="gray.600">
-                Your card content goes here.
-              </Text>
-            </Box>
-          </Box>
-          <Box key={''} maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden" m={4}>
-            <Image src={''} alt={`Card ${''}`} />
-            <Box p="6">
-              <Text fontSize="2xl" fontWeight="bold">
-                Card Title
-              </Text>
-              <Text mt="2" color="gray.600">
-                Your card content goes here.
-              </Text>
-            </Box>
-          </Box>
-          <Box key={''} maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden" m={4}>
-            <Image src={''} alt={`Card ${''}`} />
-            <Box p="6">
-              <Text fontSize="2xl" fontWeight="bold">
-                Card Title
-              </Text>
-              <Text mt="2" color="gray.600">
-                Your card content goes here.
-              </Text>
-            </Box>
-          </Box>
+          <Card maxW='sm'>
+            <CardBody>
+              <Image
+                src={advantage1}
+                alt='Green double couch with wooden legs'
+                borderRadius='lg'
+                h='12rem'
+                w='20rem'
 
-        </Flex>
+              />
+              <Stack mt='6' spacing='3'>
+                <Heading size='md'>Effortless Integration </Heading>
+                <Text>
+                  Seamlessly integrate HPNPAY with your existing systems to streamline your services without the need for technical expertise.
+                </Text>
+
+              </Stack>
+            </CardBody>
+
+          </Card>
+
+          <Card maxW='sm'>
+            <CardBody>
+              <Image
+                src={advantage2}
+                alt='Green double couch with wooden legs'
+                borderRadius='lg'
+                h='12rem'
+                w='20rem'
+              />
+              <Stack mt='6' spacing='3'>
+                <Heading size='md'>Flexible Earnings Structure</Heading>
+                <Text>
+                  With HPNPAY, benefit from a flexible commission model that rewards your growth and transaction volumes, enhancing your earning potential.
+                </Text>
+
+              </Stack>
+            </CardBody>
+
+          </Card>
+          <Card maxW='sm'>
+            <CardBody>
+              <Image
+                src={advantage3}
+                alt='Comprehensive Support'
+                borderRadius='lg'
+                h='12rem'
+                w='20rem'
+              />
+              <Stack mt='6' spacing='3'>
+                <Heading size='md'>Comprehensive Support</Heading>
+                <Text>
+                  Receive dedicated support and training from our expert team to ensure smooth operations and service excellence.
+                </Text>
+
+              </Stack>
+            </CardBody>
+
+          </Card>
+          <Card maxW='sm'>
+            <CardBody>
+              <Image
+                src={advantage4}
+                alt='Comprehensive Support'
+                borderRadius='lg'
+              />
+              <Stack mt='6' spacing='3'>
+                <Heading size='md'>Market Expansion Opportunities</Heading>
+                <Text>
+                  HPNPAY opens up new markets and customer segments, allowing you to tap into the vast potential of branchless banking.                </Text>
+
+              </Stack>
+            </CardBody>
+
+          </Card>
+          <Card maxW='sm'>
+            <CardBody>
+              <Image
+                src={advantage5}
+                alt='Comprehensive Support'
+                borderRadius='lg'
+                h='12rem'
+                w='20rem'
+              />
+              <Stack mt='6' spacing='3'>
+                <Heading size='md'>Real-time Tracking and Analytics</Heading>
+                <Text>
+                  Monitor your business performance with our real-time analytics dashboard, enabling informed decision-making.                </Text>
+
+              </Stack>
+            </CardBody>
+
+          </Card>
+          <Card maxW='sm'>
+            <CardBody>
+              <Image
+                src={advantage6}
+                alt='Comprehensive Support'
+                borderRadius='lg'
+                h='12rem'
+                w='20rem'
+              />
+              <Stack mt='6' spacing='3'>
+                <Heading size='md'>Secure Transactions</Heading>
+                <Text>
+                  Benefit from state-of-the-art security protocols ensuring that every transaction is secure and reliable.                </Text>
+
+              </Stack>
+            </CardBody>
+
+          </Card>
+          <Card maxW='sm'>
+            <CardBody>
+              <Image
+                src={advantage7}
+                alt='Comprehensive Support'
+                borderRadius='lg'
+                h='12rem'
+                w='20rem'
+              />
+              <Stack mt='6' spacing='3'>
+                <Heading size='md'>Customizable Solutions</Heading>
+                <Text>
+                  Tailor HPNPAY's services to meet the specific needs of your customers, providing a personalized experience that drives loyalty.
+                </Text>
+              </Stack>
+            </CardBody>
+
+          </Card>
+          <Card maxW='sm'>
+            <CardBody>
+              <Image
+                src={advantage8}
+                alt='Comprehensive Support'
+                borderRadius='lg'
+                h='12rem'
+                w='20rem'
+              />
+              <Stack mt='6' spacing='3'>
+                <Heading size='md'>Nationwide Recognition</Heading>
+                <Text>
+                  As a part of a reputed brand, gain instant recognition and trust, which helps in attracting and retaining customers.
+                </Text>
+
+              </Stack>
+            </CardBody>
+
+          </Card>
+          <Card maxW='sm'>
+            <CardBody>
+              <Image
+                src={advantage9}
+                alt='Comprehensive Support'
+                borderRadius='lg'
+                h='12rem'
+                w='20rem'
+              />
+              <Stack mt='6' spacing='3'>
+                <Heading size='md'>Continuous Innovation </Heading>
+                <Text>
+                  Leverage HPNPAY's commitment to continuous innovation, ensuring that your services stay ahead of market trends.                </Text>
+
+              </Stack>
+            </CardBody>
+
+          </Card>
+          <Card maxW='sm'>
+            <CardBody>
+              <Image
+                src={advantage10}
+                alt='Comprehensive Support'
+                borderRadius='lg'
+                h='12rem'
+                w='20rem'
+              />
+              <Stack mt='6' spacing='3'>
+                <Heading size='md'>Eco-friendly Business Model </Heading>
+                <Text>
+                  With digital transactions, reduce your carbon footprint and contribute to a greener environment.
+                </Text>
+              </Stack>
+            </CardBody>
+          </Card>
+        </SimpleGrid>
+
       </Box>
-
-      {/* <Stack spacing={4}>
-
-          <Heading color={'blue.700'} fontSize='5xl' font-weight="bold" textAlign="center">HPNPAY Advantage</Heading>
-
-          <Stack spacing={4}>
-            <Text fontSize='4xl' as='b' color={'#1c539e'} textAlign="center">
-              Upgrade your business with the leader in branchless banking
-            </Text>
-          </Stack>
-        </Stack>
-
-        <Center>
-
-          <Box display={"flex"} paddingTop="" flexWrap={"wrap"} justifyContent={"space-between"}>
-            <Box width={"20rem"} height={"16rem"} spacing={'2rem'} >
-              <Image src={''}
-                borderRadius='lg'
-                height={"16rem"}
-                width={"20rem"} />
-              <Text fontSize='2xl' as='b'>One Trusted Network:</Text>
-              <Text fontSize='xl'>With our trusted retailers We expecting,20000 Pin Codes Is Our Traget, harness the power of the largest agent network in the country.</Text>
-            </Box>
-            <Box width={"20rem"} height={"16rem"} >
-              <Image src={''}
-                borderRadius='lg'
-                height={"18rem"}
-                width={"25rem"} />
-              <Text fontSize='2xl' as='b'>Largest  Network:</Text>
-              <Text fontSize='xl'>"20,000+ Targets, One Trusted Network, Be Part of Our Financial Revolution!"</Text>
-            </Box>
-            <Box width={"20rem"} height={"16rem"} >
-              <Image src={''}
-                borderRadius='lg'
-                height={"18rem"}
-                width={"25rem"} />
-              <Text fontSize='2xl' as='b'> Agent in Every Corner: </Text>
-              <Text fontSize='xl'>Your Local Agent in Every Corner, We're on a Mission to 20,000+ PIN Codes!"</Text>
-            </Box>
-            <Box width={"20rem"} height={"16rem"} >
-              <Image src={''}
-                borderRadius='lg'
-                height={"18rem"}
-                width={"25rem"} />
-              <Text fontSize='2xl' as='b'>Empowering Communities: </Text>
-              <Text fontSize='xl'>Empowering 20,000+ Communities Join Our Nationwide Network of Trust!"</Text>
-            </Box>
-            <Box width={"20rem"} height={"16rem"} >
-              <Image src={''}
-                borderRadius='lg'
-                height={"18rem"}
-                width={"25rem"} />
-              <Text fontSize='2xl' as='b'>Largest Agent Network:</Text>
-              <Text fontSize='xl'>With our trusted retailers We expecting, 20000 Pin Codes Is Our Traget, harness the power of the largest agent network in the country.</Text>
-            </Box>
-            <Box width={"20rem"} height={"16rem"} >
-              <Image src={''}
-                borderRadius='lg'
-                height={"18rem"}
-                width={"25rem"} />
-              <Text fontSize='2xl' as='b'>Largest Retailers Network:</Text>
-              <Text fontSize='xl'>With our trusted retailers We expecting, 20000 Pin Codes Is Our Traget, harness the power of the largest agent network in the country.</Text>
-            </Box>
-          </Box>
-
-        </Center>
-        {/* <Stack spacing={4} direction="row" align="center" justify="center" >
-          <Box
-            padding={4}
-            margin={2}
-            borderWidth={1}
-            borderRadius='20px'
-            boxShadow="md"
-            align='center'
-            height="200px" width="280px"
-          >
-            <Image src={box4} alt="Image 1" />
-            <Text textAlign="center">Instant and easy onboarding</Text>
-          </Box>
-          <Box
-            padding={4}
-            margin={2}
-            borderWidth={1}
-            borderRadius='20px'
-            boxShadow="md"
-            align='center'
-            height="200px" width="280px"
-          >
-            <Image src={box2} alt="Image 2" />
-            <Text textAlign="center">Zero additional investment, no working capital requirement</Text>
-          </Box>
-          <Box
-            padding={4}
-            margin={2}
-            borderWidth={1}
-            borderRadius='20px'
-            boxShadow="md"
-            align='center'
-            height="200px" width="280px"
-          >
-            <Image src={box3} alt="Image 3" />
-            <Text textAlign="center">Time tested systems, with industry best success rates</Text>
-          </Box>
-        </Stack>
-        <Stack spacing={4} direction="row" align="center" justify="center" >
-          <Box
-            padding={4}
-            margin={2}
-            borderWidth={1}
-            borderRadius='20px'
-            boxShadow="md"
-            align='center'
-            height="200px" width="280px"
-          >
-            <Image src={box3} alt="Image 1" />
-            <Text textAlign="center">Instant and easy onboarding</Text>
-          </Box>
-          <Box
-            padding={4}
-            margin={2}
-            borderWidth={1}
-            borderRadius='20px'
-            boxShadow="md"
-            align='center'
-            height="200px" width="280px"
-          >
-            <Image src={box2} alt="Image 2" />
-            <Text textAlign="center">Zero additional investment, no working capital requirement</Text>
-          </Box>
-          <Box
-            padding={4}
-            margin={2}
-            borderWidth={1}
-            borderRadius='20px'
-            boxShadow="md"
-            align='center'
-            height="200px" width="280px"
-          >
-            <Image src={box4} alt="Image 3" />
-            <Text textAlign="center">Time tested systems, with industry best success rates</Text>
-          </Box>
-        </Stack> */}
-      {/* </Box> */}
 
     </Box>
   )
