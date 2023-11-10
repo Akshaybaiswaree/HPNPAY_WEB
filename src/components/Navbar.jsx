@@ -58,6 +58,7 @@ const Navbar = () => {
             <>
               <NavLink to="/products" p="0">Products</NavLink>
               <NavLink to="/distributors">Distributors Program</NavLink>
+              <NavLink to="/solution">Media</NavLink>
               <NavLink to="/aboutus">About Us</NavLink>
               <NavLinkWithDropdown  fontWeight= "bold" title="Know More" pb="0.5rem">
                 <NavLink to="/blogs"  bg="red">Blogs</NavLink>
