@@ -36,8 +36,19 @@ import agentincorner from "../images/corporate_img/agentIncorner.png";
 import communities from "../images/corporate_img/community.png";
 import largestAgent from "../images/corporate_img/largetagent.png";
 import retailer from "../images/corporate_img/largestRetailer.png";
+import { Link } from 'react-router-dom'
 
 const Corporate = () => {
+
+        //code for show page froom top.
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'instant',
+            });
+        }
+
+
     return (
         <>
 
@@ -115,8 +126,16 @@ const Corporate = () => {
                 </Stack>
                 <Text fontSize='xl'>our solutions</Text>
                 <Text fontSize='4xl'>Think Last Mile, Think HPNPAY</Text>
-                <SimpleGrid spacing={40} templateColumns='repeat(auto-fill, minmax(200px, 1fr))'>
-                    <Card width={"400px"} height={"500px"} border={"none"}>
+                <SimpleGrid
+                    bg='gray.50'
+                    columns={{ sm: 2, md: 3 }}
+                    spacing='8'
+                    p='10'
+                    textAlign='center'
+                    rounded='lg'
+                    color='gray.400'
+                >
+                    <Card maxW='sm' >
                         <Image
                             src={digitalCash}
                             alt='digital-cash-image'
@@ -126,15 +145,18 @@ const Corporate = () => {
                         />
                         <CardHeader>
                             <Heading size='md'>Digitize cash collection</Heading>
+                            <br />
                         </CardHeader>
-                        <CardBody>
-                            <Text>Enable customers and collection agents to deposit cash at P...</Text>
-                        </CardBody>
-                        {/* <CardFooter>
-                            <Button color={'#1c539e'}>Learn more</Button>
-                        </CardFooter> */}
+                        {/* <CardBody>
+                            <Text>At HPNPAY, we've built a single, cohesive network that customers and partners alike can rely on. Trust is the cornerstone of our operations, with every member, from agents to retailers, upholding the highest standards of service and integrity. We bring together a myriad of services, delivering a seamless financial experience that solidifies our position as a leading trusted network in digital transactions.</Text>
+                        </CardBody> */}
+                        <CardFooter display={'flex'} justifyContent={'center'}>
+                            <Link to={'/digitalcashcollection'}>
+                                <Button variant='solid' colorScheme='blue' onClick={scrollToTop}>Learn more</Button>
+                            </Link>
+                        </CardFooter>
                     </Card>
-                    <Card width={"400px"} height={"500px"} border={"none"}>
+                    <Card maxW='sm' >
                         <Image
                             src={increaseIndia}
                             alt='digital-india-image'
@@ -145,14 +167,14 @@ const Corporate = () => {
                         <CardHeader>
                             <Heading size='md'>Increase market penetration at the last mile</Heading>
                         </CardHeader>
-                        <CardBody>
-                            <Text>Distribute sachetize content through HPNPAY’s last mile ...</Text>
-                        </CardBody>
-                        {/* <CardFooter>
-                            <Button color={'#1c539e'}>Learn more</Button>
-                        </CardFooter> */}
+
+                        <CardFooter display={'flex'} justifyContent={'center'}>
+                            <Link to={'/increasemarket'}>
+                                <Button variant='solid' colorScheme='blue' onClick={scrollToTop}>Learn more</Button>
+                            </Link>
+                        </CardFooter>
                     </Card>
-                    <Card width={"400px"} height={"500px"} border={"none"}>
+                    <Card maxW='sm' >
                         <Image
                             src={digitalOrder}
                             alt='digital-order-image'
@@ -163,12 +185,12 @@ const Corporate = () => {
                         <CardHeader>
                             <Heading size='md'>Digitize order placement and payment</Heading>
                         </CardHeader>
-                        <CardBody>
-                            <Text>Enable 3X more efficiency in order processing and cash flow...</Text>
-                        </CardBody>
-                        {/* <CardFooter>
-                            <Button color={'#1c539e'}>Learn more</Button>
-                        </CardFooter> */}
+
+                        <CardFooter display={'flex'} justifyContent={'center'}>
+                            <Link to={'/digitalorder'}>
+                                <Button variant='solid' colorScheme='blue' onClick={scrollToTop}>Learn more</Button>
+                            </Link>
+                        </CardFooter>
                     </Card>
                 </SimpleGrid>
                 <Box margin={"50px"} display={"flex"} justifyContent={"center"}>
@@ -182,13 +204,13 @@ const Corporate = () => {
                         <Text fontSize='3xl' as='b'>Why HPNPAY</Text><br />
                         <Text fontSize='4xl' as='b' color={'#1c539e'}>Technology driven, customer first approach to last mile connectivity and solution</Text>
                         <Box display={"flex"} flexWrap={"wrap"} justifyContent={"space-between"}>
-                            <Box width={"400px"} height={"500px"} >
+                            <Box width={"400px"} height={"600px"}>
                                 <Image src={trustednetwork}
                                     borderRadius='lg'
                                     height={"18rem"}
                                     width={"25rem"} />
                                 <Text fontSize='2xl' as='b'>One Trusted Network:</Text>
-                                <Text fontSize='xl'>With our trusted retailers We expecting,20000 Pin Codes Is Our Traget, harness the power of the largest agent network in the country.</Text>
+                                <Text fontSize='xl'>At HPNPAY, we've built a single, cohesive network that customers and partners alike can rely on. Trust is the cornerstone of our operations, with every member, from agents to retailers, upholding the highest standards of service and integrity. We bring together a myriad of services, delivering a seamless financial experience that solidifies our position as a leading trusted network in digital transactions.</Text>
                             </Box>
                             <Box width={"400px"} height={"500px"} >
                                 <Image src={largestNetwork}
