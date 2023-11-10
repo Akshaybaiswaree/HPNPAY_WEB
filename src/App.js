@@ -50,6 +50,8 @@ import Faq from './components/knowMore/Faq';
 import Jobs from './components/knowMore/Jobs';
 import MarketResearch from './components/marketResearch/MarketResearch';
 import Features from './components/features/Features';
+import Events from './components/knowMore/Events';
+import HpnClub from './components/knowMore/blogs/HpnClub';
 
 function App(props) {
 
@@ -129,6 +131,9 @@ function App(props) {
               <Route path="/blog7" element={<Blog7/>}/>
               <Route path="/careers" element={<Jobs/>}/>
               <Route path="/faqs" element={<Faq/>} />
+              <Route path="/events" element={<Events/>} />
+              <Route path="/hpnClub" element={<HpnClub/>} />
+             
              
             </Routes>
             <div style={{marginTop:"1rem"}}> 
