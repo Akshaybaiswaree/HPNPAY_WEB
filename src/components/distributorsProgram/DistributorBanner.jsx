@@ -53,7 +53,6 @@ const DistributorBanner = () => {
         <>
             <Box margin="50px">
 
-
                 <Box
                     position={'relative'}
                     height={'35rem'}
@@ -166,12 +165,9 @@ const DistributorBanner = () => {
 
                                     <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>
                                         * Your Path, Your Pace: In the dynamic realm of business, having the right resources at the right time can be a game-changer. Our personal loans are tailored to match your unique ambitions and needs. <br />
-                                        * YourFuel Your Dreams: Every entrepreneur has a vision. Bring yours to life with our specialized personal loan solutions, designed for the passionate and driven.<br />
-
+                                        * Fuel Your Dreams: Every entrepreneur has a vision. Bring yours to life with our specialized personal loan solutions, designed for the passionate and driven.<br />
                                         * Seamless Transactions: Our streamlined application process ensures that you get the funds you require without the usual hassle. Every moment counts in business, and we respect that.<br />
-
                                         * Trusted Partner: We're more than just a financial institution; we're your partner in success. With competitive rates and flexible repayment options, we're committed to supporting your journey from start to finish.<br />
-
                                     </Text>
 
                                 </Stack>
@@ -182,6 +178,11 @@ const DistributorBanner = () => {
                                         width={'100%'}
                                         src={img2}
                                     />
+                                    <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>
+                                        *🔗 Discover More - Unlock the doors to endless possibilities. Propel your business forward, because when you succeed, we succeed.
+
+                                    </Text>
+
                                 </Box>
                             </Flex>
                         </Flex>
@@ -216,7 +217,7 @@ const DistributorBanner = () => {
                                         🔗 Dive Deeper - Unravel the spectrum of possibilities that awaits your business. Propel forward, always. <br />
                                         🔗 Discover More - Unlock the doors to endless possibilities. Propel your business forward, because when you succeed, we succeed.
                                     </Text>
-                                    
+
                                 </Stack>
                                 <Box width={'40%'}>
                                     <Image
