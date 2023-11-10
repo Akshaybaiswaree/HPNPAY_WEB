@@ -40,6 +40,7 @@ import Blog4 from './images/blogs/Blog4';
 import Blog5 from './images/blogs/Blog5';
 import Blog6 from './images/blogs/Blog6';
 import Blog7 from './images/blogs/Blog7';
+import InfrastructureBusiness from './components/readmorepages/InfrastructureBusiness';
 
 function App(props) {
 
@@ -91,6 +92,7 @@ function App(props) {
               <Route path="/increasemarket" element={<IncreaseMarket />} />
               <Route path="/digitalorder" element={<DigitalOrder />} />
               <Route path="/moreaboutus" element={<WhoWeAre />} />
+              <Route path="/infrastructure" element={<InfrastructureBusiness />} />
 
               {/* our team pages */}
               <Route path="/founder&ceo" element={<AnandGandhi />} />

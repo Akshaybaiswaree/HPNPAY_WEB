@@ -75,7 +75,7 @@ const Corporate = () => {
                                     left: 0,
                                     color: '#1c539e'
                                 }}>
-                                Last Mile Infrastructure
+                                HPNPAY's Last Mile Infrastructure
                             </Text>
                             <br />
                             <Text as={'span'} color={'#1c539e'}>
@@ -83,18 +83,21 @@ const Corporate = () => {
                             </Text>
                         </Heading>
                         <Text color={'black'}>
-                            Multiple businesses of all sizes- from startups to large enterprises- use India’s largest agent network of  retailers to scale their business, optimize operational costs and develop new markets. High-end technology simplified for ease of use.
+                            HPNPAY's last mile infrastructure is specifically engineered to bridge the gap between businesses and their end customers. We offer a robust framework that extends the reach of your services directly to the doorstep of consumers, no matter how remote. This infrastructure is crucial for businesses looking to expand their presence and provide uninterrupted, quality service to every corner of the market.
                         </Text>
-                        <Stack spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', sm: 'row' }}>
+                        <Link to={'/infrastructure'}>
+                            <Button variant='solid' colorScheme='blue' onClick={scrollToTop}>Read more</Button>
+                        </Link>
+                        <Stack spacing={{ base: 4, sm: 1 }} direction={{ base: 'column', sm: 'row' }}>
                             <Input type='email' placeholder='Enter Your Email' width='500px' height='75px' />
                             <Button width='150px' height='75px'
                                 _hover={{ bg: 'blue.600' }}
                                 background={'#156DB1'}
                                 color={'white'}
                                 position={'absoulte'}
-                                left={"200px"}>Get in touch</Button>
+                                left={"1rem"}>Get in touch</Button>
                         </Stack>
-                        <Stack border={'1px solid #d3d3d3'} width={'400px'} direction={'row'} height={'75px'} display={'flex'} justifyContent={'space-between'} spacing={10} alignItems={'center'}>
+                        <Stack border={'1px solid #d3d3d3'} width={'25rem'} direction={'row'} height={'5rem'} display={'flex'} justifyContent={'space-between'} spacing={10} alignItems={'center'}>
                             <Checkbox colorScheme='green' margin={'10px'} size='lg'>I'm not robot</Checkbox>
                             <Image src={reCaptchaImage} width={'50px'} height='50px' />
                         </Stack>

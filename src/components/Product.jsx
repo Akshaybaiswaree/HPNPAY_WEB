@@ -407,12 +407,7 @@ export default function Product() {
 
                         {/* Content for LIC Premium Payments */}
                         <Box>
-                            <Text color="#052B60" fontSize={{ base: '1.5rem', md: '1.7rem' }} fontWeight="700">
-                                LIC Premium Payments
-                            </Text>
-                            <Text fontSize={{ base: '1rem', md: '1.3rem' }}>
-                                Help customers pay their LIC premiums monthly, quarterly, half-yearly, or annually and ensure a recurring income for yourself
-                            </Text>
+                           
                             <Stack marginTop={'1rem'} spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', sm: 'row' }}>
                                 <Input type='email' placeholder='Enter Your Email' width='500px' height='75px' />
                                 <Button width='150px' height='75px'
