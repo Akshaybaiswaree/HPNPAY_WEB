@@ -46,6 +46,7 @@ import DigitalWave from './components/blogs/DigitalWave';
 import Media from './components/media/Media';
 import InfrastructureBusiness from './components/readmorepages/InfrastructureBusiness';
 import Solutions from './components/readmorepages/Solutions';
+import Faq from './components/knowMore/Faq';
 
 function App(props) {
 
@@ -121,9 +122,12 @@ function App(props) {
               <Route path="/blog5" element={<Blog5/>}/>
               <Route path="/blog6" element={<Blog6/>}/>
               <Route path="/blog7" element={<Blog7/>}/>
+              <Route path="/faqs" element={<Faq/>} />
              
             </Routes>
+            <div style={{marginTop:"1rem"}}> 
             <Footer />
+            </div>
           </>
         )
       }

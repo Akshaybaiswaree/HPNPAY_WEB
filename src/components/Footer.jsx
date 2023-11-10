@@ -22,7 +22,7 @@ import silverLoan from '../images/footer/silverLoan.svg';
 
 const ListHeader = ({ children }) => {
   return (
-    <Text fontWeight={'500'} fontSize={'lg'} mb={2}>
+    <Text fontWeight={'500'} fontSize={'lg'} mb={2} mt="1rem">
       {children}
     </Text>
   );
@@ -64,7 +64,7 @@ export default function Footer() {
   return (
     <>
 
-      <Box position={'relative'} height={'600px'} width={'80%'} margin='auto' h={'full'} overflow={'hidden'} padding={'20px'}>
+      <Box position={'relative'} height={'600px'} width={'80%'} margin='auto' h={'full'} overflow={'hidden'} padding={'20px'} mt="2rem">
         <Image src={silverLoan}  boxShadow={'dark-lg'} mb={'2rem'}/>
         <OurPartners />
       </Box>
@@ -76,7 +76,7 @@ export default function Footer() {
             <Stack>
               <Text fontSize={"sm"} color={"white"} as={'b'}>Our Brands</Text>
               <Box width={"400px"} display={"flex"} flexDirection={"row"} flexWrap={"wrap"} gap={"5px"}>
-                <Image src={LOGO} height='200px' width='300px' />
+                <Image src={LOGO} height='200px' width='300px'  />
                
               </Box>
               <Stack direction={"row"}>
