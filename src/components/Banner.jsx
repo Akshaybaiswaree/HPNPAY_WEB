@@ -184,13 +184,11 @@ export default function Banner() {
 
         {cards.map((card, index) => (
 
-          <Container maxW={'5x1'} py={12} key={index}>
-            <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
+          <Container maxW="150vw" py={5} key={index}>
+            <SimpleGrid columns={{ base: 1, md: 2, lg:2, xl:2}} spacing={10}>
               <Stack spacing={4} key={index}>
-
                 <Heading color={'blue.700'} fontSize='4xl' font-weight="bold">{card.heading}</Heading>
                 <Heading color={'blue.700'} fontSize='3xl' font-weight="bold">{card.heading2}</Heading>
-
                 <Stack
                   spacing={4}
                 >
@@ -204,13 +202,13 @@ export default function Banner() {
                     {card.text3}
                   </Text>
                 </Stack>
-
+                
                 <Stack direction='row' spacing={4} align='center'>
                   <Link to='/income-calculator'>
                     <Button
                       size='md'
                       height='60px'
-                      width='16rem'
+                      width='12rem'
                       border='2px'
                       borderColor='blue.500'
                     >
@@ -221,7 +219,7 @@ export default function Banner() {
                     <Button
                       size='md'
                       height='60px'
-                      width='16rem'
+                      width='12rem'
                       // border='2px'
                       _hover={{ bg: 'blue.600' }}
                       background={'#156DB1'}
@@ -248,10 +246,10 @@ export default function Banner() {
 
       {/* Part 2- mobile dashboard and side bar */}
 
-      <Box style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '100px' }}>
+      <Box style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '100px', position:'relative'}}>
         <div style={{ display: "flex", alignItems: "flex-end" }}>
           <Image src={mobileImage} position='relative' left='-200px' height={'600px'} />
-          <Text fontSize='5xl' color='#1c539e' position='absolute' left='700px' top='1000px' zIndex='10' as='b'>One App<br></br>Multiple Milestones - Pay, Play, Prosper</Text>
+          <Text fontSize='5xl' color='#1c539e' position='absolute' left='700px' top='10px' zIndex='10' as='b'>One App<br></br>Multiple Milestones - Pay, Play, Prosper</Text>
         </div>
         <Text fontSize='xl' color='#5e646a'>A great earning potential with the opportunity to grow your<br></br> business with minimal one time investment and zero working<br></br> capital</Text>
       </Box>
@@ -337,65 +335,59 @@ export default function Banner() {
 
                     <>
                       <Stack direction='row' spacing={4} align='center'>
-                        <Link to='/distributor-income-calculator'>
-                          <Button
-                            size='md'
-                            height='60px'
-                            width='280px'
-                            border='2px'
-                            borderColor='blue.500'
-                            onClick={scrollToTop}
-                          >
-                            Income Calculator
-                          </Button>
-                        </Link>
-                        <Link to='/login'>
-                          <Button
-                            size='md'
-                            height='60px'
-                            width='280px'
-                            // border='2px'
-                            // background={'#82e368'}
-                            _hover={{ bg: 'blue.600' }}
-                            background={'#156DB1'}
-                            color={'white'}
-                            onClick={scrollToTop}
-                          >
-                            Join HPNPAY
-                          </Button>
-                        </Link>
+                      <Link to='/income-calculator'>
+                    <Button
+                      size='md'
+                      height='60px'
+                      width='12rem'
+                      border='2px'
+                      borderColor='blue.500'
+                    >
+                      Income Calculator
+                    </Button>
+                  </Link>
+                  <Link to='/login'>
+                    <Button
+                      size='md'
+                      height='60px'
+                      width='12rem'
+                      // border='2px'
+                      _hover={{ bg: 'blue.600' }}
+                      background={'#156DB1'}
+                      color={'white'}
+                    >
+                      Join HPNPAY
+                    </Button>
+                  </Link>
                       </Stack>
                     </>
                   ) : (
                     <>
                       <Stack direction='row' spacing={4} align='center'>
-                        <Link to='/income-calculator'>
-                          <Button
-                            size='md'
-                            height='60px'
-                            width='280px'
-                            border='2px'
-                            borderColor='blue.500'
-                            onClick={scrollToTop}
-                          >
-                            Income Calculator
-                          </Button>
-                        </Link>
-                        <Link to='/login'>
-                          <Button
-                            size='md'
-                            height='60px'
-                            width='280px'
-                            // border='2px'
-                            // background={'#82e368'}
-                            _hover={{ bg: 'blue.600' }}
-                            background={'#156DB1'}
-                            color={'white'}
-                            onClick={scrollToTop}
-                          >
-                            Join HPNPAY
-                          </Button>
-                        </Link>
+                      <Link to='/income-calculator'>
+                    <Button
+                      size='md'
+                      height='60px'
+                      width='12rem'
+                      border='2px'
+                      borderColor='blue.500'
+                    >
+                      Income Calculator
+                    </Button>
+                  </Link>
+                  <Link to='/login'>
+                    <Button
+                      size='md'
+                      height='60px'
+                      width='12rem'
+                      // border='2px'
+                      _hover={{ bg: 'blue.600' }}
+                      background={'#156DB1'}
+                      color={'white'}
+                    >
+                      Join HPNPAY
+                    </Button>
+                  </Link>
                       </Stack>
                     </>
                   )
@@ -419,26 +411,35 @@ export default function Banner() {
           align="center"
           height={"600px"}
           position={"relative"}
-          width={"1200px"}
+          width={"100%"}
+         
           margin={"auto"}
           padding={"auto"}
 
         >
           <Image
-            src={worldImage}
-            minWidth={'40%'}
-            // width={"100vw"}
-            opacity={0.4}
-            minHeight={"40%"}
-            objectFit="cover"
-            style={{ position: "absolute", top: 30, left: 400, zIndex: 0 }}
-          />
+          boxSize='30rem'
+  src={worldImage}
+  style={{
+    position: "absolute",
+    top: 30,
+    left: 350,
+    zIndex: 0,
+   // Use a percentage value for responsiveness
+    // height: "auto", // Maintain aspect ratio
+    opacity: 0.4,
+  }}
+  w={{base:'10%', sm:"20%", md:"30%", lg:"40%"}}
+/>
+
           <CardHeader
             position="absolute"
             top="20px"
             width="100%"
             textAlign="center"
             zIndex={1}
+            mx="1rem"
+            px="1rem"
           >
             <Heading fontSize={'3rem'} color='blue.600' marginTop={'3rem'} size="lg" >
               Make financial services accessible to everyone, everywhere
@@ -447,11 +448,11 @@ export default function Banner() {
           <CardBody
             position="absolute"
             top="50%"
-            left="50%"
+            left="40%"
             transform="translate(-40%, -40%)"
           // zIndex={1}
           >
-            <Box width={'800px'}>
+            <Box width={'800px'} mb="2rem">
               <Text fontSize="24px" textAlign='center'>
                 Create a progressive society, where everyone has easy access to
                 financial services, by building the largest agent banking network in
@@ -461,44 +462,45 @@ export default function Banner() {
           </CardBody>
           <CardFooter
             position="absolute"
-            bottom="20px"
+            bottom="-1rem"
             left="50%"
-            transform="translateX(-50%)"
+            transform="translateX(-55%)"
             zIndex={1}
             width="100%"
+            mt="10rem"
           >
-            <Stack
+            <Flex
               direction={"row"}
               spacing={20}
               align="center"
               marginLeft={"100px"}
             >
-              <Box borderLeft={"2px solid black"} paddingLeft='0.5rem'>
+              <Box borderLeft={"2px solid black"} paddingLeft='0.5rem'  h="12rem">
                 <Text fontSize="lg">We Are Planning To Target </Text>
-                <Text fontSize="4xl" as="b" >
+                <Text fontSize="3xl" as="b" >
                   50 Lakh Retailers
                 </Text>
               </Box>
-              <Box borderLeft={"2px solid black"} paddingLeft='0.5rem'>
+              <Box borderLeft={"2px solid black"} paddingLeft='0.5rem' h="12rem">
 
                 <Text fontSize="lg">Our future target to achive  </Text>
-                <Text fontSize="4xl" as="b">
+                <Text fontSize="3xl" as="b">
                   20cr customers
                 </Text>
               </Box>
-              <Box borderLeft={"2px solid black"} paddingLeft='0.5rem'>
+              <Box borderLeft={"2px solid black"} paddingLeft='0.5rem'  h="12rem">
                 <Text fontSize="lg">We target to serve </Text>
-                <Text fontSize="4xl" as="b">
+                <Text fontSize="3xl" as="b">
                   20,000 PIN codes
                 </Text>
               </Box>
-              <Box borderLeft={"2px solid black"} paddingLeft='0.5rem'>
+              <Box borderLeft={"2px solid black"} paddingLeft='0.5rem'  h="12rem">
                 <Text fontSize="lg">We plan to target Avg. financial transactions </Text>
-                <Text fontSize="4xl" as="b">
+                <Text fontSize="3xl" as="b">
                   5 CR per day
                 </Text>
               </Box>
-            </Stack>
+            </Flex>
           </CardFooter>
         </Card>
       </Box>
