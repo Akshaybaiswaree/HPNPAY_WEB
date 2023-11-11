@@ -40,7 +40,7 @@ const Navbar = () => {
       borderStyle={"solid"}
       borderColor={useColorModeValue("gray.200", "gray.900")}
     >
-      <Flex align="center" gap={'7rem'} maxW="95vW" margin={'auto'}  p={4} fontSize="1rem"justifyContent="space-between">
+      <Flex align="center"  maxW="95vW" margin={'auto'}  p={4} fontSize={{base:"10px",md:"12px", lg:"14px"}}justifyContent="space-between">
         <Flex ml="0.5rem" align="center">
         <Link to="/">
           <Image src={LOGO} alt="Logo" width={"100px"} />
@@ -53,7 +53,7 @@ const Navbar = () => {
           </NavLink></span>
         </Flex>
         
-        <Flex align="center" gap="0.1rem">
+        <Flex align="center"  justifyContent="space-between">
           {retailer && (
             <>
               <NavLink to="/products" p="0">Products</NavLink>
