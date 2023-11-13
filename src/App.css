@@ -43,15 +43,18 @@
 /* 890 ke upar  laptop*/
 @media screen and (min-width: 1200px) and (max-width: 1980px) {
   
-  .vision{
-    margin-left: 450px;
   
-  } 
   .aeps{
     margin :0;
   }
   
 }
+
+
+
+
+
+
 
 
 /* 449-889   tab*/
@@ -113,10 +116,7 @@ padding-right: 2rem;
   text-align: center;
 
 } */
-.vision{
-  margin-left: 10rem;
-
-} 
+ 
 }
 
 /* new code .................... */
