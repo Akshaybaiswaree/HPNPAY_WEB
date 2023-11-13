@@ -1227,6 +1227,7 @@ export default function AboutUs() {
                 </Heading>
 
                 <Stack
+                margin={'auto'}
                     className="vision"
                     maxW={"40%"}
                     w={"full"}
@@ -1238,7 +1239,8 @@ export default function AboutUs() {
                 // ml={'450px'}
                 >
                     <Image
-                       
+                    margin={'auto'}
+                        className="vision"
                         //   h={"400px"}
                         w={"100%"}
                         src={

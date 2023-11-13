@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -43,23 +44,80 @@
 /* 890 ke upar  laptop*/
 @media screen and (min-width: 1200px) and (max-width: 1980px) {
   
-  
+ 
   .aeps{
     margin :0;
   }
+
+
+  .retailor-topslider{
+   width: '3xl';
+  }
+
+  .insurance-data{
+
+    margin-left: 3.5em;
+  }
+
+
+  .insurance-image{
+    margin-left: 4.5em;
+
+  }
+
+
+  .travel-data{
+
+    margin-left: 3rem;
+  }
+
+
   
+  .travel-image{
+    margin-right: 3rem;
+  }
+
+
+.utility{
+
+margin-left: 6rem;
 }
 
 
+}
 
+  /* .income-re{
+    margin-bottom: 1rem;
+    flex-direction: column;
+  } */
 
-
-
+  /* .hpnpay-mo{
+    just
+  
+}
 
 
 /* 449-889   tab*/
 @media screen and (min-width: 890px) and (max-width: 1199px){
   
+  
+
+
+
+  .utility{
+
+    margin-left: 6rem;
+    }
+
+  .travel-data{
+
+    margin-left: 3rem;
+  }
+  
+
+  .travel-image{
+    margin-right: 2rem;
+  }
 
   /* .income-re{
     margin-bottom: 1rem;
@@ -78,13 +136,56 @@
     / direction: column; /
     /* flex-direction: column;
   } */ 
+
+
+
+  .join-ke-right{
+    margin-left: 3rem;
+  }
+
+
+  .main-solution-component {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .main-solution-component > div {
+    flex-basis: 50%;
+  }
+
+  /* .income-joinhnpay{
+    width: 50%;
+    background-color: purple;
+  } */
+
+  /* .income-joinhnpay Button {
+    width: 50%; /* Adjust the width as needed
+   } */
+
+
+
+   .insurance-data{
+
+    margin-left: 2.5em;
+  }
+
+
+  .insurance-image{
+    margin-left: 4.3em;
+
+  }
+  
 }
 
 
 
-/* 449 ke niche   mobile*/
+/* 449----889 tak */
 @media screen and (min-width: 449px) and  (max-width: 889px){
   
+  
+
+
+
 .retailor-image{
   margin-left: 1rem;
 }
@@ -116,12 +217,333 @@ padding-right: 2rem;
   text-align: center;
 
 } */
- 
+
+
+
+.insurance-data{
+
+  margin-left: 1.5em;
 }
+
+
+.insurance-image{
+  margin-left: 3.5em;
+
+}
+}
+
+
+
+/* 449 ke niche  */
+
+@media screen and (max-width: 449px) {
+  
+  .vision{
+    margin: auto;
+    /* background-color: purple; */
+  }
+
+  .retailor-image{
+    margin-left: 2rem;
+  }
+
+
+  .gold-Investment-retailor{
+
+    padding-left: 2rem;
+    padding-right: 2rem;
+    }
+
+
+   
+
+}
+
+
+
+
+
+@media screen and (max-width: 779px) {
+
+
+  .icon-button {
+    display: none;
+  }
+
+
+
+  .utility{
+
+    margin-left: 2rem;
+    }
+
+
+
+  @media (max-width: 768px) {
+    .main-solution-component {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .main-solution-component > div {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .choose-solution{
+    margin-top: 3rem;
+    margin-left:5rem;
+    width: fit-content;
+   
+  }
+
+}
+
+@media (max-width: 980px) {
+
+  .income-re button{
+    flex-direction: column;
+    width: 19rem;
+    margin-right: 2rem;
+  
+  }
+
+  .join-hpnpay{
+    margin-top: 10px;
+  }
+
+}
+
+@media screen and (max-width: 860px) {
+
+
+  .mobileno-contactus{
+    direction: column;
+  }
+
+  .navfontsize{
+    align-items: center;
+    font-size: 0.7rem;
+  }
+
+  .retailor-corporate{
+    font-size: 0.7rem;
+  }
+}
+
+
+@media screen and (min-width: 860px) {
+
+  .vision{
+
+
+    margin: auto;
+    
+  }
+
+
+  .credit-emailbox{
+    margin-left: 5rem;
+  }
+
+}
+
+
+@media screen and (max-width: 1127px) {
+
+.retailor-corporate{
+  padding-top: 1.2rem;
+}
+
+.pro-solu{
+
+  padding-top: 1.3rem;
+}
+
+
+
+
+}
+
+
+@media screen and (max-width: 867px) {
+
+  .retailor-corporate{
+    padding-top: 1rem;
+  }
+  
+  .arrow{
+
+    display: none;
+  }
+  
+  }
+
+  @media screen and (max-width: 754px) {
+
+
+  .retailor-corporate{
+   font-size: 1.3rem;
+
+
+  }
+  .insurance {
+    margin: auto;
+  }
+
+  .insurance-data{
+    margin-left: 1rem;
+
+  }
+    .insurance-image{
+      margin-left: 1rem;
+    
+    }
+   
+    .get-intouch-travel{
+      margin-bottom: 2rem;
+    }
+
+
+    .credit-image{
+
+      margin-left: 2rem;
+    }
+
+
+    .credit-emailbox{
+      margin-left: 2rem;
+    }
+
+
+  }
+
+  @media screen and (max-width: 800px) {
+
+  .choose-solution{
+
+   margin-top:10rem;
+
+    margin: auto;
+  }
+
+
+  .contactTopImage{
+
+    margin: auto;
+
+  }
+
+  
+  .goldinvestmentimage{
+
+
+  width: auto;
+  }
+
+
+}
+
+
+
+@media screen and (max-width: 1267px) {
+
+
+
+
+
+.vision{
+
+  margin: auto;
+  background-color: rgb(35, 35, 156);
+}
+
+
+
+  
+
+  }
+
+
+  @media screen and (min-width: 900px) {
+
+
+  .banking-image{
+
+   margin-top: 12rem;
+
+  }
+
+
+  .travel-image{
+    margin-right: 10rem;
+  }
+
+ 
+  }
+  
+
+  @media screen and (max-width: 900px) {
+
+
+ .utility{
+
+  margin-left: 4rem;
+ }
+
+ .travel-image{
+  margin-right: 4rem;
+}
+
+
+
+  }
+ 
+
 
 /* new code .................... */
 
 /* Styles for screens larger than 1200px */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 1200px) {
   .aeps {
     flex-direction: row; /* Arrange elements horizontally */
@@ -206,3 +628,42 @@ a:hover:before {
 .active {
   background-color: rgb(255, 0, 13);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
