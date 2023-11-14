@@ -106,9 +106,9 @@ export default function ContactUs() {
                                 HPNPAY cares about your safety.
                             </Text>
                             <br /><br />{' '}
-                            <Text fontSize='xl'>We will call you only from the landline number mentioned below:</Text>
+                            {/* <Text fontSize='xl'>We will call you only from the landline number mentioned below:</Text> */}
                         </Heading>
-                        <Stack direction={'row'} spacing={5}>
+                        {/* <Stack direction={'row'} spacing={5}>
                             <Image src={telephoneImage} width={"20px"} height={"20px"} />
                             <Text fontSize='md'>+91 9672418000</Text>
                             <Image src={telephoneImage} width={"20px"} height={"20px"} />
@@ -117,8 +117,30 @@ export default function ContactUs() {
                             <Text fontSize='md'>+91 8560888899</Text>
                             <Text>Email: info@hpnpay.com</Text>
 
-                        </Stack>
-                        <Text fontSize='lg' as='i'>Note: We will never call you from any number.</Text>
+                        </Stack> */}
+                        {/* <Text fontSize='lg' as='i'>Note: We will never call you from any number.</Text> */}
+                    
+                        <Stack
+                  spacing={{ base: 4, sm: 6 }}
+                  direction={{ base: "column", sm: "row" }}
+                >
+                  <Input
+                    type="number"
+                    placeholder="Enter Your number"
+                    width="100%"
+                    height="75px"
+                  />
+                  <Button
+                    width={{ base: "100%", md: "150px" }}
+                    height="75px"
+                    _hover={{ bg: "blue.600" }}
+                    background={"#156DB1"}
+                    color={"white"}
+                    marginTop={{ base: "1rem", md: "0" }}
+                  >
+                    Get in touch
+                  </Button>
+                </Stack>
                     </Stack>
                 </Flex>
                 <Flex flex={1} p={8}>

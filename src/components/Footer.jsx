@@ -276,22 +276,30 @@ export default function Footer() {
             <Stack align={'flex-start'}>
               <ListHeader>Follow us on</ListHeader>
               <Flex direction={'column'} align={'flex-start'}>
-                <Link as="a" href={'#'} display={'flex'} justifyContent={'flex-start'} alignItems={'center'} gap={2} color={'white'}>
+                <Link as="a" to="https://twitter.com/hpnpay" display={'flex'} justifyContent={'flex-start'} alignItems={'center'} gap={2} color={'white'}>
+                <Flex direction={{base:"row",md:"row"}} gap="0.5rem" justifyContent="center" alignItems="center">
                   <FaTwitter />
                   <Text>Twitter</Text>
+                </Flex>
                 </Link>
-                <Link as="a" href={'#'} display={'flex'} justifyContent={'flex-start'} alignItems={'center'} gap={2} color={'white'}>
-                  <FaFacebook />
+                <Link as="a" to='https://www.facebook.com/hpnpay' display={'flex'} justifyContent={'flex-start'} alignItems={'center'} gap={2} color={'white'}>
+                <Flex direction={{base:"row",md:"row"}} gap="0.5rem" justifyContent="center" alignItems="center">
+                   <FaFacebook />
                   <Text>Facebook</Text>
+                  </Flex>
                 </Link>
-                <Link as="a" href={'#'} display={'flex'} justifyContent={'flex-start'} alignItems={'center'} gap={2} color={'white'}>
+                <Link as="a" to="https://www.linkedin.com/company/hpnpay/" display={'flex'} justifyContent={'flex-start'} alignItems={'center'} gap={2} color={'white'}>
+                <Flex direction={{base:"row",md:"row"}} gap="0.5rem" justifyContent="center" alignItems="center">
                   <FaLinkedin />
                   <Text>Linkedin</Text>
+                  </Flex>
                 </Link>
-                <Link as="a" href={'#'} display={'flex'} justifyContent={'flex-start'} alignItems={'center'} gap={2} color={'white'}>
+                {/* <Link as="a" href={'#'} display={'flex'} justifyContent={'flex-start'} alignItems={'center'} gap={2} color={'white'}>
+                <Flex direction={{base:"row",md:"row"}} gap="0.5rem" justifyContent="center" alignItems="center">
                   <FaYoutube />
                   <Text>YouTube</Text>
-                </Link>
+                  </Flex>
+                </Link> */}
               </Flex>
             </Stack>
 
