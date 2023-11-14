@@ -39,7 +39,7 @@ import advantage10 from "../../images/retailer_img/advantage10.svg.png";
 
 function Features() {
   return (
-    <Container>
+    <Container maxW="100vw">
          <Box marginTop={"3rem"}>
         <Heading
           color={"blue.700"}
