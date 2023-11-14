@@ -32,6 +32,7 @@ import ContactForm from './ContactForm'
 export default function ContactUs() {
     return (
         <>
+        <Box mx="1rem">
             <Stack minH={'70vh'} direction={{ base: 'column', md: 'row' }}>
                 <Flex p={8} flex={1} align={'center'} justify={'center'}>
                     <Stack spacing={6} w={'full'} maxW={'lg'}>
@@ -87,7 +88,7 @@ export default function ContactUs() {
             </Stack>
             <Stack minH={'70vh'} direction={{ base: 'column', md: 'row' }} backgroundColor={"#c7f7ee"} margin={"auto"}>
                 <Flex p={8} flex={1} align={'center'} justify={'center'}>
-                    <Stack spacing={6} w={"800px"} maxW={"800px"} marginLeft={"100px"}>
+                    <Stack spacing={6} w={"800px"} maxW={"800px"} marginLeft={"3rem"}>
                         <Heading fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}>
                             <Text
                                 as={'span'}
@@ -106,19 +107,9 @@ export default function ContactUs() {
                                 HPNPAY cares about your safety.
                             </Text>
                             <br /><br />{' '}
-                            {/* <Text fontSize='xl'>We will call you only from the landline number mentioned below:</Text> */}
+                          
                         </Heading>
-                        {/* <Stack direction={'row'} spacing={5}>
-                            <Image src={telephoneImage} width={"20px"} height={"20px"} />
-                            <Text fontSize='md'>+91 9672418000</Text>
-                            <Image src={telephoneImage} width={"20px"} height={"20px"} />
-                            <Text fontSize='md'>+91 9166786666</Text>
-                            <Image src={telephoneImage} width={"20px"} height={"20px"} />
-                            <Text fontSize='md'>+91 8560888899</Text>
-                            <Text>Email: info@hpnpay.com</Text>
-
-                        </Stack> */}
-                        {/* <Text fontSize='lg' as='i'>Note: We will never call you from any number.</Text> */}
+                        
                     
                         <Stack
                   spacing={{ base: 4, sm: 6 }}
@@ -129,6 +120,7 @@ export default function ContactUs() {
                     placeholder="Enter Your number"
                     width="100%"
                     height="75px"
+                    border="1px solid gray"
                   />
                   <Button
                     width={{ base: "100%", md: "150px" }}
@@ -159,8 +151,8 @@ export default function ContactUs() {
                 <Image src={goldLoan} width={'80rem'} margin='auto' boxShadow={'dark-lg'} />
             </Box>
             <Stack minH={'70vh'} direction={{ base: 'column', md: 'row' }} backgroundColor={"#f7f7f7"} margin={"auto"}>
-                <Flex p={1} flex={1} align={'center'} justify={'center'}>
-                    <Stack spacing={6} w={"700px"} maxW={"700px"} marginLeft={"100px"}>
+                <Flex p={1} flex={1} align={'center'} justify={'center'} mt="1rem">
+                    <Stack spacing={6} w={"30rem"} maxW={"700px"} mx="4rem" mb="1rem">
                         <Heading fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}>
                             <Text
                                 as={'span'}
@@ -182,17 +174,17 @@ export default function ContactUs() {
                             <Text fontSize='xl' as='b'>HPNPAY App</Text>
                         </Heading>
                         <Stack direction={'row'} spacing={5}>
-                            <Text fontSize='xl'>Become a HPNPAY powered retailer & earn extra income by offering digital banking and financial services at your retail store. Download the app now!</Text>
+                            <Text fontSize='xl' w="80%">Become a HPNPAY powered retailer & earn extra income by offering digital banking and financial services at your retail store. Download the app now!</Text>
                         </Stack>
                         <Image src={googlePlay} width={"150px"} />
                     </Stack>
                 </Flex>
-                <Flex flex={1} p={50}>
-                    <Stack marginTop={"300px"}>
+                <Flex flex={1} p={1} align={'center'} justify={'center'} >
+                    <Stack marginTop={{base:"2rem", md:"10rem"}} mb="1rem">
                         <Text fontSize={'3xl'} color={'#1c539e'} as='b'>Join HPNPAY</Text>
                         <Stack spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', sm: 'row' }}>
-                            <Input type='number' placeholder='Enter Your Number' width='400px' height='75px' />
-                            <Button width='150px' height='75px'
+                            <Input type='number' placeholder='Enter Your Number' width={{base:"80%", md:"60%"}} height='75px' />
+                            <Button width='8rem' height='4rem'
                                 _hover={{ bg: 'blue.600' }}
                                 background={'#156DB1'}
                                 color={'white'}
@@ -239,17 +231,17 @@ export default function ContactUs() {
 
                             </Text>
                             <Stack spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', sm: 'row' }}>
-                                <Input type='phone' placeholder='Enter Phone No.' width='500px' height='66px' border='1px solid blue' />
+                                <Input type='phone' placeholder='Enter Phone No.' width='80%' height='66px' border='1px solid blue' />
                             </Stack>
-                            <Stack border={'1px solid #d3d3d3'} width={'400px'} direction={'row'} height={'66px'} display={'flex'} justifyContent={'space-between'} spacing={13} alignItems={'center'}>
-                                <Checkbox colorScheme='green' margin={'10px'} size='lg'>I'm not robot</Checkbox>
+                            <Stack border={'1px solid #d3d3d3'} width={'80%'} direction={'row'} height={'66px'} display={'flex'} justifyContent={'space-between'} spacing={13} alignItems={'center'}>
+                                <Checkbox colorScheme='green' margin={'10px'} size='lg' mx="0.5rem" w="50%"><Text  fontSize={{base:"0.8rem",md:"1rem"}}>I'm not robot</Text></Checkbox>
                                 <Image src={reCaptchaImage} width={'50px'} height='50px' />
-                                <Button width='150px' height='70px'
+                                <Button width='8rem' height='3rem' m="0.5rem"
                                     _hover={{ bg: 'blue.600' }}
                                     background={'#156DB1'}
                                     color={'white'}
                                     position={'absoulte'}
-                                    left={"200px"}>Get App Link</Button>
+                                    left={"200px"} ><Text  fontSize={{base:"0.8rem",md:"1rem"}}>Get App Link</Text></Button>
 
                             </Stack>
                         </Stack>
@@ -261,6 +253,7 @@ export default function ContactUs() {
 
                     </Flex>
                 </Stack>
+            </Box>
             </Box>
         </>
     )

@@ -275,14 +275,16 @@ const DistributorBanner = () => {
           width={{base:"90%"}}
           // margin="auto"
           marginX={{ base: "10px", md: "auto" }} 
+          mb="1rem"
           overflow={"hidden"}
           paddingTop={{ base: "20px", md: "50px" }}
         >
           <Image
             src={goldLoan}
-            width={{ base: "100%", md: "80rem" }}
-            margin="auto"
+            width={{ base: "100%", md: "100%" }}
             boxShadow={"dark-lg"}
+            
+            h="100%"
           />
         </Box>
 
@@ -406,22 +408,23 @@ const DistributorBanner = () => {
           bg={useColorModeValue("gray.50", "gray.800")}
           py={{ base: "20px", md: "30px" }}
         >
-          <Flex justifyContent={"space-between"}>
-            <Box width={{ base: "40%", md: "50%" }}>
+          <Flex direction={{base:"column",md:"row"}} justifyContent={{base:"center", md:"space-evenly"}} alignItems="center" mx="0.5rem">
+            <Box width={{ base: "80%", md: "50%" }}>
               <Text
                 fontSize={{ base: "28px", md: "32px" }}
                 fontWeight={"700"}
                 color={"cyan.700"}
+                w={{base:"100%", md:"80%"}}
               >
                 Start your lifetime income business
               </Text>
-              <Text fontSize={{ base: "18px", md: "20px" }} mt={"20px"}>
+              <Text fontSize={{ base: "18px", md: "20px" }} mt={"20px"} w="90%">
                 Submit your details, our team will get in touch with you to
                 start your Digital Distribution Business
               </Text>
             </Box>
             <Box
-              width={{ base: "40%", md: "50%" }}
+              width={{ base: "80%", md: "50%" }}
               border={"1px solid gray.200"}
             >
               <Flex
@@ -433,7 +436,7 @@ const DistributorBanner = () => {
               >
                 <Stack
                   spacing={4}
-                  w={"full"}
+                  w={{base:"90%", md:"90%"}}
                   maxW={"md"}
                   bg={useColorModeValue("white", "gray.700")}
                   rounded={"xl"}
@@ -443,7 +446,7 @@ const DistributorBanner = () => {
                 >
                   <Heading
                     lineHeight={1.1}
-                    fontSize={{ base: "2xl", md: "3xl" }}
+                    fontSize={{ base: "xl", md: "3xl" }}
                   >
                     Enter Your mobile No.
                   </Heading>
