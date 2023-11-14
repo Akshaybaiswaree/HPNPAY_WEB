@@ -109,27 +109,27 @@ export default function Banner() {
       title: "Retailer",
       heading: "One step towards success, move towards victory with HPNPAY.",
       heading2: "सफलता की ओर एक कदम, HPNPAY के साथ जीत की ओर बढ़ें|",
-      text: "A national movement to uplift Bharat by giving every household easy access to DBT funds, digital payments and essential banking services at a store nearby.",
+      text: "Seize the opportunity to be among the elite HPNPAY distributors, where you can consistently exceed your financial expectations and secure a prosperous future for your business.",
       text2: "Upgrade your shop. Be the one stop banking service provider.",
-      text3: " No working capital required. Earn ₹2,00,000+ per year.",
+      text3: " No working capital required. Earn upto ₹2,00,000+ per year.",
       image: require("../images/retailer_img/retailimg1.png"),
     },
     {
       title: "Distributor",
-      heading: "Self-reliant India, Now Every Store Goes Digital with HPNPay",
+      heading: "Self-reliant India, Now Every Store Goes Digital with HPNPay.",
       heading2: "आत्मनिर्भर भारत, अब सभी दुकानें होंगी डिजिटल - HPNPay के साथ",
-      text: "With a continuously growing network, we have established connections with over 50,000 retailers, ensuring coverage in every district across our country.",
-      text2: "Become a part of the most reliable service provider in India.",
-      text3: " No working capital required. Earn ₹2,00,000+ per year.",
+      text: " Join our growing network of distributors and watch as your financial goals are not only met but surpassed with the innovative and dynamic HPNPAY system.",
+      // text3: "Join our growing network of distributors and watch as your financial goals are not only met but surpassed with the innovative and dynamic HPNPAY system.",
+      text3: "Empowering Stores, Strengthening India - HPNPay, Uniting Digital Futures",
       image: require("../images/retailer_img/retailimg.png"),
     },
     {
       title: "Individual/Self Help Groups",
       heading: "Your Trust, Our Commitment - HPNPay, Secure and Reliable Digital Services",
       heading2: "आपका विश्वास, हमारा संवाद - HPNPay, सुरक्षित और विश्वसनीय डिजिटल सेवाएं",
-      text: "Rely on us, as your trust is our unwavering commitment. Choose HPNPay for secure and reliable digital services that prioritize your peace of mind.",
-      text2: "Trust HPNPay for secure and dependable digital services – where your peace of mind is our top priority.",
-      text3: " No working capital required. Earn ₹2,00,000+ per year.",
+      text: " Embrace the wave of digital transformation and join our vast network of distributors. With HPNPAY, your financial aspirations are within reach, promising more than just profitability— a future of financial independence and empowerment.",
+      // text2: "Upgrade your shop. Be the one stop banking service provider.",
+      text3: "Building Security, Delivering Assurance - HPNPay, Your Digital Shield",
       image: require("../images/retailer_img/retailimg2.png"),
     },
   ];
@@ -241,7 +241,7 @@ export default function Banner() {
                       border="2px"
                       borderColor="blue.500"
                     >
-                      <Text fontSize={{base:"14px", md:"10px", lg:"12px"}}>Income Calculator</Text>
+                      <Text fontSize={{ base: "14px", md: "10px", lg: "12px" }}>Income Calculator</Text>
                     </Button>
                   </Link>
                   <Link to="/login">
@@ -259,7 +259,7 @@ export default function Banner() {
                       background={"#156DB1"}
                       color={"white"}
                     >
-                       <Text fontSize={{base:"14px", md:"10px", lg:"12px"}}>Join HPNPAY</Text>
+                      <Text fontSize={{ base: "14px", md: "10px", lg: "12px" }}>Join HPNPAY</Text>
                     </Button>
                   </Link>
                 </Stack>
@@ -289,7 +289,7 @@ export default function Banner() {
       >
         {/* <div style={{ display: "flex", alignItems: "flex-end",position:"relative" ,width:"70%"}}> */}
 
-        <Flex flexWrap flexDirection = {{base:"column" , md:"row"}}>
+        <Flex flexWrap flexDirection={{ base: "column", md: "row" }}>
           <Image src={mobileImage} height={"600px"} mt="2rem" />
           <Text fontSize="5xl" color="#1c539e" zIndex="10" as="b" mt="6rem" m="1rem">
             One App<br></br>Multiple Milestones - Pay, Play, Prosper
@@ -322,7 +322,7 @@ export default function Banner() {
               Expertise in BBPS and AEPS - HPNPay, Your Store's Best Companion
             </Text>
           </Box>
-          <Flex style={{ marginLeft: "2rem" }} lexWrap flexDirection = {{base:"column" , md:"row"}}className="images">
+          <Flex style={{ marginLeft: "2rem" }} lexWrap flexDirection={{ base: "column", md: "row" }} className="images">
             <Box>
               <Image ml={"20px"} src={dass1} width={"380px"} height={"290px"} />
               <p style={{ marginLeft: "5rem" }}>Banking Business Publishing</p>
@@ -398,79 +398,79 @@ export default function Banner() {
                 {element.title === "Distributor" ? (
                   <>
                     <Stack direction="row" spacing={4} align="center">
-                    <Link to="/income-calculator">
-                    <Button
-                      size="md"
-                      height="60px"
-                      width={{
-                        base: "8rem",
-                        sm: "3rem",
-                        md: "6rem",
-                        lg: "12rem",
-                      }}
-                      border="2px"
-                      borderColor="blue.500"
-                    >
-                      <Text fontSize={{base:"14px", md:"10px", lg:"12px"}}>Income Calculator</Text>
-                    </Button>
-                  </Link>
-                  <Link to="/login">
-                    <Button
-                      size="md"
-                      height="60px"
-                      width={{
-                        base: "8rem",
-                        sm: "3rem",
-                        md: "6rem",
-                        lg: "12rem",
-                      }}
-                      // border='2px'
-                      _hover={{ bg: "blue.600" }}
-                      background={"#156DB1"}
-                      color={"white"}
-                    >
-                       <Text fontSize={{base:"14px", md:"10px", lg:"12px"}}>Join HPNPAY</Text>
-                    </Button>
-                  </Link>
+                      <Link to="/income-calculator">
+                        <Button
+                          size="md"
+                          height="60px"
+                          width={{
+                            base: "8rem",
+                            sm: "3rem",
+                            md: "6rem",
+                            lg: "12rem",
+                          }}
+                          border="2px"
+                          borderColor="blue.500"
+                        >
+                          <Text fontSize={{ base: "14px", md: "10px", lg: "12px" }}>Income Calculator</Text>
+                        </Button>
+                      </Link>
+                      <Link to="/login">
+                        <Button
+                          size="md"
+                          height="60px"
+                          width={{
+                            base: "8rem",
+                            sm: "3rem",
+                            md: "6rem",
+                            lg: "12rem",
+                          }}
+                          // border='2px'
+                          _hover={{ bg: "blue.600" }}
+                          background={"#156DB1"}
+                          color={"white"}
+                        >
+                          <Text fontSize={{ base: "14px", md: "10px", lg: "12px" }}>Join HPNPAY</Text>
+                        </Button>
+                      </Link>
                     </Stack>
                   </>
                 ) : (
                   <>
                     <Stack direction="row" spacing={4} align="center">
-                    <Link to="/income-calculator">
-                    <Button
-                      size="md"
-                      height="60px"
-                      width={{
-                        base: "8rem",
-                        sm: "3rem",
-                        md: "6rem",
-                        lg: "12rem",
-                      }}
-                      border="2px"
-                      borderColor="blue.500"
-                    >
-                      <Text fontSize={{base:"14px", md:"10px", lg:"12px"}}>Income Calculator</Text>
-                    </Button>
-                  </Link>
-                  <Link to="/login">
-                    <Button
-                      size="md"
-                      height="60px"
-                      width={{
-                        base: "8rem",
-                        sm: "3rem",
-                        md: "6rem",
-                        lg: "12rem",
-                      }}
-                      // border='2px'
-                      _hover={{ bg: "blue.600" }}
-                      background={"#156DB1"}
-                      color={"white"}
-                    >
-                       <Text fontSize={{base:"14px", md:"10px", lg:"12px"}}>Join HPNPAY</Text>
-                    </Button>
-                  </Link>
+                      <Link to="/income-calculator">
+                        <Button
+                          size="md"
+                          height="60px"
+                          width={{
+                            base: "8rem",
+                            sm: "3rem",
+                            md: "6rem",
+                            lg: "12rem",
+                          }}
+                          border="2px"
+                          borderColor="blue.500"
+                        >
+                          <Text fontSize={{ base: "14px", md: "10px", lg: "12px" }}>Income Calculator</Text>
+                        </Button>
+                      </Link>
+                      <Link to="/login">
+                        <Button
+                          size="md"
+                          height="60px"
+                          width={{
+                            base: "8rem",
+                            sm: "3rem",
+                            md: "6rem",
+                            lg: "12rem",
+                          }}
+                          // border='2px'
+                          _hover={{ bg: "blue.600" }}
+                          background={"#156DB1"}
+                          color={"white"}
+                        >
+                          <Text fontSize={{ base: "14px", md: "10px", lg: "12px" }}>Join HPNPAY</Text>
+                        </Button>
+                      </Link>
                     </Stack>
                   </>
                 )}
@@ -486,73 +486,73 @@ export default function Banner() {
 
       {/* part -5 Make financial services accessible to everyone, everywhere */}
       <Box>
-      <Card
-        align="center"
-        margin={"auto"}
-        padding={"auto"}
-      >
-        <Image
-          boxSize={{ base: "100%", sm: "80%", md: "60%", lg: "40%" }}
-          src={worldImage}
-          style={{
-            position: "absolute",
-            top: 30,
-            left: 0,
-            zIndex: 0,
-            opacity: 0.4,
-          }}
-        />
+        <Card
+          align="center"
+          margin={"auto"}
+          padding={"auto"}
+        >
+          <Image
+            boxSize={{ base: "100%", sm: "80%", md: "60%", lg: "40%" }}
+            src={worldImage}
+            style={{
+              position: "absolute",
+              top: 30,
+              left: 0,
+              zIndex: 0,
+              opacity: 0.4,
+            }}
+          />
 
-        <CardHeader
-          textAlign="center"
-          zIndex={1}
-          mx="1rem"
-          px="1rem"
-        >
-          <Heading
-            fontSize={{ base: "2rem", md: "3rem", lg: "4rem" }}
-            color="blue.600"
-            marginTop={{ base: "1rem", md: "3rem" }}
-            size="lg"
+          <CardHeader
+            textAlign="center"
+            zIndex={1}
+            mx="1rem"
+            px="1rem"
           >
-            Make financial services accessible to everyone, everywhere
-          </Heading>
-        </CardHeader>
-        <CardBody textAlign="center">
-          <Box mb={{ base: "1rem", md: "2rem" }}>
-            <Text fontSize={{ base: "16px", md: "24px" }}>
-              Create a progressive society, where everyone has easy access to financial services, by building the largest agent banking network in the country.
-            </Text>
-          </Box>
-        </CardBody>
-        <CardFooter
-          bottom="0"
-          zIndex={1}
-          mt={{ base: "2rem", md: "10rem" }}
-        >
-          <Flex
-            direction={{ base: "column", md: "row" }}
-            w="100%"
-            m="0"
-            align="center"
-            justifyContent="space-between"
-          >
-             <Box
-              borderTop={{ base: "2px solid black", md: "none" }}
-              borderLeft={{ base: "none", md: "2px solid black" }}
-              paddingTop={{ base: "0.5rem", md: "0" }}
-              h="auto"
+            <Heading
+              fontSize={{ base: "2rem", md: "3rem", lg: "4rem" }}
+              color="blue.600"
+              marginTop={{ base: "1rem", md: "3rem" }}
+              size="lg"
             >
-              <Text fontSize={{ base: "lg", md: "md" }} mx="0.5rem">We Are Planning To Target</Text>
-              <Text fontSize={{ base: "3xl", md: "4xl" }} mx="0.5rem" as="b">
-                50 Lakh Retailers
+              Make financial services accessible to everyone, everywhere
+            </Heading>
+          </CardHeader>
+          <CardBody textAlign="center">
+            <Box mb={{ base: "1rem", md: "2rem" }}>
+              <Text fontSize={{ base: "16px", md: "24px" }}>
+                Create a progressive society, where everyone has easy access to financial services, by building the largest agent banking network in the country.
               </Text>
             </Box>
+          </CardBody>
+          <CardFooter
+            bottom="0"
+            zIndex={1}
+            mt={{ base: "2rem", md: "10rem" }}
+          >
+            <Flex
+              direction={{ base: "column", md: "row" }}
+              w="100%"
+              m="0"
+              align="center"
+              justifyContent="space-between"
+            >
               <Box
-                 borderTop={{ base: "2px solid black", md: "none" }}
-                 borderLeft={{ base: "none", md: "2px solid black" }}
-                 paddingTop={{ base: "0.5rem", md: "0" }}
-                 h="auto"
+                borderTop={{ base: "2px solid black", md: "none" }}
+                borderLeft={{ base: "none", md: "2px solid black" }}
+                paddingTop={{ base: "0.5rem", md: "0" }}
+                h="auto"
+              >
+                <Text fontSize={{ base: "lg", md: "md" }} mx="0.5rem">We Are Planning To Target</Text>
+                <Text fontSize={{ base: "3xl", md: "4xl" }} mx="0.5rem" as="b">
+                  50 Lakh Retailers
+                </Text>
+              </Box>
+              <Box
+                borderTop={{ base: "2px solid black", md: "none" }}
+                borderLeft={{ base: "none", md: "2px solid black" }}
+                paddingTop={{ base: "0.5rem", md: "0" }}
+                h="auto"
               >
                 <Text fontSize={{ base: "lg", md: "md" }} mx="0.5rem">Our future target to achive </Text>
                 <Text fontSize={{ base: "3xl", md: "4xl" }} mx="0.5rem" as="b">
@@ -571,10 +571,10 @@ export default function Banner() {
                 </Text>
               </Box>
               <Box
-               borderTop={{ base: "2px solid black", md: "none" }}
-               borderLeft={{ base: "none", md: "2px solid black" }}
-               paddingTop={{ base: "0.5rem", md: "0" }}
-               h="auto"
+                borderTop={{ base: "2px solid black", md: "none" }}
+                borderLeft={{ base: "none", md: "2px solid black" }}
+                paddingTop={{ base: "0.5rem", md: "0" }}
+                h="auto"
               >
                 <Text fontSize={{ base: "lg", md: "md" }} mx="0.5rem">
                   We plan to target Avg. financial transactions{" "}
