@@ -1001,30 +1001,29 @@ export default function Product() {
 
               {/* Content for LIC Premium Payments */}
               <Box>
-                <Stack
-                  marginTop={"1rem"}
-                  spacing={{ base: 4, sm: 6 }}
-                  direction={{ base: "column", sm: "row" }}
+              <Stack
+                marginLeft={{ base: "1rem" }}
+                marginTop={{ base: "1rem", md: "1.5rem" }}
+                spacing={{ base: 4, md: 6 }}
+                direction={{ base: "column", md: "row" }}
+              >
+                <Input
+                  type="email"
+                  placeholder="Enter Your Email"
+                  width={{ base: "80%", md: "300px" }}
+                  height="75px"
+                />
+                <Button
+                  width={{ base: "80%", md: "150px" }}
+                  height="75px"
+                  _hover={{ bg: "blue.600" }}
+                  background={"#156DB1"}
+                  color={"white"}
+                  marginTop={{ base: "1rem", md: "0" }}
                 >
-                  <Input
-                    type="email"
-                    placeholder="Enter Your Email"
-                    width={{ base: "100%", sm: "300px" }}
-                    height="75px"
-                  />
-                  <Button
-                    width={{ base: "100%", sm: "150px" }}
-                    height="75px"
-                    _hover={{ bg: "blue.600" }}
-                    background={"#156DB1"}
-                    color={"white"}
-                    position={{ base: "static", sm: "absolute" }}
-                    left={{ base: "0", sm: "auto" }}
-                    marginTop={{ base: "1rem", sm: "0" }}
-                  >
-                    Get in touch
-                  </Button>
-                </Stack>
+                  Get in touch
+                </Button>
+              </Stack>
               </Box>
             </Flex>
           </Flex>
@@ -1169,14 +1168,6 @@ export default function Product() {
                   डिजिटल साथी।"
                 </Text>
               </Box>
-            </Box>
-            <Box width={{ base: "100%", md: "48%" }}>
-              <Image
-                marginLeft={{ base: "1rem", md: "5rem" }}
-                src={Product7}
-                height={"auto"}
-                marginTop={{ base: "2rem", md: "0" }}
-              />
               <Stack
                 marginLeft={{ base: "1rem" }}
                 marginTop={{ base: "1rem", md: "1.5rem" }}
@@ -1200,6 +1191,15 @@ export default function Product() {
                   Get in touch
                 </Button>
               </Stack>
+            </Box>
+            <Box width={{ base: "100%", md: "48%" }}>
+              <Image
+                marginLeft={{ base: "1rem", md: "5rem" }}
+                src={Product7}
+                height={"auto"}
+                marginTop={{ base: "2rem", md: "0" }}
+              />
+             
             </Box>
           </Flex>
 
@@ -1881,29 +1881,32 @@ export default function Product() {
 
           {/* Contact Form */}
           <Box marginTop={"2rem"}
+          mx="3.5rem"
           className="c"
           >
-            <Stack
-              spacing={{ base: 4, sm: 6 }}
-              direction={{ base: "column", sm: "row" }}
-            >
-              <Input
-                type="email"
-                placeholder="Enter Your Email"
-                width={{ base: "100%", sm: "500px" }}
-                height="75px"
-              />
-              <Button
-                width={{ base: "100%", sm: "150px" }}
-                height="75px"
-                _hover={{ bg: "blue.600" }}
-                background={"#156DB1"}
-                color={"white"}
-                marginTop={{ base: "1rem", sm: "0" }}
+             <Stack
+                marginLeft={{ base: "1rem" }}
+                marginTop={{ base: "1rem", md: "1.5rem" }}
+                spacing={{ base: 4, md: 6 }}
+                direction={{ base: "column", md: "row" }}
               >
-                Get in touch
-              </Button>
-            </Stack>
+                <Input
+                  type="email"
+                  placeholder="Enter Your Email"
+                  width={{ base: "80%", md: "300px" }}
+                  height="75px"
+                />
+                <Button
+                  width={{ base: "80%", md: "150px" }}
+                  height="75px"
+                  _hover={{ bg: "blue.600" }}
+                  background={"#156DB1"}
+                  color={"white"}
+                  marginTop={{ base: "1rem", md: "0" }}
+                >
+                  Get in touch
+                </Button>
+              </Stack>
           </Box>
         </Box>
 
