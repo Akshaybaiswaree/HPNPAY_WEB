@@ -80,7 +80,7 @@
 
 .utility{
 
-margin-left: 6rem;
+margin-left: 2rem;
 }
 
 
@@ -274,7 +274,7 @@ padding-right: 2rem;
 
   .utility{
 
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
     }
 
 
@@ -471,7 +471,7 @@ padding-right: 2rem;
 
   .banking-image{
 
-   margin-top: 12rem;
+   margin-top: 2rem;
 
   }
 
@@ -489,7 +489,7 @@ padding-right: 2rem;
 
  .utility{
 
-  margin-left: 4rem;
+  margin-left: 2rem;
  }
 
  .travel-image{
@@ -512,10 +512,13 @@ padding-right: 2rem;
 
 
 
+.clicked :active {
+  background-color: #282c34 !important;
+}
 
-
-
-
+a:visited {
+  border-bottom: 2px solid blue;
+}
 
 
 

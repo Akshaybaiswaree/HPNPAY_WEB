@@ -13,6 +13,7 @@ import {
   List,
   ListItem,
   Flex,
+  Center
 } from '@chakra-ui/react';
 import OurPartners from './OurPartners';
 import { FaTwitter, FaFacebook, FaYoutube, FaLinkedin, } from 'react-icons/fa';
@@ -70,12 +71,12 @@ export default function Footer() {
 
     
 
-       
+     
       {/* Section 1 */}
       <Box
         position={'relative'}
         height={{ base: 'auto', md: '250px' }}
-        width={'80%'}
+        width={'100%'}
         margin='auto'
         h={'full'}
         overflow={'hidden'}
@@ -85,13 +86,13 @@ export default function Footer() {
         {/* Assuming OurPartners is another component */}
         {/* <OurPartners /> */}
       </Box>
-
+      <Center w="100%">
       {/* Section 2 */}
-      <Box bg={'#2358a0'} color={'white'}>
+      <Box bg={'#2358a0'} color={'white'} w="100%">
         <Container as={Stack} maxW={'6xl'} py={{ base: 6, md: 10 }}>
-          <SimpleGrid columns={{ base: 1, sm: 2, md: 4 }} spacing={8}>
+          <SimpleGrid columns={{ base: 1, sm: 2, md: 4 }} spacing={8} align={{base:"center"}} justify={{base:"center"}}>
             {/* Stack 1 */}
-            <Stack>
+            <Stack align={{base:"center"}} justify={{base:"center"}}>
               <Text fontSize={{ base: 'md', sm: 'lg' }} color={'white'} fontWeight={'bold'}>Our Brands</Text>
               <Box
                 width={{ base: '100%', sm: '400px' }}
@@ -110,7 +111,7 @@ export default function Footer() {
             </Stack>
 
             {/* Stack 2 */}
-            <Stack marginLeft={{ base: '1rem', md:'1rem' }}>
+            <Stack marginLeft={{ base: '1rem', md:'1rem' }} align={{base:"center"}} >
               <ListHeader>Legal</ListHeader>
               <List>
                 <ListItem>
@@ -132,7 +133,7 @@ export default function Footer() {
             </Stack>
 
             {/* Stack 3 */}
-            <Stack align={'flex-start'}>
+            <Stack  align={{base:"center"}} >
               <ListHeader>Follow us on</ListHeader>
               <Flex direction={'column'} align={'flex-start'}>
                 <Link as="a" to="https://twitter.com/hpnpay" display={'flex'} justifyContent={'flex-start'} alignItems={'center'} gap={2} color={'white'}>
@@ -163,7 +164,7 @@ export default function Footer() {
             </Stack>
 
             {/* Stack 4 */}
-            <Stack align={'flex-start'}>
+            <Stack  align={{base:"center"}} >
               <ListHeader>Download our App</ListHeader>
               <Image src={playStoredBaged} width={'200px'} height={'60px'} />
               <Image src={appstore} width={'200px'} height={'60px'} />
@@ -172,7 +173,7 @@ export default function Footer() {
           </SimpleGrid>
         </Container>
       </Box>
-
+      </Center>
 
     </>
   );

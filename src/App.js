@@ -3,7 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Banner from './components/Banner';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, Link, useParams } from 'react-router-dom';
 import Corporate from './components/Corporate';
 import Solution from './components/Solution';
 import AboutUs from './components/AboutUs';
@@ -54,6 +54,19 @@ import Events from './components/knowMore/Events';
 import HpnClub from './components/knowMore/blogs/HpnClub';
 import OurPartners from './components/OurPartners';
 
+//breadcrumbs
+
+// function Breadcrumbs() {
+//   const { breadcrumb1, breadcrumb2 } = useParams();
+//   console.log(breadcrumb1);
+//   return (
+//     <div>
+//       <Link to="/">Home</Link>
+//       {breadcrumb1 && <span> / <Link to={`/${breadcrumb1}`}>{breadcrumb1}</Link></span>}
+//       {breadcrumb2 && <span> / {breadcrumb2}</span>}
+//     </div>
+//   );
+// }
 
 function App(props) {
 
@@ -81,6 +94,7 @@ function App(props) {
         ) : (
           <>
             <Navbar login={loginhandle} />
+            {/* <Breadcrumbs /> */}
             <Routes>
 
               <Route path="/" element={<Banner />} />

@@ -289,7 +289,7 @@ export default function Banner() {
       >
         {/* <div style={{ display: "flex", alignItems: "flex-end",position:"relative" ,width:"70%"}}> */}
 
-        <Flex flexWrap flexDirection={{ base: "column", md: "row" }}>
+        <Flex flexDirection={{ base: "column", md: "row" }} justifyContent={{base:"center", sm:"center"}}>
           <Image src={mobileImage} height={"600px"} mt="2rem" />
           <Text fontSize="5xl" color="#1c539e" zIndex="10" as="b" mt="6rem" m="1rem">
             One App<br></br>Multiple Milestones - Pay, Play, Prosper
@@ -322,20 +322,21 @@ export default function Banner() {
               Expertise in BBPS and AEPS - HPNPay, Your Store's Best Companion
             </Text>
           </Box>
-          <Flex style={{ marginLeft: "2rem" }} lexWrap flexDirection={{ base: "column", md: "row" }} className="images">
+          <Flex  lexWrap flexDirection={{ base: "column", md: "row" }} className="images" justifyContent='center'>
             <Box>
-              <Image ml={"20px"} src={dass1} width={"380px"} height={"290px"} />
-              <p style={{ marginLeft: "5rem" }}>Banking Business Publishing</p>
+              <Image  src={dass1} width={"380px"} height={"290px"} borderRadius="0.5rem"  />
+              <Center>
+              <p >Banking Business Publishing</p></Center>
             </Box>
             <Box>
-              <Image ml={"20px"} src={dass2} width={"380px"} height={"290px"} />
-              <p style={{ marginLeft: "4rem" }}>
+              <Image  src={dass2} width={"380px"} height={"290px"} borderRadius="0.5rem" />
+              <Center><p>
                 India's Best Banking syetem in Bharat
-              </p>
+              </p></Center>
             </Box>
             <Box>
-              <Image ml={"20px"} src={dass3} width={"380px"} height={"290px"} />
-              <p style={{ marginLeft: "5rem" }}>Banking Technology review </p>
+              <Image  src={dass3} width={"380px"} height={"290px"} borderRadius="0.5rem" />
+             <Center><p >Banking Technology review </p></Center>
             </Box>
           </Flex>
         </Box>
@@ -491,17 +492,19 @@ export default function Banner() {
           margin={"auto"}
           padding={"auto"}
         >
+
           <Image
-            boxSize={{ base: "100%", sm: "80%", md: "60%", lg: "40%" }}
-            src={worldImage}
-            style={{
-              position: "absolute",
-              top: 30,
-              left: 0,
-              zIndex: 0,
-              opacity: 0.4,
-            }}
-          />
+      boxSize={{ base: "50%", sm: "50%", md: "60%", lg: "50%" }}
+      src={worldImage}
+      style={{
+        position: "absolute",
+        top: "30%",
+        left: "50%",
+        transform: "translate(-50%, -50%)",
+        zIndex: 0,
+        opacity: 0.3,
+      }}
+    />
 
           <CardHeader
             textAlign="center"
@@ -520,7 +523,7 @@ export default function Banner() {
           </CardHeader>
           <CardBody textAlign="center">
             <Box mb={{ base: "1rem", md: "2rem" }}>
-              <Text fontSize={{ base: "16px", md: "24px" }}>
+              <Text fontSize={{ base: "16px", md: "24px" }} color="black">
                 Create a progressive society, where everyone has easy access to financial services, by building the largest agent banking network in the country.
               </Text>
             </Box>
@@ -534,14 +537,15 @@ export default function Banner() {
               direction={{ base: "column", md: "row" }}
               w="100%"
               m="0"
-              align="center"
+              // align="center"
               justifyContent="space-between"
+              // alignItems="start"
             >
               <Box
                 borderTop={{ base: "2px solid black", md: "none" }}
                 borderLeft={{ base: "none", md: "2px solid black" }}
                 paddingTop={{ base: "0.5rem", md: "0" }}
-                h="auto"
+                h="10rem"
               >
                 <Text fontSize={{ base: "lg", md: "md" }} mx="0.5rem">We Are Planning To Target</Text>
                 <Text fontSize={{ base: "3xl", md: "4xl" }} mx="0.5rem" as="b">
@@ -552,7 +556,8 @@ export default function Banner() {
                 borderTop={{ base: "2px solid black", md: "none" }}
                 borderLeft={{ base: "none", md: "2px solid black" }}
                 paddingTop={{ base: "0.5rem", md: "0" }}
-                h="auto"
+                // h="auto"
+                h="10rem"
               >
                 <Text fontSize={{ base: "lg", md: "md" }} mx="0.5rem">Our future target to achive </Text>
                 <Text fontSize={{ base: "3xl", md: "4xl" }} mx="0.5rem" as="b">
@@ -563,7 +568,8 @@ export default function Banner() {
                 borderTop={{ base: "2px solid black", md: "none" }}
                 borderLeft={{ base: "none", md: "2px solid black" }}
                 paddingTop={{ base: "0.5rem", md: "0" }}
-                h="auto"
+                // h="auto"
+                h="10rem"
               >
                 <Text fontSize={{ base: "lg", md: "md" }} mx="0.5rem">We target to serve </Text>
                 <Text fontSize={{ base: "3xl", md: "4xl" }} mx="0.5rem" as="b">
@@ -574,12 +580,14 @@ export default function Banner() {
                 borderTop={{ base: "2px solid black", md: "none" }}
                 borderLeft={{ base: "none", md: "2px solid black" }}
                 paddingTop={{ base: "0.5rem", md: "0" }}
-                h="auto"
+                // h="auto"
+                h="10rem"
+                w="15rem"
               >
                 <Text fontSize={{ base: "lg", md: "md" }} mx="0.5rem">
                   We plan to target Avg. financial transactions{" "}
                 </Text>
-                <Text fontSize={{ base: "3xl", md: "4xl" }} as="b" mx="0.5rem">
+                <Text fontSize={{ base: "3xl", md: "4xl" }} mx="0.5rem" as="b">
                   5 CR per day
                 </Text>
               </Box>
