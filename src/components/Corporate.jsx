@@ -566,8 +566,11 @@ const Corporate = () => {
             </Box>
           </Flex>
         </Stack>
+        <Center>
         <Text color={"#1c539e"} fontSize="4xl">Our solutions</Text>
+        </Center><Center>
         <Text fontSize="4xl">Think Last Mile, Think HPNPAY</Text>
+        </Center>
         <SimpleGrid
           bg="gray.50"
           columns={{ sm: 2, md: 3 }}

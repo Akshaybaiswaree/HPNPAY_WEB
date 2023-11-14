@@ -773,11 +773,12 @@ export default function OurPartners() {
         </Box>
         <Box  margin ={{ base:'15px' , md:"25px"}}width={"full"} overflow={"hidden"} borderRadius={"10px"}>
          
-            <Flex gap="30px" marginTop="30px" flexWrap="wrap">
+            <Flex gap="30px" marginTop="30px" flexWrap="wrap" justifyContent="space-evenly" mx="2rem">
               {cards.map((img, index) => (
                 <Box key={index} height={{ base: "100px", md: "150px" }} width={{ base: "80px", md: "120px" }}>
                   <Image 
-                  marginLeft={{base:"30px" , md:"50px"}}
+                  // marginLeft={{base:"30px" , md:"30px"}}
+                  mx="1rem"
                   height="100%" width="100%" objectFit="contain" src={img.image} />
                 </Box>
               ))}

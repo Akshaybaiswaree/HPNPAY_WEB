@@ -185,7 +185,7 @@ const Solution = () => {
       >
         <Box
           style={{
-            flexBasis: "100%",
+            // flexBasis: "100%",
             marginBottom: "1rem",
             // textAlign: "center",
           }}
@@ -197,8 +197,8 @@ const Solution = () => {
           </h1>
           <p>
             Think last mile. Think PayNearby. From optimizing cash collection
-            processes to enabling market expansion, businesses of all sizes use
-            HPNPay's proprietary last mile technology and deeply entrenched
+            processes <br/>to enabling market expansion, businesses of all sizes use
+            HPNPay's proprietary<br/> last mile technology and deeply entrenched
             retail network of 50,00,000+ retailers<br /> to grow their business
           </p>
         </Box>

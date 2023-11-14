@@ -162,7 +162,7 @@
 // import { Center, Heading, Stack } from '@chakra-ui/react'
 import React from "react";
 import { CheckCircleIcon } from "@chakra-ui/icons";
-import { Box, Flex, Heading, Image, Stack, Text, Button } from "@chakra-ui/react";
+import { Box, Flex, Heading, Image, Stack, Text, Button, Center } from "@chakra-ui/react";
 import lap from "../../images/aboutUs_img/semlessbuisness.png";
 import { useBreakpointValue } from '@chakra-ui/react';
 import aeps from "../../images/aboutUs_img/cal.png"
@@ -273,7 +273,9 @@ const Partnership = () => {
 
 <Stack width={{ base: '85%', md: '85%' }} margin="auto">
   <Stack>
+    <Center>
     <Heading>Unleash Your Digital Potential!</Heading>
+    </Center>
     <br />
     <Text color="#052B60" fontSize="1.5rem" fontWeight="700" textAlign="center">
       Dive into a future of unparalleled opportunities and growth. Your digital journey begins here. 💼🌐🔝

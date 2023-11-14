@@ -40,7 +40,7 @@ export default function Product() {
       <Box>
         {/* page one */}
         <Stack direction={{ base: "column", md: "row" }}>
-          <Flex p={8} flex={1} align={"center"} justify={"center"}>
+          <Flex p="0.2rem" flex={1} align={"center"} justify={"center"}>
             <Stack spacing={6} w={"full"} maxW={"lg"}>
               <Heading fontSize={{ base: "3xl", md: "4xl", lg: "7xl" }}>
                 <Text color={"#052B60"} as={"span"}>
@@ -61,25 +61,40 @@ export default function Product() {
                 </Text>
               </Text>
               <Stack direction={{ base: "column", md: "row" }} spacing={4}>
-                <Link to="/income-calculator">
-                  <Button
-                    fontSize={{ base: "md", lg: "2xl" }}
-                    //   rounded={'full'}
-                    //   bg={'blue.400'}
-                    color={"#052B60"}
-                  >
-                    Calculate Your Income
-                  </Button>
-                </Link>
-                <Button
-                  fontSize={{ base: "md", lg: "2xl" }}
-                  _hover={{ bg: "blue.600" }}
-                  background={"#156DB1"}
-                  color={"white"}
-                  rounded={"full"}
-                >
-                  Join HPNPAY
-                </Button>
+              <Link to="/income-calculator">
+                    <Button
+                      size="md"
+                      height="60px"
+                      width={{
+                        base: "8rem",
+                        sm: "3rem",
+                        md: "6rem",
+                        lg: "12rem",
+                      }}
+                      border="2px"
+                      borderColor="blue.500"
+                    >
+                      <Text fontSize={{base:"14px", md:"10px", lg:"12px"}}>Income Calculator</Text>
+                    </Button>
+                  </Link>
+                  <Link to="/login">
+                    <Button
+                      size="md"
+                      height="60px"
+                      width={{
+                        base: "8rem",
+                        sm: "3rem",
+                        md: "6rem",
+                        lg: "12rem",
+                      }}
+                      // border='2px'
+                      _hover={{ bg: "blue.600" }}
+                      background={"#156DB1"}
+                      color={"white"}
+                    >
+                       <Text fontSize={{base:"14px", md:"10px", lg:"12px"}}>Join HPNPAY</Text>
+                    </Button>
+                  </Link>
               </Stack>
             </Stack>
           </Flex>
