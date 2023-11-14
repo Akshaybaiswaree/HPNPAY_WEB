@@ -54,6 +54,7 @@ import Events from './components/knowMore/Events';
 import HpnClub from './components/knowMore/blogs/HpnClub';
 import OurPartners from './components/OurPartners';
 
+
 function App(props) {
 
   const [auth, setAuth] = useState(false);
@@ -135,6 +136,10 @@ function App(props) {
               <Route path="/events" element={<Events/>} />
               <Route path="/hpnClub" element={<HpnClub/>} />
              
+             {/* //legal pages */}
+             <Route path="/privacy" element={<PrivacyPolicy/>} />
+             <Route path="/refund" element={<RefunAndRecanselation/>} />
+             <Route path="/terms" element={<TermsAndConditions/>} />
              
             </Routes>
             <div style={{marginTop:"1rem"}}> 
