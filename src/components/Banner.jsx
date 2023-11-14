@@ -127,7 +127,7 @@ export default function Banner() {
       title: "Individual/Self Help Groups",
       heading: "Your Trust, Our Commitment - HPNPay, Secure and Reliable Digital Services",
       heading2: "आपका विश्वास, हमारा संवाद - HPNPay, सुरक्षित और विश्वसनीय डिजिटल सेवाएं",
-      text:" Embrace the wave of digital transformation and join our vast network of distributors. With HPNPAY, your financial aspirations are within reach, promising more than just profitability— a future of financial independence and empowerment.",
+      text: " Embrace the wave of digital transformation and join our vast network of distributors. With HPNPAY, your financial aspirations are within reach, promising more than just profitability— a future of financial independence and empowerment.",
       // text2: "Upgrade your shop. Be the one stop banking service provider.",
       text3: "Building Security, Delivering Assurance - HPNPay, Your Digital Shield",
       image: require("../images/retailer_img/retailimg2.png"),
@@ -241,7 +241,7 @@ export default function Banner() {
                       border="2px"
                       borderColor="blue.500"
                     >
-                      <Text fontSize={{base:"14px", md:"10px", lg:"12px"}}>Income Calculator</Text>
+                      <Text fontSize={{ base: "14px", md: "10px", lg: "12px" }}>Income Calculator</Text>
                     </Button>
                   </Link>
                   <Link to="/login">
@@ -259,7 +259,7 @@ export default function Banner() {
                       background={"#156DB1"}
                       color={"white"}
                     >
-                       <Text fontSize={{base:"14px", md:"10px", lg:"12px"}}>Join HPNPAY</Text>
+                      <Text fontSize={{ base: "14px", md: "10px", lg: "12px" }}>Join HPNPAY</Text>
                     </Button>
                   </Link>
                 </Stack>
@@ -289,15 +289,15 @@ export default function Banner() {
       >
         {/* <div style={{ display: "flex", alignItems: "flex-end",position:"relative" ,width:"70%"}}> */}
 
-        <Flex>
+        <Flex flexWrap flexDirection={{ base: "column", md: "row" }}>
           <Image src={mobileImage} height={"600px"} mt="2rem" />
-          <Text fontSize="5xl" color="#1c539e" zIndex="10" as="b" mt="6rem">
+          <Text fontSize="5xl" color="#1c539e" zIndex="10" as="b" mt="6rem" m="1rem">
             One App<br></br>Multiple Milestones - Pay, Play, Prosper
           </Text>
         </Flex>
         {/* </div> */}
         <Center>
-          <Text fontSize="xl" color="#5e646a">
+          <Text fontSize="xl" color="#5e646a" m="0.5rem">
             A great earning potential with the opportunity to grow your<br></br>{" "}
             business with minimal one time investment and zero working<br></br>{" "}
             capital
@@ -322,7 +322,7 @@ export default function Banner() {
               Expertise in BBPS and AEPS - HPNPay, Your Store's Best Companion
             </Text>
           </Box>
-          <Box style={{ marginLeft: "2rem" }} className="images">
+          <Flex style={{ marginLeft: "2rem" }} lexWrap flexDirection={{ base: "column", md: "row" }} className="images">
             <Box>
               <Image ml={"20px"} src={dass1} width={"380px"} height={"290px"} />
               <p style={{ marginLeft: "5rem" }}>Banking Business Publishing</p>
@@ -337,7 +337,7 @@ export default function Banner() {
               <Image ml={"20px"} src={dass3} width={"380px"} height={"290px"} />
               <p style={{ marginLeft: "5rem" }}>Banking Technology review </p>
             </Box>
-          </Box>
+          </Flex>
         </Box>
       </Card>
       <Box
@@ -402,24 +402,34 @@ export default function Banner() {
                         <Button
                           size="md"
                           height="60px"
-                          width="12rem"
+                          width={{
+                            base: "8rem",
+                            sm: "3rem",
+                            md: "6rem",
+                            lg: "12rem",
+                          }}
                           border="2px"
                           borderColor="blue.500"
                         >
-                          Income Calculator
+                          <Text fontSize={{ base: "14px", md: "10px", lg: "12px" }}>Income Calculator</Text>
                         </Button>
                       </Link>
                       <Link to="/login">
                         <Button
                           size="md"
                           height="60px"
-                          width="12rem"
+                          width={{
+                            base: "8rem",
+                            sm: "3rem",
+                            md: "6rem",
+                            lg: "12rem",
+                          }}
                           // border='2px'
                           _hover={{ bg: "blue.600" }}
                           background={"#156DB1"}
                           color={"white"}
                         >
-                          Join HPNPAY
+                          <Text fontSize={{ base: "14px", md: "10px", lg: "12px" }}>Join HPNPAY</Text>
                         </Button>
                       </Link>
                     </Stack>
@@ -431,24 +441,34 @@ export default function Banner() {
                         <Button
                           size="md"
                           height="60px"
-                          width="12rem"
+                          width={{
+                            base: "8rem",
+                            sm: "3rem",
+                            md: "6rem",
+                            lg: "12rem",
+                          }}
                           border="2px"
                           borderColor="blue.500"
                         >
-                          Income Calculator
+                          <Text fontSize={{ base: "14px", md: "10px", lg: "12px" }}>Income Calculator</Text>
                         </Button>
                       </Link>
                       <Link to="/login">
                         <Button
                           size="md"
                           height="60px"
-                          width="12rem"
+                          width={{
+                            base: "8rem",
+                            sm: "3rem",
+                            md: "6rem",
+                            lg: "12rem",
+                          }}
                           // border='2px'
                           _hover={{ bg: "blue.600" }}
                           background={"#156DB1"}
                           color={"white"}
                         >
-                          Join HPNPAY
+                          <Text fontSize={{ base: "14px", md: "10px", lg: "12px" }}>Join HPNPAY</Text>
                         </Button>
                       </Link>
                     </Stack>
@@ -468,117 +488,98 @@ export default function Banner() {
       <Box>
         <Card
           align="center"
-          height={"600px"}
-          position={"relative"}
-          width={"100%"}
           margin={"auto"}
           padding={"auto"}
         >
           <Image
-            boxSize="30rem"
+            boxSize={{ base: "100%", sm: "80%", md: "60%", lg: "40%" }}
             src={worldImage}
             style={{
               position: "absolute",
               top: 30,
-              left: 350,
+              left: 0,
               zIndex: 0,
-              // Use a percentage value for responsiveness
-              // height: "auto", // Maintain aspect ratio
               opacity: 0.4,
             }}
-            w={{ base: "10%", sm: "20%", md: "30%", lg: "40%" }}
           />
 
           <CardHeader
-            position="absolute"
-            top="20px"
-            width="100%"
             textAlign="center"
             zIndex={1}
             mx="1rem"
             px="1rem"
           >
             <Heading
-              fontSize={"3rem"}
+              fontSize={{ base: "2rem", md: "3rem", lg: "4rem" }}
               color="blue.600"
-              marginTop={"3rem"}
+              marginTop={{ base: "1rem", md: "3rem" }}
               size="lg"
             >
               Make financial services accessible to everyone, everywhere
             </Heading>
           </CardHeader>
-          <CardBody
-            position="absolute"
-            top="50%"
-            left="40%"
-            transform="translate(-40%, -40%)"
-            // zIndex={1}
-          >
-            <Box width={"800px"} mb="2rem">
-              <Text fontSize="24px" textAlign="center">
-                Create a progressive society, where everyone has easy access to
-                financial services, by building the largest agent banking
-                network in the country.
+          <CardBody textAlign="center">
+            <Box mb={{ base: "1rem", md: "2rem" }}>
+              <Text fontSize={{ base: "16px", md: "24px" }}>
+                Create a progressive society, where everyone has easy access to financial services, by building the largest agent banking network in the country.
               </Text>
             </Box>
           </CardBody>
           <CardFooter
-            position="absolute"
-            bottom="-1rem"
-            
+            bottom="0"
             zIndex={1}
-            width="100%"
-            mt="10rem"
-           
+            mt={{ base: "2rem", md: "10rem" }}
           >
             <Flex
-              direction={"row"}
+              direction={{ base: "column", md: "row" }}
               w="100%"
               m="0"
               align="center"
-              // marginLeft={"100px"}
               justifyContent="space-between"
-              
             >
               <Box
-                borderLeft={"2px solid black"}
-                paddingLeft="0.5rem"
-                h="12rem"
+                borderTop={{ base: "2px solid black", md: "none" }}
+                borderLeft={{ base: "none", md: "2px solid black" }}
+                paddingTop={{ base: "0.5rem", md: "0" }}
+                h="auto"
               >
-                <Text fontSize="lg">We Are Planning To Target </Text>
-                <Text fontSize="3xl" as="b">
+                <Text fontSize={{ base: "lg", md: "md" }} mx="0.5rem">We Are Planning To Target</Text>
+                <Text fontSize={{ base: "3xl", md: "4xl" }} mx="0.5rem" as="b">
                   50 Lakh Retailers
                 </Text>
               </Box>
               <Box
-                borderLeft={"2px solid black"}
-                paddingLeft="0.5rem"
-                h="12rem"
+                borderTop={{ base: "2px solid black", md: "none" }}
+                borderLeft={{ base: "none", md: "2px solid black" }}
+                paddingTop={{ base: "0.5rem", md: "0" }}
+                h="auto"
               >
-                <Text fontSize="lg">Our future target to achive </Text>
-                <Text fontSize="3xl" as="b">
+                <Text fontSize={{ base: "lg", md: "md" }} mx="0.5rem">Our future target to achive </Text>
+                <Text fontSize={{ base: "3xl", md: "4xl" }} mx="0.5rem" as="b">
                   20cr customers
                 </Text>
               </Box>
               <Box
-                borderLeft={"2px solid black"}
-                paddingLeft="0.5rem"
-                h="12rem"
+                borderTop={{ base: "2px solid black", md: "none" }}
+                borderLeft={{ base: "none", md: "2px solid black" }}
+                paddingTop={{ base: "0.5rem", md: "0" }}
+                h="auto"
               >
-                <Text fontSize="lg">We target to serve </Text>
-                <Text fontSize="3xl" as="b">
+                <Text fontSize={{ base: "lg", md: "md" }} mx="0.5rem">We target to serve </Text>
+                <Text fontSize={{ base: "3xl", md: "4xl" }} mx="0.5rem" as="b">
                   20,000 PIN codes
                 </Text>
               </Box>
               <Box
-                borderLeft={"2px solid black"}
-                paddingLeft="0.5rem"
-                h="12rem"
+                borderTop={{ base: "2px solid black", md: "none" }}
+                borderLeft={{ base: "none", md: "2px solid black" }}
+                paddingTop={{ base: "0.5rem", md: "0" }}
+                h="auto"
               >
-                <Text fontSize="lg">
+                <Text fontSize={{ base: "lg", md: "md" }} mx="0.5rem">
                   We plan to target Avg. financial transactions{" "}
                 </Text>
-                <Text fontSize="3xl" as="b">
+                <Text fontSize={{ base: "3xl", md: "4xl" }} as="b" mx="0.5rem">
                   5 CR per day
                 </Text>
               </Box>
