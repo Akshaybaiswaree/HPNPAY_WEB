@@ -95,7 +95,7 @@ const Jobs = () => {
       <div className="jobopening">
         <h1>Current job openings</h1>
         <p>Help us build, scale, design, code, support next generation financial technology. Join the team to build India’s largest branchless banking network.</p>
-        <button>Open Position</button>
+        <button colorScheme='blue'>Open Positions</button>
       </div>
       <div className="partner">
 

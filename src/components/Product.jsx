@@ -217,6 +217,7 @@ export default function Product() {
                 textAlign="left"
                 marginTop={{ base: "1rem", md: "2rem" }}
                 onClick={scrollToTop}
+                colorScheme="blue"
               >
                 Read more
               </Button>
@@ -314,93 +315,6 @@ export default function Product() {
           </Flex>
         </Box>
 
-        {/* page 3 */}
-        {/* <Box width={{ base: '100%', md: '80%' }} margin="auto" marginTop={{ base: '2rem', md: '' }}>
-                    <Text fontSize={{ base: '2rem', md: '3rem' }} color="#052B60" as="span">
-                        Digital Suite
-                    </Text>
-                    <Text fontSize={{ base: '1.2rem', md: '1.5rem' }}>
-                        <Text fontWeight="bold" color="black">
-                            HPNPay: Empowering Insurance, Simplifying Choices
-                        </Text>
-                        <br />
-                        Welcome to HPNPay, your comprehensive digital insurance hub. We're not just any online insurance portal; we represent a seamless blend of technology, convenience, and commitment to our retailer and distributor agent partners.
-                    </Text>
-                </Box>
-                <Flex flexDirection={{ base: 'column', md: 'row' }} marginTop={{ base: '2rem', md: '80px' }}>
-                    <Flex
-                        flexDirection="column"
-                        gap="30px"
-                        width={{ base: '100%', md: '50%' }}
-                        marginLeft={{ base: '0', md: '9rem' }}
-                    >
-                        Content for Why Choose HPNPay 
-                        <Box>
-                            <Text color="#052B60" fontSize="1.7rem" fontWeight="700">
-                                Why Choose HPNPay?
-                            </Text>
-                            <Text fontSize="1.3rem">
-                                We offer a range of affordable general insurance plans, including bike insurance and mobile device protection plans
-                            </Text>
-                            <Link to="/digitalsuite">
-                                <Button fontSize="1.3rem" as="span" flex='1' textAlign='left' marginTop={{ base: '2rem', md: '0' }} onClick={scrollToTop}>
-                                    Read more
-                                </Button>
-                            </Link>
-                        </Box>
-
-                        {/* Content for Customer Khata */}
-        {/* <Box>
-                            <Text color="#052B60" fontSize="1.7rem" fontWeight="700">
-                                Customer Khata: Revolutionizing Credit Management
-                            </Text>
-                            <Text fontSize="1.3rem">
-                                In the modern business landscape, efficiency and accuracy are paramount. That's why Customer Khata is here to redefine how you manage your customer credits.
-                            </Text>
-                            <Link to="/customkhata">
-                                <Button fontSize="1.3rem" as="span" flex='1' textAlign='left' marginTop={{ base: '2rem', md: '0' }} onClick={scrollToTop}>
-                                    Read more
-                                </Button>
-                            </Link>
-                        </Box> */}
-
-        {/* Content for UPI QR */}
-        {/* <Box>
-                            <Text color="#052B60" fontSize="1.7rem" fontWeight="700">
-                                UPI QR: The Future of Digital Payments
-                            </Text>
-                            <Text fontSize="1.3rem">
-                                In today's digital age, seamless transactions are no longer a luxury; they're a necessity. With UPI QR, we're making that vision a reality.
-                            </Text>
-                            <Link to="/upi">
-                                <Button fontSize="1.3rem" as="span" flex='1' textAlign='left' marginTop={{ base: '2rem', md: '0' }} onClick={scrollToTop}>
-                                    Read more
-                                </Button>
-                            </Link>
-                        </Box> */}
-
-        {/* Input and Button */}
-        {/* <Box>
-                            <Stack marginTop={'1rem'} spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', sm: 'row' }}>
-                                <Input type='email' placeholder='Enter Your Email' width='500px' height='75px' />
-                                <Button width='150px' height='75px'
-                                    _hover={{ bg: 'blue.600' }}
-                                    background={'#156DB1'}
-                                    color={'white'}
-                                    position={'absoulte'}
-                                    left={"200px"}>Get in touch</Button>
-                            </Stack>
-                        </Box>
-                    </Flex> */}
-
-        {/* Images */}
-        {/* <Box>
-                        <Image ml={{ base: '0', md: '1rem' }} src={ProductTree} width={{ base: '100%', md: '33rem' }} height='18rem' />
-                        <br />
-                        <Image ml={{ base: '0', md: '1rem' }} src={Product3} width={{ base: '100%', md: '33rem' }} height='18rem' />
-                    </Box>
-                </Flex>   */}
-
         <Box
           width={{ base: "100%", md: "90%" }}
           margin="auto"
@@ -446,16 +360,17 @@ export default function Product() {
                 including bike insurance and mobile device protection plans
               </Text>
               <Link to="/digitalsuite">
-                <Button
-                  fontSize="1.3rem"
-                  as="span"
-                  flex="1"
-                  textAlign="left"
-                  marginTop={{ base: "2rem", md: "0" }}
-                  onClick={scrollToTop}
-                >
-                  Read more
-                </Button>
+              <Button
+                fontSize="1rem"
+                as="span"
+                flex="1"
+                textAlign="left"
+                marginTop={{ base: "1rem", md: "2rem" }}
+                onClick={scrollToTop}
+                colorScheme="blue"
+              >
+                Read more
+              </Button>
               </Link>
             </Box>
 
@@ -470,16 +385,17 @@ export default function Product() {
                 manage your customer credits.
               </Text>
               <Link to="/customkhata">
-                <Button
-                  fontSize="1.3rem"
-                  as="span"
-                  flex="1"
-                  textAlign="left"
-                  marginTop={{ base: "2rem", md: "0" }}
-                  onClick={scrollToTop}
-                >
-                  Read more
-                </Button>
+              <Button
+                fontSize="1rem"
+                as="span"
+                flex="1"
+                textAlign="left"
+                marginTop={{ base: "1rem", md: "2rem" }}
+                onClick={scrollToTop}
+                colorScheme="blue"
+              >
+                Read more
+              </Button>
               </Link>
             </Box>
 
@@ -494,31 +410,21 @@ export default function Product() {
                 vision a reality.
               </Text>
               <Link to="/upi">
-                <Button
-                  fontSize="1.3rem"
-                  as="span"
-                  flex="1"
-                  textAlign="left"
-                  marginTop={{ base: "2rem", md: "0" }}
-                  onClick={scrollToTop}
-                >
-                  Read more
-                </Button>
+              <Button
+                fontSize="1rem"
+                as="span"
+                flex="1"
+                textAlign="left"
+                marginTop={{ base: "1rem", md: "2rem" }}
+                onClick={scrollToTop}
+                colorScheme="blue"
+              >
+                Read more
+              </Button>
               </Link>
             </Box>
 
-            {/* Input and Button */}
-            {/* <Box>
-          <Stack marginTop={'2rem'} spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', sm: 'row' }}>
-            <Input type='email' placeholder='Enter Your Email' width={{ base: '100%', sm: '500px' }} height='75px' />
-            <Button width={{ base: '100%', sm: '150px' }} height='75px'
-              _hover={{ bg: 'blue.600' }}
-              background={'#156DB1'}
-              color={'white'}
-              position={'absolute'}
-              left={{ base: '0', sm: '200px' }}>Get in touch</Button>
-          </Stack>
-        </Box> */}
+           
 
             <Box>
               <Stack
