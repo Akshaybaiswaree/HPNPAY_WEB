@@ -227,11 +227,11 @@ const NavLink = ({ to, children, onClick, active }) => (
     color={useColorModeValue("gray.600", "white")}
     textDecoration="none"
     borderBottom="2px solid transparent"
-    _active={{bg:"gray.100"}}
-    _hover={{ borderBottom: "2px solid blue", bg:"gray.100"}}
-    _visited={{ borderBottom: "2px solid blue" }}
+    // _active={{bg:"gray.100"}}
+    _hover={{  bg:"gray.100"}}
+    _active={{ borderBottom: "2px solid blue" }}
     onClick={onClick}
-    p="1"
+    p="0.1rem"
   >
     {children}
     {/* <span className={BiUnderline}></span> */}
