@@ -52,6 +52,7 @@ import MarketResearch from './components/marketResearch/MarketResearch';
 import Features from './components/features/Features';
 import Events from './components/knowMore/Events';
 import HpnClub from './components/knowMore/blogs/HpnClub';
+import OurPartners from './components/OurPartners';
 
 function App(props) {
 
@@ -137,6 +138,7 @@ function App(props) {
              
             </Routes>
             <div style={{marginTop:"1rem"}}> 
+            <OurPartners />
             <Footer />
             </div>
           </>
