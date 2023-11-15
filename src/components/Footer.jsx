@@ -74,10 +74,11 @@ export default function Footer() {
      
       {/* Section 1 */}
       <Box
+       marginBottom={'2rem'}
         position={'relative'}
         height={{ base: 'auto', md: '250px' }}
         width={'100%'}
-        margin='auto'
+        // margin='auto'
         h={'full'}
         overflow={'hidden'}
         padding={'20px'}
@@ -164,7 +165,7 @@ export default function Footer() {
             </Stack>
 
             {/* Stack 4 */}
-            <Stack  align={{base:"center"}} >
+            <Stack  align={{base:"center"}}>
               <ListHeader>Download our App</ListHeader>
               <Image src={playStoredBaged} width={'200px'} height={'60px'} />
               <Image src={appstore} width={'200px'} height={'60px'} />

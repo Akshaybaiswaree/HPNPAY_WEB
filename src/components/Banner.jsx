@@ -318,7 +318,7 @@ export default function Banner() {
           {/* <h1>India's largest Distribution as-a-service (DaaS) platform</h1> */}
 
           <Box className="text">
-            <Text fontSize="42px" color={"Blue.400"}>
+            <Text fontSize="42px" color={"Blue.400"} margin={'auto'}>
               Expertise in BBPS and AEPS - HPNPay, Your Store's Best Companion
             </Text>
           </Box>
@@ -373,8 +373,8 @@ export default function Banner() {
         </Stack>
 
         {smartCard.map((element, index) => (
-          <Container maxW={"5x1"} py={12} key={index}>
-            <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
+          <Container maxW={"5x1"} py={12}  key={index}>
+            <SimpleGrid   px={12} columns={{ base: 1, md: 2 }} spacing={'5'}>
               <Flex key={index}>
                 <Image
                   rounded={"md"}
@@ -494,7 +494,7 @@ export default function Banner() {
         >
 
           <Image
-      boxSize={{ base: "50%", sm: "50%", md: "60%", lg: "50%" }}
+      boxSize={{ base: "150%", sm: "60%", md: "100%", lg: "80%" }}
       src={worldImage}
       style={{
         position: "absolute",
@@ -537,46 +537,55 @@ export default function Banner() {
               direction={{ base: "column", md: "row" }}
               w="100%"
               m="0"
+              margin={'auto'}
               // align="center"
               justifyContent="space-between"
               // alignItems="start"
             >
               <Box
+              marginRight={'2rem'}
                 borderTop={{ base: "2px solid black", md: "none" }}
                 borderLeft={{ base: "none", md: "2px solid black" }}
                 paddingTop={{ base: "0.5rem", md: "0" }}
                 h="10rem"
               >
-                <Text fontSize={{ base: "lg", md: "md" }} mx="0.5rem">We Are Planning To Target</Text>
-                <Text fontSize={{ base: "3xl", md: "4xl" }} mx="0.5rem" as="b">
-                  50 Lakh Retailers
+                <Text fontSize={{ base: "lg", md: "2md" }} mx="0.5rem">We Are Planning To Target</Text>
+                <Text fontSize={{ base: "3xl", md: "4xl" }} mx="0.5rem" as="b"
+                marginLeft={'1rem'}
+                >
+                
+                  50 Lakh 
+                  Retailers
                 </Text>
               </Box>
               <Box
+               marginRight={'2rem'}
                 borderTop={{ base: "2px solid black", md: "none" }}
                 borderLeft={{ base: "none", md: "2px solid black" }}
                 paddingTop={{ base: "0.5rem", md: "0" }}
                 // h="auto"
                 h="10rem"
               >
-                <Text fontSize={{ base: "lg", md: "md" }} mx="0.5rem">Our future target to achive </Text>
+                <Text fontSize={{ base: "lg", md: "2md" }} mx="0.5rem">Our future target to achive </Text>
                 <Text fontSize={{ base: "3xl", md: "4xl" }} mx="0.5rem" as="b">
                   20cr customers
                 </Text>
               </Box>
               <Box
+               marginRight={'2rem'}
                 borderTop={{ base: "2px solid black", md: "none" }}
                 borderLeft={{ base: "none", md: "2px solid black" }}
                 paddingTop={{ base: "0.5rem", md: "0" }}
                 // h="auto"
                 h="10rem"
               >
-                <Text fontSize={{ base: "lg", md: "md" }} mx="0.5rem">We target to serve </Text>
+                <Text fontSize={{ base: "lg", md: "2md" }} mx="0.5rem">We target to serve </Text>
                 <Text fontSize={{ base: "3xl", md: "4xl" }} mx="0.5rem" as="b">
                   20,000 PIN codes
                 </Text>
               </Box>
               <Box
+               marginRight={'2rem'}
                 borderTop={{ base: "2px solid black", md: "none" }}
                 borderLeft={{ base: "none", md: "2px solid black" }}
                 paddingTop={{ base: "0.5rem", md: "0" }}
@@ -585,7 +594,7 @@ export default function Banner() {
                 w="15rem"
               >
                 <Text fontSize={{ base: "lg", md: "md" }} mx="0.5rem">
-                  We plan to target Avg. financial transactions{" "}
+                  We plan to target of Avg. financial transactions{" "}
                 </Text>
                 <Text fontSize={{ base: "3xl", md: "4xl" }} mx="0.5rem" as="b">
                   5 CR per day

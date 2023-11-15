@@ -39,7 +39,7 @@ import {
    <Image src="digitalp2.png" alt="Alt Text 1" mb="1rem" h="20rem" borderRadius="lg" m="1rem"  mt="4rem"/>
     <Box>
    <Text fontWeight="bold" fontSize="30" mb="0.5rem" color="red.600">The Digital Payment Revolution: Transforming India's Economic Landscape</Text>
-    <Text mb="0.5rem">Imagine a world where the jingle of coins and the rustle of paper money are replaced by the silent, seamless transactions of digital payments. At Hannanth Digital India Private Limited, we are not just envisioning this future; we are actively constructing it. The digital payment wave, which has been quietly swelling over the past decade, has now crested into a formidable force, reshaping how India transacts in the wake of the pandemic.
+    <Text mb="0.5rem"> payments. At Hannanth Digital India Private Limited, we are not just envisioning this future; we are actively constructing it. The digital payment wave, which has been quietly swelling over the past decade, has now crested into a formidable force, reshaping how India transacts in the wake of the pandemic.
     The Pandemic Push Towards Digitalization The COVID-19 pandemic has served as an unexpected accelerator for digital payments, as contactless became the operative word for transactions. What started as a health precaution soon revealed itself as a conduit for efficiency and convenience in payments. This surge dovetails with the government's initiative to cultivate a less-cash economy, streamlining costs and formalizing the economy.</Text>
     <Text mb="0.5rem"> <span style={{fontWeight:"bold"}}>Empowering the Backbone of the Economy Small and medium enterprises (SMEs)</span>, the backbone of India's economy, have historically struggled to access formal credit. The digital payment infrastructure we're championing at Hannanth Digital India provides these businesses with the means to establish a credit history, unlocking doors to formal lending avenues.
     A Look at Global Trends The global digital payment landscape is a mosaic of diverse practices. While some nations have advanced with specific technologies, others are catching up or forging their paths. In this varied ecosystem, India is rapidly carving out its space, spurred by urban adoption and regulatory support.
@@ -65,6 +65,7 @@ import {
     Despite this digital march, cash persists as a dominant mode of transaction for various socioeconomic reasons. The transition to digital is gradual and faces inertia from traditional practices. However, events like demonetization and the pandemic have nudged the needle towards digital platforms.</ListItem>
     </UnorderedList>
     <Text fontWeight="bold" mb="0.5rem" color="blue.900"> Conclusion: As we spearhead this digital payment revolution, Hannanth Digital India Private Limited is committed to fostering a future where digital transactions are as commonplace and straightforward as any traditional payment method. We stand at the cusp of a new economic era, one in which every transaction is a tap away, every business has access to credit, and every consumer experiences the utmost convenience and security. Join us on this transformative journey as we redefine India's economic transactions for the digital age.</Text>
+    <Text  fontWeight={'600'} color={'#4299E1'} marginTop={'1rem'}>Author:Prashant Kumar</Text>
    
         </Box>
       </div>

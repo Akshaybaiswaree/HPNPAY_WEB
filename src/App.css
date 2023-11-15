@@ -259,6 +259,24 @@ padding-right: 2rem;
 
 }
 
+/* @media screen and (min-width: 690px) {
+
+.silver-Investment{
+  margin-bottom: 1rem;
+}
+
+} */
+
+
+@media screen and (min-width: 1270px) {
+
+  .silver-Investment{
+    margin-bottom: auto;
+  }
+  
+  }
+  
+
 
 
 

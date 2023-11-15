@@ -271,7 +271,7 @@ const DistributorBanner = () => {
 
         <Distributors />
         <Box
-          height={{ base: "auto", md: "200px" }}
+          height={{ base: "auto", md: "250px" }}
           width={{base:"90%"}}
           // margin="auto"
           marginX={{ base: "10px", md: "auto" }} 
