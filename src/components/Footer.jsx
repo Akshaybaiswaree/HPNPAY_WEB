@@ -78,7 +78,7 @@ export default function Footer() {
         height={{ base: 'auto', md: '250px' }}
         width={'100%'}
         margin='auto'
-        h={'full'}
+        h="80%"
         overflow={'hidden'}
         padding={'20px'}
       >
