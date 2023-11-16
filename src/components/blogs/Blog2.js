@@ -75,6 +75,7 @@ import {
                  digital lending model.<b><u> Our goal </u></b>is to strengthen our retailers with financial support, integrating them into the formal 
                  credit ecosystem. HPNPAY's technology-driven platform aspires to simplify and streamline the micro-lending process,
                  empowering retailers to secure loans effortlessly.
+                 <Text fontWeight={'600'} color={'#4299E1'}marginTop={'1rem'}>Author:Jhanaklal Verma</Text>
             </Text>
         </Box>
       </div>

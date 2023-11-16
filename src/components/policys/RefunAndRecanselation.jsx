@@ -78,9 +78,9 @@ const RefunAndRecanselation = () => {
 
                         16. HPNPAY will not be responsible for recovering the money in case the account holder initiates fund transfer to an unintended or incorrect account.<br />
 
-                        17. These following terms and conditions shall be applicable to the provision of any fund transfer and fund collection facility provided/facilitated by HPNPAY. The USER shall provide correct beneficiary details to HPNPAY at the
+                        17. These following terms and conditions shall be applicable to the provision of any fund transfer and fund collection facility provided/facilitated by HPNPAY. The USER shall provide correct beneficiary details to HPNPAY at the time of availing the said facility<br/>
 
-                        18. time of availing the said facility. The USER shall be solely responsible for entering wrong beneficiary details like incorrect virtual payment address or incorrect mobile number or account no or ifsc code, due to which the fund is transferred to an incorrect beneficiary. The USER agrees that the payment order shall become irrevocable when it is executed by HPNPAY.<br />
+                        18. The USER shall be solely responsible for entering wrong beneficiary details like incorrect virtual payment address or incorrect mobile number or account no or ifsc code, due to which the fund is transferred to an incorrect beneficiary. The USER agrees that the payment order shall become irrevocable when it is executed by HPNPAY.<br />
 
                         19. The USER is responsible for the accuracy and authenticity of the instructions provided to HPNPAY, and the same, if in the form and manner prescribed by HPNPAY, shall be considered sufficient to operate the said facility. HPNPAY shall not be required to independently verify the instructions. HPNPAY has no liability if it does not or is unable to stop or prevent the implementation of any payment order issued by the USER. Once a payment order is issued by the USER, the same cannot be subsequently revoked by the USER.<br />
 

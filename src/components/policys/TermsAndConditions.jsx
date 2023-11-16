@@ -86,10 +86,8 @@ const TermsAndConditions = () => {
                             <span style={{ fontSize: "inherit", border: 0 }}>1.1.</span>
                         </strong>
                         <span style={{ border: 0 }}>
-                            Nearby Technologies Private Limited, a company incorporated under the
-                            Companies Act, 2013 and having its registered office at Office no. 101,
-                            Plot no. 103, Road no. 12, Arena House, MIDC, Andheri East, Mumbai -
-                            400093 (hereinafter referred to as the <strong>“Company”</strong>, which
+                            HPNpay Technologies Private Limited,  Having its registered office at Office no. 103 A,
+                            RANI BAZAR Bikaner, Rajasthan 334001, INDIA, (hereinafter referred to as the <strong>“Company”</strong>, which
                             expression shall unless repugnant to the context or meaning thereof mean
                             and include its successors and permitted assigns) is engaged in the
                             Business (as defined below).

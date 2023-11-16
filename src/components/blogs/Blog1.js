@@ -50,7 +50,9 @@ function Blog1() {
         <Text mb="1rem" mt="1rem">HPNPAY recognizes that digital literacy is paramount for the adoption of online services in rural regions. Addressing this, HPNPAY has joined the movement to extend digital services to these communities. With the help of our extensive network of Business Correspondents, we are integrating the unbanked into the formal economy, reducing paperwork and simplifying formalities. Through HPNPAY's AePS, <u> <b>even in areas with scant financial infrastructure, </b></u>banking is now as straightforward as using a thumbprint.
             HPNPAY is future-proofing India with AePS in an era where traditional banking methods face challenges, such as the removal of non-compliant debit cards from the system during lockdowns. AePS has been a lifeline, especially for those who rely on subsidies. The dissemination of Direct Benefit Transfers would have been a formidable challenge without the ease of access provided by HPNPAY's AePS.
             The increasing reliance on AePS and other digital banking transactions signals a significant, untapped potential for digital engagement across the nation, notably in Tier 2 and remote areas. HPNPAY's commitment is to empower our retailers and customers by merging state-of-the-art technology with last-mile connectivity. <b>Our goal is </b>to close the digital gap and establish an inclusive Digital India.
-        </Text> <Image src="digilit.png" alt="Alt Text 1" mb="1rem" h="20rem" borderRadius="lg" mr="1rem"  mt="1rem"/></Flex>
+        <Text  fontWeight={'600'} color={'#4299E1'} marginTop={'1rem'}>Author:Rushikesh Dapurkar</Text>
+        </Text>
+         <Image src="digilit.png" alt="Alt Text 1" mb="1rem" h="20rem" borderRadius="lg" mr="1rem"  mt="1rem"/></Flex>
       </Box>
     </div>
   );

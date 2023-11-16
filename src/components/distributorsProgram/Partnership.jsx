@@ -33,7 +33,7 @@ const Partnership = () => {
   </Stack>
   <Flex marginTop="30px" w="100vw" justifyContent="center" direction={{ base: 'column', md: 'row' }} mx="1rem">
     <Box >
-      <Stack  >
+      <Stack   width={{ base: '100%', md: '400px' }} height={{ base: '500px', md: 'auto' }} >
         <Image src={lap} borderRadius='lg' height="18rem" width="20rem" />
         <Text fontSize="20px" w="80%" fontWeight="700">Seamless Business Setup:</Text>
         <Text fontSize="19px" w="80%">- Go Digital: Kickstart your distribution journey effortlessly from the comfort of your smartphone or laptop.</Text>

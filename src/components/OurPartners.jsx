@@ -56,7 +56,8 @@ export default function OurPartners() {
 
   return (
     <>
-      <Box m="1rem 1rem" boxShadow="2xl" pb="1rem">
+      <Box m="1rem" boxShadow="2xl" pb="1rem"
+     >
         <Box marginTop={"3rem"}>
           <Heading
             color={"blue.400"}
@@ -80,17 +81,20 @@ export default function OurPartners() {
             gap="30px"
             marginTop="30px"
             flexWrap="wrap"
-            justifyContent="center"
+            // justifyContent="center"
+            // textAlign={'center'}
             mx="2rem"
           >
             {cards.map((img, index) => (
               <Box
                 key={index}
+                marginLeft={{base:"0px" , md:"30px"}}
                 height={{ base: "100px", md: "150px" }}
-                width={{ base: "80px", md: "120px" }}
+                width={{ base: "120px", md: "120px" }}
               >
                 <Image
-                  // marginLeft={{base:"30px" , md:"30px"}}
+                className="partner-image"
+                  // 
                   mx="1rem"
                   height="100%"
                   width="100%"
@@ -110,21 +114,7 @@ export default function OurPartners() {
               mx="auto"
             >
               <Heading fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}>
-                <Text
-                  margin={"-0.5px"}
-                  as={"span"}
-                  position={"relative"}
-                  _after={{
-                    content: "''",
-                    width: "full",
-                    height: useBreakpointValue({ base: "20%", md: "30%" }),
-                    position: "absolute",
-                    bottom: 1,
-                    left: 0,
-                    bg: "blue.400",
-                    zIndex: -1,
-                  }}
-                ></Text>
+                
                 <Text color={"blue.400"} as={"span"}>
                   Download HPNPAY
                 </Text>
@@ -143,7 +133,8 @@ export default function OurPartners() {
                 direction={{ base: "column", sm: "row" }}
               >
                 <Input
-                  margin={{ base: "25px", md: "25px" }}
+               
+                  margin={{ base: "35px", md: "65px" }}
                   type="phone"
                   placeholder="Enter Phone No."
                   width={{ base: "85%", sm: "30rem" }}
@@ -154,14 +145,14 @@ export default function OurPartners() {
               <Stack
                 border={"1px solid #d3d3d3"}
                 borderRadius="0.5rem"
-                width={{ base: "100%", sm: "500px" }}
+                width={{ base: "90%", sm: "300px" }}
                 direction={{ base: "column", sm: "row" }}
                 height={{ base: "auto", sm: "66px" }}
                 display={"flex"}
                 justifyContent={"space-between"}
                 spacing={{ base: 4, sm: 13 }}
                 alignItems={"center"}
-                mx={{base:"0.2rem", md:"1em"}}
+                mx={{base:"0.8rem", md:"4em"}}
               >
                 <Checkbox
                   colorScheme="green"
@@ -190,8 +181,9 @@ export default function OurPartners() {
             </Box>
             <Box width={{ base: "90%", md: "50%" }} textAlign="center">
               <Image
+               className="silver-Investment"
                 width={{ base: "100%", md: "55%" }}
-                height={{ base: "50%", md: "100%" }}
+                height={{ base: "50%", md: "auto" }}
                 marginTop={{ base: "5rem", md: "0" }}
                 mx={{base:"2rem"}}
                 alt="download"
