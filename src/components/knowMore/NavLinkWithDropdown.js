@@ -24,15 +24,17 @@ const NavLinkWithDropdown = ({ title, children }) => {
       onMouseLeave={handleMouseLeave}
     >
       <Text
-        px={1}
+        px={5}
         fontWeight="bold"
         color="gray.600"
         py={1}
         rounded={'md'}
         _hover={{
-          textDecoration: 'none',
-          bg: useColorModeValue('gray.200', 'gray.700'),
+          bg:"gray.200",p:"0.5rem" ,borderBottom:"2px solid black",borderRadius:"0.5rem"
         }}
+        
+        _visited={{bg: "gray.300",p:"0.5rem",borderBottom:"2px solid black", borderRadius:"0.5rem"}}
+        _active={{ p:"0.5rem",borderBottom:"2px solid black", borderRadius:"0.5rem"}}
       >
         {title}
       </Text>

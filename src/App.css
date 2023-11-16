@@ -436,6 +436,7 @@ padding-right: 2rem;
 
   .navfontsize{
     align-items: center;
+    justify-content: center;
     font-size: 0.7rem;
   }
 

@@ -332,11 +332,10 @@ const Navbar = () => {
                 <NavLink to="/distributors">Distributors Program</NavLink>
                 <NavLink to="/media">Media</NavLink>
                 <NavLink to="/aboutus">About Us</NavLink>
-                <NavLinkWithDropdown
-                  fontWeight="bold"
-                  title="Know More"
-                  pb="0.5rem"
-                >
+                <NavLinkWithDropdown   
+                      className={'knowmorenav'}
+                      title="Know More"
+                      >
                   <NavLink to="/blogs">Blogs</NavLink>
                   <NavLink to="/hpnClub">HPN Club</NavLink>
                   <NavLink to="/careers">Jobs</NavLink>
@@ -357,7 +356,10 @@ const Navbar = () => {
                 <NavLink to="/features">Features</NavLink>
                 <NavLink to="/media">Media</NavLink>
                 <NavLink className={'aboutusnav'} to="/aboutus">About Us</NavLink>
-                <NavLinkWithDropdown   className={'knowmorenav'}title="Know More">
+                <NavLinkWithDropdown   
+                      className={'knowmorenav'}
+                      title="Know More"
+                      >
                   <NavLink to="/blogs">Blogs</NavLink>
                   <NavLink to="/hpnClub">HPN Club</NavLink>
                   <NavLink to="/careers">Jobs</NavLink>
@@ -391,14 +393,14 @@ const Navbar = () => {
                 <VStack align="start" spacing={4}>
                   <Flex
                     className="retailor-corporate"
-                    direction="column"
+                    direction="row"
                     align="start"
                   >
                     <span onClick={handleRetailerClickDrawer}>
                       <NavLink to="/">Retailer</NavLink>
                     </span>
-                    <span onClick={handleCorporateClickDrawer}>
-                      <NavLink to="/corporate">Corporate</NavLink>
+                    <span onClick={handleCorporateClickDrawer} >
+                      <NavLink to="/corporate">Corporator</NavLink>
                     </span>
                   </Flex>
 
@@ -408,10 +410,9 @@ const Navbar = () => {
                       <NavLink to="/distributors">Distributors Program</NavLink>
                       <NavLink to="/media">Media</NavLink>
                       <NavLink to="/aboutus">About Us</NavLink>
-                      <NavLinkWithDropdown
-                        fontWeight="bold"
-                        title="Know More"
-                        pb="0.5rem"
+                      <NavLinkWithDropdown   
+                      className={'knowmorenav'}
+                      title="Know More"
                       >
                         <NavLink to="/blogs">Blogs</NavLink>
                         <NavLink to="/hpnClub">HPN Club</NavLink>
@@ -420,7 +421,7 @@ const Navbar = () => {
                         <NavLink to="/faqs">FAQ's</NavLink>
                       </NavLinkWithDropdown>
                       <NavLink to="/contactus">Contact Us</NavLink>
-                      <Button as={Link} to="/login" colorScheme="blue">
+                      <Button mx={5} as={Link} to="/login" colorScheme="blue">
                         Login
                       </Button>
                     </>
@@ -433,7 +434,10 @@ const Navbar = () => {
                       <NavLink to="/features">Features</NavLink>
                       <NavLink to="/media">Media</NavLink>
                       <NavLink className={'aboutusnav'} to="/aboutus">About Us</NavLink>
-                      <NavLinkWithDropdown   className={'knowmorenav'}title="Know More">
+                      <NavLinkWithDropdown   
+                      className={'knowmorenav'}
+                      title="Know More"
+                      >
                         <NavLink to="/blogs">Blogs</NavLink>
                         <NavLink to="/hpnClub">HPN Club</NavLink>
                         <NavLink to="/careers">Jobs</NavLink>
@@ -462,14 +466,18 @@ const NavLink = ({ to, children }) => (
     to={to}
     mx={4}
     fontWeight="bold"
-     color={useColorModeValue("gray.600", "white")}
+     color="gray.600"
     textDecoration="none"
     borderBottom="2px solid transparent"
-     _hover={{  bg:"gray"}}
-    //  _active={{ borderBottom: "2px solid blue" }}
+     _hover={{  bg:"gray.200",p:"0.5rem" ,borderBottom:"2px solid black",borderRadius:"0.5rem"}}
+     _visited={{bg: "gray.300",p:"0.5rem",borderBottom:"2px solid black", borderRadius:"0.5rem"}}
+     _active={{ p:"0.5rem",borderBottom:"2px solid black", borderRadius:"0.5rem"}}
     //_active={{ color: "gray.500", borderBottom: "2px solid gray.500" }}
-    _active={{ color: "gray", borderBottom: "2px solid gray"}}
-    p="0.1rem"
+    // _active={{ color: "gray", borderBottom: "2px solid gray"}}
+    py="0.5rem"
+    px="5px"
+    borderRadius="0.5rem"
+    // borderBottom="1px solid black"
   >
     {children}
   </Text>
