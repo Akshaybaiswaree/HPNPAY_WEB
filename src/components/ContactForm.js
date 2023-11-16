@@ -23,6 +23,15 @@ function ContactForm() {
         <FormLabel isRequired>Mobile number</FormLabel>
         <Input type='number' mb="1rem"/>
     </FormControl>
+    <FormControl >
+        <FormLabel isRequired>Enquiry</FormLabel>
+        <Input type='Text' mb="1rem"/>
+    </FormControl>
+
+
+  
+
+
     <FormControl>
         <Button
             mt={4}
