@@ -81,17 +81,20 @@ export default function OurPartners() {
             gap="30px"
             marginTop="30px"
             flexWrap="wrap"
-            justifyContent="center"
+            // justifyContent="center"
+            // textAlign={'center'}
             mx="2rem"
           >
             {cards.map((img, index) => (
               <Box
                 key={index}
+                marginLeft={{base:"0px" , md:"30px"}}
                 height={{ base: "100px", md: "150px" }}
-                width={{ base: "80px", md: "120px" }}
+                width={{ base: "120px", md: "120px" }}
               >
                 <Image
-                  // marginLeft={{base:"30px" , md:"30px"}}
+                className="partner-image"
+                  // 
                   mx="1rem"
                   height="100%"
                   width="100%"

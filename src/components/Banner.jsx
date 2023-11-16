@@ -353,7 +353,7 @@ export default function Banner() {
         <Image src={goldLoan} />
       </Box>
       {/* part -4 smart solution for everyone */}
-      <Box marginTop="50px" marginBottom={'4rem'}>
+      {/* <Box marginTop="50px" marginBottom={'4rem'}>
         <Stack spacing={4}>
           <Heading
             color={"blue.700"}
@@ -489,7 +489,124 @@ export default function Banner() {
             </SimpleGrid>
           </Container>
         ))}
+      </Box> */}
+
+<Box marginTop="50px">
+        <Stack spacing={4}>
+          <Heading
+            color={"blue.700"}
+            fontSize="5xl"
+            font-weight="bold"
+            textAlign="center"
+          >
+            Smart Solutions for Everyone
+          </Heading>
+
+          <Stack spacing={4}>
+            <Text color={"gray.500"} fontSize={"lg"} textAlign="center">
+              Whether you are a retailer, distributor, individual or self help
+              group, we have smart solutions for everyone.
+            </Text>
+          </Stack>
+        </Stack>
+
+        {smartCard.map((element, index) => (
+          <Container 
+          className="retailor-distributor-individual"
+          maxW={"100%"} py={12} key={index}>
+            <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
+              <Flex key={index}>
+                <Image
+                className="imagesretailor"
+                  rounded={"md"}
+                  alt={"feature image"}
+                  src={element.image}
+                  objectFit={"cover"}
+                />
+              </Flex>
+
+              <Stack spacing={4}
+              className="content-ret-dist">
+                <Heading color={"blue.700"} fontSize="3xl" font-weight="bold">
+                  {element.title}
+                </Heading>
+                <Stack spacing={4}>
+                  <Text color={"gray.500"} fontSize={"lg"}>
+                    {element.text}
+                  </Text>
+                  <Text color={"gray.500"} fontSize={"lg"}>
+                    {element.text2}
+                  </Text>
+                </Stack>
+                {element.title === "Distributor" ? (
+                  <>
+                    <Stack direction="row" spacing={4} align="center">
+                      <Link to="/income-calculator">
+                        <Button
+                          size="md"
+                          height="60px"
+                          width="12rem"
+                          border="2px"
+                          borderColor="blue.500"
+                        >
+                          Income Calculator
+                        </Button>
+                      </Link>
+                      <Link to="/login">
+                        <Button
+                          size="md"
+                          height="60px"
+                          width="12rem"
+                          // border='2px'
+                          _hover={{ bg: "blue.600" }}
+                          background={"#156DB1"}
+                          color={"white"}
+                        >
+                          Join HPNPAY
+                        </Button>
+                      </Link>
+                    </Stack>
+                  </>
+                ) : (
+                  <>
+                    <Stack direction="row" spacing={4} align="center">
+                      <Link to="/income-calculator">
+                        <Button
+                          size="md"
+                          height="60px"
+                          width="12rem"
+                          border="2px"
+                          borderColor="blue.500"
+                        >
+                          Income Calculator
+                        </Button>
+                      </Link>
+                      <Link to="/login">
+                        <Button
+                          size="md"
+                          height="60px"
+                          width="12rem"
+                          // border='2px'
+                          _hover={{ bg: "blue.600" }}
+                          background={"#156DB1"}
+                          color={"white"}
+                        >
+                          Join HPNPAY
+                        </Button>
+                      </Link>
+                    </Stack>
+                  </>
+                )}
+
+                <Heading color={"blue.700"} fontSize="2xl" font-weight="bold">
+                  {element.title2}
+                </Heading>
+              </Stack>
+            </SimpleGrid>
+          </Container>
+        ))}
       </Box>
+
 
 {/* <Box marginTop="50px" marginBottom={'4rem'}>
       <Stack >

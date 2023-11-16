@@ -658,14 +658,14 @@ const Corporate = () => {
             </CardFooter>
           </Card>
         </SimpleGrid>
-        <Box margin={"50px"} display={"flex"} justifyContent={"center"}></Box>
+        <Box display={"flex"} justifyContent={"center"}></Box>
         <Box
           className="goldloan-corporate"
-          height={"600px"}
+           height={"600px"}
           width={"100%"}
-          margin="auto"
+          // margin="auto"
           mb={"3rem"}
-          h={"full"}
+           h={"full"}
           overflow={"hidden"}
           boxShadow={"dark-lg"}
         >
@@ -681,7 +681,7 @@ const Corporate = () => {
               Why HPNPAY
             </Text>
             <br />
-            <Text fontSize="4xl" as="b" color={"#1c539e"}>
+            <Text fontSize="2xl" as="b" color={"#1c539e"}>
               Technology driven, customer first approach to last mile
               connectivity and solution
             </Text>
