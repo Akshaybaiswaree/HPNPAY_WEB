@@ -353,7 +353,7 @@ export default function Banner() {
         <Image src={goldLoan} />
       </Box>
       {/* part -4 smart solution for everyone */}
-      <Box marginTop="50px">
+      <Box marginTop="50px" marginBottom={'4rem'}>
         <Stack spacing={4}>
           <Heading
             color={"blue.700"}
@@ -373,10 +373,16 @@ export default function Banner() {
         </Stack>
 
         {smartCard.map((element, index) => (
-          <Container maxW={"5x1"} py={12}  key={index}>
-            <SimpleGrid   px={12} columns={{ base: 1, md: 2 }} spacing={'5'}>
-              <Flex key={index}>
+          <Container
+          
+          py={12}  key={index} >
+            <SimpleGrid  
+        
+            px={12} columns={{ base: 1, md: 2 }} spacing={'5'}>
+              <Flex 
+              key={index}>
                 <Image
+                
                   rounded={"md"}
                   alt={"feature image"}
                   src={element.image}
@@ -384,7 +390,7 @@ export default function Banner() {
                 />
               </Flex>
 
-              <Stack spacing={4}>
+              <Stack >
                 <Heading color={"blue.700"} fontSize="3xl" font-weight="bold">
                   {element.title}
                 </Heading>
@@ -485,6 +491,140 @@ export default function Banner() {
         ))}
       </Box>
 
+{/* <Box marginTop="50px" marginBottom={'4rem'}>
+      <Stack >
+        <Heading
+          color={"blue.700"}
+          fontSize={{base: "2xl", md: "4xl", lg: "5xl"}}
+          fontWeight="bold"
+          textAlign="center"
+          mb={4}
+        >
+          Smart Solutions for Everyone
+        </Heading>
+
+        <Text color={"gray.500"} fontSize={{base: "md", md: "lg", lg: "xl"}} textAlign="center">
+          Whether you are a retailer, distributor, individual, or self-help group, we have smart solutions for everyone.
+        </Text>
+      </Stack>
+
+      {smartCard.map((element, index) => (
+        <Container
+          className="ret-dist-indi"
+          py={{base: 4, md: 8, lg: 12}}
+          key={index}
+        >
+          <SimpleGrid columns={{ base: 1, md: 2 }} spacing={'1rem'}>
+            <Flex justify={{base: "center", md: "flex-start"}} key={index}>
+              <Image
+                rounded={"md"}
+                alt={"feature image"}
+                src={element.image}
+                objectFit={"cover"}
+                maxH={{base: "200px", md: "300px", lg: "400px"}}
+                mb={{base: 4, md: 0}}
+              />
+            </Flex>
+
+            <Stack spacing={8}>
+              <Heading color={"blue.700"} fontSize={{base: "xl", md: "2xl", lg: "3xl"}} fontWeight="bold">
+                {element.title}
+              </Heading>
+              <Stack spacing={4}>
+                <Text color={"gray.500"} fontSize={{base: "md", md: "lg", lg: "xl"}}>
+                  {element.text}
+                </Text>
+                <Text color={"gray.500"} fontSize={{base: "md", md: "lg", lg: "xl"}}>
+                  {element.text2}
+                </Text>
+              </Stack>
+              {element.title === 'Distributor' ? (
+                <>
+                  <Stack direction="row" spacing={8} >
+                    <Link to="/income-calculator">
+                      <Button
+                        size="md"
+                        height="60px"
+                        width={{
+                          base: '8rem',
+                          sm: '8rem',
+                          md: '12rem',
+                          lg: '16rem',
+                        }}
+                        border="2px"
+                        borderColor="blue.500"
+                      >
+                        <Text fontSize={{base: '14px', md: '16px', lg: '18px'}}>Income Calculator</Text>
+                      </Button>
+                    </Link>
+                    <Link to="/login">
+                      <Button
+                        size="md"
+                        height="60px"
+                        width={{
+                          base: '8rem',
+                          sm: '8rem',
+                          md: '12rem',
+                          lg: '16rem',
+                        }}
+                        _hover={{bg: 'blue.600'}}
+                        background={'#156DB1'}
+                        color={'white'}
+                      >
+                        <Text fontSize={{base: '14px', md: '16px', lg: '18px'}}>Join HPNPAY</Text>
+                      </Button>
+                    </Link>
+                  </Stack>
+                </>
+              ) : (
+                <>
+                  <Stack direction="row" spacing={8} align="center">
+                    <Link to="/income-calculator">
+                      <Button
+                        size="md"
+                        height="60px"
+                        width={{
+                          base: '8rem',
+                          sm: '8rem',
+                          md: '12rem',
+                          lg: '16rem',
+                        }}
+                        border="2px"
+                        borderColor="blue.500"
+                      >
+                        <Text fontSize={{base: '14px', md: '16px', lg: '18px'}}>Income Calculator</Text>
+                      </Button>
+                    </Link>
+                    <Link to="/login">
+                      <Button
+                        size="md"
+                        height="60px"
+                        width={{
+                          base: '8rem',
+                          sm: '8rem',
+                          md: '12rem',
+                          lg: '16rem',
+                        }}
+                        _hover={{bg: 'blue.600'}}
+                        background={'#156DB1'}
+                        color={'white'}
+                      >
+                        <Text fontSize={{base: '14px', md: '16px', lg: '18px'}}>Join HPNPAY</Text>
+                      </Button>
+                    </Link>
+                  </Stack>
+                </>
+              )}
+
+              <Heading color={"blue.700"} fontSize={{base: "lg", md: "xl", lg: "2xl"}} fontWeight="bold">
+                {element.title2}
+              </Heading>
+            </Stack>
+          </SimpleGrid>
+        </Container>
+      ))}
+    </Box>       */}
+
       {/* part -5 Make financial services accessible to everyone, everywhere */}
       <Box>
         <Card
@@ -494,10 +634,11 @@ export default function Banner() {
         >
 
           <Image
-      boxSize={{ base: "150%", sm: "60%", md: "100%", lg: "80%" }}
+      boxSize={{ base: "150%", sm: "60%", md: "60%", lg: "60%" }}
       src={worldImage}
       style={{
-        position: "absolute",
+        height:"35rem",
+        position: "Absolute",
         top: "30%",
         left: "50%",
         transform: "translate(-50%, -50%)",
@@ -549,7 +690,7 @@ export default function Banner() {
                 paddingTop={{ base: "0.5rem", md: "0" }}
                 h="10rem"
               >
-                <Text fontSize={{ base: "lg", md: "2md" }} mx="0.5rem">We Are Planning To Target</Text>
+                <Text fontSize={{ base: "lg", md: "fffmd" }} mx="0.5rem">We Are Planning To Target</Text>
                 <Text fontSize={{ base: "3xl", md: "4xl" }} mx="0.5rem" as="b"
                 marginLeft={'1rem'}
                 >

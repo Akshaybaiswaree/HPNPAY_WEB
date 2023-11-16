@@ -465,15 +465,10 @@ const NavLink = ({ to, children }) => (
      color={useColorModeValue("gray.600", "white")}
     textDecoration="none"
     borderBottom="2px solid transparent"
-   _hover={{  bg:"gray"}}
+     _hover={{  bg:"gray"}}
     //  _active={{ borderBottom: "2px solid blue" }}
     //_active={{ color: "gray.500", borderBottom: "2px solid gray.500" }}
-    // _active={{ color: "gray", borderBottom: "2px solid gray" }}
-    _active={{
-      color: "gray",
-      borderBottom: "2px solid gray",
-      transition: "color 0.3s ease, border-bottom 0.3s ease",
-    }}
+    _active={{ color: "gray", borderBottom: "2px solid gray"}}
     p="0.1rem"
   >
     {children}
