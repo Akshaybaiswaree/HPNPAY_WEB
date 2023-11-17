@@ -200,14 +200,15 @@ export default function ContactUs() {
                 </Flex>
             </Stack> */}
              <Stack
-      minH={'70vh'}
+           
+    //   minH={'70vh'}
       direction={{ base: 'column', md: 'column' }}
       backgroundColor={"#f7f7f7"}
-      margin={"auto"}
+    //   margin={"auto"}
       width={{ base: '100%', md: '100%' }}
     >
       {/* First Section (Left Side) */}
-      <Flex p={1} flex={1} align={'center'}  mt={{ base: '1rem', md: 0 }}>
+      <Flex p={1} flex={1} align={'center'}  mt={{ base: '1rem', md: '1rem' }}>
         <Stack spacing={6} w={{ base: '100%', md: '30rem' }} maxW={{ base: '100%', md: '700px' }} mx={{ base: 0, md: '4rem' }} mb="1rem">
           <Heading fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}>
             <Text
@@ -226,7 +227,7 @@ export default function ContactUs() {
               }}>
               Download our Apps
             </Text>
-            <br /><br />{' '}
+            <br />
             <Text fontSize='xl' as='b'>HPNPAY App</Text>
           </Heading>
           <Stack direction={'row'} spacing={5}>
@@ -237,9 +238,9 @@ export default function ContactUs() {
       </Flex>
 
       {/* Second Section (Right Side) */}
-      <Flex flex={1} p={1}   >
+      {/* <Flex flex={1} p={1}   >
         <Stack 
-       
+        className='join-hpnpay-button'
         marginTop={{ base: "2rem", md: "2rem" }}  width={{ base: '100%', md: 'auto' }}>
           <Text fontSize={'3xl'} color={'#1c539e'} as='b'>Join HPNPAY</Text>
           <Stack spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', sm: 'row' }}>
@@ -259,7 +260,7 @@ export default function ContactUs() {
             <Image src={reCaptchaImage} width={'50px'} height='50px' />
           </Stack>
         </Stack>
-      </Flex>
+      </Flex> */}
     </Stack>
 
 

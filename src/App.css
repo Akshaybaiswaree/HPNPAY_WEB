@@ -84,6 +84,12 @@ margin-left: 2rem;
 }
 
 
+.helpcontent{
+  font-size: 3rem;
+
+}
+
+
 }
 
   /* .income-re{
@@ -101,7 +107,19 @@ margin-left: 2rem;
 @media screen and (min-width: 890px) and (max-width: 1199px){
   
   
+.Aeps-content{
 
+margin-left: 5rem;
+
+}
+
+
+
+.aeps-image{
+
+margin-left: 25rem;
+
+}
 
 
   .utility{
@@ -174,6 +192,17 @@ margin-left: 2rem;
     margin-left: 4.3em;
 
   }
+
+
+ .help-class{
+
+   font-size: 5rem;
+ }
+
+ .helpcontent{
+  font-size: 2rem;
+
+}
   
 }
 
@@ -217,6 +246,13 @@ padding-right: 2rem;
   text-align: center;
 
 } */
+.help-class{
+
+  font-size: 5rem;
+}
+
+
+
 
 
 
@@ -229,6 +265,11 @@ padding-right: 2rem;
 .insurance-image{
   margin-left: 3.5em;
 
+}
+
+
+.helpcontent{
+  font-size: 2rem;
 }
 }
 
@@ -255,6 +296,11 @@ padding-right: 2rem;
     }
 
 
+
+.help-class{
+
+  font-size: 3rem;
+}
    
 
 }
@@ -591,6 +637,12 @@ padding-right: 2rem;
 
    margin-top: 2rem;
 
+  }
+
+
+  .help-class{
+
+    font-size: 7rem;
   }
 
 

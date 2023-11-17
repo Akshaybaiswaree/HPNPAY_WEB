@@ -39,8 +39,9 @@ const BlogCards = () => {
   return (
     <Grid templateColumns={{ base: '1fr', sm: 'repeat(2, 1fr)', md: 'repeat(3, 1fr)' }} gap={6}>
       {blogs.map((blog, index) => (
-        <VStack key={index} align="stretch" mt="2rem">
+        <VStack key={index} align="stretch" mt="2rem" >
           <BlogCard
+           
             h="25rem"
             mt="2rem"
             title={blog.title}

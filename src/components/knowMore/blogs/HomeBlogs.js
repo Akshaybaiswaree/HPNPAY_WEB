@@ -35,7 +35,7 @@ const HomeBlogs = () => {
 
   return (
     <>
-      <Text fontWeight="bold" fontSize="25" m="2rem" ml="0rem" color="blue.500">
+      <Text fontWeight="bold" fontSize={{base:'2xl' , md:"3xl" ,lg:"5xl"}} m="2rem" ml="0rem" color="blue.500">
         Blogs
       </Text>
       <Grid templateColumns={{ base: '1fr', sm: 'repeat(2, 1fr)', md: 'repeat(3, 1fr)' }} gap={6}>
@@ -44,6 +44,7 @@ const HomeBlogs = () => {
             {blogs.map((blog, index) => (
               index % 3 === columnIndex && (
                 <HomeBlogCard
+                 
                   h="25rem"
                   key={index}
                   title={blog.title}

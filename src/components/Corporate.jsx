@@ -455,7 +455,7 @@ const Corporate = () => {
               fontSize={{ base: "1xl", sm: "1xl", md: "2xl", lg: "4xl"  , xl: '5xl', }}
             >
               <Text
-            
+             fontSize={{ base: "2xl", sm: "1xl", md: "2xl", lg: "4xl"  , xl: '5xl', }}
                 as={"span"}
                 position={"relative"}
                 _after={{
@@ -472,7 +472,7 @@ const Corporate = () => {
               </Text>
               <br />
               <Text 
-             fontSize={{ base: "2xl", sm: "2xl", md: "3xl", lg: "5xl"  , xl: '6xl', }}as={"span"} color={"#1c539e"}>
+             fontSize={{ base: "2xl", sm: "1xl", md: "2xl", lg: "4xl"  , xl: '5xl', }}as={"span"} color={"#1c539e"}>
                 for Businesses
               </Text>
             </Heading>

@@ -36,6 +36,7 @@ const Blogs = () => {
     <div style={{margin:"1rem 2.5rem"}}>
     
     <HomeBlogs/>
+    
     <BlogCards/>
     </div>
   )

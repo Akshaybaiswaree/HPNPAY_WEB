@@ -178,7 +178,7 @@ const Solution = () => {
   }
 
   return (
-    <Box paddingTop={"10px"}  margin={"4rem"}>
+    <Box   margin={"2rem"}>
       <Flex
         direction={{ base: "column", md: "row" }}
         justifyContent={"space-evenly"}

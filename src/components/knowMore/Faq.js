@@ -17,15 +17,62 @@ const Faq = () => {
   return (
     <>
     <div style={{  margin: '2rem 2rem' }}>
-      <div className='faq-container' style={{ display: 'flex', alignItems: 'center', width: '100%', margin: '0 auto' }}>
-        <div className='banner-text' style={{ marginLeft: '100px', marginBottom: '200px', width: '50%' }}>
-          <h3 style={{ color: '#052b60', fontSize: '3.43rem', fontWeight: '700', marginBottom: '30px', fontFamily: 'Cera Pro' }}>Help</h3>
-          <p style={{ color: '#6c7a88', fontSize: '1.125', lineHeight: '26px' }}>We are happy to answer your questions</p>
-        </div>
-        <div className='banner' style={{ width: '50%' }}>
-          <img src="faqbanner.png" alt='' style={{ width: '50%' }} />
-        </div>
+     
+
+<div
+      style={{
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        width: '100%',
+        margin: '0 auto',
+      }}
+    >
+      <div
+        style={{
+          textAlign: 'center',
+          width: '80%', // Adjust the width as needed
+          marginBottom: '30px',
+        }}
+      >
+        <h3
+        className='help-class'
+          style={{
+            color: '#052b60',
+           
+            fontWeight: '700',
+            marginBottom: '30px',
+            fontFamily: 'Cera Pro',
+          }}
+        >
+          Help
+        </h3>
+        <p
+
+          className='helpcontent'
+          style={{
+            color: '#6c7a88',
+            lineHeight: '26px',
+          }}
+        >
+          We are happy to answer your questions
+        </p>
       </div>
+      <div
+        style={{
+          width: '80%', // Adjust the width as needed
+        }}
+      >
+        <img
+          src="faqbanner.png"
+          alt=''
+          style={{
+            width: '70%', // Make the image responsive
+          }}
+        />
+      </div>
+    </div>
+
       <div style={{ width: '100%', maxWidth: '1200px', margin: '0 auto' }} className='faq-content'>
         <h3 className='faq-title' style={{ position: 'relative', fontFamily: 'Cera Pro', fontSize: '2.25em', lineHeight: '40px', fontWeight: '700', color: '#1c539e', marginBottom: '30px' }}>Frequently Asked Questions</h3>
         <ul className='faq-tabs' style={{ display: 'flex', listStyle: 'none', padding: 0 }}>

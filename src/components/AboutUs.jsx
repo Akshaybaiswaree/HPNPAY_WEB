@@ -62,16 +62,16 @@ export default function AboutUs() {
         <>
           
 
-            <Stack direction={{ base: "column", md: "row" }} width={"80%"} margin={'auto'}>
+            <Stack direction={{ base: "column", md: "row" }} width={"100%"} >
                 <Flex p={8} flex={1} align={"center"} justify={"center"}>
                     <Stack spacing={6}>
-                        <Heading fontSize={{ base: "2xl", md: "3xl", lg: "4xl" }}>
+                        <Heading fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}>
                             <Text color={"#0c4696"} as={"span"}>
                                 About Hannanth Digital India Private Limited
                             </Text>{" "}
                         </Heading>
                         <Text fontSize={{ base: "md", lg: "lg" }} color={"black"}>
-                            <Text color={"#052B60"} fontSize={"1.5rem"} fontWeight={"700"}>
+                            <Text color={"#052B60"} fontSize={{ base: "1xl", md: "2xl", lg: "3xl" }} fontWeight={"700"}>
                                 Embark on a Journey of Visionary Leadership and Technological Prowess
                             </Text>
 
@@ -143,7 +143,7 @@ export default function AboutUs() {
             <Stack marginTop={'1rem'}>
                
                 <Heading
-                    fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}
+                    fontSize={{ base: "4xl", md: "6xl", lg: "6xl" }}
                     color={"#0c4696"}
                     textAlign={"center"}
                 >
@@ -243,7 +243,7 @@ export default function AboutUs() {
                 className="meetouradvisor"
                 marginTop={'1rem'}>
                 <Heading
-                    fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}
+                    fontSize={{ base: "4xl", md: "6xl", lg: "6xl" }}
                     color={"#0c4696"}
                     textAlign={"center"}
                 >
