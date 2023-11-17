@@ -267,14 +267,17 @@ export default function Product() {
 
         <Box
           width={{ base: "100%", md: "90%" }}
-          margin="auto"
+          // margin="auto"
           marginTop={{ base: "rem", md: "rem" }}
-          padding={{ base: "2rem", md: "1rem" }}
+          padding={{ base: "0.5rem", md: "0.5rem" , lg:"2rem" }}
+          marginLeft={{ base: "2.2rem", md: "2.2rem" }}
         >
           <Text
             fontSize={{ base: "2rem", md: "3rem" }}
             color="#052B60"
             as="span"
+           
+            className="digitalsuite-side"
           >
             Digital Suite
           </Text>
@@ -1161,12 +1164,12 @@ export default function Product() {
             <Text
               fontWeight={"600"}
               marginLeft={{ base: "2rem", md: "3rem" }}
-              fontSize={{ base: "2rem", md: "3rem" }}
+              fontSize={{ base: "2.4rem", md: "3.5rem" }}
               color={"#052B60"}
               paddingLeft={{ base: "1rem", md: "2rem" }}>
                 Credit Solution
               </Text>
-          <Text fontSize={"1.5rem"}>
+          <Text fontSize={{ base: "1rem", md: "1rem" , lg:"1.5rem"}}>
             <Text fontWeight={"bold"} color={"black"}
              marginLeft={{ base: "2rem", md: "3rem" }}
              paddingLeft={{ base: "1rem", md: "2rem" }}>
@@ -1186,7 +1189,7 @@ export default function Product() {
              marginLeft={{ base: "2rem", md: "3rem" }}
              paddingLeft={{ base: "1rem", md: "2rem" }}
             >
-              <Text color={"#052B60"} fontSize={"2.2rem"} fontWeight={"700"}>
+              <Text color={"#052B60"}    fontSize={{ base: "1.5rem", md: "1.8rem" }} fontWeight={"700"}>
                 1. Comprehensive and Customised Financial Empowerment
               </Text>
               <Text fontSize={"1.6rem"} marginTop="1rem">
@@ -1225,7 +1228,7 @@ export default function Product() {
              marginLeft={{ base: "2rem", md: "3rem" }}
              paddingLeft={{ base: "1rem", md: "2rem" }}
             >
-              <Text color={"#052B60"} fontSize={"2.2rem"} fontWeight={"700"}>
+              <Text color={"#052B60"} fontSize={{ base: "1.5rem", md: "1.8rem" }} fontWeight={"700"}>
                 2. Business Expansion Financing
               </Text>
               <Text fontSize={"1.6rem"} marginTop="1rem">
@@ -1257,7 +1260,7 @@ export default function Product() {
              marginLeft={{ base: "2rem", md: "3rem" }}
              paddingLeft={{ base: "1rem", md: "2rem" }}
             >
-              <Text color={"#052B60"} fontSize={"2.2rem"} fontWeight={"700"}>
+              <Text color={"#052B60"}fontSize={{ base: "1.5rem", md: "1.8rem" }}fontWeight={"700"}>
                 3. Motorcycle Acquisition Financing
               </Text>
               <Text fontSize={"1.6rem"} marginTop="1rem">
@@ -1289,7 +1292,7 @@ export default function Product() {
              marginLeft={{ base: "2rem", md: "3rem" }}
              paddingLeft={{ base: "1rem", md: "2rem" }}
             >
-              <Text color={"#052B60"} fontSize={"2.2rem"} fontWeight={"700"}>
+              <Text color={"#052B60"} fontSize={{ base: "1.5rem", md: "1.8rem" }} fontWeight={"700"}>
                 4. Home and Personal Financing
               </Text>
               <Text fontSize={"1.6rem"} marginTop="1rem">
@@ -1324,7 +1327,7 @@ export default function Product() {
              marginLeft={{ base: "2rem", md: "3rem" }}
              paddingLeft={{ base: "1rem", md: "2rem" }}
             >
-              <Text color={"#052B60"} fontSize={"2.2rem"} fontWeight={"700"}>
+              <Text color={"#052B60"} fontSize={{ base: "1.5rem", md: "1.8rem" }} fontWeight={"700"}>
                 5. Gold Asset Financing
               </Text>
               <Text fontSize={"1.6rem"} marginTop="1rem">

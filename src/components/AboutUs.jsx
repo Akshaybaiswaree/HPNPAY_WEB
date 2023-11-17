@@ -65,7 +65,7 @@ export default function AboutUs() {
             <Stack direction={{ base: "column", md: "row" }} width={"80%"} margin={'auto'}>
                 <Flex p={8} flex={1} align={"center"} justify={"center"}>
                     <Stack spacing={6}>
-                        <Heading fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}>
+                        <Heading fontSize={{ base: "2xl", md: "3xl", lg: "4xl" }}>
                             <Text color={"#0c4696"} as={"span"}>
                                 About Hannanth Digital India Private Limited
                             </Text>{" "}
@@ -138,12 +138,7 @@ export default function AboutUs() {
                     </Stack>
                 </Flex>
             </Stack>
-            <Box className="gold-Investment-retailor" height={'600px'} width={'100%'} margin='auto' h={'full'} overflow={'hidden'} paddingTop={'20px'} >
-                <Image
-                    className="gold-Investment-retailor"
-
-                    src={goldLoan} width={'80rem'} margin='auto' boxShadow={'dark-lg'} />
-            </Box>
+           
             {/* our team */}
             <Stack marginTop={'1rem'}>
                
@@ -557,9 +552,10 @@ export default function AboutUs() {
                                 textAlign={"start"} fontFamily={"body"}>
                                 Vision
                             </Heading>
-                            <Text fontSize={{ base: "2xl", md: "2xl", lg: "2xl" }}
+                            <Text fontSize={{ base: "1xl", md: "2xl", lg: "3xl" }}
                                 color={"black"}
-                                textAlign={"start"} fontWeight={"bold"} > Make financial services available to everyone, everywhere</Text>
+                                textAlign={"start"} fontWeight={"bold"} > Make financial services available to everyone, everywhere
+                                </Text>
                         </Stack>
                     </Box>
                 </Stack>

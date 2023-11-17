@@ -98,11 +98,13 @@ const DistributorBanner = () => {
             <Slider {...settings} ref={(slider) => setSlider(slider)}>
               <Flex direction={{ base: "column", md: "row" }}>
                 <Flex p={8} flex={1} align={"center"} justify={"space-evenly"}>
-                  <Stack spacing={6} width={"40%"}>
-                    <Heading fontSize={{ base: "3xl", md: "4xl", lg: "4xl" }}>
-                      <Text
+                  <Stack spacing={6} >
+                    <Heading fontSize={{ base: "2xl", md: "3xl", lg: "4xl" }}>
+                      <Text                                       
+                      width={{base:"40%" , md:"40%"}}
                         as={"span"}
-                        position={"relative"}
+                        // position={""}
+                      
                         // _after={{
                         //   content: "''",
                         //   width: "full",
@@ -117,13 +119,16 @@ const DistributorBanner = () => {
                         "HPNPay - Banking at Your Fingertips!"
                       </Text>
                     </Heading>
-                    <Text fontSize={"1.2rem"}>
+                    <Text
+                    width={{base:"40%" , md:"40%"}}
+                    fontSize={"1.2rem"}>
                       AEPS with HPNPay: Simplifying Your Transactions
                     </Text>
 
                     <Text
                       fontSize={{ base: "md", lg: "lg" }}
                       color={"gray.500"}
+                      width={{base:"40%" , md:"40%"}}
                     >
                       - What's AEPS? Seamlessly bank using just your Aadhaar.
                       <br />
@@ -159,10 +164,11 @@ const DistributorBanner = () => {
               <Flex direction={{ base: "column", md: "row" }}>
                 <Flex p={8} flex={1} align={"center"} justify={"space-evenly"}>
                   <Stack spacing={6} width={"40%"}>
-                    <Heading fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}>
+                    <Heading fontSize={{ base: "2xl", md: "3xl", lg: "4xl" }}>
                       <Text
                         as={"span"}
                         position={"relative"}
+                        width={{base:"40%" , md:"40%"}}
                         // _after={{
                         //   content: "''",
                         //   width: "full",
@@ -174,13 +180,16 @@ const DistributorBanner = () => {
                         //   zIndex: -1,
                         // }}
                       >
-                        'PERSONAL LOAN'
+                        'PERSONAL LOAN'                                                              
                       </Text>
                     </Heading>
-                    <Text fontSize={"1.5rem"}>Empower Your Ambitions</Text>
+                    <Text 
+                    width={{base:"40%" , md:"40%"}}
+                    fontSize={"1.5rem"}>Empower Your Ambitions</Text>
 
                     <Text
                       fontSize={{ base: "md", lg: "lg" }}
+                      width={{base:"40%" , md:"40%"}}
                       color={"gray.500"}
                     >
                       * Your Path, Your Pace: In the dynamic realm of business,
@@ -217,10 +226,11 @@ const DistributorBanner = () => {
               <Flex direction={{ base: "column", md: "row" }}>
                 <Flex p={8} flex={1} align={"center"} justify={"space-evenly"}>
                   <Stack spacing={6} width={"40%"}>
-                    <Heading fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}>
+                    <Heading fontSize={{ base: "2xl", md: "3xl", lg: "4xl" }}>
                       <Text
                         as={"span"}
                         position={"relative"}
+                        width={{base:"40%" , md:"40%"}}
                         // _after={{
                         //   content: "''",
                         //   width: "full",
@@ -239,6 +249,7 @@ const DistributorBanner = () => {
                     <Text
                       fontSize={{ base: "md", lg: "lg" }}
                       color={"gray.500"}
+                      width={{base:"40%" , md:"40%"}}
                     >
                       * Seize Every Chance: Business doesn't stop, and neither
                       should your ambitions. Harness every available
@@ -301,6 +312,7 @@ const DistributorBanner = () => {
             color={"cyan.700"}
             fontWeight={"500"}
             marginBottom={"20px"}
+            width={{base:"40%" , md:"40%"}}
           >
             Join the HPNPAY Network - Expand Your Reach, Elevate Your Earnings
           </Text>
