@@ -145,7 +145,7 @@ export default function OurPartners() {
               <Stack
                 border={"1px solid #d3d3d3"}
                 borderRadius="0.5rem"
-                width={{ base: "90%", sm: "300px" }}
+                width={{ base: "90%", sm: "300px" ,md:"72%"}}
                 direction={{ base: "column", sm: "row" }}
                 height={{ base: "auto", sm: "66px" }}
                 display={"flex"}
@@ -157,6 +157,7 @@ export default function OurPartners() {
                 <Checkbox
                   colorScheme="green"
                   margin={{ base: "10px", sm: "0.2rem" }}
+                  ml={{base:"1rem", md:'0.5rem'}}
                   size="lg"
                   m="0.5rem"
                 >

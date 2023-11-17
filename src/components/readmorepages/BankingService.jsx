@@ -14,7 +14,7 @@ import {
 const BankingService = () => {
     return (
         <>
-            <Box margin={'6rem'}>
+            <Box margin={{base:"2rem",md:'6rem'}} align="justify">
 
                 <Text textDecorationLine={'underline'}  color={"#052B60"} fontSize={"1.7rem"} fontWeight={"700"}>
                     Banking Services
