@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 import Banner from './components/Banner';
 import { Route, Routes, Link, useParams } from 'react-router-dom';
 import Corporate from './components/Corporate';
-import Solution from './components/Solution';
+// import Solution from './components/Solution';
 import AboutUs from './components/AboutUs';
 import ContactUs from './components/ContactUs';
 import Product from './components/Product';
@@ -100,7 +100,7 @@ function App(props) {
               <Route path="/" element={<Banner />} />
               <Route path="/corporate" element={<Corporate />} />
               <Route path="/products" element={<Product />} />
-              <Route path="/solution" element={<Solution />} />
+              {/* <Route path="/solution" element={<Solution />} /> */}
               <Route path="/marketResearch" element={<MarketResearch/>}/>
               <Route path="/features" element={<Features/>}/>
               <Route path="/distributors" element={<DistributorBanner />} />

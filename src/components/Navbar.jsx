@@ -337,10 +337,10 @@ const Navbar = () => {
                       title="Know More"
                       >
                   <NavLink to="/blogs">Blogs</NavLink>
-                  <NavLink to="/hpnClub">HPN Club</NavLink>
+                  {/* <NavLink to="/hpnClub">HPN Club</NavLink> */}
                   <NavLink to="/careers">Jobs</NavLink>
                   <NavLink to="/events">Events</NavLink>
-                  <NavLink to="/faqs">FAQ's</NavLink>
+                  {/* <NavLink to="/faqs">FAQ's</NavLink> */}
                 </NavLinkWithDropdown>
                 <NavLink to="/contactus">Contact Us</NavLink>
                 <Button as={Link} to="/login" ml={4} colorScheme="blue">
@@ -351,7 +351,7 @@ const Navbar = () => {
 
             {corporate && (
               <>
-                <NavLink to="/solution">Solution</NavLink>
+                {/* <NavLink to="/solution">Solution</NavLink> */}
                 <NavLink className={'marketresearch'} to="/marketResearch">Market Research</NavLink>
                 <NavLink to="/features">Features</NavLink>
                 <NavLink to="/media">Media</NavLink>
@@ -361,10 +361,10 @@ const Navbar = () => {
                       title="Know More"
                       >
                   <NavLink to="/blogs">Blogs</NavLink>
-                  <NavLink to="/hpnClub">HPN Club</NavLink>
+                  {/* <NavLink to="/hpnClub">HPN Club</NavLink> */}
                   <NavLink to="/careers">Jobs</NavLink>
                   <NavLink to="/events">Events</NavLink>
-                  <NavLink to="/faqs">FAQ's</NavLink>
+                  {/* <NavLink to="/faqs">FAQ's</NavLink> */}
                 </NavLinkWithDropdown>
                 <NavLink className={'contactusnav'} to="/contactus">Contact Us</NavLink>
               </>
@@ -415,10 +415,10 @@ const Navbar = () => {
                       title="Know More"
                       >
                         <NavLink to="/blogs">Blogs</NavLink>
-                        <NavLink to="/hpnClub">HPN Club</NavLink>
+                        {/* <NavLink to="/hpnClub">HPN Club</NavLink> */}
                         <NavLink to="/careers">Jobs</NavLink>
                         <NavLink to="/events">Events</NavLink>
-                        <NavLink to="/faqs">FAQ's</NavLink>
+                        {/* <NavLink to="/faqs">FAQ's</NavLink> */}
                       </NavLinkWithDropdown>
                       <NavLink to="/contactus">Contact Us</NavLink>
                       <Button mx={5} as={Link} to="/login" colorScheme="blue">
@@ -429,7 +429,7 @@ const Navbar = () => {
 
                   {corporate && (
                     <>
-                      <NavLink to="/solution">Solution</NavLink>
+                      {/* <NavLink to="/solution">Solution</NavLink> */}
                       <NavLink className={'marketresearch'} to="/marketResearch">Market Research</NavLink>
                       <NavLink to="/features">Features</NavLink>
                       <NavLink to="/media">Media</NavLink>
@@ -439,10 +439,10 @@ const Navbar = () => {
                       title="Know More"
                       >
                         <NavLink to="/blogs">Blogs</NavLink>
-                        <NavLink to="/hpnClub">HPN Club</NavLink>
+                        {/* <NavLink to="/hpnClub">HPN Club</NavLink> */}
                         <NavLink to="/careers">Jobs</NavLink>
                         <NavLink to="/events">Events</NavLink>
-                        <NavLink to="/faqs">FAQ's</NavLink>
+                        {/* <NavLink to="/faqs">FAQ's</NavLink> */}
                       </NavLinkWithDropdown>
                       <NavLink className={'contactusnav'} to="/contactus">Contact Us</NavLink>
                     </>
