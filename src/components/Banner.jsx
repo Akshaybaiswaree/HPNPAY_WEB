@@ -120,16 +120,20 @@ export default function Banner() {
       heading2: "आत्मनिर्भर भारत, अब सभी दुकानें होंगी डिजिटल - HPNPay के साथ",
       text: " Join our growing network of distributors and watch as your financial goals are not only met but surpassed with the innovative and dynamic HPNPAY system.",
       // text3: "Join our growing network of distributors and watch as your financial goals are not only met but surpassed with the innovative and dynamic HPNPAY system.",
-      text3: "Empowering Stores, Strengthening India - HPNPay, Uniting Digital Futures",
+      text3:
+        "Empowering Stores, Strengthening India - HPNPay, Uniting Digital Futures",
       image: require("../images/retailer_img/retailimg.png"),
     },
     {
       title: "Individual/Self Help Groups",
-      heading: "Your Trust, Our Commitment - HPNPay, Secure and Reliable Digital Services",
-      heading2: "आपका विश्वास, हमारा संवाद - HPNPay, सुरक्षित और विश्वसनीय डिजिटल सेवाएं",
+      heading:
+        "Your Trust, Our Commitment - HPNPay, Secure and Reliable Digital Services",
+      heading2:
+        "आपका विश्वास, हमारा संवाद - HPNPay, सुरक्षित और विश्वसनीय डिजिटल सेवाएं",
       text: " Embrace the wave of digital transformation and join our vast network of distributors. With HPNPAY, your financial aspirations are within reach, promising more than just profitability— a future of financial independence and empowerment.",
       // text2: "Upgrade your shop. Be the one stop banking service provider.",
-      text3: "Building Security, Delivering Assurance - HPNPay, Your Digital Shield",
+      text3:
+        "Building Security, Delivering Assurance - HPNPay, Your Digital Shield",
       image: require("../images/retailer_img/retailimg2.png"),
     },
   ];
@@ -185,11 +189,11 @@ export default function Banner() {
       position={"relative"}
       height={"600px"}
       width={"100%"}
-      margin="auto"
-      mr="0.5rem"
+      // margin="auto"
+      // mx="0.3rem"
       h={"full"}
       overflow={"hidden"}
-      padding={"40px"}
+      padding={"1rem"}
     >
       {/* CSS files for react-slick */}
       <link
@@ -206,34 +210,53 @@ export default function Banner() {
       {/*Part 1 -  Slider */}
       <Slider {...settings} ref={(slider) => setSlider(slider)}>
         {cards.map((card, index) => (
-          <Container maxW="150vw" py={5} key={index}>
+          <Container maxW="100%" py={5} key={index}>
             <SimpleGrid columns={{ base: 1, md: 2, lg: 2, xl: 2 }} spacing={5}>
               <Stack spacing={4} key={index}>
-                <Heading color={"blue.700"} fontSize="4xl" font-weight="bold">
+                <Heading
+                  color={"blue.700"}
+                  fontSize="4xl"
+                  font-weight="bold"
+                  align="left"
+                >
                   {card.heading}
                 </Heading>
                 <Heading color={"blue.700"} fontSize="3xl" font-weight="bold">
                   {card.heading2}
                 </Heading>
                 <Stack spacing={4}>
-                  <Text color={"gray.500"} fontSize={"lg"}>
+                  <Text color={"gray.500"} fontSize={"lg"} align="justify">
                     {card.text}
                   </Text>
-                  <Text color={"gray.500"} fontSize={"lg"}>
+                  <Text color={"gray.500"} fontSize={"lg"} align="justify">
                     {card.text2}
                   </Text>
-                  <Text color={"blue.500"} font-weight="bold" fontSize={"lg"}>
+                  <Text
+                    color={"blue.500"}
+                    font-weight="bold"
+                    fontSize={"lg"}
+                    align="justify"
+                  >
                     {card.text3}
                   </Text>
                 </Stack>
 
-                <Stack direction="row" spacing={4} align="center">
+                <Stack
+                  direction={{ base: "column", md: "row" }}
+                  spacing={4}
+                  align="center"
+                >
                   <Link to="/income-calculator">
                     <Button
-                      size="md"
+                      size={{
+                        base: "20rem",
+                        sm: "100vw",
+                        md: "6rem",
+                        lg: "12rem",
+                      }}
                       height="60px"
                       width={{
-                        base: "8rem",
+                        base: "20rem",
                         sm: "3rem",
                         md: "6rem",
                         lg: "12rem",
@@ -241,15 +264,22 @@ export default function Banner() {
                       border="2px"
                       borderColor="blue.500"
                     >
-                      <Text fontSize={{ base: "14px", md: "10px", lg: "12px" }}>Income Calculator</Text>
+                      <Text fontSize={{ base: "14px", md: "10px", lg: "12px" }}>
+                        Income Calculator
+                      </Text>
                     </Button>
                   </Link>
                   <Link to="/login">
                     <Button
-                      size="md"
+                      size={{
+                        base: "20rem",
+                        sm: "100vw",
+                        md: "6rem",
+                        lg: "12rem",
+                      }}
                       height="60px"
                       width={{
-                        base: "8rem",
+                        base: "20rem",
                         sm: "3rem",
                         md: "6rem",
                         lg: "12rem",
@@ -259,7 +289,9 @@ export default function Banner() {
                       background={"#156DB1"}
                       color={"white"}
                     >
-                      <Text fontSize={{ base: "14px", md: "10px", lg: "12px" }}>Join HPNPAY</Text>
+                      <Text fontSize={{ base: "14px", md: "10px", lg: "12px" }}>
+                        Join HPNPAY
+                      </Text>
                     </Button>
                   </Link>
                 </Stack>
@@ -283,24 +315,39 @@ export default function Banner() {
         style={{
           display: "flex",
           flexDirection: "column",
-          marginTop: "100px",
+          marginTop: "5rem",
           position: "relative",
         }}
       >
         {/* <div style={{ display: "flex", alignItems: "flex-end",position:"relative" ,width:"70%"}}> */}
 
-        <Flex flexDirection={{ base: "column", md: "row" }} justifyContent={{base:"center", sm:"center"}}>
+        <Flex
+          flexDirection={{ base: "column", md: "row" }}
+          justifyContent={{ base: "center", sm: "center" }}
+        >
           <Image src={mobileImage} height={"600px"} mt="2rem" />
-          <Text fontSize="5xl" color="#1c539e" zIndex="10" as="b" mt="6rem" m="1rem">
+          <Text
+            fontSize="5xl"
+            color="#1c539e"
+            zIndex="10"
+            as="b"
+            mt="6rem"
+            m="1rem"
+            align="left"
+          >
             One App<br></br>Multiple Milestones - Pay, Play, Prosper
           </Text>
         </Flex>
         {/* </div> */}
         <Center>
-          <Text fontSize="xl" color="#5e646a" m="0.5rem">
-            A great earning potential with the opportunity to grow your<br></br>{" "}
-            business with minimal one time investment and zero working<br></br>{" "}
-            capital
+          <Text
+            fontSize="xl"
+            m="0.5rem"
+            align={{ base: "justify", md: "center" }}
+            width="90%"
+          >
+            A great earning potential with the opportunity to grow your business
+            with minimal one time investment and zero working capital
           </Text>
         </Center>
       </Box>
@@ -318,25 +365,48 @@ export default function Banner() {
           {/* <h1>India's largest Distribution as-a-service (DaaS) platform</h1> */}
 
           <Box className="text">
-            <Text fontSize="42px" color={"Blue.400"} margin={'auto'}>
+            <Text fontSize="42px" color={"Blue.400"} margin={"auto"}>
               Expertise in BBPS and AEPS - HPNPay, Your Store's Best Companion
             </Text>
           </Box>
-          <Flex  lexWrap flexDirection={{ base: "column", md: "row" }} className="images" justifyContent='center'>
+          <Flex
+            lexWrap
+            flexDirection={{ base: "column", md: "row" }}
+            className="images"
+            justifyContent="center"
+          >
             <Box>
-              <Image  src={dass1} width={"380px"} height={"290px"} borderRadius="0.5rem"  />
+              <Image
+                src={dass1}
+                width={"380px"}
+                height={"290px"}
+                borderRadius="0.5rem"
+              />
               <Center>
-              <p >Banking Business Publishing</p></Center>
+                <p>Banking Business Publishing</p>
+              </Center>
             </Box>
             <Box>
-              <Image  src={dass2} width={"380px"} height={"290px"} borderRadius="0.5rem" />
-              <Center><p>
-                India's Best Banking syetem in Bharat
-              </p></Center>
+              <Image
+                src={dass2}
+                width={"380px"}
+                height={"290px"}
+                borderRadius="0.5rem"
+              />
+              <Center>
+                <p>India's Best Banking syetem in Bharat</p>
+              </Center>
             </Box>
             <Box>
-              <Image  src={dass3} width={"380px"} height={"290px"} borderRadius="0.5rem" />
-             <Center><p >Banking Technology review </p></Center>
+              <Image
+                src={dass3}
+                width={"380px"}
+                height={"290px"}
+                borderRadius="0.5rem"
+              />
+              <Center>
+                <p>Banking Technology review </p>
+              </Center>
             </Box>
           </Flex>
         </Box>
@@ -491,7 +561,7 @@ export default function Banner() {
         ))}
       </Box> */}
 
-<Box marginTop="50px">
+      <Box marginTop="50px">
         <Stack spacing={4}>
           <Heading
             color={"blue.700"}
@@ -503,7 +573,12 @@ export default function Banner() {
           </Heading>
 
           <Stack spacing={4}>
-            <Text color={"gray.500"} fontSize={"lg"} textAlign="center">
+            <Text
+              color={"gray.500"}
+              fontSize={"lg"}
+              px="1em"
+              align={{ base: "justify", md: "center" }}
+            >
               Whether you are a retailer, distributor, individual or self help
               group, we have smart solutions for everyone.
             </Text>
@@ -511,13 +586,16 @@ export default function Banner() {
         </Stack>
 
         {smartCard.map((element, index) => (
-          <Container 
-          className="retailor-distributor-individual"
-          maxW={"100%"} py={12} key={index}>
+          <Container
+            className="retailor-distributor-individual"
+            maxW={"100%"}
+            py={12}
+            key={index}
+          >
             <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
               <Flex key={index}>
                 <Image
-                className="imagesretailor"
+                  className="imagesretailor"
                   rounded={"md"}
                   alt={"feature image"}
                   src={element.image}
@@ -525,13 +603,16 @@ export default function Banner() {
                 />
               </Flex>
 
-              <Stack spacing={4}
-              className="content-ret-dist">
+              <Stack spacing={4} className="content-ret-dist">
                 <Heading color={"blue.700"} fontSize="3xl" font-weight="bold">
                   {element.title}
                 </Heading>
                 <Stack spacing={4}>
-                  <Text color={"gray.500"} fontSize={"lg"}>
+                  <Text
+                    color={"gray.500"}
+                    fontSize={"lg"}
+                    align={{ base: "justify", md: "justify" }}
+                  >
                     {element.text}
                   </Text>
                   <Text color={"gray.500"} fontSize={"lg"}>
@@ -540,58 +621,122 @@ export default function Banner() {
                 </Stack>
                 {element.title === "Distributor" ? (
                   <>
-                    <Stack direction="row" spacing={4} align="center">
+                    <Stack
+                      direction={{ base: "column", md: "row" }}
+                      spacing={4}
+                      align="center"
+                    >
                       <Link to="/income-calculator">
                         <Button
-                          size="md"
+                          size={{
+                            base: "20rem",
+                            sm: "100vw",
+                            md: "6rem",
+                            lg: "12rem",
+                          }}
                           height="60px"
-                          width="12rem"
+                          width={{
+                            base: "20rem",
+                            sm: "3rem",
+                            md: "6rem",
+                            lg: "12rem",
+                          }}
                           border="2px"
                           borderColor="blue.500"
                         >
-                          Income Calculator
+                          <Text
+                            fontSize={{ base: "14px", md: "10px", lg: "12px" }}
+                          >
+                            Income Calculator
+                          </Text>
                         </Button>
                       </Link>
                       <Link to="/login">
                         <Button
-                          size="md"
+                          size={{
+                            base: "20rem",
+                            sm: "100vw",
+                            md: "6rem",
+                            lg: "12rem",
+                          }}
                           height="60px"
-                          width="12rem"
+                          width={{
+                            base: "20rem",
+                            sm: "3rem",
+                            md: "6rem",
+                            lg: "12rem",
+                          }}
                           // border='2px'
                           _hover={{ bg: "blue.600" }}
                           background={"#156DB1"}
                           color={"white"}
                         >
-                          Join HPNPAY
+                          <Text
+                            fontSize={{ base: "14px", md: "10px", lg: "12px" }}
+                          >
+                            Join HPNPAY
+                          </Text>
                         </Button>
                       </Link>
                     </Stack>
                   </>
                 ) : (
                   <>
-                    <Stack direction="row" spacing={4} align="center">
+                    <Stack
+                      direction={{ base: "column", md: "row" }}
+                      spacing={4}
+                      align="center"
+                    >
                       <Link to="/income-calculator">
                         <Button
-                          size="md"
+                          size={{
+                            base: "20rem",
+                            sm: "100vw",
+                            md: "6rem",
+                            lg: "12rem",
+                          }}
                           height="60px"
-                          width="12rem"
+                          width={{
+                            base: "20rem",
+                            sm: "3rem",
+                            md: "6rem",
+                            lg: "12rem",
+                          }}
                           border="2px"
                           borderColor="blue.500"
                         >
-                          Income Calculator
+                          <Text
+                            fontSize={{ base: "14px", md: "10px", lg: "12px" }}
+                          >
+                            Income Calculator
+                          </Text>
                         </Button>
                       </Link>
                       <Link to="/login">
                         <Button
-                          size="md"
+                          size={{
+                            base: "20rem",
+                            sm: "100vw",
+                            md: "6rem",
+                            lg: "12rem",
+                          }}
                           height="60px"
-                          width="12rem"
+                          width={{
+                            base: "20rem",
+                            sm: "3rem",
+                            md: "6rem",
+                            lg: "12rem",
+                          }}
                           // border='2px'
                           _hover={{ bg: "blue.600" }}
                           background={"#156DB1"}
                           color={"white"}
                         >
-                          Join HPNPAY
+                          <Text
+                            fontSize={{ base: "14px", md: "10px", lg: "12px" }}
+                          >
+                            Join HPNPAY
+                          </Text>
                         </Button>
                       </Link>
                     </Stack>
@@ -607,169 +752,30 @@ export default function Banner() {
         ))}
       </Box>
 
-
-{/* <Box marginTop="50px" marginBottom={'4rem'}>
-      <Stack >
-        <Heading
-          color={"blue.700"}
-          fontSize={{base: "2xl", md: "4xl", lg: "5xl"}}
-          fontWeight="bold"
-          textAlign="center"
-          mb={4}
-        >
-          Smart Solutions for Everyone
-        </Heading>
-
-        <Text color={"gray.500"} fontSize={{base: "md", md: "lg", lg: "xl"}} textAlign="center">
-          Whether you are a retailer, distributor, individual, or self-help group, we have smart solutions for everyone.
-        </Text>
-      </Stack>
-
-      {smartCard.map((element, index) => (
-        <Container
-          className="ret-dist-indi"
-          py={{base: 4, md: 8, lg: 12}}
-          key={index}
-        >
-          <SimpleGrid columns={{ base: 1, md: 2 }} spacing={'1rem'}>
-            <Flex justify={{base: "center", md: "flex-start"}} key={index}>
-              <Image
-                rounded={"md"}
-                alt={"feature image"}
-                src={element.image}
-                objectFit={"cover"}
-                maxH={{base: "200px", md: "300px", lg: "400px"}}
-                mb={{base: 4, md: 0}}
-              />
-            </Flex>
-
-            <Stack spacing={8}>
-              <Heading color={"blue.700"} fontSize={{base: "xl", md: "2xl", lg: "3xl"}} fontWeight="bold">
-                {element.title}
-              </Heading>
-              <Stack spacing={4}>
-                <Text color={"gray.500"} fontSize={{base: "md", md: "lg", lg: "xl"}}>
-                  {element.text}
-                </Text>
-                <Text color={"gray.500"} fontSize={{base: "md", md: "lg", lg: "xl"}}>
-                  {element.text2}
-                </Text>
-              </Stack>
-              {element.title === 'Distributor' ? (
-                <>
-                  <Stack direction="row" spacing={8} >
-                    <Link to="/income-calculator">
-                      <Button
-                        size="md"
-                        height="60px"
-                        width={{
-                          base: '8rem',
-                          sm: '8rem',
-                          md: '12rem',
-                          lg: '16rem',
-                        }}
-                        border="2px"
-                        borderColor="blue.500"
-                      >
-                        <Text fontSize={{base: '14px', md: '16px', lg: '18px'}}>Income Calculator</Text>
-                      </Button>
-                    </Link>
-                    <Link to="/login">
-                      <Button
-                        size="md"
-                        height="60px"
-                        width={{
-                          base: '8rem',
-                          sm: '8rem',
-                          md: '12rem',
-                          lg: '16rem',
-                        }}
-                        _hover={{bg: 'blue.600'}}
-                        background={'#156DB1'}
-                        color={'white'}
-                      >
-                        <Text fontSize={{base: '14px', md: '16px', lg: '18px'}}>Join HPNPAY</Text>
-                      </Button>
-                    </Link>
-                  </Stack>
-                </>
-              ) : (
-                <>
-                  <Stack direction="row" spacing={8} align="center">
-                    <Link to="/income-calculator">
-                      <Button
-                        size="md"
-                        height="60px"
-                        width={{
-                          base: '8rem',
-                          sm: '8rem',
-                          md: '12rem',
-                          lg: '16rem',
-                        }}
-                        border="2px"
-                        borderColor="blue.500"
-                      >
-                        <Text fontSize={{base: '14px', md: '16px', lg: '18px'}}>Income Calculator</Text>
-                      </Button>
-                    </Link>
-                    <Link to="/login">
-                      <Button
-                        size="md"
-                        height="60px"
-                        width={{
-                          base: '8rem',
-                          sm: '8rem',
-                          md: '12rem',
-                          lg: '16rem',
-                        }}
-                        _hover={{bg: 'blue.600'}}
-                        background={'#156DB1'}
-                        color={'white'}
-                      >
-                        <Text fontSize={{base: '14px', md: '16px', lg: '18px'}}>Join HPNPAY</Text>
-                      </Button>
-                    </Link>
-                  </Stack>
-                </>
-              )}
-
-              <Heading color={"blue.700"} fontSize={{base: "lg", md: "xl", lg: "2xl"}} fontWeight="bold">
-                {element.title2}
-              </Heading>
-            </Stack>
-          </SimpleGrid>
-        </Container>
-      ))}
-    </Box>       */}
-
       {/* part -5 Make financial services accessible to everyone, everywhere */}
-      <Box>
+      <Box mt="2rem" boxShadow="xl">
         <Card
           align="center"
           margin={"auto"}
           padding={"auto"}
+          position="relative"
         >
+          <Image src={worldImage} 
+            boxSize={{ base: "150%", sm: "60%", md: "60%", lg: "60%" }}
+            
+            style={{
+              height:"45rem",
+              width:"35rem",
+              position : "absolute",
+              top: "5%",
+              left: "50%",
+              transform: "translate(-50%, -5%)",
+              zIndex: 0,
+              opacity: 0.3,
+            }}
+          />
 
-          <Image
-      boxSize={{ base: "150%", sm: "60%", md: "60%", lg: "60%" }}
-      src={worldImage}
-      style={{
-        height:"35rem",
-        position: "Absolute",
-        top: "30%",
-        left: "50%",
-        transform: "translate(-50%, -50%)",
-        zIndex: 0,
-        opacity: 0.3,
-      }}
-    />
-
-          <CardHeader
-            textAlign="center"
-            zIndex={1}
-            mx="1rem"
-            px="1rem"
-          >
+          <CardHeader textAlign="center" zIndex={1} mx="1rem" px="1rem">
             <Heading
               fontSize={{ base: "2rem", md: "3rem", lg: "4rem" }}
               color="blue.600"
@@ -782,68 +788,73 @@ export default function Banner() {
           <CardBody textAlign="center">
             <Box mb={{ base: "1rem", md: "2rem" }}>
               <Text fontSize={{ base: "16px", md: "24px" }} color="black">
-                Create a progressive society, where everyone has easy access to financial services, by building the largest agent banking network in the country.
+                Create a progressive society, where everyone has easy access to
+                financial services, by building the largest agent banking
+                network in the country.
               </Text>
             </Box>
           </CardBody>
-          <CardFooter
-            bottom="0"
-            zIndex={1}
-            mt={{ base: "2rem", md: "10rem" }}
-          >
+          <CardFooter bottom="0" zIndex={1} mt={{ base: "2rem", md: "10rem" }}>
             <Flex
               direction={{ base: "column", md: "row" }}
               w="100%"
               m="0"
-              margin={'auto'}
+              margin={"auto"}
               // align="center"
               justifyContent="space-between"
               // alignItems="start"
             >
               <Box
-              marginRight={'2rem'}
+                marginRight={"2rem"}
                 borderTop={{ base: "2px solid black", md: "none" }}
                 borderLeft={{ base: "none", md: "2px solid black" }}
                 paddingTop={{ base: "0.5rem", md: "0" }}
                 h="10rem"
               >
-                <Text fontSize={{ base: "lg", md: "fffmd" }} mx="0.5rem">We Are Planning To Target</Text>
-                <Text fontSize={{ base: "3xl", md: "4xl" }} mx="0.5rem" as="b"
-                marginLeft={'1rem'}
+                <Text fontSize={{ base: "lg", md: "fffmd" }} mx="0.5rem">
+                  We Are Planning To Target
+                </Text>
+                <Text
+                  fontSize={{ base: "3xl", md: "4xl" }}
+                  mx="0.5rem"
+                  as="b"
+                  marginLeft={"1rem"}
                 >
-                
-                  50 Lakh 
-                  Retailers
+                  50 Lakh Retailers
                 </Text>
               </Box>
               <Box
-               marginRight={'2rem'}
+                marginRight={"2rem"}
                 borderTop={{ base: "2px solid black", md: "none" }}
                 borderLeft={{ base: "none", md: "2px solid black" }}
                 paddingTop={{ base: "0.5rem", md: "0" }}
                 // h="auto"
                 h="10rem"
               >
-                <Text fontSize={{ base: "lg", md: "2md" }} mx="0.5rem">Our future target to achive </Text>
+                <Text fontSize={{ base: "lg", md: "2md" }} mx="0.5rem">
+                  Our future target to achive{" "}
+                </Text>
                 <Text fontSize={{ base: "3xl", md: "4xl" }} mx="0.5rem" as="b">
                   20cr customers
                 </Text>
               </Box>
               <Box
-               marginRight={'2rem'}
+                marginRight={"2rem"}
                 borderTop={{ base: "2px solid black", md: "none" }}
                 borderLeft={{ base: "none", md: "2px solid black" }}
                 paddingTop={{ base: "0.5rem", md: "0" }}
                 // h="auto"
                 h="10rem"
               >
-                <Text fontSize={{ base: "lg", md: "2md" }} mx="0.5rem">We target to serve </Text>
+                <Text fontSize={{ base: "lg", md: "2md" }} mx="0.5rem">
+                  We target to serve{" "}
+                </Text>
                 <Text fontSize={{ base: "3xl", md: "4xl" }} mx="0.5rem" as="b">
                   20,000 PIN codes
                 </Text>
               </Box>
               <Box
-               marginRight={'2rem'}
+                marginRight={"2rem"}
                 borderTop={{ base: "2px solid black", md: "none" }}
                 borderLeft={{ base: "none", md: "2px solid black" }}
                 paddingTop={{ base: "0.5rem", md: "0" }}
@@ -884,19 +895,20 @@ export default function Banner() {
           bg="gray.50"
           columns={{ sm: 2, md: 3 }}
           spacing="8"
-          p="10"
+          p={{base:"2",md:"10"}}
           textAlign="center"
           rounded="lg"
           color="gray.400"
         >
-          <Card maxW="sm">
+          <Card maxW="100vw" m="0">
             <CardBody>
               <Image
                 src={advantage1}
                 alt="Green double couch with wooden legs"
                 borderRadius="lg"
                 h="12rem"
-                w="20rem"
+                w="100%"
+                bg="red.100"
               />
               <Stack mt="6" spacing="3">
                 <Heading size="md">Effortless Integration </Heading>
@@ -909,14 +921,14 @@ export default function Banner() {
             </CardBody>
           </Card>
 
-          <Card maxW="sm">
+          <Card maxW="100vw" m="0">
             <CardBody>
               <Image
                 src={advantage2}
                 alt="Green double couch with wooden legs"
                 borderRadius="lg"
                 h="12rem"
-                w="20rem"
+                w="100%"
               />
               <Stack mt="6" spacing="3">
                 <Heading size="md">Flexible Earnings Structure</Heading>
@@ -928,14 +940,14 @@ export default function Banner() {
               </Stack>
             </CardBody>
           </Card>
-          <Card maxW="sm">
+          <Card maxW="100vw" m="0">
             <CardBody>
               <Image
                 src={advantage3}
                 alt="Comprehensive Support"
                 borderRadius="lg"
                 h="12rem"
-                w="20rem"
+                w="100%"
               />
               <Stack mt="6" spacing="3">
                 <Heading size="md">Comprehensive Support</Heading>
@@ -946,12 +958,14 @@ export default function Banner() {
               </Stack>
             </CardBody>
           </Card>
-          <Card maxW="sm">
+          <Card maxW="100vw" m="0">
             <CardBody>
               <Image
                 src={advantage4}
                 alt="Comprehensive Support"
                 borderRadius="lg"
+                h="12rem"
+                w="100%"
               />
               <Stack mt="6" spacing="3">
                 <Heading size="md">Market Expansion Opportunities</Heading>
@@ -962,14 +976,14 @@ export default function Banner() {
               </Stack>
             </CardBody>
           </Card>
-          <Card maxW="sm">
+          <Card maxW="100vw" m="0">
             <CardBody>
               <Image
                 src={advantage5}
                 alt="Comprehensive Support"
                 borderRadius="lg"
                 h="12rem"
-                w="20rem"
+                w="100%"
               />
               <Stack mt="6" spacing="3">
                 <Heading size="md">Real-time Tracking and Analytics</Heading>
@@ -980,14 +994,14 @@ export default function Banner() {
               </Stack>
             </CardBody>
           </Card>
-          <Card maxW="sm">
+          <Card maxW="100vw" m="0">
             <CardBody>
               <Image
                 src={advantage6}
                 alt="Comprehensive Support"
                 borderRadius="lg"
                 h="12rem"
-                w="20rem"
+                w="100%"
               />
               <Stack mt="6" spacing="3">
                 <Heading size="md">Secure Transactions</Heading>
@@ -998,14 +1012,14 @@ export default function Banner() {
               </Stack>
             </CardBody>
           </Card>
-          <Card maxW="sm">
+          <Card maxW="100vw" m="0">
             <CardBody>
               <Image
                 src={advantage7}
                 alt="Comprehensive Support"
                 borderRadius="lg"
                 h="12rem"
-                w="20rem"
+                w="100%"
               />
               <Stack mt="6" spacing="3">
                 <Heading size="md">Customizable Solutions</Heading>
@@ -1017,14 +1031,14 @@ export default function Banner() {
               </Stack>
             </CardBody>
           </Card>
-          <Card maxW="sm">
+          <Card maxW="100vw" m="0">
             <CardBody>
               <Image
                 src={advantage8}
                 alt="Comprehensive Support"
                 borderRadius="lg"
                 h="12rem"
-                w="20rem"
+                w="100%"
               />
               <Stack mt="6" spacing="3">
                 <Heading size="md">Nationwide Recognition</Heading>
@@ -1035,14 +1049,14 @@ export default function Banner() {
               </Stack>
             </CardBody>
           </Card>
-          <Card maxW="sm">
+          <Card maxW="100vw" m="0">
             <CardBody>
               <Image
                 src={advantage9}
                 alt="Comprehensive Support"
                 borderRadius="lg"
                 h="12rem"
-                w="20rem"
+                w="100%"
               />
               <Stack mt="6" spacing="3">
                 <Heading size="md">Continuous Innovation </Heading>
@@ -1053,14 +1067,14 @@ export default function Banner() {
               </Stack>
             </CardBody>
           </Card>
-          <Card maxW="sm">
+          <Card maxW="100vw" m="0">
             <CardBody>
               <Image
                 src={advantage10}
                 alt="Comprehensive Support"
                 borderRadius="lg"
                 h="12rem"
-                w="20rem"
+                w="100%"
               />
               <Stack mt="6" spacing="3">
                 <Heading size="md">Eco-friendly Business Model </Heading>
