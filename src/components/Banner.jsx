@@ -107,7 +107,7 @@ export default function Banner() {
   const cards = [
     {
       title: "Retailer",
-      heading: "One step towards success, move towards victory with HPNPAY.",
+      heading: "One Step Towards Success, Move Towards Victory with HPNPAY.",
       heading2: "सफलता की ओर एक कदम, HPNPAY के साथ जीत की ओर बढ़ें|",
       text: "Seize the opportunity to be among the elite HPNPAY distributors, where you can consistently exceed your financial expectations and secure a prosperous future for your business.",
       text2: "Upgrade your shop. Be the one stop banking service provider.",

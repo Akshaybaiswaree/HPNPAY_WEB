@@ -135,7 +135,7 @@ export default function OurPartners() {
                 <Input
                
                   margin={{ base: "35px", md: "65px" }}
-                  type="phone"
+                  type="number"
                   placeholder="Enter Phone No."
                   width={{ base: "85%", sm: "30rem" }}
                   height="3rem"

@@ -51,9 +51,9 @@ const DistributorBanner = () => {
      
 
       {/* <Box margin={{ base: "10px", md: "30px", lg: "50px" }}> */}
-        <Box
-          position={"relative"}
-          height={{ base: "25rem", md: "35rem" }}
+        {/* <Box
+          position={"static"}
+          // height={{ base: "25rem", md: "35rem" }}
           width={"full"}
           overflow={"hidden"}
         >
@@ -267,7 +267,153 @@ const DistributorBanner = () => {
               </Flex>
             </Slider>
           
-        </Box>
+        </Box> */}
+         <Box
+      position={"static"}
+      width={"full"}
+      overflow={"hidden"}
+    >
+      <link
+        rel="stylesheet"
+        type="text/css"
+        charSet="UTF-8"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
+      />
+      <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
+      />
+
+      <Slider {...settings} ref={(slider) => setSlider(slider)}>
+        {/* Slide 1 */}
+        <Flex  direction={{ base: "column", md: "row" }}>
+          <Flex 
+
+           direction={{ base: "column", md: "row" }}
+          p={8} flex={1} align={"center"} justify={"space-between"}>
+            <Stack spacing={6} width={{ base: "100%", md: "40%" }}>
+              <Heading fontSize={{ base: "3xl", md: "4xl", lg: "4xl" }}>
+                "HPNPay - Banking at Your Fingertips!"
+              </Heading>
+              <Text fontSize={"1.2rem"}>
+                AEPS with HPNPay: Simplifying Your Transactions
+              </Text>
+              <Text fontSize={{ base: "md", lg: "lg" }} color={"gray.500"}>
+                - What's AEPS? Seamlessly bank using just your Aadhaar.
+                <br />
+                - Features:
+                <br />
+                - Simple: Transactions powered by Aadhaar.
+                <br />
+                - Secure: Backed by biometric authentication.
+                <br />
+                - Versatile: From balance checks to transfers.
+                <br />
+                - Use AEPS on HPNPay:
+                <br />
+                1. Choose AEPS.
+                <br />
+                2. Enter Aadhaar.
+                <br />
+                3. Pick a transaction.
+                <br />
+                4. Authenticate and go.
+              </Text>
+            </Stack>
+            <Box width={"80%"} mb={{ base: 0, md: 0 }}>
+              <Image
+                alt={"Login Image"}
+                objectFit={"cover"}
+                width={"80%"}
+                src={aeps}
+              />
+            </Box>
+          </Flex>
+        </Flex>
+
+        {/* Slide 2 */}
+        <Flex direction={{ base: "column", md: "row" }}>
+          <Flex 
+           direction={{ base: "column", md: "row" }}
+          p={8} flex={1}  >
+            <Stack spacing={6} width={{ base: "100%", md: "40%" }}>
+              <Heading fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}>
+                'PERSONAL LOAN'
+              </Heading>
+              <Text fontSize={"1.5rem"}>Empower Your Ambitions</Text>
+              <Text fontSize={{ base: "md", lg: "lg" }} color={"gray.500"}>
+                * Your Path, Your Pace: In the dynamic realm of business,
+                having the right resources at the right time can be a
+                game-changer. Our personal loans are tailored to match
+                your unique ambitions and needs. <br />
+                * YourFuel Your Dreams: Every entrepreneur has a vision.
+                Bring yours to life with our specialized personal loan
+                solutions, designed for the passionate and driven.
+                <br />
+                * Seamless Transactions: Our streamlined application
+                process ensures that you get the funds you require without
+                the usual hassle. Every moment counts in business, and we
+                respect that.
+                <br />
+                * Trusted Partner: We're more than just a financial
+                institution; we're your partner in success. With
+                competitive rates and flexible repayment options, we're
+                committed to supporting your journey from start to finish.
+                <br />
+              </Text>
+            </Stack>
+            <Box 
+              className="personalloanimage"
+            width={"100%"} mb={{ base: 0, md: 0 }}>
+              <Image
+             
+                alt={"Login Image"}
+                objectFit={"cover"}
+                width={"80%"}
+                src={img2}
+              />
+            </Box>
+          </Flex>
+        </Flex>
+
+        {/* Slide 3 */}
+        <Flex direction={{ base: "column", md: "row" }}>
+          <Flex 
+           direction={{ base: "column", md: "row" }}
+          p={8} flex={1} align={"center"} justify={"space-evenly"}>
+            <Stack spacing={6} width={{ base: "100%", md: "40%" }}>
+              <Heading fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}>
+                Grow Your Business, Grow Your Dreams
+              </Heading>
+              <Text fontSize={{ base: "md", lg: "lg" }} color={"gray.500"}>
+                * Seize Every Chance: Business doesn't stop, and neither
+                should your ambitions. Harness every available
+                opportunity.
+                <br />
+                * Tailored Financial Support: Secure the essential funds
+                seamlessly through our bespoke business-centric personal
+                loan offerings.
+                <br />
+                🔗 Dive Deeper - Unravel the spectrum of possibilities
+                that awaits your business. Propel forward, always. <br />
+                🔗 Discover More - Unlock the doors to endless
+                possibilities. Propel your business forward, because when
+                you succeed, we succeed.
+              </Text>
+            </Stack>
+            <Box width={"80%"} mb={{ base: 0, md: 0 }}>
+              <Image
+                alt={"Login Image"}
+                objectFit={"cover"}
+                width={"80%"}
+                src={img3}
+              />
+            </Box>
+          </Flex>
+        </Flex>
+      </Slider>
+    </Box>
 
         <Distributors />
         <Box

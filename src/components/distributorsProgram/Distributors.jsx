@@ -24,9 +24,9 @@ export default function Distributors() {
 
   return (
     <>
-      <Box margin={'3rem'} background={"#f6f9fc"} mx="1rem">
+      <Box margin={'rem'} background={"#f6f9fc"} mx="1rem">
         <Stack direction={{ base: "column", md: "row" }}>
-          <Flex p={10} flex={1} align={"center"} justify={"center"}>
+          <Flex p={4} flex={1} align={"center"} justify={"center"}>
             <Stack spacing={6}>
               <Heading fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}>
                 <Text color={"#052b60"}>
