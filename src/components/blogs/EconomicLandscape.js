@@ -65,7 +65,11 @@ import {
     Despite this digital march, cash persists as a dominant mode of transaction for various socioeconomic reasons. The transition to digital is gradual and faces inertia from traditional practices. However, events like demonetization and the pandemic have nudged the needle towards digital platforms.</ListItem>
     </UnorderedList>
     <Text fontWeight="bold" mb="0.5rem" color="blue.900"> Conclusion: As we spearhead this digital payment revolution, Hannanth Digital India Private Limited is committed to fostering a future where digital transactions are as commonplace and straightforward as any traditional payment method. We stand at the cusp of a new economic era, one in which every transaction is a tap away, every business has access to credit, and every consumer experiences the utmost convenience and security. Join us on this transformative journey as we redefine India's economic transactions for the digital age.</Text>
-    <Text  fontWeight={'600'} color={'#4299E1'} marginTop={'1rem'}>Author:Prashant Kumar</Text>
+    <Flex>
+          <Text  fontWeight={'600'}  color={'bl'}   marginTop={'2rem'}>Author:</Text>
+          <Text  fontWeight={'600'}  color={'#0099FF'} marginTop={'2rem'}>Amol Jaiswal </Text>
+        </Flex>
+        (Data Scientist)
    
         </Box>
       </div>

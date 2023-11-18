@@ -232,7 +232,11 @@ function Blog7() {
           developing world, Hannanth Digital India's innovative spirit is
           bridging the divide, moving society toward an epoch where every
           monetary exchange is just a tap away.
-          <Text  fontWeight={'600'} color={'#4299E1'} marginTop={'2rem'}>Author:Aditya Pawar</Text>
+          <Flex>
+          <Text  fontWeight={'600'}  color={'bl'}   marginTop={'2rem'}>Author:</Text>
+          <Text  fontWeight={'600'}  color={'#0099FF'} marginTop={'2rem'}>Aditya Pawar </Text>
+        </Flex>
+        (Regional Manager)
         </Text>
       </Box>
     </div>

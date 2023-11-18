@@ -248,6 +248,7 @@ export default function Banner() {
                 >
                   <Link to="/income-calculator">
                     <Button
+                    onClick={scrollToTop}
                       size={{
                         base: "20rem",
                         sm: "100vw",
@@ -628,6 +629,7 @@ export default function Banner() {
                     >
                       <Link to="/income-calculator">
                         <Button
+                           onClick={scrollToTop}
                           size={{
                             base: "20rem",
                             sm: "100vw",
@@ -689,6 +691,7 @@ export default function Banner() {
                     >
                       <Link to="/income-calculator">
                         <Button
+                           onClick={scrollToTop}
                           size={{
                             base: "20rem",
                             sm: "100vw",

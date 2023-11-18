@@ -66,7 +66,11 @@ function DigitalPayments() {
     </UnorderedList>
 
    <Text fontWeight="bold" mb="0.5rem" color="blue.900" > Conclusion: Hannanth Digital India Private Limited is navigating a thrilling era in payments, marked by the unmistakable trend towards digitization. The journey to a digital payment-dominant economy is complex, especially in emerging economies, but our innovative spirit is steadfast in bridging this divide. Join us as we continue to shape a future where every financial transaction is as simple as a tap, swipe, or click away
-   <Text fontWeight={'600'} color={'#4299E1'}marginTop={'2rem'}>Author:Vishal Dubey</Text>
+   <Flex>
+          <Text  fontWeight={'600'}  color={'bl'}   marginTop={'2rem'}>Author:</Text>
+          <Text  fontWeight={'600'}  color={'#0099FF'} marginTop={'2rem'}>Vishal Dubey </Text>
+        </Flex>
+        (Wealth Manager)
    </Text>
           </Box>
         </div>

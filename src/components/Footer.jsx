@@ -92,6 +92,9 @@ export default function Footer() {
               {/* Stack 1 */}
               <Stack align="start" justify="start">
                 <Text fontSize={{ base: 'md', sm: 'lg' }} color={'white'} fontWeight={'bold'}>Our Brands</Text>
+                <Text fontSize={{ base: 'md', sm: 'lg' }} color={'white'} fontWeight={'bold'}>HPNpay</Text>
+                <Text fontSize={{ base: 'md', sm: 'lg' }} color={'white'} fontWeight={'bold'}>HPN Life</Text>
+                <Text fontSize={{ base: 'md', sm: 'lg' }} color={'white'} fontWeight={'bold'}>HPN Fund</Text>
                 <Box
                   width={{ base: '100%', sm: '400px' }}
                   display={'flex'}

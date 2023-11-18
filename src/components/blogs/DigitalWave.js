@@ -63,7 +63,11 @@ function DigitalWave() {
     
     </UnorderedList>
     <Text fontWeight="bold" mb="0.5rem" color="blue.900">Conclusion: The digital era is here, and it's full of possibilities for shopkeepers willing to embrace the change. With Hannanth Digital India by your side, the transition to digital retail can be a smooth and rewarding journey. We're not just providing technology; we're building a community of modern shopkeepers ready to take on the future and thrive. Let's embark on this digital adventure together and unlock the full potential of your shop.</Text>
-<Text  fontWeight={'600'} color={'#4299E1'} marginTop={'1rem'}>Author:Amol Jaiswal</Text>
+    <Flex>
+          <Text  fontWeight={'600'}  color={'bl'}   marginTop={'2rem'}>Author:</Text>
+          <Text  fontWeight={'600'}  color={'#0099FF'} marginTop={'2rem'}>Amol Jaiswal </Text>
+        </Flex>
+        (Operations Officer)
           </Box>
         </div>
       );

@@ -144,7 +144,11 @@ function Blog6() {
           life. Step by step, we're constructing an infrastructure where
           insurance becomes essential, paving the way for a truly safeguarded
           Indian populace.
-          <Text fontWeight={'600'} color={'#4299E1'}marginTop={'1rem'}>Author:Sumedh Mhaiskar</Text>
+          <Flex>
+          <Text  fontWeight={'600'}  color={'bl'}   marginTop={'2rem'}>Author:</Text>
+          <Text  fontWeight={'600'}  color={'#0099FF'} marginTop={'2rem'}>Sumedh Mhiskar </Text>
+        </Flex>
+        (Vice President, Branch Operations)
         </Text>
       </Box>
     </div>

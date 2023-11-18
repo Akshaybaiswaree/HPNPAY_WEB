@@ -94,7 +94,11 @@ function Blog5() {
         </Text>
         <Text mb="1rem" mt="1rem">
         As we continue to break down the barriers to formal credit, Hannanth Digital India Private Limited remains dedicated to empowering the 'credit invisible' population, ushering in a new era of financial inclusivity and resilience. Let's embrace this journey toward financial empowerment together.
-        <Text  fontWeight={'600'} color={'#4299E1'} marginTop={'1rem'}>Author:Shreyas Kamble</Text>
+        <Flex>
+          <Text  fontWeight={'600'}  color={'bl'}   marginTop={'2rem'}>Author:</Text>
+          <Text  fontWeight={'600'}  color={'#0099FF'} marginTop={'2rem'}>Shreyas Kamble </Text>
+        </Flex>
+        (Mergers and Acquisitions (M&A) Analyst)
         </Text>
       </Box>
     </div>

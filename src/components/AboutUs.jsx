@@ -511,7 +511,7 @@ export default function AboutUs() {
 
 
 
-            <Stack >
+            {/* <Stack >
                 <Heading
                     fontSize={{ base: "2xl", md: "3xl", lg: "4xl" }}
                     color={"#0c4696"}
@@ -560,7 +560,7 @@ export default function AboutUs() {
                     </Box>
                 </Stack>
 
-            </Stack>
+            </Stack> */}
         </>
     );
 }

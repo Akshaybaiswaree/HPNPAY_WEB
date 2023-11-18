@@ -18,7 +18,7 @@ const WhoWeAre = () => {
 
                 <Text textDecorationLine={'underline'} color={"#052B60"} fontSize={"1.7rem"} fontWeight={"700"}>
 
-                    About Us
+                 
 
                 </Text>
 

@@ -127,7 +127,11 @@ function Blog3() {
           the future; we're redefining it, ensuring these local stores remain at
           the heart of India's retail narrative, trusted, convenient, and now
           more modern than ever.
-          <Text  fontWeight={'600'} color={'#4299E1'} marginTop={'1rem'}>Author:Manthan Patel</Text>
+          <Flex>
+          <Text  fontWeight={'600'}  color={'bl'}   marginTop={'2rem'}>Author:</Text>
+          <Text  fontWeight={'600'}  color={'#0099FF'} marginTop={'2rem'}>Manthan Patel  </Text>
+        </Flex>
+        (Teller Supervisor)
         </Text>
       </Box>
     </div>
