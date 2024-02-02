@@ -1,57 +1,17 @@
-// import React from 'react'
-// import {
-//     FormControl,
-//     FormLabel,
-//     FormErrorMessage,
-//     FormHelperText,
-//     Input,
-//     Button
-//   } from '@chakra-ui/react'
-
-// function ContactForm() {
-//   return (
-//     <>
-//     <FormControl mt="1rem" isRequired>
-//         <FormLabel isRequired>Name</FormLabel>
-//         <Input placeholder='First name' mb="2rem"/>
-//     </FormControl>
-//     <FormControl>
-//         <FormLabel >Email address</FormLabel>
-//         <Input type='email'mb="2rem" />
-//     </FormControl>
-//     <FormControl isRequired>
-//         <FormLabel isRequired>Mobile number</FormLabel>
-//         <Input type='number' mb="1rem"/>
-//     </FormControl>
-//     <FormControl >
-//         <FormLabel isRequired>Enquiry</FormLabel>
-//         <Input type='Text' mb="1rem"/>
-//     </FormControl>
 
 
-  
 
-
-//     <FormControl>
-//         <Button
-//             mt={4}
-//             colorScheme='teal'
-//             type='submit'
-//           >
-//             Submit
-//           </Button>
-//     </FormControl>
-//     </>
-//   )
-// }
-
-// export default ContactForm
 import React, { useState } from 'react';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import axios from 'axios';
 
+
 function ContactForm() {
+  // const apiKey = import.meta.env.VITE_API_KEY;
+  const apiKey = process.env.REACT_APP_API_KEY;
+  console.log(apiKey , "gf")
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -116,11 +76,12 @@ function ContactForm() {
     }
 
     try {
-      const response = await axios.post('https://avestan-be.onrender.com/api/employee/leads', formData, {
+      const response = await axios.post(apiKey, formData, {
         headers: {
           'Content-Type': 'application/json',
         },
       });
+      console.log(apiKey , "gf")
 
       if (response.status >= 200 && response.status < 300) {
         // Success
